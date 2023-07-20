@@ -1,0 +1,133 @@
+### YamlMime:ManagedReference
+items:
+- uid: TypeHelp.CPGI
+  commentId: T:TypeHelp.CPGI
+  id: CPGI
+  parent: TypeHelp
+  children:
+  - TypeHelp.CPGI.CodePoint
+  - TypeHelp.CPGI.HiSurrogate
+  - TypeHelp.CPGI.LoSurrogate
+  - TypeHelp.CPGI.Supplement
+  langs:
+  - csharp
+  - vb
+  name: CPGI
+  nameWithType: CPGI
+  fullName: TypeHelp.CPGI
+  type: Enum
+  source:
+    id: CPGI
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 35
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: The c p g i.
+  example: []
+  syntax:
+    content: public enum CPGI
+    content.vb: Public Enum CPGI
+- uid: TypeHelp.CPGI.CodePoint
+  commentId: F:TypeHelp.CPGI.CodePoint
+  id: CodePoint
+  parent: TypeHelp.CPGI
+  langs:
+  - csharp
+  - vb
+  name: CodePoint
+  nameWithType: CPGI.CodePoint
+  fullName: TypeHelp.CPGI.CodePoint
+  type: Field
+  source:
+    id: CodePoint
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 37
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: CodePoint = 0
+    return:
+      type: TypeHelp.CPGI
+- uid: TypeHelp.CPGI.Supplement
+  commentId: F:TypeHelp.CPGI.Supplement
+  id: Supplement
+  parent: TypeHelp.CPGI
+  langs:
+  - csharp
+  - vb
+  name: Supplement
+  nameWithType: CPGI.Supplement
+  fullName: TypeHelp.CPGI.Supplement
+  type: Field
+  source:
+    id: Supplement
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 38
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Supplement = 1
+    return:
+      type: TypeHelp.CPGI
+- uid: TypeHelp.CPGI.HiSurrogate
+  commentId: F:TypeHelp.CPGI.HiSurrogate
+  id: HiSurrogate
+  parent: TypeHelp.CPGI
+  langs:
+  - csharp
+  - vb
+  name: HiSurrogate
+  nameWithType: CPGI.HiSurrogate
+  fullName: TypeHelp.CPGI.HiSurrogate
+  type: Field
+  source:
+    id: HiSurrogate
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 39
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: HiSurrogate = 2
+    return:
+      type: TypeHelp.CPGI
+- uid: TypeHelp.CPGI.LoSurrogate
+  commentId: F:TypeHelp.CPGI.LoSurrogate
+  id: LoSurrogate
+  parent: TypeHelp.CPGI
+  langs:
+  - csharp
+  - vb
+  name: LoSurrogate
+  nameWithType: CPGI.LoSurrogate
+  fullName: TypeHelp.CPGI.LoSurrogate
+  type: Field
+  source:
+    id: LoSurrogate
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 40
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: LoSurrogate = 3
+    return:
+      type: TypeHelp.CPGI
+references:
+- uid: TypeHelp
+  commentId: N:TypeHelp
+  href: TypeHelp.html
+  name: TypeHelp
+  nameWithType: TypeHelp
+  fullName: TypeHelp
+- uid: TypeHelp.CPGI
+  commentId: T:TypeHelp.CPGI
+  parent: TypeHelp
+  href: TypeHelp.CPGI.html
+  name: CPGI
+  nameWithType: CPGI
+  fullName: TypeHelp.CPGI
+memberLayout: SeparatePages

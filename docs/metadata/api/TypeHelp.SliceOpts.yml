@@ -1,0 +1,224 @@
+### YamlMime:ManagedReference
+items:
+- uid: TypeHelp.SliceOpts
+  commentId: T:TypeHelp.SliceOpts
+  id: SliceOpts
+  parent: TypeHelp
+  children:
+  - TypeHelp.SliceOpts.LittleEndian
+  - TypeHelp.SliceOpts.LockUnsigned
+  - TypeHelp.SliceOpts.LockedLength
+  - TypeHelp.SliceOpts.None
+  - TypeHelp.SliceOpts.StrictLength
+  - TypeHelp.SliceOpts.StrictOffset
+  langs:
+  - csharp
+  - vb
+  name: SliceOpts
+  nameWithType: SliceOpts
+  fullName: TypeHelp.SliceOpts
+  type: Enum
+  source:
+    id: SliceOpts
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Slice\Slice.cs
+    startLine: 29
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: >-
+    Specifies flag options for <xref href="TypeHelp.Slice" data-throw-if-not-resolved="false"></xref> class constructors to control instance byte access length, position, sign and error processing.
+
+    <p>Constructor parameter array boundary violations in conjunction with the <code>StrictLength</code> and <code>StrictOffset</code> options MAY raise a <xref href="System.TypeInitializationException" data-throw-if-not-resolved="false"></xref> with an inner <xref href="System.InvalidOperationException" data-throw-if-not-resolved="false"></xref>.</p>
+  example: []
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum SliceOpts
+    content.vb: >-
+      <Flags>
+
+      Public Enum SliceOpts
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: TypeHelp.SliceOpts.None
+  commentId: F:TypeHelp.SliceOpts.None
+  id: None
+  parent: TypeHelp.SliceOpts
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: SliceOpts.None
+  fullName: TypeHelp.SliceOpts.None
+  type: Field
+  source:
+    id: None
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Slice\Slice.cs
+    startLine: 35
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: '<b>Default</b>: No options. Offset MAY limit length (locked offset) and data is assumed to be in network byte order (NBO), a.k.a., big-endian.'
+  example: []
+  syntax:
+    content: None = 0
+    return:
+      type: TypeHelp.SliceOpts
+- uid: TypeHelp.SliceOpts.LittleEndian
+  commentId: F:TypeHelp.SliceOpts.LittleEndian
+  id: LittleEndian
+  parent: TypeHelp.SliceOpts
+  langs:
+  - csharp
+  - vb
+  name: LittleEndian
+  nameWithType: SliceOpts.LittleEndian
+  fullName: TypeHelp.SliceOpts.LittleEndian
+  type: Field
+  source:
+    id: LittleEndian
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Slice\Slice.cs
+    startLine: 39
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: Extract the data with the first as least-significant byte (little-endian byte order).
+  example: []
+  syntax:
+    content: LittleEndian = 1
+    return:
+      type: TypeHelp.SliceOpts
+- uid: TypeHelp.SliceOpts.LockedLength
+  commentId: F:TypeHelp.SliceOpts.LockedLength
+  id: LockedLength
+  parent: TypeHelp.SliceOpts
+  langs:
+  - csharp
+  - vb
+  name: LockedLength
+  nameWithType: SliceOpts.LockedLength
+  fullName: TypeHelp.SliceOpts.LockedLength
+  type: Field
+  source:
+    id: LockedLength
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Slice\Slice.cs
+    startLine: 43
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: Decrement the offset on length overruns; otherwise, truncate processing (locked offset).
+  example: []
+  syntax:
+    content: LockedLength = 2
+    return:
+      type: TypeHelp.SliceOpts
+- uid: TypeHelp.SliceOpts.LockUnsigned
+  commentId: F:TypeHelp.SliceOpts.LockUnsigned
+  id: LockUnsigned
+  parent: TypeHelp.SliceOpts
+  langs:
+  - csharp
+  - vb
+  name: LockUnsigned
+  nameWithType: SliceOpts.LockUnsigned
+  fullName: TypeHelp.SliceOpts.LockUnsigned
+  type: Field
+  source:
+    id: LockUnsigned
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Slice\Slice.cs
+    startLine: 47
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: Extract unsigned types from arrays having the hi-order bit set in the most significant byte.
+  example: []
+  syntax:
+    content: LockUnsigned = 4
+    return:
+      type: TypeHelp.SliceOpts
+- uid: TypeHelp.SliceOpts.StrictLength
+  commentId: F:TypeHelp.SliceOpts.StrictLength
+  id: StrictLength
+  parent: TypeHelp.SliceOpts
+  langs:
+  - csharp
+  - vb
+  name: StrictLength
+  nameWithType: SliceOpts.StrictLength
+  fullName: TypeHelp.SliceOpts.StrictLength
+  type: Field
+  source:
+    id: StrictLength
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Slice\Slice.cs
+    startLine: 51
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: If length is outside of array bounds, the <xref href="TypeHelp.Slice" data-throw-if-not-resolved="false"></xref> constructor will fail as noted in <xref href="TypeHelp.SliceOpts" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: StrictLength = 8
+    return:
+      type: TypeHelp.SliceOpts
+- uid: TypeHelp.SliceOpts.StrictOffset
+  commentId: F:TypeHelp.SliceOpts.StrictOffset
+  id: StrictOffset
+  parent: TypeHelp.SliceOpts
+  langs:
+  - csharp
+  - vb
+  name: StrictOffset
+  nameWithType: SliceOpts.StrictOffset
+  fullName: TypeHelp.SliceOpts.StrictOffset
+  type: Field
+  source:
+    id: StrictOffset
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Slice\Slice.cs
+    startLine: 55
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: If offset is outside of array bounds, the <xref href="TypeHelp.Slice" data-throw-if-not-resolved="false"></xref> constructor will fail as noted in <xref href="TypeHelp.SliceOpts" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: StrictOffset = 16
+    return:
+      type: TypeHelp.SliceOpts
+references:
+- uid: TypeHelp.Slice
+  commentId: T:TypeHelp.Slice
+  href: TypeHelp.Slice.html
+  name: Slice
+  nameWithType: Slice
+  fullName: TypeHelp.Slice
+- uid: System.TypeInitializationException
+  commentId: T:System.TypeInitializationException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.typeinitializationexception
+  name: TypeInitializationException
+  nameWithType: TypeInitializationException
+  fullName: System.TypeInitializationException
+- uid: System.InvalidOperationException
+  commentId: T:System.InvalidOperationException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.invalidoperationexception
+  name: InvalidOperationException
+  nameWithType: InvalidOperationException
+  fullName: System.InvalidOperationException
+- uid: TypeHelp
+  commentId: N:TypeHelp
+  href: TypeHelp.html
+  name: TypeHelp
+  nameWithType: TypeHelp
+  fullName: TypeHelp
+- uid: TypeHelp.SliceOpts
+  commentId: T:TypeHelp.SliceOpts
+  parent: TypeHelp
+  href: TypeHelp.SliceOpts.html
+  name: SliceOpts
+  nameWithType: SliceOpts
+  fullName: TypeHelp.SliceOpts
+memberLayout: SeparatePages

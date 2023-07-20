@@ -1,0 +1,248 @@
+### YamlMime:ManagedReference
+items:
+- uid: TypeHelp.UuidFormat
+  commentId: T:TypeHelp.UuidFormat
+  id: UuidFormat
+  parent: TypeHelp
+  children:
+  - TypeHelp.UuidFormat.Binary
+  - TypeHelp.UuidFormat.Braces
+  - TypeHelp.UuidFormat.Csv
+  - TypeHelp.UuidFormat.Default
+  - TypeHelp.UuidFormat.PackedHex
+  - TypeHelp.UuidFormat.Parends
+  - TypeHelp.UuidFormat.Prefixed
+  - TypeHelp.UuidFormat.RFC4122
+  - TypeHelp.UuidFormat.Table
+  langs:
+  - csharp
+  - vb
+  name: UuidFormat
+  nameWithType: UuidFormat
+  fullName: TypeHelp.UuidFormat
+  type: Enum
+  source:
+    id: UuidFormat
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\Uuid.cs
+    startLine: 100
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: UuidFormat Enum
+  example: []
+  syntax:
+    content: public enum UuidFormat
+    content.vb: Public Enum UuidFormat
+- uid: TypeHelp.UuidFormat.Default
+  commentId: F:TypeHelp.UuidFormat.Default
+  id: Default
+  parent: TypeHelp.UuidFormat
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: UuidFormat.Default
+  fullName: TypeHelp.UuidFormat.Default
+  type: Field
+  source:
+    id: Default
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\Uuid.cs
+    startLine: 102
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Default = 0
+    return:
+      type: TypeHelp.UuidFormat
+- uid: TypeHelp.UuidFormat.RFC4122
+  commentId: F:TypeHelp.UuidFormat.RFC4122
+  id: RFC4122
+  parent: TypeHelp.UuidFormat
+  langs:
+  - csharp
+  - vb
+  name: RFC4122
+  nameWithType: UuidFormat.RFC4122
+  fullName: TypeHelp.UuidFormat.RFC4122
+  type: Field
+  source:
+    id: RFC4122
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\Uuid.cs
+    startLine: 103
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: RFC4122 = 0
+    return:
+      type: TypeHelp.UuidFormat
+- uid: TypeHelp.UuidFormat.Braces
+  commentId: F:TypeHelp.UuidFormat.Braces
+  id: Braces
+  parent: TypeHelp.UuidFormat
+  langs:
+  - csharp
+  - vb
+  name: Braces
+  nameWithType: UuidFormat.Braces
+  fullName: TypeHelp.UuidFormat.Braces
+  type: Field
+  source:
+    id: Braces
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\Uuid.cs
+    startLine: 104
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Braces = 1
+    return:
+      type: TypeHelp.UuidFormat
+- uid: TypeHelp.UuidFormat.Parends
+  commentId: F:TypeHelp.UuidFormat.Parends
+  id: Parends
+  parent: TypeHelp.UuidFormat
+  langs:
+  - csharp
+  - vb
+  name: Parends
+  nameWithType: UuidFormat.Parends
+  fullName: TypeHelp.UuidFormat.Parends
+  type: Field
+  source:
+    id: Parends
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\Uuid.cs
+    startLine: 105
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Parends = 2
+    return:
+      type: TypeHelp.UuidFormat
+- uid: TypeHelp.UuidFormat.PackedHex
+  commentId: F:TypeHelp.UuidFormat.PackedHex
+  id: PackedHex
+  parent: TypeHelp.UuidFormat
+  langs:
+  - csharp
+  - vb
+  name: PackedHex
+  nameWithType: UuidFormat.PackedHex
+  fullName: TypeHelp.UuidFormat.PackedHex
+  type: Field
+  source:
+    id: PackedHex
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\Uuid.cs
+    startLine: 106
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: PackedHex = 3
+    return:
+      type: TypeHelp.UuidFormat
+- uid: TypeHelp.UuidFormat.Prefixed
+  commentId: F:TypeHelp.UuidFormat.Prefixed
+  id: Prefixed
+  parent: TypeHelp.UuidFormat
+  langs:
+  - csharp
+  - vb
+  name: Prefixed
+  nameWithType: UuidFormat.Prefixed
+  fullName: TypeHelp.UuidFormat.Prefixed
+  type: Field
+  source:
+    id: Prefixed
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\Uuid.cs
+    startLine: 107
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Prefixed = 4
+    return:
+      type: TypeHelp.UuidFormat
+- uid: TypeHelp.UuidFormat.Table
+  commentId: F:TypeHelp.UuidFormat.Table
+  id: Table
+  parent: TypeHelp.UuidFormat
+  langs:
+  - csharp
+  - vb
+  name: Table
+  nameWithType: UuidFormat.Table
+  fullName: TypeHelp.UuidFormat.Table
+  type: Field
+  source:
+    id: Table
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\Uuid.cs
+    startLine: 108
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Table = 5
+    return:
+      type: TypeHelp.UuidFormat
+- uid: TypeHelp.UuidFormat.Binary
+  commentId: F:TypeHelp.UuidFormat.Binary
+  id: Binary
+  parent: TypeHelp.UuidFormat
+  langs:
+  - csharp
+  - vb
+  name: Binary
+  nameWithType: UuidFormat.Binary
+  fullName: TypeHelp.UuidFormat.Binary
+  type: Field
+  source:
+    id: Binary
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\Uuid.cs
+    startLine: 109
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Binary = 6
+    return:
+      type: TypeHelp.UuidFormat
+- uid: TypeHelp.UuidFormat.Csv
+  commentId: F:TypeHelp.UuidFormat.Csv
+  id: Csv
+  parent: TypeHelp.UuidFormat
+  langs:
+  - csharp
+  - vb
+  name: Csv
+  nameWithType: UuidFormat.Csv
+  fullName: TypeHelp.UuidFormat.Csv
+  type: Field
+  source:
+    id: Csv
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\Uuid.cs
+    startLine: 110
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Csv = 7
+    return:
+      type: TypeHelp.UuidFormat
+references:
+- uid: TypeHelp
+  commentId: N:TypeHelp
+  href: TypeHelp.html
+  name: TypeHelp
+  nameWithType: TypeHelp
+  fullName: TypeHelp
+- uid: TypeHelp.UuidFormat
+  commentId: T:TypeHelp.UuidFormat
+  parent: TypeHelp
+  href: TypeHelp.UuidFormat.html
+  name: UuidFormat
+  nameWithType: UuidFormat
+  fullName: TypeHelp.UuidFormat
+memberLayout: SeparatePages

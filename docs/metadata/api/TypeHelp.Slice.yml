@@ -1,0 +1,1710 @@
+### YamlMime:ManagedReference
+items:
+- uid: TypeHelp.Slice
+  commentId: T:TypeHelp.Slice
+  id: Slice
+  parent: TypeHelp
+  children:
+  - TypeHelp.Slice.#ctor(System.Byte[],System.Int32,System.Int32)
+  - TypeHelp.Slice.#ctor(System.Byte[],System.Int32,System.Int32,System.Nullable{TypeHelp.SliceOpts})
+  - TypeHelp.Slice.#ctor(System.Byte[],System.TypeCode,System.Int32,System.Nullable{TypeHelp.SliceOpts})
+  - TypeHelp.Slice.#ctor(System.Byte[],TypeHelp.TypeCoex,System.Int32,System.Nullable{TypeHelp.SliceOpts})
+  - TypeHelp.Slice.AllowSigned
+  - TypeHelp.Slice.Data
+  - TypeHelp.Slice.Defaults
+  - TypeHelp.Slice.GetData(System.Boolean)
+  - TypeHelp.Slice.HasOptions(System.Boolean,TypeHelp.SliceOpts)
+  - TypeHelp.Slice.HasOptions(TypeHelp.SliceOpts)
+  - TypeHelp.Slice.HighBit
+  - TypeHelp.Slice.IsEmpty
+  - TypeHelp.Slice.IsExact
+  - TypeHelp.Slice.IsLittleEndian
+  - TypeHelp.Slice.IsSigned
+  - TypeHelp.Slice.IsType(System.TypeCode)
+  - TypeHelp.Slice.IsType(TypeHelp.TypeCoex)
+  - TypeHelp.Slice.IsUnsigned
+  - TypeHelp.Slice.Length
+  - TypeHelp.Slice.LengthDelta
+  - TypeHelp.Slice.LockLittleEndian
+  - TypeHelp.Slice.Locked
+  - TypeHelp.Slice.Offset
+  - TypeHelp.Slice.OffsetDelta
+  - TypeHelp.Slice.Options
+  - TypeHelp.Slice.Strict
+  - TypeHelp.Slice.TypeCode
+  - TypeHelp.Slice.TypeCoex
+  - TypeHelp.Slice.TypeOf
+  - TypeHelp.Slice.Value
+  langs:
+  - csharp
+  - vb
+  name: Slice
+  nameWithType: Slice
+  fullName: TypeHelp.Slice
+  type: Class
+  source:
+    id: Slice
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Slice\Slice.cs
+    startLine: 76
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: >-
+    A class that will extract one of the following data types from an array of bytes:
+
+    <pre><code class="lang-csharp">System.Boolean   System.Byte    System.Char
+
+    System.DateTime  System.DBNull  System.Decimal
+
+    System.Double    System.Int16   System.Int32
+
+    System.Int64     System.SByte   System.Single
+
+    System.UInt16    System.UInt32  System.UInt64
+
+    System.Numerics.BigInteger
+
+    System.Numerics.Complex
+
+    TypeHelp.Nullity</code></pre>
+  remarks: Constructor parameter array boundary violations in conjunction with the <xref href="TypeHelp.SliceOpts.StrictLength" data-throw-if-not-resolved="false"></xref> and <xref href="TypeHelp.SliceOpts.StrictOffset" data-throw-if-not-resolved="false"></xref> options MAY raise a <xref href="System.TypeInitializationException" data-throw-if-not-resolved="false"></xref> with an inner <xref href="System.InvalidOperationException" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public class Slice
+    content.vb: Public Class Slice
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: TypeHelp.Slice.#ctor(System.Byte[],System.Int32,System.Int32)
+  commentId: M:TypeHelp.Slice.#ctor(System.Byte[],System.Int32,System.Int32)
+  id: '#ctor(System.Byte[],System.Int32,System.Int32)'
+  parent: TypeHelp.Slice
+  langs:
+  - csharp
+  - vb
+  name: Slice(byte[], int, int)
+  nameWithType: Slice.Slice(byte[], int, int)
+  fullName: TypeHelp.Slice.Slice(byte[], int, int)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Slice\Slice.cs
+    startLine: 93
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: >-
+    Create a <code>Slice</code> using length, offset and the default options:
+
+    <ul><li><code class="paramref">data</code> is in Network Byte Order (NBO), a.k.a., big-endian.</li><li><code class="paramref">offset</code> is locked, data MAY be truncated.</li></ul>
+  remarks: If the <xref href="TypeHelp.SliceOpts.StrictLength" data-throw-if-not-resolved="false"></xref> flag is set and the <code class="paramref">length</code> parameter is out of bounds, or the <xref href="TypeHelp.SliceOpts.StrictOffset" data-throw-if-not-resolved="false"></xref> flag is set and the <code class="paramref">offset</code> parameter is out of bounds, a <xref href="System.TypeInitializationException" data-throw-if-not-resolved="false"></xref> with an inner <xref href="System.InvalidOperationException" data-throw-if-not-resolved="false"></xref> will be thrown.
+  example: []
+  syntax:
+    content: public Slice(byte[] data, int length, int offset)
+    parameters:
+    - id: data
+      type: System.Byte[]
+      description: An array of bytes.
+    - id: length
+      type: System.Int32
+      description: The length of the value to extract.
+    - id: offset
+      type: System.Int32
+      description: The position of the value.
+    content.vb: Public Sub New(data As Byte(), length As Integer, offset As Integer)
+  overload: TypeHelp.Slice.#ctor*
+  nameWithType.vb: Slice.New(Byte(), Integer, Integer)
+  fullName.vb: TypeHelp.Slice.New(Byte(), Integer, Integer)
+  name.vb: New(Byte(), Integer, Integer)
+- uid: TypeHelp.Slice.#ctor(System.Byte[],System.Int32,System.Int32,System.Nullable{TypeHelp.SliceOpts})
+  commentId: M:TypeHelp.Slice.#ctor(System.Byte[],System.Int32,System.Int32,System.Nullable{TypeHelp.SliceOpts})
+  id: '#ctor(System.Byte[],System.Int32,System.Int32,System.Nullable{TypeHelp.SliceOpts})'
+  parent: TypeHelp.Slice
+  langs:
+  - csharp
+  - vb
+  name: Slice(byte[], int, int, SliceOpts?)
+  nameWithType: Slice.Slice(byte[], int, int, SliceOpts?)
+  fullName: TypeHelp.Slice.Slice(byte[], int, int, TypeHelp.SliceOpts?)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Slice\Slice.cs
+    startLine: 118
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: Create a <code>Slice</code> using length, offset and the selected <code>SliceOpts</code>.
+  remarks: If the <xref href="TypeHelp.SliceOpts.StrictLength" data-throw-if-not-resolved="false"></xref> flag is set and the <code class="paramref">length</code> parameter is out of bounds, or the <xref href="TypeHelp.SliceOpts.StrictOffset" data-throw-if-not-resolved="false"></xref> flag is set and the <code class="paramref">offset</code> parameter is out of bounds, a <xref href="System.TypeInitializationException" data-throw-if-not-resolved="false"></xref> with an inner <xref href="System.InvalidOperationException" data-throw-if-not-resolved="false"></xref> will be thrown.
+  example: []
+  syntax:
+    content: public Slice(byte[] data, int length, int offset, SliceOpts? options)
+    parameters:
+    - id: data
+      type: System.Byte[]
+      description: An array of bytes.
+    - id: length
+      type: System.Int32
+      description: The length of the value to extract.
+    - id: offset
+      type: System.Int32
+      description: The position of the value.
+    - id: options
+      type: System.Nullable{TypeHelp.SliceOpts}
+      description: >-
+        A <code>SliceOpts</code> enumeration value.
+            <p>If the value is <code>null</code>, <xref href="TypeHelp.SliceOpts.None" data-throw-if-not-resolved="false"></xref> will be substituted, resulting in the default options:</p>
+            <ul><li><code class="paramref">data</code> is in Network Byte Order (NBO), a.k.a., big-endian.</li><li><code class="paramref">offset</code> is locked, data MAY be truncated.</li></ul>
+    content.vb: Public Sub New(data As Byte(), length As Integer, offset As Integer, options As SliceOpts?)
+  overload: TypeHelp.Slice.#ctor*
+  exceptions:
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: ''
+  nameWithType.vb: Slice.New(Byte(), Integer, Integer, SliceOpts?)
+  fullName.vb: TypeHelp.Slice.New(Byte(), Integer, Integer, TypeHelp.SliceOpts?)
+  name.vb: New(Byte(), Integer, Integer, SliceOpts?)
+- uid: TypeHelp.Slice.#ctor(System.Byte[],System.TypeCode,System.Int32,System.Nullable{TypeHelp.SliceOpts})
+  commentId: M:TypeHelp.Slice.#ctor(System.Byte[],System.TypeCode,System.Int32,System.Nullable{TypeHelp.SliceOpts})
+  id: '#ctor(System.Byte[],System.TypeCode,System.Int32,System.Nullable{TypeHelp.SliceOpts})'
+  parent: TypeHelp.Slice
+  langs:
+  - csharp
+  - vb
+  name: Slice(byte[], TypeCode, int, SliceOpts?)
+  nameWithType: Slice.Slice(byte[], TypeCode, int, SliceOpts?)
+  fullName: TypeHelp.Slice.Slice(byte[], System.TypeCode, int, TypeHelp.SliceOpts?)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Slice\Slice.cs
+    startLine: 150
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: >-
+    Create a <code>Slice</code> using the selected <xref href="System.TypeCode" data-throw-if-not-resolved="false"></xref> <code class="paramref">typeCode</code>, <code class="paramref">offset</code> and selected <xref href="TypeHelp.SliceOpts" data-throw-if-not-resolved="false"></xref>.
+
+    <p>If the <code class="paramref">typeCode</code> is <xref href="System.TypeCode.Object" data-throw-if-not-resolved="false"></xref>, a <xref href="System.Numerics.BigInteger" data-throw-if-not-resolved="false"></xref> will be assumed, using the equivalent (<xref href="TypeHelp.TypeCoex.BigInteger" data-throw-if-not-resolved="false"></xref>).</p>
+  remarks: >-
+    If the <xref href="TypeHelp.SliceOpts.StrictLength" data-throw-if-not-resolved="false"></xref> flag is set and the <code class="paramref">typeCode</code> parameter is undefined, the <xref href="TypeHelp.Slice.TypeCoex" data-throw-if-not-resolved="false"></xref> Property will be <xref href="TypeHelp.TypeCoex.Nullity" data-throw-if-not-resolved="false"></xref>.
+
+    <p>
+
+    If the <xref href="TypeHelp.SliceOpts.StrictOffset" data-throw-if-not-resolved="false"></xref> flag is set and the <code class="paramref">offset</code> parameter is out of bounds, a <xref href="System.TypeInitializationException" data-throw-if-not-resolved="false"></xref> with an inner <xref href="System.InvalidOperationException" data-throw-if-not-resolved="false"></xref> will be thrown.
+
+    </p>
+  example: []
+  syntax:
+    content: public Slice(byte[] data, TypeCode typeCode, int offset, SliceOpts? options)
+    parameters:
+    - id: data
+      type: System.Byte[]
+      description: ''
+    - id: typeCode
+      type: System.TypeCode
+      description: For allowable values, see the <xref href="TypeHelp.Slice.TypeCode" data-throw-if-not-resolved="false"></xref> Property.
+    - id: offset
+      type: System.Int32
+      description: The position of the value.
+    - id: options
+      type: System.Nullable{TypeHelp.SliceOpts}
+      description: >-
+        A <code>SliceOpts</code> enumeration value.
+            <p>If the value is <code>null</code>, <xref href="TypeHelp.SliceOpts.None" data-throw-if-not-resolved="false"></xref> will be substituted, resulting in the default options:</p>
+            <ul><li><code class="paramref">data</code> is in Network Byte Order (NBO), a.k.a., big-endian.</li><li><code class="paramref">offset</code> is locked, data MAY be truncated.</li></ul>
+    content.vb: Public Sub New(data As Byte(), typeCode As TypeCode, offset As Integer, options As SliceOpts?)
+  overload: TypeHelp.Slice.#ctor*
+  exceptions:
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: ''
+  nameWithType.vb: Slice.New(Byte(), TypeCode, Integer, SliceOpts?)
+  fullName.vb: TypeHelp.Slice.New(Byte(), System.TypeCode, Integer, TypeHelp.SliceOpts?)
+  name.vb: New(Byte(), TypeCode, Integer, SliceOpts?)
+- uid: TypeHelp.Slice.#ctor(System.Byte[],TypeHelp.TypeCoex,System.Int32,System.Nullable{TypeHelp.SliceOpts})
+  commentId: M:TypeHelp.Slice.#ctor(System.Byte[],TypeHelp.TypeCoex,System.Int32,System.Nullable{TypeHelp.SliceOpts})
+  id: '#ctor(System.Byte[],TypeHelp.TypeCoex,System.Int32,System.Nullable{TypeHelp.SliceOpts})'
+  parent: TypeHelp.Slice
+  langs:
+  - csharp
+  - vb
+  name: Slice(byte[], TypeCoex, int, SliceOpts?)
+  nameWithType: Slice.Slice(byte[], TypeCoex, int, SliceOpts?)
+  fullName: TypeHelp.Slice.Slice(byte[], TypeHelp.TypeCoex, int, TypeHelp.SliceOpts?)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Slice\Slice.cs
+    startLine: 180
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: Create a <code>Slice</code> using the selected <code>TypeCoex</code>, offset and selected <code>SliceOpts</code>.
+  remarks: If the <xref href="TypeHelp.SliceOpts.StrictLength" data-throw-if-not-resolved="false"></xref> flag is set and the length parameter is out of bounds, or the <xref href="TypeHelp.SliceOpts.StrictOffset" data-throw-if-not-resolved="false"></xref> flag is set and the offset parameter is out of bounds, a <xref href="System.TypeInitializationException" data-throw-if-not-resolved="false"></xref> with an inner <xref href="System.InvalidOperationException" data-throw-if-not-resolved="false"></xref> will be thrown.
+  example: []
+  syntax:
+    content: public Slice(byte[] data, TypeCoex typeCoex, int offset, SliceOpts? options)
+    parameters:
+    - id: data
+      type: System.Byte[]
+      description: ''
+    - id: typeCoex
+      type: TypeHelp.TypeCoex
+      description: For allowable values, see the <xref href="TypeHelp.Slice.TypeCoex" data-throw-if-not-resolved="false"></xref> Property.
+    - id: offset
+      type: System.Int32
+      description: The position of the value.
+    - id: options
+      type: System.Nullable{TypeHelp.SliceOpts}
+      description: >-
+        A <code>SliceOpts</code> enumeration value.
+            <p>If the value is <code>null</code>, <xref href="TypeHelp.SliceOpts.None" data-throw-if-not-resolved="false"></xref> will be substituted, resulting in the default options:</p>
+            <ul><li><code class="paramref">data</code> is in Network Byte Order (NBO), a.k.a., big-endian.</li><li><code class="paramref">offset</code> is locked, data MAY be truncated.</li></ul>
+    content.vb: Public Sub New(data As Byte(), typeCoex As TypeCoex, offset As Integer, options As SliceOpts?)
+  overload: TypeHelp.Slice.#ctor*
+  exceptions:
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: ''
+  nameWithType.vb: Slice.New(Byte(), TypeCoex, Integer, SliceOpts?)
+  fullName.vb: TypeHelp.Slice.New(Byte(), TypeHelp.TypeCoex, Integer, TypeHelp.SliceOpts?)
+  name.vb: New(Byte(), TypeCoex, Integer, SliceOpts?)
+- uid: TypeHelp.Slice.Defaults
+  commentId: F:TypeHelp.Slice.Defaults
+  id: Defaults
+  parent: TypeHelp.Slice
+  langs:
+  - csharp
+  - vb
+  name: Defaults
+  nameWithType: Slice.Defaults
+  fullName: TypeHelp.Slice.Defaults
+  type: Field
+  source:
+    id: Defaults
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Slice\Slice.cs
+    startLine: 202
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: The <xref href="TypeHelp.SliceOpts" data-throw-if-not-resolved="false"></xref> <xref href="TypeHelp.SliceOpts.None" data-throw-if-not-resolved="false"></xref> value (0).
+  example: []
+  syntax:
+    content: public const SliceOpts Defaults = None
+    return:
+      type: TypeHelp.SliceOpts
+    content.vb: Public Const Defaults As SliceOpts = None
+- uid: TypeHelp.Slice.Locked
+  commentId: F:TypeHelp.Slice.Locked
+  id: Locked
+  parent: TypeHelp.Slice
+  langs:
+  - csharp
+  - vb
+  name: Locked
+  nameWithType: Slice.Locked
+  fullName: TypeHelp.Slice.Locked
+  type: Field
+  source:
+    id: Locked
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Slice\Slice.cs
+    startLine: 207
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: A bitwise OR of the <xref href="TypeHelp.SliceOpts" data-throw-if-not-resolved="false"></xref> <xref href="TypeHelp.SliceOpts.LockedLength" data-throw-if-not-resolved="false"></xref> and <xref href="TypeHelp.SliceOpts.LockUnsigned" data-throw-if-not-resolved="false"></xref> flags.
+  example: []
+  syntax:
+    content: public const SliceOpts Locked = LockedLength | LockUnsigned
+    return:
+      type: TypeHelp.SliceOpts
+    content.vb: Public Const Locked As SliceOpts = LockedLength Or LockUnsigned
+- uid: TypeHelp.Slice.LockLittleEndian
+  commentId: F:TypeHelp.Slice.LockLittleEndian
+  id: LockLittleEndian
+  parent: TypeHelp.Slice
+  langs:
+  - csharp
+  - vb
+  name: LockLittleEndian
+  nameWithType: Slice.LockLittleEndian
+  fullName: TypeHelp.Slice.LockLittleEndian
+  type: Field
+  source:
+    id: LockLittleEndian
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Slice\Slice.cs
+    startLine: 213
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: A bitwise OR of the <xref href="TypeHelp.SliceOpts" data-throw-if-not-resolved="false"></xref> <xref href="TypeHelp.SliceOpts.LittleEndian" data-throw-if-not-resolved="false"></xref>, <xref href="TypeHelp.SliceOpts.LockedLength" data-throw-if-not-resolved="false"></xref> and <xref href="TypeHelp.SliceOpts.LockUnsigned" data-throw-if-not-resolved="false"></xref> flags.
+  example: []
+  syntax:
+    content: public const SliceOpts LockLittleEndian = LittleEndian | LockedLength | LockUnsigned
+    return:
+      type: TypeHelp.SliceOpts
+    content.vb: Public Const LockLittleEndian As SliceOpts = LittleEndian Or LockedLength Or LockUnsigned
+- uid: TypeHelp.Slice.Strict
+  commentId: F:TypeHelp.Slice.Strict
+  id: Strict
+  parent: TypeHelp.Slice
+  langs:
+  - csharp
+  - vb
+  name: Strict
+  nameWithType: Slice.Strict
+  fullName: TypeHelp.Slice.Strict
+  type: Field
+  source:
+    id: Strict
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Slice\Slice.cs
+    startLine: 219
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: A bitwise OR of the <xref href="TypeHelp.SliceOpts" data-throw-if-not-resolved="false"></xref> <xref href="TypeHelp.SliceOpts.StrictLength" data-throw-if-not-resolved="false"></xref> and <xref href="TypeHelp.SliceOpts.StrictOffset" data-throw-if-not-resolved="false"></xref> flags.
+  example: []
+  syntax:
+    content: public const SliceOpts Strict = StrictLength | StrictOffset
+    return:
+      type: TypeHelp.SliceOpts
+    content.vb: Public Const Strict As SliceOpts = StrictLength Or StrictOffset
+- uid: TypeHelp.Slice.AllowSigned
+  commentId: P:TypeHelp.Slice.AllowSigned
+  id: AllowSigned
+  parent: TypeHelp.Slice
+  langs:
+  - csharp
+  - vb
+  name: AllowSigned
+  nameWithType: Slice.AllowSigned
+  fullName: TypeHelp.Slice.AllowSigned
+  type: Property
+  source:
+    id: AllowSigned
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Slice\Slice.cs
+    startLine: 229
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: <code>true</code> if the <xref href="TypeHelp.SliceOpts.LockUnsigned" data-throw-if-not-resolved="false"></xref> flag is not set, otherwise <code>false</code>.
+  example: []
+  syntax:
+    content: public bool AllowSigned { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property AllowSigned As Boolean
+  overload: TypeHelp.Slice.AllowSigned*
+- uid: TypeHelp.Slice.Data
+  commentId: P:TypeHelp.Slice.Data
+  id: Data
+  parent: TypeHelp.Slice
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: Slice.Data
+  fullName: TypeHelp.Slice.Data
+  type: Property
+  source:
+    id: Data
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Slice\Slice.cs
+    startLine: 237
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: >-
+    A copy of the extracted byte array in big-endian order.
+
+    <p>If the <xref href="TypeHelp.Slice.AllowSigned" data-throw-if-not-resolved="false"></xref> Property is <code>false</code> and the <xref href="TypeHelp.Slice.HighBit" data-throw-if-not-resolved="false"></xref> Property is <code>true</code>, an additional zero-value byte will be present in the high-order (first) byte of the returned big-endian array.</p>
+  example: []
+  syntax:
+    content: public byte[] Data { get; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public ReadOnly Property Data As Byte()
+  overload: TypeHelp.Slice.Data*
+- uid: TypeHelp.Slice.HighBit
+  commentId: P:TypeHelp.Slice.HighBit
+  id: HighBit
+  parent: TypeHelp.Slice
+  langs:
+  - csharp
+  - vb
+  name: HighBit
+  nameWithType: Slice.HighBit
+  fullName: TypeHelp.Slice.HighBit
+  type: Property
+  source:
+    id: HighBit
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Slice\Slice.cs
+    startLine: 250
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: The value is <code>true</code> if the first (big-endian normalized) data byte has the high-order bit set, otherwise <code>false</code>.
+  example: []
+  syntax:
+    content: public bool HighBit { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HighBit As Boolean
+  overload: TypeHelp.Slice.HighBit*
+- uid: TypeHelp.Slice.IsEmpty
+  commentId: P:TypeHelp.Slice.IsEmpty
+  id: IsEmpty
+  parent: TypeHelp.Slice
+  langs:
+  - csharp
+  - vb
+  name: IsEmpty
+  nameWithType: Slice.IsEmpty
+  fullName: TypeHelp.Slice.IsEmpty
+  type: Property
+  source:
+    id: IsEmpty
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Slice\Slice.cs
+    startLine: 257
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: The value is <code>true</code> if the <xref href="TypeHelp.Slice.Data" data-throw-if-not-resolved="false"></xref> Property length is zero, otherwise <code>false</code>.
+  example: []
+  syntax:
+    content: public bool IsEmpty { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsEmpty As Boolean
+  overload: TypeHelp.Slice.IsEmpty*
+- uid: TypeHelp.Slice.IsExact
+  commentId: P:TypeHelp.Slice.IsExact
+  id: IsExact
+  parent: TypeHelp.Slice
+  langs:
+  - csharp
+  - vb
+  name: IsExact
+  nameWithType: Slice.IsExact
+  fullName: TypeHelp.Slice.IsExact
+  type: Property
+  source:
+    id: IsExact
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Slice\Slice.cs
+    startLine: 264
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: The value is <code>true</code> if <xref href="TypeHelp.Slice.Length" data-throw-if-not-resolved="false"></xref> or <xref href="TypeHelp.Slice.Offset" data-throw-if-not-resolved="false"></xref> were not modified during initialization, else <code>false</code>.
+  example: []
+  syntax:
+    content: public bool IsExact { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsExact As Boolean
+  overload: TypeHelp.Slice.IsExact*
+- uid: TypeHelp.Slice.IsLittleEndian
+  commentId: P:TypeHelp.Slice.IsLittleEndian
+  id: IsLittleEndian
+  parent: TypeHelp.Slice
+  langs:
+  - csharp
+  - vb
+  name: IsLittleEndian
+  nameWithType: Slice.IsLittleEndian
+  fullName: TypeHelp.Slice.IsLittleEndian
+  type: Property
+  source:
+    id: IsLittleEndian
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Slice\Slice.cs
+    startLine: 271
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: The value is <code>true</code> if the <xref href="TypeHelp.SliceOpts.LittleEndian" data-throw-if-not-resolved="false"></xref> flag is set, indicating the <xref href="TypeHelp.Slice.Data" data-throw-if-not-resolved="false"></xref> Property byte order is the inverse of that extracted from the data provided to the constructor, otherwise <code>false</code>.
+  example: []
+  syntax:
+    content: public bool IsLittleEndian { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsLittleEndian As Boolean
+  overload: TypeHelp.Slice.IsLittleEndian*
+- uid: TypeHelp.Slice.IsSigned
+  commentId: P:TypeHelp.Slice.IsSigned
+  id: IsSigned
+  parent: TypeHelp.Slice
+  langs:
+  - csharp
+  - vb
+  name: IsSigned
+  nameWithType: Slice.IsSigned
+  fullName: TypeHelp.Slice.IsSigned
+  type: Property
+  source:
+    id: IsSigned
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Slice\Slice.cs
+    startLine: 278
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: The value is<code>true</code> if the <xref href="TypeHelp.Slice.HighBit" data-throw-if-not-resolved="false"></xref> Property is true and the <xref href="TypeHelp.SliceOpts.LockUnsigned" data-throw-if-not-resolved="false"></xref> flag is set, otherwise <code>false</code>.
+  example: []
+  syntax:
+    content: public bool IsSigned { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsSigned As Boolean
+  overload: TypeHelp.Slice.IsSigned*
+- uid: TypeHelp.Slice.IsUnsigned
+  commentId: P:TypeHelp.Slice.IsUnsigned
+  id: IsUnsigned
+  parent: TypeHelp.Slice
+  langs:
+  - csharp
+  - vb
+  name: IsUnsigned
+  nameWithType: Slice.IsUnsigned
+  fullName: TypeHelp.Slice.IsUnsigned
+  type: Property
+  source:
+    id: IsUnsigned
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Slice\Slice.cs
+    startLine: 285
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: The value is<code>true</code> if the <xref href="TypeHelp.Slice.HighBit" data-throw-if-not-resolved="false"></xref> Property is true and the <xref href="TypeHelp.SliceOpts.LockUnsigned" data-throw-if-not-resolved="false"></xref> flag is set, otherwise <code>false</code>.
+  example: []
+  syntax:
+    content: public bool IsUnsigned { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsUnsigned As Boolean
+  overload: TypeHelp.Slice.IsUnsigned*
+- uid: TypeHelp.Slice.Length
+  commentId: P:TypeHelp.Slice.Length
+  id: Length
+  parent: TypeHelp.Slice
+  langs:
+  - csharp
+  - vb
+  name: Length
+  nameWithType: Slice.Length
+  fullName: TypeHelp.Slice.Length
+  type: Property
+  source:
+    id: Length
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Slice\Slice.cs
+    startLine: 292
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: The length of the byte array.
+  example: []
+  syntax:
+    content: public int Length { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Length As Integer
+  overload: TypeHelp.Slice.Length*
+- uid: TypeHelp.Slice.LengthDelta
+  commentId: P:TypeHelp.Slice.LengthDelta
+  id: LengthDelta
+  parent: TypeHelp.Slice
+  langs:
+  - csharp
+  - vb
+  name: LengthDelta
+  nameWithType: Slice.LengthDelta
+  fullName: TypeHelp.Slice.LengthDelta
+  type: Property
+  source:
+    id: LengthDelta
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Slice\Slice.cs
+    startLine: 299
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: The change, if any, made to the <xref href="TypeHelp.Slice.Length" data-throw-if-not-resolved="false"></xref> during initialization.
+  example: []
+  syntax:
+    content: public int LengthDelta { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property LengthDelta As Integer
+  overload: TypeHelp.Slice.LengthDelta*
+- uid: TypeHelp.Slice.Offset
+  commentId: P:TypeHelp.Slice.Offset
+  id: Offset
+  parent: TypeHelp.Slice
+  langs:
+  - csharp
+  - vb
+  name: Offset
+  nameWithType: Slice.Offset
+  fullName: TypeHelp.Slice.Offset
+  type: Property
+  source:
+    id: Offset
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Slice\Slice.cs
+    startLine: 306
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: The position of the data in the input array.
+  example: []
+  syntax:
+    content: public int Offset { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Offset As Integer
+  overload: TypeHelp.Slice.Offset*
+- uid: TypeHelp.Slice.OffsetDelta
+  commentId: P:TypeHelp.Slice.OffsetDelta
+  id: OffsetDelta
+  parent: TypeHelp.Slice
+  langs:
+  - csharp
+  - vb
+  name: OffsetDelta
+  nameWithType: Slice.OffsetDelta
+  fullName: TypeHelp.Slice.OffsetDelta
+  type: Property
+  source:
+    id: OffsetDelta
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Slice\Slice.cs
+    startLine: 313
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: The change, if any, made to the <xref href="TypeHelp.Slice.Offset" data-throw-if-not-resolved="false"></xref> during initialization.
+  example: []
+  syntax:
+    content: public int OffsetDelta { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property OffsetDelta As Integer
+  overload: TypeHelp.Slice.OffsetDelta*
+- uid: TypeHelp.Slice.Options
+  commentId: P:TypeHelp.Slice.Options
+  id: Options
+  parent: TypeHelp.Slice
+  langs:
+  - csharp
+  - vb
+  name: Options
+  nameWithType: Slice.Options
+  fullName: TypeHelp.Slice.Options
+  type: Property
+  source:
+    id: Options
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Slice\Slice.cs
+    startLine: 320
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: The <code>SliceOpts</code> provided to the constructor.
+  example: []
+  syntax:
+    content: public SliceOpts Options { get; }
+    parameters: []
+    return:
+      type: TypeHelp.SliceOpts
+    content.vb: Public ReadOnly Property Options As SliceOpts
+  overload: TypeHelp.Slice.Options*
+- uid: TypeHelp.Slice.TypeCode
+  commentId: P:TypeHelp.Slice.TypeCode
+  id: TypeCode
+  parent: TypeHelp.Slice
+  langs:
+  - csharp
+  - vb
+  name: TypeCode
+  nameWithType: Slice.TypeCode
+  fullName: TypeHelp.Slice.TypeCode
+  type: Property
+  source:
+    id: TypeCode
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Slice\Slice.cs
+    startLine: 343
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: >-
+    The <xref href="System.TypeCode" data-throw-if-not-resolved="false"></xref> of the extracted data. This will be one of the following:
+
+    <pre><code class="lang-csharp">TypeCode.Boolean
+
+    TypeCode.Byte     TypeCode.Char     TypeCode.DateTime
+
+    TypeCode.DBNull   TypeCode.Decimal  TypeCode.Double
+
+    TypeCode.Int16    TypeCode.Int32    TypeCode.Int64
+
+    TypeCode.Object   TypeCode.SByte    TypeCode.Single
+
+    TypeCode.UInt16   TypeCode.UInt32   TypeCode.UInt64</code></pre>
+  remarks: >-
+    The value is derived as follows:
+
+    <pre><code class="lang-csharp">public TypeCode TypeCode {
+       get { return Type.GetTypeCode(this.Value.GetType()); }
+    }</code></pre>
+  example: []
+  syntax:
+    content: public TypeCode TypeCode { get; }
+    parameters: []
+    return:
+      type: System.TypeCode
+    content.vb: Public ReadOnly Property TypeCode As TypeCode
+  overload: TypeHelp.Slice.TypeCode*
+- uid: TypeHelp.Slice.TypeCoex
+  commentId: P:TypeHelp.Slice.TypeCoex
+  id: TypeCoex
+  parent: TypeHelp.Slice
+  langs:
+  - csharp
+  - vb
+  name: TypeCoex
+  nameWithType: Slice.TypeCoex
+  fullName: TypeHelp.Slice.TypeCoex
+  type: Property
+  source:
+    id: TypeCoex
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Slice\Slice.cs
+    startLine: 358
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: >-
+    The <xref href="TypeHelp.Slice.TypeCoex" data-throw-if-not-resolved="false"></xref> of the extracted value. This will be one of the following:
+
+    <pre><code class="lang-csharp">TypeCoex.BigInteger  TypeCoex.Boolean  TypeCoex.Byte
+
+    TypeCoex.Char        TypeCoex.Complex  TypeCoex.DateTime
+
+    TypeCoex.DBNull      TypeCoex.Decimal  TypeCoex.Double
+
+    TypeCoex.Int16       TypeCoex.Int32    TypeCoex.Int64
+
+    TypeCoex.Object      TypeCoex.SByte    TypeCoex.Single
+
+    TypeCoex.UInt16      TypeCoex.UInt32   TypeCoex.UInt64</code></pre>
+  example: []
+  syntax:
+    content: public TypeCoex TypeCoex { get; }
+    parameters: []
+    return:
+      type: TypeHelp.TypeCoex
+    content.vb: Public ReadOnly Property TypeCoex As TypeCoex
+  overload: TypeHelp.Slice.TypeCoex*
+- uid: TypeHelp.Slice.TypeOf
+  commentId: P:TypeHelp.Slice.TypeOf
+  id: TypeOf
+  parent: TypeHelp.Slice
+  langs:
+  - csharp
+  - vb
+  name: TypeOf
+  nameWithType: Slice.TypeOf
+  fullName: TypeHelp.Slice.TypeOf
+  type: Property
+  source:
+    id: TypeOf
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Slice\Slice.cs
+    startLine: 365
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: The <xref href="System.Type" data-throw-if-not-resolved="false"></xref> of the extracted value.
+  example: []
+  syntax:
+    content: public Type TypeOf { get; }
+    parameters: []
+    return:
+      type: System.Type
+    content.vb: Public ReadOnly Property [TypeOf] As Type
+  overload: TypeHelp.Slice.TypeOf*
+- uid: TypeHelp.Slice.Value
+  commentId: P:TypeHelp.Slice.Value
+  id: Value
+  parent: TypeHelp.Slice
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: Slice.Value
+  fullName: TypeHelp.Slice.Value
+  type: Property
+  source:
+    id: Value
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Slice\Slice.cs
+    startLine: 382
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: >-
+    The value will be one of the following types:
+
+    <pre><code class="lang-csharp">System.Boolean   System.Byte    System.Char
+
+    System.DateTime  System.DBNull  System.Decimal
+
+    System.Double    System.Int16   System.Int32
+
+    System.Int64     System.SByte   System.Single
+
+    System.UInt16    System.UInt32  System.UInt64
+
+    System.Numerics.BigInteger
+
+    System.Numerics.Complex
+
+    TypeHelp.Nullity</code></pre>
+  example: []
+  syntax:
+    content: public object Value { get; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public ReadOnly Property Value As Object
+  overload: TypeHelp.Slice.Value*
+- uid: TypeHelp.Slice.GetData(System.Boolean)
+  commentId: M:TypeHelp.Slice.GetData(System.Boolean)
+  id: GetData(System.Boolean)
+  parent: TypeHelp.Slice
+  langs:
+  - csharp
+  - vb
+  name: GetData(bool)
+  nameWithType: Slice.GetData(bool)
+  fullName: TypeHelp.Slice.GetData(bool)
+  type: Method
+  source:
+    id: GetData
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Slice\Slice.cs
+    startLine: 398
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: Gets A clone of the extracted byte array in big-endian or as presented to the constructor.
+  example: []
+  syntax:
+    content: public byte[] GetData(bool original)
+    parameters:
+    - id: original
+      type: System.Boolean
+      description: >-
+        Controls the order of the returned data.
+            <p>If <code>true</code> the data is returned in the original order, which is a reverse of the data if the <xref href="TypeHelp.Slice.IsLittleEndian" data-throw-if-not-resolved="false"></xref> Property is true; otherwise the data is in big-endian order.</p>
+            <p>If <code>false</code>, the <xref href="TypeHelp.Slice.AllowSigned" data-throw-if-not-resolved="false"></xref> Property is <code>false</code> and the <xref href="TypeHelp.Slice.HighBit" data-throw-if-not-resolved="false"></xref> Property is <code>true</code>, an additional zero-length byte will be present in the high-order (first) byte of the returned byte array.</p>
+    return:
+      type: System.Byte[]
+      description: ''
+    content.vb: Public Function GetData(original As Boolean) As Byte()
+  overload: TypeHelp.Slice.GetData*
+  nameWithType.vb: Slice.GetData(Boolean)
+  fullName.vb: TypeHelp.Slice.GetData(Boolean)
+  name.vb: GetData(Boolean)
+- uid: TypeHelp.Slice.IsType(System.TypeCode)
+  commentId: M:TypeHelp.Slice.IsType(System.TypeCode)
+  id: IsType(System.TypeCode)
+  parent: TypeHelp.Slice
+  langs:
+  - csharp
+  - vb
+  name: IsType(TypeCode)
+  nameWithType: Slice.IsType(TypeCode)
+  fullName: TypeHelp.Slice.IsType(System.TypeCode)
+  type: Method
+  source:
+    id: IsType
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Slice\Slice.cs
+    startLine: 411
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: Test whether or not this instance has the specified <code>TypeCode</code> Property length.
+  example: []
+  syntax:
+    content: public bool IsType(TypeCode typeCode)
+    parameters:
+    - id: typeCode
+      type: System.TypeCode
+      description: The <code>TypeCode</code> to test.
+    return:
+      type: System.Boolean
+      description: <code>true</code> if the <code class="paramref">typeCode</code> parameter matches the <xref href="TypeHelp.Slice.TypeCode" data-throw-if-not-resolved="false"></xref> Property.
+    content.vb: Public Function IsType(typeCode As TypeCode) As Boolean
+  overload: TypeHelp.Slice.IsType*
+- uid: TypeHelp.Slice.IsType(TypeHelp.TypeCoex)
+  commentId: M:TypeHelp.Slice.IsType(TypeHelp.TypeCoex)
+  id: IsType(TypeHelp.TypeCoex)
+  parent: TypeHelp.Slice
+  langs:
+  - csharp
+  - vb
+  name: IsType(TypeCoex)
+  nameWithType: Slice.IsType(TypeCoex)
+  fullName: TypeHelp.Slice.IsType(TypeHelp.TypeCoex)
+  type: Method
+  source:
+    id: IsType
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Slice\Slice.cs
+    startLine: 421
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: Test whether or not this instance has the specified <code>TypeCoex</code> Property length.
+  example: []
+  syntax:
+    content: public bool IsType(TypeCoex typeCoex)
+    parameters:
+    - id: typeCoex
+      type: TypeHelp.TypeCoex
+      description: The <code>TypeCoex</code> to test.
+    return:
+      type: System.Boolean
+      description: <code>true</code> if the <code class="paramref">typeCoex</code> parameter matches the <xref href="TypeHelp.Slice.TypeCoex" data-throw-if-not-resolved="false"></xref> Property.
+    content.vb: Public Function IsType(typeCoex As TypeCoex) As Boolean
+  overload: TypeHelp.Slice.IsType*
+- uid: TypeHelp.Slice.HasOptions(TypeHelp.SliceOpts)
+  commentId: M:TypeHelp.Slice.HasOptions(TypeHelp.SliceOpts)
+  id: HasOptions(TypeHelp.SliceOpts)
+  parent: TypeHelp.Slice
+  langs:
+  - csharp
+  - vb
+  name: HasOptions(SliceOpts)
+  nameWithType: Slice.HasOptions(SliceOpts)
+  fullName: TypeHelp.Slice.HasOptions(TypeHelp.SliceOpts)
+  type: Method
+  source:
+    id: HasOptions
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Slice\Slice.cs
+    startLine: 430
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: Test whether or not this instance has a given <code>SliceOpts</code> flag, or flags set.
+  example: []
+  syntax:
+    content: public bool HasOptions(SliceOpts option)
+    parameters:
+    - id: option
+      type: TypeHelp.SliceOpts
+      description: The option flag or flags to check.
+    return:
+      type: System.Boolean
+      description: <code>true</code> if any flag is set in both Options and the <code class="paramref">option</code> argument, otherwise <code>false</code>.
+    content.vb: Public Function HasOptions([option] As SliceOpts) As Boolean
+  overload: TypeHelp.Slice.HasOptions*
+- uid: TypeHelp.Slice.HasOptions(System.Boolean,TypeHelp.SliceOpts)
+  commentId: M:TypeHelp.Slice.HasOptions(System.Boolean,TypeHelp.SliceOpts)
+  id: HasOptions(System.Boolean,TypeHelp.SliceOpts)
+  parent: TypeHelp.Slice
+  langs:
+  - csharp
+  - vb
+  name: HasOptions(bool, SliceOpts)
+  nameWithType: Slice.HasOptions(bool, SliceOpts)
+  fullName: TypeHelp.Slice.HasOptions(bool, TypeHelp.SliceOpts)
+  type: Method
+  source:
+    id: HasOptions
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Slice\Slice.cs
+    startLine: 441
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: Test whether or not this instance has the <code>SliceOpts</code> flag, any flag or all flags set.
+  example: []
+  syntax:
+    content: public bool HasOptions(bool exact, SliceOpts option)
+    parameters:
+    - id: exact
+      type: System.Boolean
+      description: Specifies whether or not to check all options.
+    - id: option
+      type: TypeHelp.SliceOpts
+      description: The option flags to check.
+    return:
+      type: System.Boolean
+      description: <code>true</code> if the required flag or flags are set in both the <xref href="TypeHelp.Slice.Options" data-throw-if-not-resolved="false"></xref> Property and the <code>option</code> argument, otherwise <code>false</code>. If exact is true, all flags in the <code>option</code> argument MUST be set in the <code>Options</code> Property.
+    content.vb: Public Function HasOptions(exact As Boolean, [option] As SliceOpts) As Boolean
+  overload: TypeHelp.Slice.HasOptions*
+  nameWithType.vb: Slice.HasOptions(Boolean, SliceOpts)
+  fullName.vb: TypeHelp.Slice.HasOptions(Boolean, TypeHelp.SliceOpts)
+  name.vb: HasOptions(Boolean, SliceOpts)
+references:
+- uid: TypeHelp.SliceOpts.StrictLength
+  commentId: F:TypeHelp.SliceOpts.StrictLength
+  href: TypeHelp.SliceOpts.html#TypeHelp.SliceOpts.StrictLength
+  name: StrictLength
+  nameWithType: SliceOpts.StrictLength
+  fullName: TypeHelp.SliceOpts.StrictLength
+- uid: TypeHelp.SliceOpts.StrictOffset
+  commentId: F:TypeHelp.SliceOpts.StrictOffset
+  href: TypeHelp.SliceOpts.html#TypeHelp.SliceOpts.StrictOffset
+  name: StrictOffset
+  nameWithType: SliceOpts.StrictOffset
+  fullName: TypeHelp.SliceOpts.StrictOffset
+- uid: System.TypeInitializationException
+  commentId: T:System.TypeInitializationException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.typeinitializationexception
+  name: TypeInitializationException
+  nameWithType: TypeInitializationException
+  fullName: System.TypeInitializationException
+- uid: System.InvalidOperationException
+  commentId: T:System.InvalidOperationException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.invalidoperationexception
+  name: InvalidOperationException
+  nameWithType: InvalidOperationException
+  fullName: System.InvalidOperationException
+- uid: TypeHelp
+  commentId: N:TypeHelp
+  href: TypeHelp.html
+  name: TypeHelp
+  nameWithType: TypeHelp
+  fullName: TypeHelp
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TypeHelp.Slice.#ctor*
+  commentId: Overload:TypeHelp.Slice.#ctor
+  href: TypeHelp.Slice.#ctor(System.Byte[],System.Int32,System.Int32).html
+  name: Slice
+  nameWithType: Slice.Slice
+  fullName: TypeHelp.Slice.Slice
+  nameWithType.vb: Slice.New
+  fullName.vb: TypeHelp.Slice.New
+  name.vb: New
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: TypeHelp.SliceOpts.None
+  commentId: F:TypeHelp.SliceOpts.None
+  href: TypeHelp.SliceOpts.html#TypeHelp.SliceOpts.None
+  name: None
+  nameWithType: SliceOpts.None
+  fullName: TypeHelp.SliceOpts.None
+- uid: System.Nullable{TypeHelp.SliceOpts}
+  commentId: T:System.Nullable{TypeHelp.SliceOpts}
+  parent: System
+  definition: System.Nullable`1
+  href: TypeHelp.SliceOpts.html
+  name: SliceOpts?
+  nameWithType: SliceOpts?
+  fullName: TypeHelp.SliceOpts?
+  spec.csharp:
+  - uid: TypeHelp.SliceOpts
+    name: SliceOpts
+    href: TypeHelp.SliceOpts.html
+  - name: '?'
+  spec.vb:
+  - uid: TypeHelp.SliceOpts
+    name: SliceOpts
+    href: TypeHelp.SliceOpts.html
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: TypeHelp.TypeCoex.BigInteger
+  commentId: F:TypeHelp.TypeCoex.BigInteger
+  href: TypeHelp.TypeCoex.html#TypeHelp.TypeCoex.BigInteger
+  name: BigInteger
+  nameWithType: TypeCoex.BigInteger
+  fullName: TypeHelp.TypeCoex.BigInteger
+- uid: System.TypeCode
+  commentId: T:System.TypeCode
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.typecode
+  name: TypeCode
+  nameWithType: TypeCode
+  fullName: System.TypeCode
+- uid: TypeHelp.SliceOpts
+  commentId: T:TypeHelp.SliceOpts
+  parent: TypeHelp
+  href: TypeHelp.SliceOpts.html
+  name: SliceOpts
+  nameWithType: SliceOpts
+  fullName: TypeHelp.SliceOpts
+- uid: System.TypeCode.Object
+  commentId: F:System.TypeCode.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.typecode#system-typecode-object
+  name: Object
+  nameWithType: TypeCode.Object
+  fullName: System.TypeCode.Object
+- uid: System.Numerics.BigInteger
+  commentId: T:System.Numerics.BigInteger
+  parent: System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.biginteger
+  name: BigInteger
+  nameWithType: BigInteger
+  fullName: System.Numerics.BigInteger
+- uid: TypeHelp.Slice.TypeCode
+  commentId: P:TypeHelp.Slice.TypeCode
+  href: TypeHelp.Slice.TypeCode.html
+  name: TypeCode
+  nameWithType: Slice.TypeCode
+  fullName: TypeHelp.Slice.TypeCode
+- uid: TypeHelp.Slice.TypeCoex
+  commentId: P:TypeHelp.Slice.TypeCoex
+  href: TypeHelp.Slice.TypeCoex.html
+  name: TypeCoex
+  nameWithType: Slice.TypeCoex
+  fullName: TypeHelp.Slice.TypeCoex
+- uid: TypeHelp.TypeCoex.Nullity
+  commentId: F:TypeHelp.TypeCoex.Nullity
+  href: TypeHelp.TypeCoex.html#TypeHelp.TypeCoex.Nullity
+  name: Nullity
+  nameWithType: TypeCoex.Nullity
+  fullName: TypeHelp.TypeCoex.Nullity
+- uid: System.Numerics
+  commentId: N:System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Numerics
+  nameWithType: System.Numerics
+  fullName: System.Numerics
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+- uid: TypeHelp.TypeCoex
+  commentId: T:TypeHelp.TypeCoex
+  parent: TypeHelp
+  href: TypeHelp.TypeCoex.html
+  name: TypeCoex
+  nameWithType: TypeCoex
+  fullName: TypeHelp.TypeCoex
+- uid: TypeHelp.SliceOpts.LockedLength
+  commentId: F:TypeHelp.SliceOpts.LockedLength
+  href: TypeHelp.SliceOpts.html#TypeHelp.SliceOpts.LockedLength
+  name: LockedLength
+  nameWithType: SliceOpts.LockedLength
+  fullName: TypeHelp.SliceOpts.LockedLength
+- uid: TypeHelp.SliceOpts.LockUnsigned
+  commentId: F:TypeHelp.SliceOpts.LockUnsigned
+  href: TypeHelp.SliceOpts.html#TypeHelp.SliceOpts.LockUnsigned
+  name: LockUnsigned
+  nameWithType: SliceOpts.LockUnsigned
+  fullName: TypeHelp.SliceOpts.LockUnsigned
+- uid: TypeHelp.SliceOpts.LittleEndian
+  commentId: F:TypeHelp.SliceOpts.LittleEndian
+  href: TypeHelp.SliceOpts.html#TypeHelp.SliceOpts.LittleEndian
+  name: LittleEndian
+  nameWithType: SliceOpts.LittleEndian
+  fullName: TypeHelp.SliceOpts.LittleEndian
+- uid: TypeHelp.Slice.AllowSigned*
+  commentId: Overload:TypeHelp.Slice.AllowSigned
+  href: TypeHelp.Slice.AllowSigned.html
+  name: AllowSigned
+  nameWithType: Slice.AllowSigned
+  fullName: TypeHelp.Slice.AllowSigned
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: TypeHelp.Slice.AllowSigned
+  commentId: P:TypeHelp.Slice.AllowSigned
+  href: TypeHelp.Slice.AllowSigned.html
+  name: AllowSigned
+  nameWithType: Slice.AllowSigned
+  fullName: TypeHelp.Slice.AllowSigned
+- uid: TypeHelp.Slice.HighBit
+  commentId: P:TypeHelp.Slice.HighBit
+  href: TypeHelp.Slice.HighBit.html
+  name: HighBit
+  nameWithType: Slice.HighBit
+  fullName: TypeHelp.Slice.HighBit
+- uid: TypeHelp.Slice.Data*
+  commentId: Overload:TypeHelp.Slice.Data
+  href: TypeHelp.Slice.Data.html
+  name: Data
+  nameWithType: Slice.Data
+  fullName: TypeHelp.Slice.Data
+- uid: TypeHelp.Slice.HighBit*
+  commentId: Overload:TypeHelp.Slice.HighBit
+  href: TypeHelp.Slice.HighBit.html
+  name: HighBit
+  nameWithType: Slice.HighBit
+  fullName: TypeHelp.Slice.HighBit
+- uid: TypeHelp.Slice.Data
+  commentId: P:TypeHelp.Slice.Data
+  href: TypeHelp.Slice.Data.html
+  name: Data
+  nameWithType: Slice.Data
+  fullName: TypeHelp.Slice.Data
+- uid: TypeHelp.Slice.IsEmpty*
+  commentId: Overload:TypeHelp.Slice.IsEmpty
+  href: TypeHelp.Slice.IsEmpty.html
+  name: IsEmpty
+  nameWithType: Slice.IsEmpty
+  fullName: TypeHelp.Slice.IsEmpty
+- uid: TypeHelp.Slice.Offset
+  commentId: P:TypeHelp.Slice.Offset
+  href: TypeHelp.Slice.Offset.html
+  name: Offset
+  nameWithType: Slice.Offset
+  fullName: TypeHelp.Slice.Offset
+- uid: TypeHelp.Slice.Length
+  commentId: P:TypeHelp.Slice.Length
+  href: TypeHelp.Slice.Length.html
+  name: Length
+  nameWithType: Slice.Length
+  fullName: TypeHelp.Slice.Length
+- uid: TypeHelp.Slice.IsExact*
+  commentId: Overload:TypeHelp.Slice.IsExact
+  href: TypeHelp.Slice.IsExact.html
+  name: IsExact
+  nameWithType: Slice.IsExact
+  fullName: TypeHelp.Slice.IsExact
+- uid: TypeHelp.Slice.IsLittleEndian*
+  commentId: Overload:TypeHelp.Slice.IsLittleEndian
+  href: TypeHelp.Slice.IsLittleEndian.html
+  name: IsLittleEndian
+  nameWithType: Slice.IsLittleEndian
+  fullName: TypeHelp.Slice.IsLittleEndian
+- uid: TypeHelp.Slice.IsSigned*
+  commentId: Overload:TypeHelp.Slice.IsSigned
+  href: TypeHelp.Slice.IsSigned.html
+  name: IsSigned
+  nameWithType: Slice.IsSigned
+  fullName: TypeHelp.Slice.IsSigned
+- uid: TypeHelp.Slice.IsUnsigned*
+  commentId: Overload:TypeHelp.Slice.IsUnsigned
+  href: TypeHelp.Slice.IsUnsigned.html
+  name: IsUnsigned
+  nameWithType: Slice.IsUnsigned
+  fullName: TypeHelp.Slice.IsUnsigned
+- uid: TypeHelp.Slice.Length*
+  commentId: Overload:TypeHelp.Slice.Length
+  href: TypeHelp.Slice.Length.html
+  name: Length
+  nameWithType: Slice.Length
+  fullName: TypeHelp.Slice.Length
+- uid: TypeHelp.Slice.LengthDelta*
+  commentId: Overload:TypeHelp.Slice.LengthDelta
+  href: TypeHelp.Slice.LengthDelta.html
+  name: LengthDelta
+  nameWithType: Slice.LengthDelta
+  fullName: TypeHelp.Slice.LengthDelta
+- uid: TypeHelp.Slice.Offset*
+  commentId: Overload:TypeHelp.Slice.Offset
+  href: TypeHelp.Slice.Offset.html
+  name: Offset
+  nameWithType: Slice.Offset
+  fullName: TypeHelp.Slice.Offset
+- uid: TypeHelp.Slice.OffsetDelta*
+  commentId: Overload:TypeHelp.Slice.OffsetDelta
+  href: TypeHelp.Slice.OffsetDelta.html
+  name: OffsetDelta
+  nameWithType: Slice.OffsetDelta
+  fullName: TypeHelp.Slice.OffsetDelta
+- uid: TypeHelp.Slice.Options*
+  commentId: Overload:TypeHelp.Slice.Options
+  href: TypeHelp.Slice.Options.html
+  name: Options
+  nameWithType: Slice.Options
+  fullName: TypeHelp.Slice.Options
+- uid: TypeHelp.Slice.TypeCode*
+  commentId: Overload:TypeHelp.Slice.TypeCode
+  href: TypeHelp.Slice.TypeCode.html
+  name: TypeCode
+  nameWithType: Slice.TypeCode
+  fullName: TypeHelp.Slice.TypeCode
+- uid: TypeHelp.Slice.TypeCoex*
+  commentId: Overload:TypeHelp.Slice.TypeCoex
+  href: TypeHelp.Slice.TypeCoex.html
+  name: TypeCoex
+  nameWithType: Slice.TypeCoex
+  fullName: TypeHelp.Slice.TypeCoex
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: TypeHelp.Slice.TypeOf*
+  commentId: Overload:TypeHelp.Slice.TypeOf
+  href: TypeHelp.Slice.TypeOf.html
+  name: TypeOf
+  nameWithType: Slice.TypeOf
+  fullName: TypeHelp.Slice.TypeOf
+- uid: TypeHelp.Slice.Value*
+  commentId: Overload:TypeHelp.Slice.Value
+  href: TypeHelp.Slice.Value.html
+  name: Value
+  nameWithType: Slice.Value
+  fullName: TypeHelp.Slice.Value
+- uid: TypeHelp.Slice.IsLittleEndian
+  commentId: P:TypeHelp.Slice.IsLittleEndian
+  href: TypeHelp.Slice.IsLittleEndian.html
+  name: IsLittleEndian
+  nameWithType: Slice.IsLittleEndian
+  fullName: TypeHelp.Slice.IsLittleEndian
+- uid: TypeHelp.Slice.GetData*
+  commentId: Overload:TypeHelp.Slice.GetData
+  href: TypeHelp.Slice.GetData(System.Boolean).html
+  name: GetData
+  nameWithType: Slice.GetData
+  fullName: TypeHelp.Slice.GetData
+- uid: TypeHelp.Slice.IsType*
+  commentId: Overload:TypeHelp.Slice.IsType
+  href: TypeHelp.Slice.IsType(System.TypeCode).html
+  name: IsType
+  nameWithType: Slice.IsType
+  fullName: TypeHelp.Slice.IsType
+- uid: TypeHelp.Slice.HasOptions*
+  commentId: Overload:TypeHelp.Slice.HasOptions
+  href: TypeHelp.Slice.HasOptions(TypeHelp.SliceOpts).html
+  name: HasOptions
+  nameWithType: Slice.HasOptions
+  fullName: TypeHelp.Slice.HasOptions
+- uid: TypeHelp.Slice.Options
+  commentId: P:TypeHelp.Slice.Options
+  href: TypeHelp.Slice.Options.html
+  name: Options
+  nameWithType: Slice.Options
+  fullName: TypeHelp.Slice.Options
+memberLayout: SeparatePages

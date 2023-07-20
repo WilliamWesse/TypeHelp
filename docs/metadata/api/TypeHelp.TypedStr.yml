@@ -1,0 +1,179 @@
+### YamlMime:ManagedReference
+items:
+- uid: TypeHelp.TypedStr
+  commentId: T:TypeHelp.TypedStr
+  id: TypedStr
+  parent: TypeHelp
+  children:
+  - TypeHelp.TypedStr.Base64
+  - TypeHelp.TypedStr.Guid
+  - TypeHelp.TypedStr.SID
+  - TypeHelp.TypedStr.String
+  - TypeHelp.TypedStr.UUID
+  - TypeHelp.TypedStr.Uri
+  langs:
+  - csharp
+  - vb
+  name: TypedStr
+  nameWithType: TypedStr
+  fullName: TypeHelp.TypedStr
+  type: Enum
+  source:
+    id: TypedStr
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 67
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: The typed str.
+  example: []
+  syntax:
+    content: public enum TypedStr
+    content.vb: Public Enum TypedStr
+- uid: TypeHelp.TypedStr.String
+  commentId: F:TypeHelp.TypedStr.String
+  id: String
+  parent: TypeHelp.TypedStr
+  langs:
+  - csharp
+  - vb
+  name: String
+  nameWithType: TypedStr.String
+  fullName: TypeHelp.TypedStr.String
+  type: Field
+  source:
+    id: String
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 69
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: String = 18
+    return:
+      type: TypeHelp.TypedStr
+- uid: TypeHelp.TypedStr.Guid
+  commentId: F:TypeHelp.TypedStr.Guid
+  id: Guid
+  parent: TypeHelp.TypedStr
+  langs:
+  - csharp
+  - vb
+  name: Guid
+  nameWithType: TypedStr.Guid
+  fullName: TypeHelp.TypedStr.Guid
+  type: Field
+  source:
+    id: Guid
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 70
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Guid = 21
+    return:
+      type: TypeHelp.TypedStr
+- uid: TypeHelp.TypedStr.UUID
+  commentId: F:TypeHelp.TypedStr.UUID
+  id: UUID
+  parent: TypeHelp.TypedStr
+  langs:
+  - csharp
+  - vb
+  name: UUID
+  nameWithType: TypedStr.UUID
+  fullName: TypeHelp.TypedStr.UUID
+  type: Field
+  source:
+    id: UUID
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 71
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: UUID = 22
+    return:
+      type: TypeHelp.TypedStr
+- uid: TypeHelp.TypedStr.SID
+  commentId: F:TypeHelp.TypedStr.SID
+  id: SID
+  parent: TypeHelp.TypedStr
+  langs:
+  - csharp
+  - vb
+  name: SID
+  nameWithType: TypedStr.SID
+  fullName: TypeHelp.TypedStr.SID
+  type: Field
+  source:
+    id: SID
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 72
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: SID = 20
+    return:
+      type: TypeHelp.TypedStr
+- uid: TypeHelp.TypedStr.Uri
+  commentId: F:TypeHelp.TypedStr.Uri
+  id: Uri
+  parent: TypeHelp.TypedStr
+  langs:
+  - csharp
+  - vb
+  name: Uri
+  nameWithType: TypedStr.Uri
+  fullName: TypeHelp.TypedStr.Uri
+  type: Field
+  source:
+    id: Uri
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 73
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Uri = 23
+    return:
+      type: TypeHelp.TypedStr
+- uid: TypeHelp.TypedStr.Base64
+  commentId: F:TypeHelp.TypedStr.Base64
+  id: Base64
+  parent: TypeHelp.TypedStr
+  langs:
+  - csharp
+  - vb
+  name: Base64
+  nameWithType: TypedStr.Base64
+  fullName: TypeHelp.TypedStr.Base64
+  type: Field
+  source:
+    id: Base64
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 74
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Base64 = 19
+    return:
+      type: TypeHelp.TypedStr
+references:
+- uid: TypeHelp
+  commentId: N:TypeHelp
+  href: TypeHelp.html
+  name: TypeHelp
+  nameWithType: TypeHelp
+  fullName: TypeHelp
+- uid: TypeHelp.TypedStr
+  commentId: T:TypeHelp.TypedStr
+  parent: TypeHelp
+  href: TypeHelp.TypedStr.html
+  name: TypedStr
+  nameWithType: TypedStr
+  fullName: TypeHelp.TypedStr
+memberLayout: SeparatePages

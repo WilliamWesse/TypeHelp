@@ -1,0 +1,3378 @@
+### YamlMime:ManagedReference
+items:
+- uid: TypeHelp.TCF
+  commentId: T:TypeHelp.TCF
+  id: TCF
+  parent: TypeHelp
+  children:
+  - TypeHelp.TCF.AllTypes
+  - TypeHelp.TCF.Auto
+  - TypeHelp.TCF.Base64
+  - TypeHelp.TCF.BigInteger
+  - TypeHelp.TCF.BitArray
+  - TypeHelp.TCF.Boolean
+  - TypeHelp.TCF.Byte
+  - TypeHelp.TCF.Canonicals
+  - TypeHelp.TCF.Char
+  - TypeHelp.TCF.Code_Floats
+  - TypeHelp.TCF.Code_Integers
+  - TypeHelp.TCF.Code_LargeInts
+  - TypeHelp.TCF.Code_LargeNats
+  - TypeHelp.TCF.Code_Logicals
+  - TypeHelp.TCF.Code_Naturals
+  - TypeHelp.TCF.Code_Nullish
+  - TypeHelp.TCF.Code_Numerics
+  - TypeHelp.TCF.Code_Precision
+  - TypeHelp.TCF.Code_Strings
+  - TypeHelp.TCF.CoexOnly
+  - TypeHelp.TCF.Coex_Floats
+  - TypeHelp.TCF.Coex_Integers
+  - TypeHelp.TCF.Coex_LargeInts
+  - TypeHelp.TCF.Coex_LargeNats
+  - TypeHelp.TCF.Coex_Logicals
+  - TypeHelp.TCF.Coex_Naturals
+  - TypeHelp.TCF.Coex_Nullish
+  - TypeHelp.TCF.Coex_Numerics
+  - TypeHelp.TCF.Coex_Precision
+  - TypeHelp.TCF.Coex_Strings
+  - TypeHelp.TCF.Complex
+  - TypeHelp.TCF.Custom
+  - TypeHelp.TCF.Custom1
+  - TypeHelp.TCF.Custom2
+  - TypeHelp.TCF.Custom3
+  - TypeHelp.TCF.Custom4
+  - TypeHelp.TCF.CustomOptions
+  - TypeHelp.TCF.DBNull
+  - TypeHelp.TCF.DateTime
+  - TypeHelp.TCF.Decimal
+  - TypeHelp.TCF.Defaulted
+  - TypeHelp.TCF.Double
+  - TypeHelp.TCF.Empty
+  - TypeHelp.TCF.Enum
+  - TypeHelp.TCF.Error
+  - TypeHelp.TCF.ErrorMask
+  - TypeHelp.TCF.Everything
+  - TypeHelp.TCF.FailOptions
+  - TypeHelp.TCF.FailToEmpty
+  - TypeHelp.TCF.FailToInvalid
+  - TypeHelp.TCF.FailToMaximum
+  - TypeHelp.TCF.FailToMinimum
+  - TypeHelp.TCF.Fatal
+  - TypeHelp.TCF.Features
+  - TypeHelp.TCF.FilterInvert
+  - TypeHelp.TCF.FilterNoSigned
+  - TypeHelp.TCF.FilterNoStrings
+  - TypeHelp.TCF.FilterOptions
+  - TypeHelp.TCF.Floats
+  - TypeHelp.TCF.Functor_Ints
+  - TypeHelp.TCF.Functor_Nats
+  - TypeHelp.TCF.Guid
+  - TypeHelp.TCF.HasElement
+  - TypeHelp.TCF.Int16
+  - TypeHelp.TCF.Int32
+  - TypeHelp.TCF.Int64
+  - TypeHelp.TCF.IntPtr
+  - TypeHelp.TCF.Integers
+  - TypeHelp.TCF.IntegersExt
+  - TypeHelp.TCF.IsClipped
+  - TypeHelp.TCF.IsNaN
+  - TypeHelp.TCF.LargeInts
+  - TypeHelp.TCF.Large_Integers
+  - TypeHelp.TCF.Large_Naturals
+  - TypeHelp.TCF.Logicals
+  - TypeHelp.TCF.MatchAltFormats
+  - TypeHelp.TCF.MatchAutoType
+  - TypeHelp.TCF.MatchDefaults
+  - TypeHelp.TCF.MatchDiscard
+  - TypeHelp.TCF.MatchMaximalType
+  - TypeHelp.TCF.MatchMinimalType
+  - TypeHelp.TCF.MatchOptions
+  - TypeHelp.TCF.MatchPrefer32Bit
+  - TypeHelp.TCF.MatchStrict
+  - TypeHelp.TCF.MaxCodeBit
+  - TypeHelp.TCF.MaxCodeBitIdx
+  - TypeHelp.TCF.MaxCoex
+  - TypeHelp.TCF.MaxCoexBit
+  - TypeHelp.TCF.MaxCoexBitIdx
+  - TypeHelp.TCF.Medium_Integers
+  - TypeHelp.TCF.Medium_Naturals
+  - TypeHelp.TCF.MultiValued
+  - TypeHelp.TCF.Naturals
+  - TypeHelp.TCF.None
+  - TypeHelp.TCF.Nullish
+  - TypeHelp.TCF.Nullity
+  - TypeHelp.TCF.Numerics
+  - TypeHelp.TCF.Object
+  - TypeHelp.TCF.Options
+  - TypeHelp.TCF.OptsAndStatus
+  - TypeHelp.TCF.Other_Ints
+  - TypeHelp.TCF.Pointers
+  - TypeHelp.TCF.Precisions
+  - TypeHelp.TCF.Primitives
+  - TypeHelp.TCF.Processed
+  - TypeHelp.TCF.Reserved
+  - TypeHelp.TCF.SByte
+  - TypeHelp.TCF.SID
+  - TypeHelp.TCF.SanitizeIn
+  - TypeHelp.TCF.SanitizeOut
+  - TypeHelp.TCF.Signed
+  - TypeHelp.TCF.Single
+  - TypeHelp.TCF.SizeVariant
+  - TypeHelp.TCF.SizeVariants
+  - TypeHelp.TCF.Small_Integers
+  - TypeHelp.TCF.Small_Naturals
+  - TypeHelp.TCF.SortByNumerics
+  - TypeHelp.TCF.SortByTypeSize
+  - TypeHelp.TCF.SortByTypeUsage
+  - TypeHelp.TCF.SortOptions
+  - TypeHelp.TCF.StatusMask
+  - TypeHelp.TCF.String
+  - TypeHelp.TCF.String_Ints
+  - TypeHelp.TCF.String_Nats
+  - TypeHelp.TCF.String_Nums
+  - TypeHelp.TCF.Stringish
+  - TypeHelp.TCF.Strings
+  - TypeHelp.TCF.Success
+  - TypeHelp.TCF.TimeSpan
+  - TypeHelp.TCF.Tuple
+  - TypeHelp.TCF.TypeCodes
+  - TypeHelp.TCF.TypeCoexs
+  - TypeHelp.TCF.UInt16
+  - TypeHelp.TCF.UInt32
+  - TypeHelp.TCF.UInt64
+  - TypeHelp.TCF.UIntPtr
+  - TypeHelp.TCF.UUID
+  - TypeHelp.TCF.Unsigned
+  - TypeHelp.TCF.Uri
+  - TypeHelp.TCF.ValueTuple
+  - TypeHelp.TCF.Warning
+  - TypeHelp.TCF.WellKnowns
+  langs:
+  - csharp
+  - vb
+  name: TCF
+  nameWithType: TCF
+  fullName: TypeHelp.TCF
+  type: Enum
+  source:
+    id: TCF
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 141
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: The t c f.
+  example: []
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum TCF : ulong
+    content.vb: >-
+      <Flags>
+
+      Public Enum TCF As ULong
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: TypeHelp.TCF.None
+  commentId: F:TypeHelp.TCF.None
+  id: None
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: TCF.None
+  fullName: TypeHelp.TCF.None
+  type: Field
+  source:
+    id: None
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 147
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: None = 0
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.Empty
+  commentId: F:TypeHelp.TCF.Empty
+  id: Empty
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Empty
+  nameWithType: TCF.Empty
+  fullName: TypeHelp.TCF.Empty
+  type: Field
+  source:
+    id: Empty
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 148
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Empty = 1
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.Object
+  commentId: F:TypeHelp.TCF.Object
+  id: Object
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Object
+  nameWithType: TCF.Object
+  fullName: TypeHelp.TCF.Object
+  type: Field
+  source:
+    id: Object
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 149
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Object = 2
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.DBNull
+  commentId: F:TypeHelp.TCF.DBNull
+  id: DBNull
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: DBNull
+  nameWithType: TCF.DBNull
+  fullName: TypeHelp.TCF.DBNull
+  type: Field
+  source:
+    id: DBNull
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 150
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: DBNull = 4
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.Boolean
+  commentId: F:TypeHelp.TCF.Boolean
+  id: Boolean
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Boolean
+  nameWithType: TCF.Boolean
+  fullName: TypeHelp.TCF.Boolean
+  type: Field
+  source:
+    id: Boolean
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 151
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Boolean = 8
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.Char
+  commentId: F:TypeHelp.TCF.Char
+  id: Char
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Char
+  nameWithType: TCF.Char
+  fullName: TypeHelp.TCF.Char
+  type: Field
+  source:
+    id: Char
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 152
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Char = 16
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.SByte
+  commentId: F:TypeHelp.TCF.SByte
+  id: SByte
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: SByte
+  nameWithType: TCF.SByte
+  fullName: TypeHelp.TCF.SByte
+  type: Field
+  source:
+    id: SByte
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 153
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: SByte = 32
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.Byte
+  commentId: F:TypeHelp.TCF.Byte
+  id: Byte
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Byte
+  nameWithType: TCF.Byte
+  fullName: TypeHelp.TCF.Byte
+  type: Field
+  source:
+    id: Byte
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 154
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Byte = 64
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.Int16
+  commentId: F:TypeHelp.TCF.Int16
+  id: Int16
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Int16
+  nameWithType: TCF.Int16
+  fullName: TypeHelp.TCF.Int16
+  type: Field
+  source:
+    id: Int16
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 155
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Int16 = 128
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.UInt16
+  commentId: F:TypeHelp.TCF.UInt16
+  id: UInt16
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: UInt16
+  nameWithType: TCF.UInt16
+  fullName: TypeHelp.TCF.UInt16
+  type: Field
+  source:
+    id: UInt16
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 156
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: UInt16 = 256
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.Int32
+  commentId: F:TypeHelp.TCF.Int32
+  id: Int32
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Int32
+  nameWithType: TCF.Int32
+  fullName: TypeHelp.TCF.Int32
+  type: Field
+  source:
+    id: Int32
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 157
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Int32 = 512
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.UInt32
+  commentId: F:TypeHelp.TCF.UInt32
+  id: UInt32
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: UInt32
+  nameWithType: TCF.UInt32
+  fullName: TypeHelp.TCF.UInt32
+  type: Field
+  source:
+    id: UInt32
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 158
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: UInt32 = 1024
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.Int64
+  commentId: F:TypeHelp.TCF.Int64
+  id: Int64
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Int64
+  nameWithType: TCF.Int64
+  fullName: TypeHelp.TCF.Int64
+  type: Field
+  source:
+    id: Int64
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 159
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Int64 = 2048
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.UInt64
+  commentId: F:TypeHelp.TCF.UInt64
+  id: UInt64
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: UInt64
+  nameWithType: TCF.UInt64
+  fullName: TypeHelp.TCF.UInt64
+  type: Field
+  source:
+    id: UInt64
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 160
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: UInt64 = 4096
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.Single
+  commentId: F:TypeHelp.TCF.Single
+  id: Single
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Single
+  nameWithType: TCF.Single
+  fullName: TypeHelp.TCF.Single
+  type: Field
+  source:
+    id: Single
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 161
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Single = 8192
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.Double
+  commentId: F:TypeHelp.TCF.Double
+  id: Double
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Double
+  nameWithType: TCF.Double
+  fullName: TypeHelp.TCF.Double
+  type: Field
+  source:
+    id: Double
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 162
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Double = 16384
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.Decimal
+  commentId: F:TypeHelp.TCF.Decimal
+  id: Decimal
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Decimal
+  nameWithType: TCF.Decimal
+  fullName: TypeHelp.TCF.Decimal
+  type: Field
+  source:
+    id: Decimal
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 163
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Decimal = 32768
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.DateTime
+  commentId: F:TypeHelp.TCF.DateTime
+  id: DateTime
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: DateTime
+  nameWithType: TCF.DateTime
+  fullName: TypeHelp.TCF.DateTime
+  type: Field
+  source:
+    id: DateTime
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 164
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: DateTime = 65536
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.Nullity
+  commentId: F:TypeHelp.TCF.Nullity
+  id: Nullity
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Nullity
+  nameWithType: TCF.Nullity
+  fullName: TypeHelp.TCF.Nullity
+  type: Field
+  source:
+    id: Nullity
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 165
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Nullity = 131072
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.String
+  commentId: F:TypeHelp.TCF.String
+  id: String
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: String
+  nameWithType: TCF.String
+  fullName: TypeHelp.TCF.String
+  type: Field
+  source:
+    id: String
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 166
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: String = 262144
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.Guid
+  commentId: F:TypeHelp.TCF.Guid
+  id: Guid
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Guid
+  nameWithType: TCF.Guid
+  fullName: TypeHelp.TCF.Guid
+  type: Field
+  source:
+    id: Guid
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 167
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Guid = 524288
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.UUID
+  commentId: F:TypeHelp.TCF.UUID
+  id: UUID
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: UUID
+  nameWithType: TCF.UUID
+  fullName: TypeHelp.TCF.UUID
+  type: Field
+  source:
+    id: UUID
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 168
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: UUID = 1048576
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.SID
+  commentId: F:TypeHelp.TCF.SID
+  id: SID
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: SID
+  nameWithType: TCF.SID
+  fullName: TypeHelp.TCF.SID
+  type: Field
+  source:
+    id: SID
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 169
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: SID = 2097152
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.Uri
+  commentId: F:TypeHelp.TCF.Uri
+  id: Uri
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Uri
+  nameWithType: TCF.Uri
+  fullName: TypeHelp.TCF.Uri
+  type: Field
+  source:
+    id: Uri
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 170
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Uri = 4194304
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.Base64
+  commentId: F:TypeHelp.TCF.Base64
+  id: Base64
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Base64
+  nameWithType: TCF.Base64
+  fullName: TypeHelp.TCF.Base64
+  type: Field
+  source:
+    id: Base64
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 171
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Base64 = 8388608
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.Enum
+  commentId: F:TypeHelp.TCF.Enum
+  id: Enum
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Enum
+  nameWithType: TCF.Enum
+  fullName: TypeHelp.TCF.Enum
+  type: Field
+  source:
+    id: Enum
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 172
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Enum = 16777216
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.TimeSpan
+  commentId: F:TypeHelp.TCF.TimeSpan
+  id: TimeSpan
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: TimeSpan
+  nameWithType: TCF.TimeSpan
+  fullName: TypeHelp.TCF.TimeSpan
+  type: Field
+  source:
+    id: TimeSpan
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 173
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: TimeSpan = 33554432
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.IntPtr
+  commentId: F:TypeHelp.TCF.IntPtr
+  id: IntPtr
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: IntPtr
+  nameWithType: TCF.IntPtr
+  fullName: TypeHelp.TCF.IntPtr
+  type: Field
+  source:
+    id: IntPtr
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 174
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: IntPtr = 67108864
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.UIntPtr
+  commentId: F:TypeHelp.TCF.UIntPtr
+  id: UIntPtr
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: UIntPtr
+  nameWithType: TCF.UIntPtr
+  fullName: TypeHelp.TCF.UIntPtr
+  type: Field
+  source:
+    id: UIntPtr
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 175
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: UIntPtr = 134217728
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.Complex
+  commentId: F:TypeHelp.TCF.Complex
+  id: Complex
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Complex
+  nameWithType: TCF.Complex
+  fullName: TypeHelp.TCF.Complex
+  type: Field
+  source:
+    id: Complex
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 176
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Complex = 268435456
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.BigInteger
+  commentId: F:TypeHelp.TCF.BigInteger
+  id: BigInteger
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: BigInteger
+  nameWithType: TCF.BigInteger
+  fullName: TypeHelp.TCF.BigInteger
+  type: Field
+  source:
+    id: BigInteger
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 177
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: BigInteger = 536870912
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.BitArray
+  commentId: F:TypeHelp.TCF.BitArray
+  id: BitArray
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: BitArray
+  nameWithType: TCF.BitArray
+  fullName: TypeHelp.TCF.BitArray
+  type: Field
+  source:
+    id: BitArray
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 178
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: BitArray = 1073741824
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.Tuple
+  commentId: F:TypeHelp.TCF.Tuple
+  id: Tuple
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Tuple
+  nameWithType: TCF.Tuple
+  fullName: TypeHelp.TCF.Tuple
+  type: Field
+  source:
+    id: Tuple
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 179
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Tuple = 2147483648
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.ValueTuple
+  commentId: F:TypeHelp.TCF.ValueTuple
+  id: ValueTuple
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: ValueTuple
+  nameWithType: TCF.ValueTuple
+  fullName: TypeHelp.TCF.ValueTuple
+  type: Field
+  source:
+    id: ValueTuple
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 180
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: ValueTuple = 4294967296
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.CustomOptions
+  commentId: F:TypeHelp.TCF.CustomOptions
+  id: CustomOptions
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: CustomOptions
+  nameWithType: TCF.CustomOptions
+  fullName: TypeHelp.TCF.CustomOptions
+  type: Field
+  source:
+    id: CustomOptions
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 185
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: CustomOptions = Custom1 | Custom2 | Custom3 | Custom4
+    return:
+      type: TypeHelp.TCF
+    content.vb: CustomOptions = Custom1 Or Custom2 Or Custom3 Or Custom4
+- uid: TypeHelp.TCF.FailOptions
+  commentId: F:TypeHelp.TCF.FailOptions
+  id: FailOptions
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: FailOptions
+  nameWithType: TCF.FailOptions
+  fullName: TypeHelp.TCF.FailOptions
+  type: Field
+  source:
+    id: FailOptions
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 186
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: FailOptions = FailToEmpty | FailToInvalid | FailToMaximum | FailToMinimum
+    return:
+      type: TypeHelp.TCF
+    content.vb: FailOptions = FailToEmpty Or FailToInvalid Or FailToMaximum Or FailToMinimum
+- uid: TypeHelp.TCF.FilterOptions
+  commentId: F:TypeHelp.TCF.FilterOptions
+  id: FilterOptions
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: FilterOptions
+  nameWithType: TCF.FilterOptions
+  fullName: TypeHelp.TCF.FilterOptions
+  type: Field
+  source:
+    id: FilterOptions
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 187
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: FilterOptions = FilterInvert | FilterNoSigned | FilterNoStrings
+    return:
+      type: TypeHelp.TCF
+    content.vb: FilterOptions = FilterInvert Or FilterNoSigned Or FilterNoStrings
+- uid: TypeHelp.TCF.MatchOptions
+  commentId: F:TypeHelp.TCF.MatchOptions
+  id: MatchOptions
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: MatchOptions
+  nameWithType: TCF.MatchOptions
+  fullName: TypeHelp.TCF.MatchOptions
+  type: Field
+  source:
+    id: MatchOptions
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 188
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: MatchOptions = MatchDefaults | MatchDiscard | MatchMaximalType | MatchMinimalType
+    return:
+      type: TypeHelp.TCF
+    content.vb: MatchOptions = MatchDefaults Or MatchDiscard Or MatchMaximalType Or MatchMinimalType
+- uid: TypeHelp.TCF.SortOptions
+  commentId: F:TypeHelp.TCF.SortOptions
+  id: SortOptions
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: SortOptions
+  nameWithType: TCF.SortOptions
+  fullName: TypeHelp.TCF.SortOptions
+  type: Field
+  source:
+    id: SortOptions
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 189
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: SortOptions = SortByNumerics | SortByTypeSize | SortByTypeUsage
+    return:
+      type: TypeHelp.TCF
+    content.vb: SortOptions = SortByNumerics Or SortByTypeSize Or SortByTypeUsage
+- uid: TypeHelp.TCF.FailToEmpty
+  commentId: F:TypeHelp.TCF.FailToEmpty
+  id: FailToEmpty
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: FailToEmpty
+  nameWithType: TCF.FailToEmpty
+  fullName: TypeHelp.TCF.FailToEmpty
+  type: Field
+  source:
+    id: FailToEmpty
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 191
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: FailToEmpty = 1099511627776
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.FailToInvalid
+  commentId: F:TypeHelp.TCF.FailToInvalid
+  id: FailToInvalid
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: FailToInvalid
+  nameWithType: TCF.FailToInvalid
+  fullName: TypeHelp.TCF.FailToInvalid
+  type: Field
+  source:
+    id: FailToInvalid
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 192
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: FailToInvalid = 2199023255552
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.FailToMaximum
+  commentId: F:TypeHelp.TCF.FailToMaximum
+  id: FailToMaximum
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: FailToMaximum
+  nameWithType: TCF.FailToMaximum
+  fullName: TypeHelp.TCF.FailToMaximum
+  type: Field
+  source:
+    id: FailToMaximum
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 193
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: FailToMaximum = 4398046511104
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.FailToMinimum
+  commentId: F:TypeHelp.TCF.FailToMinimum
+  id: FailToMinimum
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: FailToMinimum
+  nameWithType: TCF.FailToMinimum
+  fullName: TypeHelp.TCF.FailToMinimum
+  type: Field
+  source:
+    id: FailToMinimum
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 194
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: FailToMinimum = 8796093022208
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.FilterInvert
+  commentId: F:TypeHelp.TCF.FilterInvert
+  id: FilterInvert
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: FilterInvert
+  nameWithType: TCF.FilterInvert
+  fullName: TypeHelp.TCF.FilterInvert
+  type: Field
+  source:
+    id: FilterInvert
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 196
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: FilterInvert = 17592186044416
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.FilterNoSigned
+  commentId: F:TypeHelp.TCF.FilterNoSigned
+  id: FilterNoSigned
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: FilterNoSigned
+  nameWithType: TCF.FilterNoSigned
+  fullName: TypeHelp.TCF.FilterNoSigned
+  type: Field
+  source:
+    id: FilterNoSigned
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 197
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: FilterNoSigned = 35184372088832
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.FilterNoStrings
+  commentId: F:TypeHelp.TCF.FilterNoStrings
+  id: FilterNoStrings
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: FilterNoStrings
+  nameWithType: TCF.FilterNoStrings
+  fullName: TypeHelp.TCF.FilterNoStrings
+  type: Field
+  source:
+    id: FilterNoStrings
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 198
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: FilterNoStrings = 70368744177664
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.MatchAltFormats
+  commentId: F:TypeHelp.TCF.MatchAltFormats
+  id: MatchAltFormats
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: MatchAltFormats
+  nameWithType: TCF.MatchAltFormats
+  fullName: TypeHelp.TCF.MatchAltFormats
+  type: Field
+  source:
+    id: MatchAltFormats
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 200
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: MatchAltFormats = 140737488355328
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.MatchAutoType
+  commentId: F:TypeHelp.TCF.MatchAutoType
+  id: MatchAutoType
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: MatchAutoType
+  nameWithType: TCF.MatchAutoType
+  fullName: TypeHelp.TCF.MatchAutoType
+  type: Field
+  source:
+    id: MatchAutoType
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 201
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: MatchAutoType = 281474976710656
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.MatchPrefer32Bit
+  commentId: F:TypeHelp.TCF.MatchPrefer32Bit
+  id: MatchPrefer32Bit
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: MatchPrefer32Bit
+  nameWithType: TCF.MatchPrefer32Bit
+  fullName: TypeHelp.TCF.MatchPrefer32Bit
+  type: Field
+  source:
+    id: MatchPrefer32Bit
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 202
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: MatchPrefer32Bit = 562949953421312
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.MatchDiscard
+  commentId: F:TypeHelp.TCF.MatchDiscard
+  id: MatchDiscard
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: MatchDiscard
+  nameWithType: TCF.MatchDiscard
+  fullName: TypeHelp.TCF.MatchDiscard
+  type: Field
+  source:
+    id: MatchDiscard
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 203
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: MatchDiscard = 1125899906842624
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.MatchMaximalType
+  commentId: F:TypeHelp.TCF.MatchMaximalType
+  id: MatchMaximalType
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: MatchMaximalType
+  nameWithType: TCF.MatchMaximalType
+  fullName: TypeHelp.TCF.MatchMaximalType
+  type: Field
+  source:
+    id: MatchMaximalType
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 204
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: MatchMaximalType = 2251799813685248
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.MatchMinimalType
+  commentId: F:TypeHelp.TCF.MatchMinimalType
+  id: MatchMinimalType
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: MatchMinimalType
+  nameWithType: TCF.MatchMinimalType
+  fullName: TypeHelp.TCF.MatchMinimalType
+  type: Field
+  source:
+    id: MatchMinimalType
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 205
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: MatchMinimalType = 4503599627370496
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.MatchDefaults
+  commentId: F:TypeHelp.TCF.MatchDefaults
+  id: MatchDefaults
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: MatchDefaults
+  nameWithType: TCF.MatchDefaults
+  fullName: TypeHelp.TCF.MatchDefaults
+  type: Field
+  source:
+    id: MatchDefaults
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 206
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: MatchDefaults = MatchAltFormats | MatchStrict
+    return:
+      type: TypeHelp.TCF
+    content.vb: MatchDefaults = MatchAltFormats Or MatchStrict
+- uid: TypeHelp.TCF.MatchStrict
+  commentId: F:TypeHelp.TCF.MatchStrict
+  id: MatchStrict
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: MatchStrict
+  nameWithType: TCF.MatchStrict
+  fullName: TypeHelp.TCF.MatchStrict
+  type: Field
+  source:
+    id: MatchStrict
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 207
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: MatchStrict = MatchAutoType | MatchPrefer32Bit
+    return:
+      type: TypeHelp.TCF
+    content.vb: MatchStrict = MatchAutoType Or MatchPrefer32Bit
+- uid: TypeHelp.TCF.SortByNumerics
+  commentId: F:TypeHelp.TCF.SortByNumerics
+  id: SortByNumerics
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: SortByNumerics
+  nameWithType: TCF.SortByNumerics
+  fullName: TypeHelp.TCF.SortByNumerics
+  type: Field
+  source:
+    id: SortByNumerics
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 209
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: SortByNumerics = 9007199254740992
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.SortByTypeSize
+  commentId: F:TypeHelp.TCF.SortByTypeSize
+  id: SortByTypeSize
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: SortByTypeSize
+  nameWithType: TCF.SortByTypeSize
+  fullName: TypeHelp.TCF.SortByTypeSize
+  type: Field
+  source:
+    id: SortByTypeSize
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 210
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: SortByTypeSize = 18014398509481984
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.SortByTypeUsage
+  commentId: F:TypeHelp.TCF.SortByTypeUsage
+  id: SortByTypeUsage
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: SortByTypeUsage
+  nameWithType: TCF.SortByTypeUsage
+  fullName: TypeHelp.TCF.SortByTypeUsage
+  type: Field
+  source:
+    id: SortByTypeUsage
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 211
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: SortByTypeUsage = 36028797018963968
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.Custom1
+  commentId: F:TypeHelp.TCF.Custom1
+  id: Custom1
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Custom1
+  nameWithType: TCF.Custom1
+  fullName: TypeHelp.TCF.Custom1
+  type: Field
+  source:
+    id: Custom1
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 218
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Custom1 = 72057594037927936
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.Custom2
+  commentId: F:TypeHelp.TCF.Custom2
+  id: Custom2
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Custom2
+  nameWithType: TCF.Custom2
+  fullName: TypeHelp.TCF.Custom2
+  type: Field
+  source:
+    id: Custom2
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 219
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Custom2 = 144115188075855872
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.Custom3
+  commentId: F:TypeHelp.TCF.Custom3
+  id: Custom3
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Custom3
+  nameWithType: TCF.Custom3
+  fullName: TypeHelp.TCF.Custom3
+  type: Field
+  source:
+    id: Custom3
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 220
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Custom3 = 288230376151711744
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.Custom4
+  commentId: F:TypeHelp.TCF.Custom4
+  id: Custom4
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Custom4
+  nameWithType: TCF.Custom4
+  fullName: TypeHelp.TCF.Custom4
+  type: Field
+  source:
+    id: Custom4
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 221
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Custom4 = 576460752303423488
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.Processed
+  commentId: F:TypeHelp.TCF.Processed
+  id: Processed
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Processed
+  nameWithType: TCF.Processed
+  fullName: TypeHelp.TCF.Processed
+  type: Field
+  source:
+    id: Processed
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 225
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Processed = 1152921504606846976
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.Success
+  commentId: F:TypeHelp.TCF.Success
+  id: Success
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Success
+  nameWithType: TCF.Success
+  fullName: TypeHelp.TCF.Success
+  type: Field
+  source:
+    id: Success
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 226
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Success = 2305843009213693952
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.Warning
+  commentId: F:TypeHelp.TCF.Warning
+  id: Warning
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Warning
+  nameWithType: TCF.Warning
+  fullName: TypeHelp.TCF.Warning
+  type: Field
+  source:
+    id: Warning
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 227
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Warning = 4611686018427387904
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.Error
+  commentId: F:TypeHelp.TCF.Error
+  id: Error
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: TCF.Error
+  fullName: TypeHelp.TCF.Error
+  type: Field
+  source:
+    id: Error
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 228
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Error = 9223372036854775808
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.ErrorMask
+  commentId: F:TypeHelp.TCF.ErrorMask
+  id: ErrorMask
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: ErrorMask
+  nameWithType: TCF.ErrorMask
+  fullName: TypeHelp.TCF.ErrorMask
+  type: Field
+  source:
+    id: ErrorMask
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 229
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: ErrorMask = Error | Defaulted
+    return:
+      type: TypeHelp.TCF
+    content.vb: ErrorMask = Error Or Defaulted
+- uid: TypeHelp.TCF.Fatal
+  commentId: F:TypeHelp.TCF.Fatal
+  id: Fatal
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Fatal
+  nameWithType: TCF.Fatal
+  fullName: TypeHelp.TCF.Fatal
+  type: Field
+  source:
+    id: Fatal
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 230
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Fatal = Error | Warning
+    return:
+      type: TypeHelp.TCF
+    content.vb: Fatal = Error Or Warning
+- uid: TypeHelp.TCF.Defaulted
+  commentId: F:TypeHelp.TCF.Defaulted
+  id: Defaulted
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Defaulted
+  nameWithType: TCF.Defaulted
+  fullName: TypeHelp.TCF.Defaulted
+  type: Field
+  source:
+    id: Defaulted
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 231
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Defaulted = Success | Warning
+    return:
+      type: TypeHelp.TCF
+    content.vb: Defaulted = Success Or Warning
+- uid: TypeHelp.TCF.StatusMask
+  commentId: F:TypeHelp.TCF.StatusMask
+  id: StatusMask
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: StatusMask
+  nameWithType: TCF.StatusMask
+  fullName: TypeHelp.TCF.StatusMask
+  type: Field
+  source:
+    id: StatusMask
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 235
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: StatusMask = Error | Processed | Defaulted
+    return:
+      type: TypeHelp.TCF
+    content.vb: StatusMask = Error Or Processed Or Defaulted
+- uid: TypeHelp.TCF.Custom
+  commentId: F:TypeHelp.TCF.Custom
+  id: Custom
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Custom
+  nameWithType: TCF.Custom
+  fullName: TypeHelp.TCF.Custom
+  type: Field
+  source:
+    id: Custom
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 236
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Custom = Custom1 | Custom2 | Custom3 | Custom4
+    return:
+      type: TypeHelp.TCF
+    content.vb: Custom = Custom1 Or Custom2 Or Custom3 Or Custom4
+- uid: TypeHelp.TCF.Options
+  commentId: F:TypeHelp.TCF.Options
+  id: Options
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Options
+  nameWithType: TCF.Options
+  fullName: TypeHelp.TCF.Options
+  type: Field
+  source:
+    id: Options
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 237
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Options = FailOptions | FilterOptions | MatchOptions | SortOptions
+    return:
+      type: TypeHelp.TCF
+    content.vb: Options = FailOptions Or FilterOptions Or MatchOptions Or SortOptions
+- uid: TypeHelp.TCF.Features
+  commentId: F:TypeHelp.TCF.Features
+  id: Features
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Features
+  nameWithType: TCF.Features
+  fullName: TypeHelp.TCF.Features
+  type: Field
+  source:
+    id: Features
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 238
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Features = HasElement | IsClipped | IsNaN | SizeVariant
+    return:
+      type: TypeHelp.TCF
+    content.vb: Features = HasElement Or IsClipped Or IsNaN Or SizeVariant
+- uid: TypeHelp.TCF.Reserved
+  commentId: F:TypeHelp.TCF.Reserved
+  id: Reserved
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Reserved
+  nameWithType: TCF.Reserved
+  fullName: TypeHelp.TCF.Reserved
+  type: Field
+  source:
+    id: Reserved
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 239
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Reserved = 60129542144
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.TypeCodes
+  commentId: F:TypeHelp.TCF.TypeCodes
+  id: TypeCodes
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: TypeCodes
+  nameWithType: TCF.TypeCodes
+  fullName: TypeHelp.TCF.TypeCodes
+  type: Field
+  source:
+    id: TypeCodes
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 240
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: TypeCodes = Code_Nullish | Boolean | Char | Canonicals | Code_Precision | Functor_Ints
+    return:
+      type: TypeHelp.TCF
+    content.vb: TypeCodes = Code_Nullish Or Boolean Or Char Or Canonicals Or Code_Precision Or Functor_Ints
+- uid: TypeHelp.TCF.MaxCoex
+  commentId: F:TypeHelp.TCF.MaxCoex
+  id: MaxCoex
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: MaxCoex
+  nameWithType: TCF.MaxCoex
+  fullName: TypeHelp.TCF.MaxCoex
+  type: Field
+  source:
+    id: MaxCoex
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 241
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: MaxCoex = 4294967296
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.CoexOnly
+  commentId: F:TypeHelp.TCF.CoexOnly
+  id: CoexOnly
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: CoexOnly
+  nameWithType: TCF.CoexOnly
+  fullName: TypeHelp.TCF.CoexOnly
+  type: Field
+  source:
+    id: CoexOnly
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 242
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: CoexOnly = Coex_Nullish | Coex_Strings | Enum | TimeSpan | Pointers | Complex | BigInteger | BitArray | Tuple | MaxCoex
+    return:
+      type: TypeHelp.TCF
+    content.vb: CoexOnly = Coex_Nullish Or Coex_Strings Or Enum Or TimeSpan Or Pointers Or Complex Or BigInteger Or BitArray Or Tuple Or MaxCoex
+- uid: TypeHelp.TCF.TypeCoexs
+  commentId: F:TypeHelp.TCF.TypeCoexs
+  id: TypeCoexs
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: TypeCoexs
+  nameWithType: TCF.TypeCoexs
+  fullName: TypeHelp.TCF.TypeCoexs
+  type: Field
+  source:
+    id: TypeCoexs
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 243
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: TypeCoexs = TypeCodes | CoexOnly
+    return:
+      type: TypeHelp.TCF
+    content.vb: TypeCoexs = TypeCodes Or CoexOnly
+- uid: TypeHelp.TCF.HasElement
+  commentId: F:TypeHelp.TCF.HasElement
+  id: HasElement
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: HasElement
+  nameWithType: TCF.HasElement
+  fullName: TypeHelp.TCF.HasElement
+  type: Field
+  source:
+    id: HasElement
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 247
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: HasElement = 68719476736
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.IsClipped
+  commentId: F:TypeHelp.TCF.IsClipped
+  id: IsClipped
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: IsClipped
+  nameWithType: TCF.IsClipped
+  fullName: TypeHelp.TCF.IsClipped
+  type: Field
+  source:
+    id: IsClipped
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 248
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: IsClipped = 137438953472
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.IsNaN
+  commentId: F:TypeHelp.TCF.IsNaN
+  id: IsNaN
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: IsNaN
+  nameWithType: TCF.IsNaN
+  fullName: TypeHelp.TCF.IsNaN
+  type: Field
+  source:
+    id: IsNaN
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 249
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: IsNaN = 274877906944
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.SizeVariant
+  commentId: F:TypeHelp.TCF.SizeVariant
+  id: SizeVariant
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: SizeVariant
+  nameWithType: TCF.SizeVariant
+  fullName: TypeHelp.TCF.SizeVariant
+  type: Field
+  source:
+    id: SizeVariant
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 250
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: SizeVariant = 549755813888
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.AllTypes
+  commentId: F:TypeHelp.TCF.AllTypes
+  id: AllTypes
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: AllTypes
+  nameWithType: TCF.AllTypes
+  fullName: TypeHelp.TCF.AllTypes
+  type: Field
+  source:
+    id: AllTypes
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 256
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: AllTypes = TypeCodes | CoexOnly
+    return:
+      type: TypeHelp.TCF
+    content.vb: AllTypes = TypeCodes Or CoexOnly
+- uid: TypeHelp.TCF.Canonicals
+  commentId: F:TypeHelp.TCF.Canonicals
+  id: Canonicals
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Canonicals
+  nameWithType: TCF.Canonicals
+  fullName: TypeHelp.TCF.Canonicals
+  type: Field
+  source:
+    id: Canonicals
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 257
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Canonicals = Code_Integers | Code_Naturals
+    return:
+      type: TypeHelp.TCF
+    content.vb: Canonicals = Code_Integers Or Code_Naturals
+- uid: TypeHelp.TCF.Floats
+  commentId: F:TypeHelp.TCF.Floats
+  id: Floats
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Floats
+  nameWithType: TCF.Floats
+  fullName: TypeHelp.TCF.Floats
+  type: Field
+  source:
+    id: Floats
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 258
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Floats = Code_Precision | Complex
+    return:
+      type: TypeHelp.TCF
+    content.vb: Floats = Code_Precision Or Complex
+- uid: TypeHelp.TCF.Logicals
+  commentId: F:TypeHelp.TCF.Logicals
+  id: Logicals
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Logicals
+  nameWithType: TCF.Logicals
+  fullName: TypeHelp.TCF.Logicals
+  type: Field
+  source:
+    id: Logicals
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 259
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Logicals = 8
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.Integers
+  commentId: F:TypeHelp.TCF.Integers
+  id: Integers
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Integers
+  nameWithType: TCF.Integers
+  fullName: TypeHelp.TCF.Integers
+  type: Field
+  source:
+    id: Integers
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 260
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Integers = Small_Integers | Int32 | LargeInts | BigInteger
+    return:
+      type: TypeHelp.TCF
+    content.vb: Integers = Small_Integers Or Int32 Or LargeInts Or BigInteger
+- uid: TypeHelp.TCF.IntegersExt
+  commentId: F:TypeHelp.TCF.IntegersExt
+  id: IntegersExt
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: IntegersExt
+  nameWithType: TCF.IntegersExt
+  fullName: TypeHelp.TCF.IntegersExt
+  type: Field
+  source:
+    id: IntegersExt
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 261
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: IntegersExt = 262144
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.LargeInts
+  commentId: F:TypeHelp.TCF.LargeInts
+  id: LargeInts
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: LargeInts
+  nameWithType: TCF.LargeInts
+  fullName: TypeHelp.TCF.LargeInts
+  type: Field
+  source:
+    id: LargeInts
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 262
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: LargeInts = Code_LargeInts | Coex_LargeInts
+    return:
+      type: TypeHelp.TCF
+    content.vb: LargeInts = Code_LargeInts Or Coex_LargeInts
+- uid: TypeHelp.TCF.MultiValued
+  commentId: F:TypeHelp.TCF.MultiValued
+  id: MultiValued
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: MultiValued
+  nameWithType: TCF.MultiValued
+  fullName: TypeHelp.TCF.MultiValued
+  type: Field
+  source:
+    id: MultiValued
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 263
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: MultiValued = Functor_Nats | Enum | TimeSpan | Complex | HasElement
+    return:
+      type: TypeHelp.TCF
+    content.vb: MultiValued = Functor_Nats Or Enum Or TimeSpan Or Complex Or HasElement
+- uid: TypeHelp.TCF.Naturals
+  commentId: F:TypeHelp.TCF.Naturals
+  id: Naturals
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Naturals
+  nameWithType: TCF.Naturals
+  fullName: TypeHelp.TCF.Naturals
+  type: Field
+  source:
+    id: Naturals
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 264
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Naturals = Code_Naturals | Coex_Naturals
+    return:
+      type: TypeHelp.TCF
+    content.vb: Naturals = Code_Naturals Or Coex_Naturals
+- uid: TypeHelp.TCF.Nullish
+  commentId: F:TypeHelp.TCF.Nullish
+  id: Nullish
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Nullish
+  nameWithType: TCF.Nullish
+  fullName: TypeHelp.TCF.Nullish
+  type: Field
+  source:
+    id: Nullish
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 265
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Nullish = Code_Nullish | Coex_Nullish
+    return:
+      type: TypeHelp.TCF
+    content.vb: Nullish = Code_Nullish Or Coex_Nullish
+- uid: TypeHelp.TCF.Numerics
+  commentId: F:TypeHelp.TCF.Numerics
+  id: Numerics
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Numerics
+  nameWithType: TCF.Numerics
+  fullName: TypeHelp.TCF.Numerics
+  type: Field
+  source:
+    id: Numerics
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 266
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Numerics = Code_Naturals | Coex_Numerics
+    return:
+      type: TypeHelp.TCF
+    content.vb: Numerics = Code_Naturals Or Coex_Numerics
+- uid: TypeHelp.TCF.Pointers
+  commentId: F:TypeHelp.TCF.Pointers
+  id: Pointers
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Pointers
+  nameWithType: TCF.Pointers
+  fullName: TypeHelp.TCF.Pointers
+  type: Field
+  source:
+    id: Pointers
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 267
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Pointers = Coex_LargeInts | Coex_LargeNats
+    return:
+      type: TypeHelp.TCF
+    content.vb: Pointers = Coex_LargeInts Or Coex_LargeNats
+- uid: TypeHelp.TCF.Precisions
+  commentId: F:TypeHelp.TCF.Precisions
+  id: Precisions
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Precisions
+  nameWithType: TCF.Precisions
+  fullName: TypeHelp.TCF.Precisions
+  type: Field
+  source:
+    id: Precisions
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 268
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Precisions = IntegersExt | Coex_Floats
+    return:
+      type: TypeHelp.TCF
+    content.vb: Precisions = IntegersExt Or Coex_Floats
+- uid: TypeHelp.TCF.Primitives
+  commentId: F:TypeHelp.TCF.Primitives
+  id: Primitives
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Primitives
+  nameWithType: TCF.Primitives
+  fullName: TypeHelp.TCF.Primitives
+  type: Field
+  source:
+    id: Primitives
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 269
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Primitives = Boolean | Code_Numerics
+    return:
+      type: TypeHelp.TCF
+    content.vb: Primitives = Boolean Or Code_Numerics
+- uid: TypeHelp.TCF.Signed
+  commentId: F:TypeHelp.TCF.Signed
+  id: Signed
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Signed
+  nameWithType: TCF.Signed
+  fullName: TypeHelp.TCF.Signed
+  type: Field
+  source:
+    id: Signed
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 270
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Signed = Char | Coex_Strings | Coex_Precision | Coex_Integers | BitArray
+    return:
+      type: TypeHelp.TCF
+    content.vb: Signed = Char Or Coex_Strings Or Coex_Precision Or Coex_Integers Or BitArray
+- uid: TypeHelp.TCF.SizeVariants
+  commentId: F:TypeHelp.TCF.SizeVariants
+  id: SizeVariants
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: SizeVariants
+  nameWithType: TCF.SizeVariants
+  fullName: TypeHelp.TCF.SizeVariants
+  type: Field
+  source:
+    id: SizeVariants
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 271
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: SizeVariants = Strings | Pointers | BigInteger | BitArray
+    return:
+      type: TypeHelp.TCF
+    content.vb: SizeVariants = Strings Or Pointers Or BigInteger Or BitArray
+- uid: TypeHelp.TCF.Strings
+  commentId: F:TypeHelp.TCF.Strings
+  id: Strings
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Strings
+  nameWithType: TCF.Strings
+  fullName: TypeHelp.TCF.Strings
+  type: Field
+  source:
+    id: Strings
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 272
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Strings = Char | Stringish
+    return:
+      type: TypeHelp.TCF
+    content.vb: Strings = Char Or Stringish
+- uid: TypeHelp.TCF.Stringish
+  commentId: F:TypeHelp.TCF.Stringish
+  id: Stringish
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Stringish
+  nameWithType: TCF.Stringish
+  fullName: TypeHelp.TCF.Stringish
+  type: Field
+  source:
+    id: Stringish
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 273
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Stringish = IntegersExt | Coex_Strings
+    return:
+      type: TypeHelp.TCF
+    content.vb: Stringish = IntegersExt Or Coex_Strings
+- uid: TypeHelp.TCF.Unsigned
+  commentId: F:TypeHelp.TCF.Unsigned
+  id: Unsigned
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Unsigned
+  nameWithType: TCF.Unsigned
+  fullName: TypeHelp.TCF.Unsigned
+  type: Field
+  source:
+    id: Unsigned
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 274
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Unsigned = Code_Naturals | Coex_Naturals
+    return:
+      type: TypeHelp.TCF
+    content.vb: Unsigned = Code_Naturals Or Coex_Naturals
+- uid: TypeHelp.TCF.WellKnowns
+  commentId: F:TypeHelp.TCF.WellKnowns
+  id: WellKnowns
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: WellKnowns
+  nameWithType: TCF.WellKnowns
+  fullName: TypeHelp.TCF.WellKnowns
+  type: Field
+  source:
+    id: WellKnowns
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 275
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: WellKnowns = TypeCodes | CoexOnly
+    return:
+      type: TypeHelp.TCF
+    content.vb: WellKnowns = TypeCodes Or CoexOnly
+- uid: TypeHelp.TCF.MaxCodeBit
+  commentId: F:TypeHelp.TCF.MaxCodeBit
+  id: MaxCodeBit
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: MaxCodeBit
+  nameWithType: TCF.MaxCodeBit
+  fullName: TypeHelp.TCF.MaxCodeBit
+  type: Field
+  source:
+    id: MaxCodeBit
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 279
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: MaxCodeBit = 262144
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.MaxCodeBitIdx
+  commentId: F:TypeHelp.TCF.MaxCodeBitIdx
+  id: MaxCodeBitIdx
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: MaxCodeBitIdx
+  nameWithType: TCF.MaxCodeBitIdx
+  fullName: TypeHelp.TCF.MaxCodeBitIdx
+  type: Field
+  source:
+    id: MaxCodeBitIdx
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 280
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: MaxCodeBitIdx = 131072
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.MaxCoexBit
+  commentId: F:TypeHelp.TCF.MaxCoexBit
+  id: MaxCoexBit
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: MaxCoexBit
+  nameWithType: TCF.MaxCoexBit
+  fullName: TypeHelp.TCF.MaxCoexBit
+  type: Field
+  source:
+    id: MaxCoexBit
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 281
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: MaxCoexBit = 131072
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.MaxCoexBitIdx
+  commentId: F:TypeHelp.TCF.MaxCoexBitIdx
+  id: MaxCoexBitIdx
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: MaxCoexBitIdx
+  nameWithType: TCF.MaxCoexBitIdx
+  fullName: TypeHelp.TCF.MaxCoexBitIdx
+  type: Field
+  source:
+    id: MaxCoexBitIdx
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 282
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: MaxCoexBitIdx = 65536
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.Auto
+  commentId: F:TypeHelp.TCF.Auto
+  id: Auto
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Auto
+  nameWithType: TCF.Auto
+  fullName: TypeHelp.TCF.Auto
+  type: Field
+  source:
+    id: Auto
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 286
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Auto = AllTypes | Options
+    return:
+      type: TypeHelp.TCF
+    content.vb: Auto = AllTypes Or Options
+- uid: TypeHelp.TCF.Everything
+  commentId: F:TypeHelp.TCF.Everything
+  id: Everything
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Everything
+  nameWithType: TCF.Everything
+  fullName: TypeHelp.TCF.Everything
+  type: Field
+  source:
+    id: Everything
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 287
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Everything = AllTypes | Options
+    return:
+      type: TypeHelp.TCF
+    content.vb: Everything = AllTypes Or Options
+- uid: TypeHelp.TCF.OptsAndStatus
+  commentId: F:TypeHelp.TCF.OptsAndStatus
+  id: OptsAndStatus
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: OptsAndStatus
+  nameWithType: TCF.OptsAndStatus
+  fullName: TypeHelp.TCF.OptsAndStatus
+  type: Field
+  source:
+    id: OptsAndStatus
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 288
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: OptsAndStatus = Error | Options | Processed | Defaulted
+    return:
+      type: TypeHelp.TCF
+    content.vb: OptsAndStatus = Error Or Options Or Processed Or Defaulted
+- uid: TypeHelp.TCF.SanitizeIn
+  commentId: F:TypeHelp.TCF.SanitizeIn
+  id: SanitizeIn
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: SanitizeIn
+  nameWithType: TCF.SanitizeIn
+  fullName: TypeHelp.TCF.SanitizeIn
+  type: Field
+  source:
+    id: SanitizeIn
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 289
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: SanitizeIn = AllTypes | Options
+    return:
+      type: TypeHelp.TCF
+    content.vb: SanitizeIn = AllTypes Or Options
+- uid: TypeHelp.TCF.SanitizeOut
+  commentId: F:TypeHelp.TCF.SanitizeOut
+  id: SanitizeOut
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: SanitizeOut
+  nameWithType: TCF.SanitizeOut
+  fullName: TypeHelp.TCF.SanitizeOut
+  type: Field
+  source:
+    id: SanitizeOut
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 290
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: SanitizeOut = TypeCodes | CoexOnly
+    return:
+      type: TypeHelp.TCF
+    content.vb: SanitizeOut = TypeCodes Or CoexOnly
+- uid: TypeHelp.TCF.Small_Integers
+  commentId: F:TypeHelp.TCF.Small_Integers
+  id: Small_Integers
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Small_Integers
+  nameWithType: TCF.Small_Integers
+  fullName: TypeHelp.TCF.Small_Integers
+  type: Field
+  source:
+    id: Small_Integers
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 294
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Small_Integers = SByte | Int16
+    return:
+      type: TypeHelp.TCF
+    content.vb: Small_Integers = SByte Or Int16
+- uid: TypeHelp.TCF.Medium_Integers
+  commentId: F:TypeHelp.TCF.Medium_Integers
+  id: Medium_Integers
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Medium_Integers
+  nameWithType: TCF.Medium_Integers
+  fullName: TypeHelp.TCF.Medium_Integers
+  type: Field
+  source:
+    id: Medium_Integers
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 295
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Medium_Integers = Int32 | Code_LargeInts
+    return:
+      type: TypeHelp.TCF
+    content.vb: Medium_Integers = Int32 Or Code_LargeInts
+- uid: TypeHelp.TCF.Large_Integers
+  commentId: F:TypeHelp.TCF.Large_Integers
+  id: Large_Integers
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Large_Integers
+  nameWithType: TCF.Large_Integers
+  fullName: TypeHelp.TCF.Large_Integers
+  type: Field
+  source:
+    id: Large_Integers
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 296
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Large_Integers = 2048
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.Small_Naturals
+  commentId: F:TypeHelp.TCF.Small_Naturals
+  id: Small_Naturals
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Small_Naturals
+  nameWithType: TCF.Small_Naturals
+  fullName: TypeHelp.TCF.Small_Naturals
+  type: Field
+  source:
+    id: Small_Naturals
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 297
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Small_Naturals = Byte | UInt16
+    return:
+      type: TypeHelp.TCF
+    content.vb: Small_Naturals = Byte Or UInt16
+- uid: TypeHelp.TCF.Medium_Naturals
+  commentId: F:TypeHelp.TCF.Medium_Naturals
+  id: Medium_Naturals
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Medium_Naturals
+  nameWithType: TCF.Medium_Naturals
+  fullName: TypeHelp.TCF.Medium_Naturals
+  type: Field
+  source:
+    id: Medium_Naturals
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 298
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Medium_Naturals = UInt32 | Code_LargeNats
+    return:
+      type: TypeHelp.TCF
+    content.vb: Medium_Naturals = UInt32 Or Code_LargeNats
+- uid: TypeHelp.TCF.Large_Naturals
+  commentId: F:TypeHelp.TCF.Large_Naturals
+  id: Large_Naturals
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Large_Naturals
+  nameWithType: TCF.Large_Naturals
+  fullName: TypeHelp.TCF.Large_Naturals
+  type: Field
+  source:
+    id: Large_Naturals
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 299
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Large_Naturals = 4096
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.Functor_Ints
+  commentId: F:TypeHelp.TCF.Functor_Ints
+  id: Functor_Ints
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Functor_Ints
+  nameWithType: TCF.Functor_Ints
+  fullName: TypeHelp.TCF.Functor_Ints
+  type: Field
+  source:
+    id: Functor_Ints
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 301
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Functor_Ints = DateTime | IntegersExt
+    return:
+      type: TypeHelp.TCF
+    content.vb: Functor_Ints = DateTime Or IntegersExt
+- uid: TypeHelp.TCF.Functor_Nats
+  commentId: F:TypeHelp.TCF.Functor_Nats
+  id: Functor_Nats
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Functor_Nats
+  nameWithType: TCF.Functor_Nats
+  fullName: TypeHelp.TCF.Functor_Nats
+  type: Field
+  source:
+    id: Functor_Nats
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 302
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Functor_Nats = Char | DateTime
+    return:
+      type: TypeHelp.TCF
+    content.vb: Functor_Nats = Char Or DateTime
+- uid: TypeHelp.TCF.Other_Ints
+  commentId: F:TypeHelp.TCF.Other_Ints
+  id: Other_Ints
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Other_Ints
+  nameWithType: TCF.Other_Ints
+  fullName: TypeHelp.TCF.Other_Ints
+  type: Field
+  source:
+    id: Other_Ints
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 303
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Other_Ints = Functor_Ints | Pointers | BigInteger
+    return:
+      type: TypeHelp.TCF
+    content.vb: Other_Ints = Functor_Ints Or Pointers Or BigInteger
+- uid: TypeHelp.TCF.String_Ints
+  commentId: F:TypeHelp.TCF.String_Ints
+  id: String_Ints
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: String_Ints
+  nameWithType: TCF.String_Ints
+  fullName: TypeHelp.TCF.String_Ints
+  type: Field
+  source:
+    id: String_Ints
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 304
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: String_Ints = 262144
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.String_Nats
+  commentId: F:TypeHelp.TCF.String_Nats
+  id: String_Nats
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: String_Nats
+  nameWithType: TCF.String_Nats
+  fullName: TypeHelp.TCF.String_Nats
+  type: Field
+  source:
+    id: String_Nats
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 305
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: String_Nats = 16
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.String_Nums
+  commentId: F:TypeHelp.TCF.String_Nums
+  id: String_Nums
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: String_Nums
+  nameWithType: TCF.String_Nums
+  fullName: TypeHelp.TCF.String_Nums
+  type: Field
+  source:
+    id: String_Nums
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 306
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: String_Nums = Char | IntegersExt
+    return:
+      type: TypeHelp.TCF
+    content.vb: String_Nums = Char Or IntegersExt
+- uid: TypeHelp.TCF.Code_Floats
+  commentId: F:TypeHelp.TCF.Code_Floats
+  id: Code_Floats
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Code_Floats
+  nameWithType: TCF.Code_Floats
+  fullName: TypeHelp.TCF.Code_Floats
+  type: Field
+  source:
+    id: Code_Floats
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 311
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Code_Floats = Single | Double
+    return:
+      type: TypeHelp.TCF
+    content.vb: Code_Floats = Single Or Double
+- uid: TypeHelp.TCF.Code_Integers
+  commentId: F:TypeHelp.TCF.Code_Integers
+  id: Code_Integers
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Code_Integers
+  nameWithType: TCF.Code_Integers
+  fullName: TypeHelp.TCF.Code_Integers
+  type: Field
+  source:
+    id: Code_Integers
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 312
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Code_Integers = Small_Integers | Medium_Integers
+    return:
+      type: TypeHelp.TCF
+    content.vb: Code_Integers = Small_Integers Or Medium_Integers
+- uid: TypeHelp.TCF.Code_LargeInts
+  commentId: F:TypeHelp.TCF.Code_LargeInts
+  id: Code_LargeInts
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Code_LargeInts
+  nameWithType: TCF.Code_LargeInts
+  fullName: TypeHelp.TCF.Code_LargeInts
+  type: Field
+  source:
+    id: Code_LargeInts
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 313
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Code_LargeInts = 2048
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.Code_LargeNats
+  commentId: F:TypeHelp.TCF.Code_LargeNats
+  id: Code_LargeNats
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Code_LargeNats
+  nameWithType: TCF.Code_LargeNats
+  fullName: TypeHelp.TCF.Code_LargeNats
+  type: Field
+  source:
+    id: Code_LargeNats
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 314
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Code_LargeNats = 4096
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.Code_Logicals
+  commentId: F:TypeHelp.TCF.Code_Logicals
+  id: Code_Logicals
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Code_Logicals
+  nameWithType: TCF.Code_Logicals
+  fullName: TypeHelp.TCF.Code_Logicals
+  type: Field
+  source:
+    id: Code_Logicals
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 315
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Code_Logicals = 8
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.Code_Naturals
+  commentId: F:TypeHelp.TCF.Code_Naturals
+  id: Code_Naturals
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Code_Naturals
+  nameWithType: TCF.Code_Naturals
+  fullName: TypeHelp.TCF.Code_Naturals
+  type: Field
+  source:
+    id: Code_Naturals
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 316
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Code_Naturals = Small_Naturals | Medium_Naturals
+    return:
+      type: TypeHelp.TCF
+    content.vb: Code_Naturals = Small_Naturals Or Medium_Naturals
+- uid: TypeHelp.TCF.Code_Nullish
+  commentId: F:TypeHelp.TCF.Code_Nullish
+  id: Code_Nullish
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Code_Nullish
+  nameWithType: TCF.Code_Nullish
+  fullName: TypeHelp.TCF.Code_Nullish
+  type: Field
+  source:
+    id: Code_Nullish
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 317
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Code_Nullish = Empty | Object | DBNull
+    return:
+      type: TypeHelp.TCF
+    content.vb: Code_Nullish = Empty Or Object Or DBNull
+- uid: TypeHelp.TCF.Code_Numerics
+  commentId: F:TypeHelp.TCF.Code_Numerics
+  id: Code_Numerics
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Code_Numerics
+  nameWithType: TCF.Code_Numerics
+  fullName: TypeHelp.TCF.Code_Numerics
+  type: Field
+  source:
+    id: Code_Numerics
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 318
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Code_Numerics = Canonicals | Code_Floats
+    return:
+      type: TypeHelp.TCF
+    content.vb: Code_Numerics = Canonicals Or Code_Floats
+- uid: TypeHelp.TCF.Code_Precision
+  commentId: F:TypeHelp.TCF.Code_Precision
+  id: Code_Precision
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Code_Precision
+  nameWithType: TCF.Code_Precision
+  fullName: TypeHelp.TCF.Code_Precision
+  type: Field
+  source:
+    id: Code_Precision
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 319
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Code_Precision = Code_Floats | Decimal
+    return:
+      type: TypeHelp.TCF
+    content.vb: Code_Precision = Code_Floats Or Decimal
+- uid: TypeHelp.TCF.Code_Strings
+  commentId: F:TypeHelp.TCF.Code_Strings
+  id: Code_Strings
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Code_Strings
+  nameWithType: TCF.Code_Strings
+  fullName: TypeHelp.TCF.Code_Strings
+  type: Field
+  source:
+    id: Code_Strings
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 320
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Code_Strings = Char | IntegersExt
+    return:
+      type: TypeHelp.TCF
+    content.vb: Code_Strings = Char Or IntegersExt
+- uid: TypeHelp.TCF.Coex_Floats
+  commentId: F:TypeHelp.TCF.Coex_Floats
+  id: Coex_Floats
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Coex_Floats
+  nameWithType: TCF.Coex_Floats
+  fullName: TypeHelp.TCF.Coex_Floats
+  type: Field
+  source:
+    id: Coex_Floats
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 325
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Coex_Floats = Code_Precision | Complex
+    return:
+      type: TypeHelp.TCF
+    content.vb: Coex_Floats = Code_Precision Or Complex
+- uid: TypeHelp.TCF.Coex_Integers
+  commentId: F:TypeHelp.TCF.Coex_Integers
+  id: Coex_Integers
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Coex_Integers
+  nameWithType: TCF.Coex_Integers
+  fullName: TypeHelp.TCF.Coex_Integers
+  type: Field
+  source:
+    id: Coex_Integers
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 326
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Coex_Integers = Small_Integers | Int32 | LargeInts | BigInteger
+    return:
+      type: TypeHelp.TCF
+    content.vb: Coex_Integers = Small_Integers Or Int32 Or LargeInts Or BigInteger
+- uid: TypeHelp.TCF.Coex_LargeInts
+  commentId: F:TypeHelp.TCF.Coex_LargeInts
+  id: Coex_LargeInts
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Coex_LargeInts
+  nameWithType: TCF.Coex_LargeInts
+  fullName: TypeHelp.TCF.Coex_LargeInts
+  type: Field
+  source:
+    id: Coex_LargeInts
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 327
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Coex_LargeInts = 67108864
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.Coex_LargeNats
+  commentId: F:TypeHelp.TCF.Coex_LargeNats
+  id: Coex_LargeNats
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Coex_LargeNats
+  nameWithType: TCF.Coex_LargeNats
+  fullName: TypeHelp.TCF.Coex_LargeNats
+  type: Field
+  source:
+    id: Coex_LargeNats
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 328
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Coex_LargeNats = 134217728
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.Coex_Logicals
+  commentId: F:TypeHelp.TCF.Coex_Logicals
+  id: Coex_Logicals
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Coex_Logicals
+  nameWithType: TCF.Coex_Logicals
+  fullName: TypeHelp.TCF.Coex_Logicals
+  type: Field
+  source:
+    id: Coex_Logicals
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 329
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Coex_Logicals = 0
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.Coex_Naturals
+  commentId: F:TypeHelp.TCF.Coex_Naturals
+  id: Coex_Naturals
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Coex_Naturals
+  nameWithType: TCF.Coex_Naturals
+  fullName: TypeHelp.TCF.Coex_Naturals
+  type: Field
+  source:
+    id: Coex_Naturals
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 330
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Coex_Naturals = Functor_Nats | Coex_LargeNats
+    return:
+      type: TypeHelp.TCF
+    content.vb: Coex_Naturals = Functor_Nats Or Coex_LargeNats
+- uid: TypeHelp.TCF.Coex_Nullish
+  commentId: F:TypeHelp.TCF.Coex_Nullish
+  id: Coex_Nullish
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Coex_Nullish
+  nameWithType: TCF.Coex_Nullish
+  fullName: TypeHelp.TCF.Coex_Nullish
+  type: Field
+  source:
+    id: Coex_Nullish
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 331
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Coex_Nullish = 131072
+    return:
+      type: TypeHelp.TCF
+- uid: TypeHelp.TCF.Coex_Numerics
+  commentId: F:TypeHelp.TCF.Coex_Numerics
+  id: Coex_Numerics
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Coex_Numerics
+  nameWithType: TCF.Coex_Numerics
+  fullName: TypeHelp.TCF.Coex_Numerics
+  type: Field
+  source:
+    id: Coex_Numerics
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 332
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Coex_Numerics = Coex_Naturals | Coex_Floats | Coex_Integers
+    return:
+      type: TypeHelp.TCF
+    content.vb: Coex_Numerics = Coex_Naturals Or Coex_Floats Or Coex_Integers
+- uid: TypeHelp.TCF.Coex_Precision
+  commentId: F:TypeHelp.TCF.Coex_Precision
+  id: Coex_Precision
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Coex_Precision
+  nameWithType: TCF.Coex_Precision
+  fullName: TypeHelp.TCF.Coex_Precision
+  type: Field
+  source:
+    id: Coex_Precision
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 333
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Coex_Precision = IntegersExt | Coex_Floats
+    return:
+      type: TypeHelp.TCF
+    content.vb: Coex_Precision = IntegersExt Or Coex_Floats
+- uid: TypeHelp.TCF.Coex_Strings
+  commentId: F:TypeHelp.TCF.Coex_Strings
+  id: Coex_Strings
+  parent: TypeHelp.TCF
+  langs:
+  - csharp
+  - vb
+  name: Coex_Strings
+  nameWithType: TCF.Coex_Strings
+  fullName: TypeHelp.TCF.Coex_Strings
+  type: Field
+  source:
+    id: Coex_Strings
+    path: C:\Users\wwess\source\repos\TypeHelp\src\TypeParser\TypeParser.cs
+    startLine: 334
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Coex_Strings = Guid | UUID | SID | Uri | Base64
+    return:
+      type: TypeHelp.TCF
+    content.vb: Coex_Strings = Guid Or UUID Or SID Or Uri Or Base64
+references:
+- uid: TypeHelp
+  commentId: N:TypeHelp
+  href: TypeHelp.html
+  name: TypeHelp
+  nameWithType: TypeHelp
+  fullName: TypeHelp
+- uid: TypeHelp.TCF
+  commentId: T:TypeHelp.TCF
+  parent: TypeHelp
+  href: TypeHelp.TCF.html
+  name: TCF
+  nameWithType: TCF
+  fullName: TypeHelp.TCF
+memberLayout: SeparatePages

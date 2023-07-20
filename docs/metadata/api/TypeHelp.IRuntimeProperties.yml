@@ -1,0 +1,399 @@
+### YamlMime:ManagedReference
+items:
+- uid: TypeHelp.IRuntimeProperties
+  commentId: T:TypeHelp.IRuntimeProperties
+  id: IRuntimeProperties
+  parent: TypeHelp
+  children:
+  - TypeHelp.IRuntimeProperties.NullName
+  - TypeHelp.IRuntimeProperties.Nullity
+  - TypeHelp.IRuntimeProperties.SizeOfChar
+  - TypeHelp.IRuntimeProperties.SizeOfComplex
+  - TypeHelp.IRuntimeProperties.SizeOfDateTime
+  - TypeHelp.IRuntimeProperties.SizeOfGuid
+  - TypeHelp.IRuntimeProperties.SizeOfPointer
+  - TypeHelp.IRuntimeProperties.SizeOfTimeSpan
+  - TypeHelp.IRuntimeProperties.SizeOfVoid
+  - TypeHelp.IRuntimeProperties.TickCount
+  langs:
+  - csharp
+  - vb
+  name: IRuntimeProperties
+  nameWithType: IRuntimeProperties
+  fullName: TypeHelp.IRuntimeProperties
+  type: Interface
+  source:
+    id: IRuntimeProperties
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 56
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public interface IRuntimeProperties
+    content.vb: Public Interface IRuntimeProperties
+- uid: TypeHelp.IRuntimeProperties.Nullity
+  commentId: P:TypeHelp.IRuntimeProperties.Nullity
+  id: Nullity
+  parent: TypeHelp.IRuntimeProperties
+  langs:
+  - csharp
+  - vb
+  name: Nullity
+  nameWithType: IRuntimeProperties.Nullity
+  fullName: TypeHelp.IRuntimeProperties.Nullity
+  type: Property
+  source:
+    id: Nullity
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 58
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Nullity Nullity { get; }
+    parameters: []
+    return:
+      type: TypeHelp.Nullity
+    content.vb: ReadOnly Property Nullity As Nullity
+  overload: TypeHelp.IRuntimeProperties.Nullity*
+- uid: TypeHelp.IRuntimeProperties.NullName
+  commentId: P:TypeHelp.IRuntimeProperties.NullName
+  id: NullName
+  parent: TypeHelp.IRuntimeProperties
+  langs:
+  - csharp
+  - vb
+  name: NullName
+  nameWithType: IRuntimeProperties.NullName
+  fullName: TypeHelp.IRuntimeProperties.NullName
+  type: Property
+  source:
+    id: NullName
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 59
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: string NullName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property NullName As String
+  overload: TypeHelp.IRuntimeProperties.NullName*
+- uid: TypeHelp.IRuntimeProperties.SizeOfChar
+  commentId: P:TypeHelp.IRuntimeProperties.SizeOfChar
+  id: SizeOfChar
+  parent: TypeHelp.IRuntimeProperties
+  langs:
+  - csharp
+  - vb
+  name: SizeOfChar
+  nameWithType: IRuntimeProperties.SizeOfChar
+  fullName: TypeHelp.IRuntimeProperties.SizeOfChar
+  type: Property
+  source:
+    id: SizeOfChar
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 60
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: int SizeOfChar { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property SizeOfChar As Integer
+  overload: TypeHelp.IRuntimeProperties.SizeOfChar*
+- uid: TypeHelp.IRuntimeProperties.SizeOfComplex
+  commentId: P:TypeHelp.IRuntimeProperties.SizeOfComplex
+  id: SizeOfComplex
+  parent: TypeHelp.IRuntimeProperties
+  langs:
+  - csharp
+  - vb
+  name: SizeOfComplex
+  nameWithType: IRuntimeProperties.SizeOfComplex
+  fullName: TypeHelp.IRuntimeProperties.SizeOfComplex
+  type: Property
+  source:
+    id: SizeOfComplex
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 61
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: int SizeOfComplex { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property SizeOfComplex As Integer
+  overload: TypeHelp.IRuntimeProperties.SizeOfComplex*
+- uid: TypeHelp.IRuntimeProperties.SizeOfDateTime
+  commentId: P:TypeHelp.IRuntimeProperties.SizeOfDateTime
+  id: SizeOfDateTime
+  parent: TypeHelp.IRuntimeProperties
+  langs:
+  - csharp
+  - vb
+  name: SizeOfDateTime
+  nameWithType: IRuntimeProperties.SizeOfDateTime
+  fullName: TypeHelp.IRuntimeProperties.SizeOfDateTime
+  type: Property
+  source:
+    id: SizeOfDateTime
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 62
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: int SizeOfDateTime { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property SizeOfDateTime As Integer
+  overload: TypeHelp.IRuntimeProperties.SizeOfDateTime*
+- uid: TypeHelp.IRuntimeProperties.SizeOfGuid
+  commentId: P:TypeHelp.IRuntimeProperties.SizeOfGuid
+  id: SizeOfGuid
+  parent: TypeHelp.IRuntimeProperties
+  langs:
+  - csharp
+  - vb
+  name: SizeOfGuid
+  nameWithType: IRuntimeProperties.SizeOfGuid
+  fullName: TypeHelp.IRuntimeProperties.SizeOfGuid
+  type: Property
+  source:
+    id: SizeOfGuid
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 63
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: int SizeOfGuid { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property SizeOfGuid As Integer
+  overload: TypeHelp.IRuntimeProperties.SizeOfGuid*
+- uid: TypeHelp.IRuntimeProperties.SizeOfPointer
+  commentId: P:TypeHelp.IRuntimeProperties.SizeOfPointer
+  id: SizeOfPointer
+  parent: TypeHelp.IRuntimeProperties
+  langs:
+  - csharp
+  - vb
+  name: SizeOfPointer
+  nameWithType: IRuntimeProperties.SizeOfPointer
+  fullName: TypeHelp.IRuntimeProperties.SizeOfPointer
+  type: Property
+  source:
+    id: SizeOfPointer
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 64
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: int SizeOfPointer { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property SizeOfPointer As Integer
+  overload: TypeHelp.IRuntimeProperties.SizeOfPointer*
+- uid: TypeHelp.IRuntimeProperties.SizeOfTimeSpan
+  commentId: P:TypeHelp.IRuntimeProperties.SizeOfTimeSpan
+  id: SizeOfTimeSpan
+  parent: TypeHelp.IRuntimeProperties
+  langs:
+  - csharp
+  - vb
+  name: SizeOfTimeSpan
+  nameWithType: IRuntimeProperties.SizeOfTimeSpan
+  fullName: TypeHelp.IRuntimeProperties.SizeOfTimeSpan
+  type: Property
+  source:
+    id: SizeOfTimeSpan
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 65
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: int SizeOfTimeSpan { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property SizeOfTimeSpan As Integer
+  overload: TypeHelp.IRuntimeProperties.SizeOfTimeSpan*
+- uid: TypeHelp.IRuntimeProperties.SizeOfVoid
+  commentId: P:TypeHelp.IRuntimeProperties.SizeOfVoid
+  id: SizeOfVoid
+  parent: TypeHelp.IRuntimeProperties
+  langs:
+  - csharp
+  - vb
+  name: SizeOfVoid
+  nameWithType: IRuntimeProperties.SizeOfVoid
+  fullName: TypeHelp.IRuntimeProperties.SizeOfVoid
+  type: Property
+  source:
+    id: SizeOfVoid
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 66
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: int SizeOfVoid { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property SizeOfVoid As Integer
+  overload: TypeHelp.IRuntimeProperties.SizeOfVoid*
+- uid: TypeHelp.IRuntimeProperties.TickCount
+  commentId: P:TypeHelp.IRuntimeProperties.TickCount
+  id: TickCount
+  parent: TypeHelp.IRuntimeProperties
+  langs:
+  - csharp
+  - vb
+  name: TickCount
+  nameWithType: IRuntimeProperties.TickCount
+  fullName: TypeHelp.IRuntimeProperties.TickCount
+  type: Property
+  source:
+    id: TickCount
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 67
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: long TickCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Property TickCount As Long
+  overload: TypeHelp.IRuntimeProperties.TickCount*
+references:
+- uid: TypeHelp
+  commentId: N:TypeHelp
+  href: TypeHelp.html
+  name: TypeHelp
+  nameWithType: TypeHelp
+  fullName: TypeHelp
+- uid: TypeHelp.IRuntimeProperties.Nullity*
+  commentId: Overload:TypeHelp.IRuntimeProperties.Nullity
+  href: TypeHelp.IRuntimeProperties.Nullity.html
+  name: Nullity
+  nameWithType: IRuntimeProperties.Nullity
+  fullName: TypeHelp.IRuntimeProperties.Nullity
+- uid: TypeHelp.Nullity
+  commentId: T:TypeHelp.Nullity
+  parent: TypeHelp
+  href: TypeHelp.Nullity.html
+  name: Nullity
+  nameWithType: Nullity
+  fullName: TypeHelp.Nullity
+- uid: TypeHelp.IRuntimeProperties.NullName*
+  commentId: Overload:TypeHelp.IRuntimeProperties.NullName
+  href: TypeHelp.IRuntimeProperties.NullName.html
+  name: NullName
+  nameWithType: IRuntimeProperties.NullName
+  fullName: TypeHelp.IRuntimeProperties.NullName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TypeHelp.IRuntimeProperties.SizeOfChar*
+  commentId: Overload:TypeHelp.IRuntimeProperties.SizeOfChar
+  href: TypeHelp.IRuntimeProperties.SizeOfChar.html
+  name: SizeOfChar
+  nameWithType: IRuntimeProperties.SizeOfChar
+  fullName: TypeHelp.IRuntimeProperties.SizeOfChar
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: TypeHelp.IRuntimeProperties.SizeOfComplex*
+  commentId: Overload:TypeHelp.IRuntimeProperties.SizeOfComplex
+  href: TypeHelp.IRuntimeProperties.SizeOfComplex.html
+  name: SizeOfComplex
+  nameWithType: IRuntimeProperties.SizeOfComplex
+  fullName: TypeHelp.IRuntimeProperties.SizeOfComplex
+- uid: TypeHelp.IRuntimeProperties.SizeOfDateTime*
+  commentId: Overload:TypeHelp.IRuntimeProperties.SizeOfDateTime
+  href: TypeHelp.IRuntimeProperties.SizeOfDateTime.html
+  name: SizeOfDateTime
+  nameWithType: IRuntimeProperties.SizeOfDateTime
+  fullName: TypeHelp.IRuntimeProperties.SizeOfDateTime
+- uid: TypeHelp.IRuntimeProperties.SizeOfGuid*
+  commentId: Overload:TypeHelp.IRuntimeProperties.SizeOfGuid
+  href: TypeHelp.IRuntimeProperties.SizeOfGuid.html
+  name: SizeOfGuid
+  nameWithType: IRuntimeProperties.SizeOfGuid
+  fullName: TypeHelp.IRuntimeProperties.SizeOfGuid
+- uid: TypeHelp.IRuntimeProperties.SizeOfPointer*
+  commentId: Overload:TypeHelp.IRuntimeProperties.SizeOfPointer
+  href: TypeHelp.IRuntimeProperties.SizeOfPointer.html
+  name: SizeOfPointer
+  nameWithType: IRuntimeProperties.SizeOfPointer
+  fullName: TypeHelp.IRuntimeProperties.SizeOfPointer
+- uid: TypeHelp.IRuntimeProperties.SizeOfTimeSpan*
+  commentId: Overload:TypeHelp.IRuntimeProperties.SizeOfTimeSpan
+  href: TypeHelp.IRuntimeProperties.SizeOfTimeSpan.html
+  name: SizeOfTimeSpan
+  nameWithType: IRuntimeProperties.SizeOfTimeSpan
+  fullName: TypeHelp.IRuntimeProperties.SizeOfTimeSpan
+- uid: TypeHelp.IRuntimeProperties.SizeOfVoid*
+  commentId: Overload:TypeHelp.IRuntimeProperties.SizeOfVoid
+  href: TypeHelp.IRuntimeProperties.SizeOfVoid.html
+  name: SizeOfVoid
+  nameWithType: IRuntimeProperties.SizeOfVoid
+  fullName: TypeHelp.IRuntimeProperties.SizeOfVoid
+- uid: TypeHelp.IRuntimeProperties.TickCount*
+  commentId: Overload:TypeHelp.IRuntimeProperties.TickCount
+  href: TypeHelp.IRuntimeProperties.TickCount.html
+  name: TickCount
+  nameWithType: IRuntimeProperties.TickCount
+  fullName: TypeHelp.IRuntimeProperties.TickCount
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+memberLayout: SeparatePages

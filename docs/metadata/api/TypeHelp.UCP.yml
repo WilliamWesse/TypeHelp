@@ -1,0 +1,455 @@
+### YamlMime:ManagedReference
+items:
+- uid: TypeHelp.UCP
+  commentId: T:TypeHelp.UCP
+  id: UCP
+  parent: TypeHelp
+  children:
+  - TypeHelp.UCP.BMP
+  - TypeHelp.UCP.NON
+  - TypeHelp.UCP.SIP
+  - TypeHelp.UCP.SMP
+  - TypeHelp.UCP.SPA
+  - TypeHelp.UCP.SPB
+  - TypeHelp.UCP.SSP
+  - TypeHelp.UCP.TIP
+  - TypeHelp.UCP.UN4
+  - TypeHelp.UCP.UN5
+  - TypeHelp.UCP.UN6
+  - TypeHelp.UCP.UN7
+  - TypeHelp.UCP.UN8
+  - TypeHelp.UCP.UN9
+  - TypeHelp.UCP.UNA
+  - TypeHelp.UCP.UNB
+  - TypeHelp.UCP.UNC
+  - TypeHelp.UCP.UND
+  langs:
+  - csharp
+  - vb
+  name: UCP
+  nameWithType: UCP
+  fullName: TypeHelp.UCP
+  type: Enum
+  source:
+    id: UCP
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 50
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: The u c p.
+  example: []
+  syntax:
+    content: public enum UCP
+    content.vb: Public Enum UCP
+- uid: TypeHelp.UCP.BMP
+  commentId: F:TypeHelp.UCP.BMP
+  id: BMP
+  parent: TypeHelp.UCP
+  langs:
+  - csharp
+  - vb
+  name: BMP
+  nameWithType: UCP.BMP
+  fullName: TypeHelp.UCP.BMP
+  type: Field
+  source:
+    id: BMP
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 52
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: BMP = 0
+    return:
+      type: TypeHelp.UCP
+- uid: TypeHelp.UCP.SMP
+  commentId: F:TypeHelp.UCP.SMP
+  id: SMP
+  parent: TypeHelp.UCP
+  langs:
+  - csharp
+  - vb
+  name: SMP
+  nameWithType: UCP.SMP
+  fullName: TypeHelp.UCP.SMP
+  type: Field
+  source:
+    id: SMP
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 52
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: SMP = 1
+    return:
+      type: TypeHelp.UCP
+- uid: TypeHelp.UCP.SIP
+  commentId: F:TypeHelp.UCP.SIP
+  id: SIP
+  parent: TypeHelp.UCP
+  langs:
+  - csharp
+  - vb
+  name: SIP
+  nameWithType: UCP.SIP
+  fullName: TypeHelp.UCP.SIP
+  type: Field
+  source:
+    id: SIP
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 52
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: SIP = 2
+    return:
+      type: TypeHelp.UCP
+- uid: TypeHelp.UCP.TIP
+  commentId: F:TypeHelp.UCP.TIP
+  id: TIP
+  parent: TypeHelp.UCP
+  langs:
+  - csharp
+  - vb
+  name: TIP
+  nameWithType: UCP.TIP
+  fullName: TypeHelp.UCP.TIP
+  type: Field
+  source:
+    id: TIP
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 52
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: TIP = 3
+    return:
+      type: TypeHelp.UCP
+- uid: TypeHelp.UCP.UN4
+  commentId: F:TypeHelp.UCP.UN4
+  id: UN4
+  parent: TypeHelp.UCP
+  langs:
+  - csharp
+  - vb
+  name: UN4
+  nameWithType: UCP.UN4
+  fullName: TypeHelp.UCP.UN4
+  type: Field
+  source:
+    id: UN4
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 53
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: UN4 = 4
+    return:
+      type: TypeHelp.UCP
+- uid: TypeHelp.UCP.UN5
+  commentId: F:TypeHelp.UCP.UN5
+  id: UN5
+  parent: TypeHelp.UCP
+  langs:
+  - csharp
+  - vb
+  name: UN5
+  nameWithType: UCP.UN5
+  fullName: TypeHelp.UCP.UN5
+  type: Field
+  source:
+    id: UN5
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 53
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: UN5 = 5
+    return:
+      type: TypeHelp.UCP
+- uid: TypeHelp.UCP.UN6
+  commentId: F:TypeHelp.UCP.UN6
+  id: UN6
+  parent: TypeHelp.UCP
+  langs:
+  - csharp
+  - vb
+  name: UN6
+  nameWithType: UCP.UN6
+  fullName: TypeHelp.UCP.UN6
+  type: Field
+  source:
+    id: UN6
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 53
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: UN6 = 6
+    return:
+      type: TypeHelp.UCP
+- uid: TypeHelp.UCP.UN7
+  commentId: F:TypeHelp.UCP.UN7
+  id: UN7
+  parent: TypeHelp.UCP
+  langs:
+  - csharp
+  - vb
+  name: UN7
+  nameWithType: UCP.UN7
+  fullName: TypeHelp.UCP.UN7
+  type: Field
+  source:
+    id: UN7
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 53
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: UN7 = 7
+    return:
+      type: TypeHelp.UCP
+- uid: TypeHelp.UCP.UN8
+  commentId: F:TypeHelp.UCP.UN8
+  id: UN8
+  parent: TypeHelp.UCP
+  langs:
+  - csharp
+  - vb
+  name: UN8
+  nameWithType: UCP.UN8
+  fullName: TypeHelp.UCP.UN8
+  type: Field
+  source:
+    id: UN8
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 54
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: UN8 = 8
+    return:
+      type: TypeHelp.UCP
+- uid: TypeHelp.UCP.UN9
+  commentId: F:TypeHelp.UCP.UN9
+  id: UN9
+  parent: TypeHelp.UCP
+  langs:
+  - csharp
+  - vb
+  name: UN9
+  nameWithType: UCP.UN9
+  fullName: TypeHelp.UCP.UN9
+  type: Field
+  source:
+    id: UN9
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 54
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: UN9 = 9
+    return:
+      type: TypeHelp.UCP
+- uid: TypeHelp.UCP.UNA
+  commentId: F:TypeHelp.UCP.UNA
+  id: UNA
+  parent: TypeHelp.UCP
+  langs:
+  - csharp
+  - vb
+  name: UNA
+  nameWithType: UCP.UNA
+  fullName: TypeHelp.UCP.UNA
+  type: Field
+  source:
+    id: UNA
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 54
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: UNA = 10
+    return:
+      type: TypeHelp.UCP
+- uid: TypeHelp.UCP.UNB
+  commentId: F:TypeHelp.UCP.UNB
+  id: UNB
+  parent: TypeHelp.UCP
+  langs:
+  - csharp
+  - vb
+  name: UNB
+  nameWithType: UCP.UNB
+  fullName: TypeHelp.UCP.UNB
+  type: Field
+  source:
+    id: UNB
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 54
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: UNB = 11
+    return:
+      type: TypeHelp.UCP
+- uid: TypeHelp.UCP.UNC
+  commentId: F:TypeHelp.UCP.UNC
+  id: UNC
+  parent: TypeHelp.UCP
+  langs:
+  - csharp
+  - vb
+  name: UNC
+  nameWithType: UCP.UNC
+  fullName: TypeHelp.UCP.UNC
+  type: Field
+  source:
+    id: UNC
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 55
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: UNC = 12
+    return:
+      type: TypeHelp.UCP
+- uid: TypeHelp.UCP.UND
+  commentId: F:TypeHelp.UCP.UND
+  id: UND
+  parent: TypeHelp.UCP
+  langs:
+  - csharp
+  - vb
+  name: UND
+  nameWithType: UCP.UND
+  fullName: TypeHelp.UCP.UND
+  type: Field
+  source:
+    id: UND
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 55
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: UND = 13
+    return:
+      type: TypeHelp.UCP
+- uid: TypeHelp.UCP.SSP
+  commentId: F:TypeHelp.UCP.SSP
+  id: SSP
+  parent: TypeHelp.UCP
+  langs:
+  - csharp
+  - vb
+  name: SSP
+  nameWithType: UCP.SSP
+  fullName: TypeHelp.UCP.SSP
+  type: Field
+  source:
+    id: SSP
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 55
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: SSP = 14
+    return:
+      type: TypeHelp.UCP
+- uid: TypeHelp.UCP.SPA
+  commentId: F:TypeHelp.UCP.SPA
+  id: SPA
+  parent: TypeHelp.UCP
+  langs:
+  - csharp
+  - vb
+  name: SPA
+  nameWithType: UCP.SPA
+  fullName: TypeHelp.UCP.SPA
+  type: Field
+  source:
+    id: SPA
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 55
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: SPA = 15
+    return:
+      type: TypeHelp.UCP
+- uid: TypeHelp.UCP.SPB
+  commentId: F:TypeHelp.UCP.SPB
+  id: SPB
+  parent: TypeHelp.UCP
+  langs:
+  - csharp
+  - vb
+  name: SPB
+  nameWithType: UCP.SPB
+  fullName: TypeHelp.UCP.SPB
+  type: Field
+  source:
+    id: SPB
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 55
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: SPB = 16
+    return:
+      type: TypeHelp.UCP
+- uid: TypeHelp.UCP.NON
+  commentId: F:TypeHelp.UCP.NON
+  id: NON
+  parent: TypeHelp.UCP
+  langs:
+  - csharp
+  - vb
+  name: NON
+  nameWithType: UCP.NON
+  fullName: TypeHelp.UCP.NON
+  type: Field
+  source:
+    id: NON
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 56
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: NON = 1073741824
+    return:
+      type: TypeHelp.UCP
+references:
+- uid: TypeHelp
+  commentId: N:TypeHelp
+  href: TypeHelp.html
+  name: TypeHelp
+  nameWithType: TypeHelp
+  fullName: TypeHelp
+- uid: TypeHelp.UCP
+  commentId: T:TypeHelp.UCP
+  parent: TypeHelp
+  href: TypeHelp.UCP.html
+  name: UCP
+  nameWithType: UCP
+  fullName: TypeHelp.UCP
+memberLayout: SeparatePages

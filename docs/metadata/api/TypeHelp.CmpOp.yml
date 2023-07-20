@@ -1,0 +1,179 @@
+### YamlMime:ManagedReference
+items:
+- uid: TypeHelp.CmpOp
+  commentId: T:TypeHelp.CmpOp
+  id: CmpOp
+  parent: TypeHelp
+  children:
+  - TypeHelp.CmpOp.EQU
+  - TypeHelp.CmpOp.GEQ
+  - TypeHelp.CmpOp.GTR
+  - TypeHelp.CmpOp.LEQ
+  - TypeHelp.CmpOp.LSS
+  - TypeHelp.CmpOp.NEQ
+  langs:
+  - csharp
+  - vb
+  name: CmpOp
+  nameWithType: CmpOp
+  fullName: TypeHelp.CmpOp
+  type: Enum
+  source:
+    id: CmpOp
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 135
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: The cmp op.
+  example: []
+  syntax:
+    content: public enum CmpOp
+    content.vb: Public Enum CmpOp
+- uid: TypeHelp.CmpOp.EQU
+  commentId: F:TypeHelp.CmpOp.EQU
+  id: EQU
+  parent: TypeHelp.CmpOp
+  langs:
+  - csharp
+  - vb
+  name: EQU
+  nameWithType: CmpOp.EQU
+  fullName: TypeHelp.CmpOp.EQU
+  type: Field
+  source:
+    id: EQU
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 139
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: EQU = 61
+    return:
+      type: TypeHelp.CmpOp
+- uid: TypeHelp.CmpOp.NEQ
+  commentId: F:TypeHelp.CmpOp.NEQ
+  id: NEQ
+  parent: TypeHelp.CmpOp
+  langs:
+  - csharp
+  - vb
+  name: NEQ
+  nameWithType: CmpOp.NEQ
+  fullName: TypeHelp.CmpOp.NEQ
+  type: Field
+  source:
+    id: NEQ
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 140
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: NEQ = 8800
+    return:
+      type: TypeHelp.CmpOp
+- uid: TypeHelp.CmpOp.LSS
+  commentId: F:TypeHelp.CmpOp.LSS
+  id: LSS
+  parent: TypeHelp.CmpOp
+  langs:
+  - csharp
+  - vb
+  name: LSS
+  nameWithType: CmpOp.LSS
+  fullName: TypeHelp.CmpOp.LSS
+  type: Field
+  source:
+    id: LSS
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 141
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: LSS = 60
+    return:
+      type: TypeHelp.CmpOp
+- uid: TypeHelp.CmpOp.LEQ
+  commentId: F:TypeHelp.CmpOp.LEQ
+  id: LEQ
+  parent: TypeHelp.CmpOp
+  langs:
+  - csharp
+  - vb
+  name: LEQ
+  nameWithType: CmpOp.LEQ
+  fullName: TypeHelp.CmpOp.LEQ
+  type: Field
+  source:
+    id: LEQ
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 142
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: LEQ = 8806
+    return:
+      type: TypeHelp.CmpOp
+- uid: TypeHelp.CmpOp.GTR
+  commentId: F:TypeHelp.CmpOp.GTR
+  id: GTR
+  parent: TypeHelp.CmpOp
+  langs:
+  - csharp
+  - vb
+  name: GTR
+  nameWithType: CmpOp.GTR
+  fullName: TypeHelp.CmpOp.GTR
+  type: Field
+  source:
+    id: GTR
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 143
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: GTR = 62
+    return:
+      type: TypeHelp.CmpOp
+- uid: TypeHelp.CmpOp.GEQ
+  commentId: F:TypeHelp.CmpOp.GEQ
+  id: GEQ
+  parent: TypeHelp.CmpOp
+  langs:
+  - csharp
+  - vb
+  name: GEQ
+  nameWithType: CmpOp.GEQ
+  fullName: TypeHelp.CmpOp.GEQ
+  type: Field
+  source:
+    id: GEQ
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 144
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: GEQ = 8805
+    return:
+      type: TypeHelp.CmpOp
+references:
+- uid: TypeHelp
+  commentId: N:TypeHelp
+  href: TypeHelp.html
+  name: TypeHelp
+  nameWithType: TypeHelp
+  fullName: TypeHelp
+- uid: TypeHelp.CmpOp
+  commentId: T:TypeHelp.CmpOp
+  parent: TypeHelp
+  href: TypeHelp.CmpOp.html
+  name: CmpOp
+  nameWithType: CmpOp
+  fullName: TypeHelp.CmpOp
+memberLayout: SeparatePages

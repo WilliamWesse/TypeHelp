@@ -1,0 +1,1050 @@
+### YamlMime:ManagedReference
+items:
+- uid: TypeHelp.UCInfo
+  commentId: T:TypeHelp.UCInfo
+  id: UCInfo
+  parent: TypeHelp
+  children:
+  - TypeHelp.UCInfo.Create(System.Boolean,System.Int32)
+  - TypeHelp.UCInfo.Create(System.Boolean,System.Int32,System.Int32)
+  - TypeHelp.UCInfo.Create(System.Boolean,System.Int32[])
+  - TypeHelp.UCInfo.Discard
+  - TypeHelp.UCInfo.Group
+  - TypeHelp.UCInfo.Groups
+  - TypeHelp.UCInfo.Is(TypeHelp.CPGI,TypeHelp.CPG)
+  - TypeHelp.UCInfo.IsCodePoint
+  - TypeHelp.UCInfo.IsReplacement
+  - TypeHelp.UCInfo.IsSupplement
+  - TypeHelp.UCInfo.IsSurrogate
+  - TypeHelp.UCInfo.Plane
+  - TypeHelp.UCInfo.Strict
+  - TypeHelp.UCInfo.Supplement
+  - TypeHelp.UCInfo.Surrogates
+  - TypeHelp.UCInfo.Tag
+  - TypeHelp.UCInfo.Valid
+  - TypeHelp.UCInfo.Value
+  langs:
+  - csharp
+  - vb
+  name: UCInfo
+  nameWithType: UCInfo
+  fullName: TypeHelp.UCInfo
+  type: Struct
+  source:
+    id: UCInfo
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCInfo.cs
+    startLine: 30
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: 'public struct UCInfo : IUCSInfo'
+    content.vb: Public Structure UCInfo Implements IUCSInfo
+  implements:
+  - TypeHelp.IUCSInfo
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: TypeHelp.UCInfo.Discard
+  commentId: P:TypeHelp.UCInfo.Discard
+  id: Discard
+  parent: TypeHelp.UCInfo
+  langs:
+  - csharp
+  - vb
+  name: Discard
+  nameWithType: UCInfo.Discard
+  fullName: TypeHelp.UCInfo.Discard
+  type: Property
+  source:
+    id: Discard
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCInfo.cs
+    startLine: 35
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: public bool Discard { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Discard As Boolean
+  overload: TypeHelp.UCInfo.Discard*
+  implements:
+  - TypeHelp.IUCSInfo.Discard
+- uid: TypeHelp.UCInfo.Group
+  commentId: P:TypeHelp.UCInfo.Group
+  id: Group
+  parent: TypeHelp.UCInfo
+  langs:
+  - csharp
+  - vb
+  name: Group
+  nameWithType: UCInfo.Group
+  fullName: TypeHelp.UCInfo.Group
+  type: Property
+  source:
+    id: Group
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCInfo.cs
+    startLine: 41
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: public CPG Group { get; }
+    parameters: []
+    return:
+      type: TypeHelp.CPG
+    content.vb: Public ReadOnly Property Group As CPG
+  overload: TypeHelp.UCInfo.Group*
+  implements:
+  - TypeHelp.IUCSInfo.Group
+- uid: TypeHelp.UCInfo.Groups
+  commentId: P:TypeHelp.UCInfo.Groups
+  id: Groups
+  parent: TypeHelp.UCInfo
+  langs:
+  - csharp
+  - vb
+  name: Groups
+  nameWithType: UCInfo.Groups
+  fullName: TypeHelp.UCInfo.Groups
+  type: Property
+  source:
+    id: Groups
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCInfo.cs
+    startLine: 46
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: public CPG[] Groups { get; }
+    parameters: []
+    return:
+      type: TypeHelp.CPG[]
+    content.vb: Public ReadOnly Property Groups As CPG()
+  overload: TypeHelp.UCInfo.Groups*
+  implements:
+  - TypeHelp.IUCSInfo.Groups
+- uid: TypeHelp.UCInfo.IsCodePoint
+  commentId: P:TypeHelp.UCInfo.IsCodePoint
+  id: IsCodePoint
+  parent: TypeHelp.UCInfo
+  langs:
+  - csharp
+  - vb
+  name: IsCodePoint
+  nameWithType: UCInfo.IsCodePoint
+  fullName: TypeHelp.UCInfo.IsCodePoint
+  type: Property
+  source:
+    id: IsCodePoint
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCInfo.cs
+    startLine: 50
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public bool IsCodePoint { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsCodePoint As Boolean
+  overload: TypeHelp.UCInfo.IsCodePoint*
+- uid: TypeHelp.UCInfo.IsReplacement
+  commentId: P:TypeHelp.UCInfo.IsReplacement
+  id: IsReplacement
+  parent: TypeHelp.UCInfo
+  langs:
+  - csharp
+  - vb
+  name: IsReplacement
+  nameWithType: UCInfo.IsReplacement
+  fullName: TypeHelp.UCInfo.IsReplacement
+  type: Property
+  source:
+    id: IsReplacement
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCInfo.cs
+    startLine: 51
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public bool IsReplacement { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsReplacement As Boolean
+  overload: TypeHelp.UCInfo.IsReplacement*
+- uid: TypeHelp.UCInfo.IsSupplement
+  commentId: P:TypeHelp.UCInfo.IsSupplement
+  id: IsSupplement
+  parent: TypeHelp.UCInfo
+  langs:
+  - csharp
+  - vb
+  name: IsSupplement
+  nameWithType: UCInfo.IsSupplement
+  fullName: TypeHelp.UCInfo.IsSupplement
+  type: Property
+  source:
+    id: IsSupplement
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCInfo.cs
+    startLine: 52
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public bool IsSupplement { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsSupplement As Boolean
+  overload: TypeHelp.UCInfo.IsSupplement*
+- uid: TypeHelp.UCInfo.IsSurrogate
+  commentId: P:TypeHelp.UCInfo.IsSurrogate
+  id: IsSurrogate
+  parent: TypeHelp.UCInfo
+  langs:
+  - csharp
+  - vb
+  name: IsSurrogate
+  nameWithType: UCInfo.IsSurrogate
+  fullName: TypeHelp.UCInfo.IsSurrogate
+  type: Property
+  source:
+    id: IsSurrogate
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCInfo.cs
+    startLine: 53
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public bool IsSurrogate { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsSurrogate As Boolean
+  overload: TypeHelp.UCInfo.IsSurrogate*
+- uid: TypeHelp.UCInfo.Plane
+  commentId: P:TypeHelp.UCInfo.Plane
+  id: Plane
+  parent: TypeHelp.UCInfo
+  langs:
+  - csharp
+  - vb
+  name: Plane
+  nameWithType: UCInfo.Plane
+  fullName: TypeHelp.UCInfo.Plane
+  type: Property
+  source:
+    id: Plane
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCInfo.cs
+    startLine: 54
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: public UCP Plane { get; }
+    parameters: []
+    return:
+      type: TypeHelp.UCP
+    content.vb: Public ReadOnly Property Plane As UCP
+  overload: TypeHelp.UCInfo.Plane*
+  implements:
+  - TypeHelp.IUCSInfo.Plane
+- uid: TypeHelp.UCInfo.Strict
+  commentId: P:TypeHelp.UCInfo.Strict
+  id: Strict
+  parent: TypeHelp.UCInfo
+  langs:
+  - csharp
+  - vb
+  name: Strict
+  nameWithType: UCInfo.Strict
+  fullName: TypeHelp.UCInfo.Strict
+  type: Property
+  source:
+    id: Strict
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCInfo.cs
+    startLine: 55
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: public bool Strict { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Strict As Boolean
+  overload: TypeHelp.UCInfo.Strict*
+  implements:
+  - TypeHelp.IUCSInfo.Strict
+- uid: TypeHelp.UCInfo.Supplement
+  commentId: P:TypeHelp.UCInfo.Supplement
+  id: Supplement
+  parent: TypeHelp.UCInfo
+  langs:
+  - csharp
+  - vb
+  name: Supplement
+  nameWithType: UCInfo.Supplement
+  fullName: TypeHelp.UCInfo.Supplement
+  type: Property
+  source:
+    id: Supplement
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCInfo.cs
+    startLine: 56
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: public int Supplement { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Supplement As Integer
+  overload: TypeHelp.UCInfo.Supplement*
+  implements:
+  - TypeHelp.IUCSInfo.Supplement
+- uid: TypeHelp.UCInfo.Surrogates
+  commentId: P:TypeHelp.UCInfo.Surrogates
+  id: Surrogates
+  parent: TypeHelp.UCInfo
+  langs:
+  - csharp
+  - vb
+  name: Surrogates
+  nameWithType: UCInfo.Surrogates
+  fullName: TypeHelp.UCInfo.Surrogates
+  type: Property
+  source:
+    id: Surrogates
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCInfo.cs
+    startLine: 57
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: public int[] Surrogates { get; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public ReadOnly Property Surrogates As Integer()
+  overload: TypeHelp.UCInfo.Surrogates*
+  implements:
+  - TypeHelp.IUCSInfo.Surrogates
+- uid: TypeHelp.UCInfo.Tag
+  commentId: P:TypeHelp.UCInfo.Tag
+  id: Tag
+  parent: TypeHelp.UCInfo
+  langs:
+  - csharp
+  - vb
+  name: Tag
+  nameWithType: UCInfo.Tag
+  fullName: TypeHelp.UCInfo.Tag
+  type: Property
+  source:
+    id: Tag
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCInfo.cs
+    startLine: 58
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: public object? Tag { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property Tag As Object
+  overload: TypeHelp.UCInfo.Tag*
+  implements:
+  - TypeHelp.IUCSInfo.Tag
+- uid: TypeHelp.UCInfo.Valid
+  commentId: P:TypeHelp.UCInfo.Valid
+  id: Valid
+  parent: TypeHelp.UCInfo
+  langs:
+  - csharp
+  - vb
+  name: Valid
+  nameWithType: UCInfo.Valid
+  fullName: TypeHelp.UCInfo.Valid
+  type: Property
+  source:
+    id: Valid
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCInfo.cs
+    startLine: 59
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: public bool Valid { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Valid As Boolean
+  overload: TypeHelp.UCInfo.Valid*
+  implements:
+  - TypeHelp.IUCSInfo.Valid
+- uid: TypeHelp.UCInfo.Value
+  commentId: P:TypeHelp.UCInfo.Value
+  id: Value
+  parent: TypeHelp.UCInfo
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: UCInfo.Value
+  fullName: TypeHelp.UCInfo.Value
+  type: Property
+  source:
+    id: Value
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCInfo.cs
+    startLine: 60
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: public int Value { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Value As Integer
+  overload: TypeHelp.UCInfo.Value*
+  implements:
+  - TypeHelp.IUCSInfo.Value
+- uid: TypeHelp.UCInfo.Create(System.Boolean,System.Int32)
+  commentId: M:TypeHelp.UCInfo.Create(System.Boolean,System.Int32)
+  id: Create(System.Boolean,System.Int32)
+  parent: TypeHelp.UCInfo
+  langs:
+  - csharp
+  - vb
+  name: Create(bool, int)
+  nameWithType: UCInfo.Create(bool, int)
+  fullName: TypeHelp.UCInfo.Create(bool, int)
+  type: Method
+  source:
+    id: Create
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCInfo.cs
+    startLine: 70
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static UCInfo Create(bool strict, int value)
+    parameters:
+    - id: strict
+      type: System.Boolean
+    - id: value
+      type: System.Int32
+    return:
+      type: TypeHelp.UCInfo
+    content.vb: Public Shared Function Create(strict As Boolean, value As Integer) As UCInfo
+  overload: TypeHelp.UCInfo.Create*
+  nameWithType.vb: UCInfo.Create(Boolean, Integer)
+  fullName.vb: TypeHelp.UCInfo.Create(Boolean, Integer)
+  name.vb: Create(Boolean, Integer)
+- uid: TypeHelp.UCInfo.Create(System.Boolean,System.Int32,System.Int32)
+  commentId: M:TypeHelp.UCInfo.Create(System.Boolean,System.Int32,System.Int32)
+  id: Create(System.Boolean,System.Int32,System.Int32)
+  parent: TypeHelp.UCInfo
+  langs:
+  - csharp
+  - vb
+  name: Create(bool, int, int)
+  nameWithType: UCInfo.Create(bool, int, int)
+  fullName: TypeHelp.UCInfo.Create(bool, int, int)
+  type: Method
+  source:
+    id: Create
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCInfo.cs
+    startLine: 75
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static UCInfo Create(bool strict, int lo, int hi)
+    parameters:
+    - id: strict
+      type: System.Boolean
+    - id: lo
+      type: System.Int32
+    - id: hi
+      type: System.Int32
+    return:
+      type: TypeHelp.UCInfo
+    content.vb: Public Shared Function Create(strict As Boolean, lo As Integer, hi As Integer) As UCInfo
+  overload: TypeHelp.UCInfo.Create*
+  nameWithType.vb: UCInfo.Create(Boolean, Integer, Integer)
+  fullName.vb: TypeHelp.UCInfo.Create(Boolean, Integer, Integer)
+  name.vb: Create(Boolean, Integer, Integer)
+- uid: TypeHelp.UCInfo.Create(System.Boolean,System.Int32[])
+  commentId: M:TypeHelp.UCInfo.Create(System.Boolean,System.Int32[])
+  id: Create(System.Boolean,System.Int32[])
+  parent: TypeHelp.UCInfo
+  langs:
+  - csharp
+  - vb
+  name: Create(bool, int[])
+  nameWithType: UCInfo.Create(bool, int[])
+  fullName: TypeHelp.UCInfo.Create(bool, int[])
+  type: Method
+  source:
+    id: Create
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCInfo.cs
+    startLine: 80
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static UCInfo Create(bool strict, int[] surrogates)
+    parameters:
+    - id: strict
+      type: System.Boolean
+    - id: surrogates
+      type: System.Int32[]
+    return:
+      type: TypeHelp.UCInfo
+    content.vb: Public Shared Function Create(strict As Boolean, surrogates As Integer()) As UCInfo
+  overload: TypeHelp.UCInfo.Create*
+  nameWithType.vb: UCInfo.Create(Boolean, Integer())
+  fullName.vb: TypeHelp.UCInfo.Create(Boolean, Integer())
+  name.vb: Create(Boolean, Integer())
+- uid: TypeHelp.UCInfo.Is(TypeHelp.CPGI,TypeHelp.CPG)
+  commentId: M:TypeHelp.UCInfo.Is(TypeHelp.CPGI,TypeHelp.CPG)
+  id: Is(TypeHelp.CPGI,TypeHelp.CPG)
+  parent: TypeHelp.UCInfo
+  langs:
+  - csharp
+  - vb
+  name: Is(CPGI, CPG)
+  nameWithType: UCInfo.Is(CPGI, CPG)
+  fullName: TypeHelp.UCInfo.Is(TypeHelp.CPGI, TypeHelp.CPG)
+  type: Method
+  source:
+    id: Is
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCInfo.cs
+    startLine: 85
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public bool Is(CPGI which, CPG group)
+    parameters:
+    - id: which
+      type: TypeHelp.CPGI
+    - id: group
+      type: TypeHelp.CPG
+    return:
+      type: System.Boolean
+    content.vb: Public Function [Is](which As CPGI, group As CPG) As Boolean
+  overload: TypeHelp.UCInfo.Is*
+references:
+- uid: TypeHelp
+  commentId: N:TypeHelp
+  href: TypeHelp.html
+  name: TypeHelp
+  nameWithType: TypeHelp
+  fullName: TypeHelp
+- uid: TypeHelp.IUCSInfo
+  commentId: T:TypeHelp.IUCSInfo
+  parent: TypeHelp
+  href: TypeHelp.IUCSInfo.html
+  name: IUCSInfo
+  nameWithType: IUCSInfo
+  fullName: TypeHelp.IUCSInfo
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TypeHelp.UCInfo.Discard*
+  commentId: Overload:TypeHelp.UCInfo.Discard
+  href: TypeHelp.UCInfo.Discard.html
+  name: Discard
+  nameWithType: UCInfo.Discard
+  fullName: TypeHelp.UCInfo.Discard
+- uid: TypeHelp.IUCSInfo.Discard
+  commentId: P:TypeHelp.IUCSInfo.Discard
+  parent: TypeHelp.IUCSInfo
+  href: TypeHelp.IUCSInfo.Discard.html
+  name: Discard
+  nameWithType: IUCSInfo.Discard
+  fullName: TypeHelp.IUCSInfo.Discard
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: TypeHelp.UCInfo.Group*
+  commentId: Overload:TypeHelp.UCInfo.Group
+  href: TypeHelp.UCInfo.Group.html
+  name: Group
+  nameWithType: UCInfo.Group
+  fullName: TypeHelp.UCInfo.Group
+- uid: TypeHelp.IUCSInfo.Group
+  commentId: P:TypeHelp.IUCSInfo.Group
+  parent: TypeHelp.IUCSInfo
+  href: TypeHelp.IUCSInfo.Group.html
+  name: Group
+  nameWithType: IUCSInfo.Group
+  fullName: TypeHelp.IUCSInfo.Group
+- uid: TypeHelp.CPG
+  commentId: T:TypeHelp.CPG
+  parent: TypeHelp
+  href: TypeHelp.CPG.html
+  name: CPG
+  nameWithType: CPG
+  fullName: TypeHelp.CPG
+- uid: TypeHelp.UCInfo.Groups*
+  commentId: Overload:TypeHelp.UCInfo.Groups
+  href: TypeHelp.UCInfo.Groups.html
+  name: Groups
+  nameWithType: UCInfo.Groups
+  fullName: TypeHelp.UCInfo.Groups
+- uid: TypeHelp.IUCSInfo.Groups
+  commentId: P:TypeHelp.IUCSInfo.Groups
+  parent: TypeHelp.IUCSInfo
+  href: TypeHelp.IUCSInfo.Groups.html
+  name: Groups
+  nameWithType: IUCSInfo.Groups
+  fullName: TypeHelp.IUCSInfo.Groups
+- uid: TypeHelp.CPG[]
+  isExternal: true
+  href: TypeHelp.CPG.html
+  name: CPG[]
+  nameWithType: CPG[]
+  fullName: TypeHelp.CPG[]
+  nameWithType.vb: CPG()
+  fullName.vb: TypeHelp.CPG()
+  name.vb: CPG()
+  spec.csharp:
+  - uid: TypeHelp.CPG
+    name: CPG
+    href: TypeHelp.CPG.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: TypeHelp.CPG
+    name: CPG
+    href: TypeHelp.CPG.html
+  - name: (
+  - name: )
+- uid: TypeHelp.UCInfo.IsCodePoint*
+  commentId: Overload:TypeHelp.UCInfo.IsCodePoint
+  href: TypeHelp.UCInfo.IsCodePoint.html
+  name: IsCodePoint
+  nameWithType: UCInfo.IsCodePoint
+  fullName: TypeHelp.UCInfo.IsCodePoint
+- uid: TypeHelp.UCInfo.IsReplacement*
+  commentId: Overload:TypeHelp.UCInfo.IsReplacement
+  href: TypeHelp.UCInfo.IsReplacement.html
+  name: IsReplacement
+  nameWithType: UCInfo.IsReplacement
+  fullName: TypeHelp.UCInfo.IsReplacement
+- uid: TypeHelp.UCInfo.IsSupplement*
+  commentId: Overload:TypeHelp.UCInfo.IsSupplement
+  href: TypeHelp.UCInfo.IsSupplement.html
+  name: IsSupplement
+  nameWithType: UCInfo.IsSupplement
+  fullName: TypeHelp.UCInfo.IsSupplement
+- uid: TypeHelp.UCInfo.IsSurrogate*
+  commentId: Overload:TypeHelp.UCInfo.IsSurrogate
+  href: TypeHelp.UCInfo.IsSurrogate.html
+  name: IsSurrogate
+  nameWithType: UCInfo.IsSurrogate
+  fullName: TypeHelp.UCInfo.IsSurrogate
+- uid: TypeHelp.UCInfo.Plane*
+  commentId: Overload:TypeHelp.UCInfo.Plane
+  href: TypeHelp.UCInfo.Plane.html
+  name: Plane
+  nameWithType: UCInfo.Plane
+  fullName: TypeHelp.UCInfo.Plane
+- uid: TypeHelp.IUCSInfo.Plane
+  commentId: P:TypeHelp.IUCSInfo.Plane
+  parent: TypeHelp.IUCSInfo
+  href: TypeHelp.IUCSInfo.Plane.html
+  name: Plane
+  nameWithType: IUCSInfo.Plane
+  fullName: TypeHelp.IUCSInfo.Plane
+- uid: TypeHelp.UCP
+  commentId: T:TypeHelp.UCP
+  parent: TypeHelp
+  href: TypeHelp.UCP.html
+  name: UCP
+  nameWithType: UCP
+  fullName: TypeHelp.UCP
+- uid: TypeHelp.UCInfo.Strict*
+  commentId: Overload:TypeHelp.UCInfo.Strict
+  href: TypeHelp.UCInfo.Strict.html
+  name: Strict
+  nameWithType: UCInfo.Strict
+  fullName: TypeHelp.UCInfo.Strict
+- uid: TypeHelp.IUCSInfo.Strict
+  commentId: P:TypeHelp.IUCSInfo.Strict
+  parent: TypeHelp.IUCSInfo
+  href: TypeHelp.IUCSInfo.Strict.html
+  name: Strict
+  nameWithType: IUCSInfo.Strict
+  fullName: TypeHelp.IUCSInfo.Strict
+- uid: TypeHelp.UCInfo.Supplement*
+  commentId: Overload:TypeHelp.UCInfo.Supplement
+  href: TypeHelp.UCInfo.Supplement.html
+  name: Supplement
+  nameWithType: UCInfo.Supplement
+  fullName: TypeHelp.UCInfo.Supplement
+- uid: TypeHelp.IUCSInfo.Supplement
+  commentId: P:TypeHelp.IUCSInfo.Supplement
+  parent: TypeHelp.IUCSInfo
+  href: TypeHelp.IUCSInfo.Supplement.html
+  name: Supplement
+  nameWithType: IUCSInfo.Supplement
+  fullName: TypeHelp.IUCSInfo.Supplement
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: TypeHelp.UCInfo.Surrogates*
+  commentId: Overload:TypeHelp.UCInfo.Surrogates
+  href: TypeHelp.UCInfo.Surrogates.html
+  name: Surrogates
+  nameWithType: UCInfo.Surrogates
+  fullName: TypeHelp.UCInfo.Surrogates
+- uid: TypeHelp.IUCSInfo.Surrogates
+  commentId: P:TypeHelp.IUCSInfo.Surrogates
+  parent: TypeHelp.IUCSInfo
+  href: TypeHelp.IUCSInfo.Surrogates.html
+  name: Surrogates
+  nameWithType: IUCSInfo.Surrogates
+  fullName: TypeHelp.IUCSInfo.Surrogates
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: TypeHelp.UCInfo.Tag*
+  commentId: Overload:TypeHelp.UCInfo.Tag
+  href: TypeHelp.UCInfo.Tag.html
+  name: Tag
+  nameWithType: UCInfo.Tag
+  fullName: TypeHelp.UCInfo.Tag
+- uid: TypeHelp.IUCSInfo.Tag
+  commentId: P:TypeHelp.IUCSInfo.Tag
+  parent: TypeHelp.IUCSInfo
+  href: TypeHelp.IUCSInfo.Tag.html
+  name: Tag
+  nameWithType: IUCSInfo.Tag
+  fullName: TypeHelp.IUCSInfo.Tag
+- uid: TypeHelp.UCInfo.Valid*
+  commentId: Overload:TypeHelp.UCInfo.Valid
+  href: TypeHelp.UCInfo.Valid.html
+  name: Valid
+  nameWithType: UCInfo.Valid
+  fullName: TypeHelp.UCInfo.Valid
+- uid: TypeHelp.IUCSInfo.Valid
+  commentId: P:TypeHelp.IUCSInfo.Valid
+  parent: TypeHelp.IUCSInfo
+  href: TypeHelp.IUCSInfo.Valid.html
+  name: Valid
+  nameWithType: IUCSInfo.Valid
+  fullName: TypeHelp.IUCSInfo.Valid
+- uid: TypeHelp.UCInfo.Value*
+  commentId: Overload:TypeHelp.UCInfo.Value
+  href: TypeHelp.UCInfo.Value.html
+  name: Value
+  nameWithType: UCInfo.Value
+  fullName: TypeHelp.UCInfo.Value
+- uid: TypeHelp.IUCSInfo.Value
+  commentId: P:TypeHelp.IUCSInfo.Value
+  parent: TypeHelp.IUCSInfo
+  href: TypeHelp.IUCSInfo.Value.html
+  name: Value
+  nameWithType: IUCSInfo.Value
+  fullName: TypeHelp.IUCSInfo.Value
+- uid: TypeHelp.UCInfo.Create*
+  commentId: Overload:TypeHelp.UCInfo.Create
+  href: TypeHelp.UCInfo.Create(System.Boolean,System.Int32).html
+  name: Create
+  nameWithType: UCInfo.Create
+  fullName: TypeHelp.UCInfo.Create
+- uid: TypeHelp.UCInfo
+  commentId: T:TypeHelp.UCInfo
+  parent: TypeHelp
+  href: TypeHelp.UCInfo.html
+  name: UCInfo
+  nameWithType: UCInfo
+  fullName: TypeHelp.UCInfo
+- uid: TypeHelp.UCInfo.Is*
+  commentId: Overload:TypeHelp.UCInfo.Is
+  href: TypeHelp.UCInfo.Is(TypeHelp.CPGI,TypeHelp.CPG).html
+  name: Is
+  nameWithType: UCInfo.Is
+  fullName: TypeHelp.UCInfo.Is
+- uid: TypeHelp.CPGI
+  commentId: T:TypeHelp.CPGI
+  parent: TypeHelp
+  href: TypeHelp.CPGI.html
+  name: CPGI
+  nameWithType: CPGI
+  fullName: TypeHelp.CPGI
+memberLayout: SeparatePages

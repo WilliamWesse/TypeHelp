@@ -1,0 +1,15 @@
+{
+    "name": "typehelp",
+    "version": "1.0.0",
+    "description": "TypeHelp",
+    "main": "./templates/enum/PropertyFetcherTest.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "type": "commonjs",
+    "author": "William Edward Wesse",
+    "license": "MIT",
+    "devDependencies": {
+        "eslint": "^8.45.0"
+    }
+}

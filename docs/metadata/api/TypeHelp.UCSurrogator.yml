@@ -1,0 +1,3008 @@
+### YamlMime:ManagedReference
+items:
+- uid: TypeHelp.UCSurrogator
+  commentId: T:TypeHelp.UCSurrogator
+  id: UCSurrogator
+  parent: TypeHelp
+  children:
+  - TypeHelp.UCSurrogator.CPGroupOf(System.Boolean,System.Int32)
+  - TypeHelp.UCSurrogator.CPGroupOf(System.Int32)
+  - TypeHelp.UCSurrogator.CPGroupValues(System.Boolean,System.String)
+  - TypeHelp.UCSurrogator.ContainsReplacement(System.String)
+  - TypeHelp.UCSurrogator.ContainsSupplements(System.String)
+  - TypeHelp.UCSurrogator.ContainsSurrogates(System.Boolean,System.String)
+  - TypeHelp.UCSurrogator.ContainsSurrogates(System.String)
+  - TypeHelp.UCSurrogator.Convert(System.Boolean,System.Object)
+  - TypeHelp.UCSurrogator.DefaultStrict
+  - TypeHelp.UCSurrogator.ErrorInfo(System.Boolean,System.String)
+  - TypeHelp.UCSurrogator.FirstSentinel
+  - TypeHelp.UCSurrogator.HiSurrogateRange
+  - TypeHelp.UCSurrogator.IsCodePoint(System.Int32)
+  - TypeHelp.UCSurrogator.IsCodePoint(System.Int32,System.Boolean)
+  - TypeHelp.UCSurrogator.IsCodePoint(System.Int32,System.Boolean,System.Boolean)
+  - TypeHelp.UCSurrogator.IsHiSurrogate(System.Char)
+  - TypeHelp.UCSurrogator.IsHiSurrogate(System.Int32)
+  - TypeHelp.UCSurrogator.IsLoSurrogate(System.Char)
+  - TypeHelp.UCSurrogator.IsLoSurrogate(System.Int32)
+  - TypeHelp.UCSurrogator.IsNonCharacter(System.Nullable{System.Int32})
+  - TypeHelp.UCSurrogator.IsNonCharacter(System.Nullable{System.Int32},System.Boolean)
+  - TypeHelp.UCSurrogator.IsReplacement(System.Boolean,System.Int32[])
+  - TypeHelp.UCSurrogator.IsReplacement(System.Boolean,System.String)
+  - TypeHelp.UCSurrogator.IsReplacement(System.Char)
+  - TypeHelp.UCSurrogator.IsReplacement(System.Int32)
+  - TypeHelp.UCSurrogator.IsReplacement(System.Int32[])
+  - TypeHelp.UCSurrogator.IsReplacement(System.String)
+  - TypeHelp.UCSurrogator.IsSentinel(System.Int32)
+  - TypeHelp.UCSurrogator.IsSupplement(System.Int32)
+  - TypeHelp.UCSurrogator.IsSurrogate(System.Boolean,System.Int32[])
+  - TypeHelp.UCSurrogator.IsSurrogate(System.Char)
+  - TypeHelp.UCSurrogator.IsSurrogate(System.Char,System.Char)
+  - TypeHelp.UCSurrogator.IsSurrogate(System.Int32)
+  - TypeHelp.UCSurrogator.IsSurrogate(System.Int32,System.Int32)
+  - TypeHelp.UCSurrogator.IsSurrogate(System.Int32[])
+  - TypeHelp.UCSurrogator.IsUnicode(System.Int32)
+  - TypeHelp.UCSurrogator.IsUnicode(System.Int32,System.Boolean)
+  - TypeHelp.UCSurrogator.LoSurrogateRange
+  - TypeHelp.UCSurrogator.MaxBMPCodePoint
+  - TypeHelp.UCSurrogator.MaxHiSurrogate
+  - TypeHelp.UCSurrogator.MaxLoSurrogate
+  - TypeHelp.UCSurrogator.MaxNonCharacter
+  - TypeHelp.UCSurrogator.MaxSupplementCode
+  - TypeHelp.UCSurrogator.MinHiSurrogate
+  - TypeHelp.UCSurrogator.MinLoSurrogate
+  - TypeHelp.UCSurrogator.MinNonCharacter
+  - TypeHelp.UCSurrogator.MinSupplementCode
+  - TypeHelp.UCSurrogator.MinValidCPGroup
+  - TypeHelp.UCSurrogator.NumSurrogates
+  - TypeHelp.UCSurrogator.ReplacementChar
+  - TypeHelp.UCSurrogator.ReplacementIndices(System.String)
+  - TypeHelp.UCSurrogator.ReplacementInt
+  - TypeHelp.UCSurrogator.ReplacementPair
+  - TypeHelp.UCSurrogator.Stringize(System.Char)
+  - TypeHelp.UCSurrogator.Stringize(System.Char,System.Boolean)
+  - TypeHelp.UCSurrogator.Stringize(System.Int32)
+  - TypeHelp.UCSurrogator.Stringize(System.Int32,System.Boolean)
+  - TypeHelp.UCSurrogator.Stringize(System.Int32[])
+  - TypeHelp.UCSurrogator.Stringize(System.Int32[],System.Boolean)
+  - TypeHelp.UCSurrogator.SupplementsIndices(System.String)
+  - TypeHelp.UCSurrogator.SurrogateIndices(System.Boolean,System.String)
+  - TypeHelp.UCSurrogator.SurrogateIndices(System.String)
+  - TypeHelp.UCSurrogator.ToSupplement(System.Boolean,System.Int32,System.Int32)
+  - TypeHelp.UCSurrogator.ToSupplement(System.Boolean,System.Int32,System.Int32,System.Int32@)
+  - TypeHelp.UCSurrogator.ToSupplement(System.Boolean,System.Int32[])
+  - TypeHelp.UCSurrogator.ToSupplement(System.Boolean,System.Int32[],System.Int32@)
+  - TypeHelp.UCSurrogator.ToSupplement(System.Int32,System.Int32)
+  - TypeHelp.UCSurrogator.ToSupplement(System.Int32[])
+  - TypeHelp.UCSurrogator.ToSurrogates(System.Char)
+  - TypeHelp.UCSurrogator.ToSurrogates(System.Char,System.Int32[]@)
+  - TypeHelp.UCSurrogator.ToSurrogates(System.Int32)
+  - TypeHelp.UCSurrogator.ToSurrogates(System.Int32,System.Int32[]@)
+  langs:
+  - csharp
+  - vb
+  name: UCSurrogator
+  nameWithType: UCSurrogator
+  fullName: TypeHelp.UCSurrogator
+  type: Struct
+  source:
+    id: UCSurrogator
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 14
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public readonly struct UCSurrogator
+    content.vb: Public Structure UCSurrogator
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: TypeHelp.UCSurrogator.DefaultStrict
+  commentId: P:TypeHelp.UCSurrogator.DefaultStrict
+  id: DefaultStrict
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: DefaultStrict
+  nameWithType: UCSurrogator.DefaultStrict
+  fullName: TypeHelp.UCSurrogator.DefaultStrict
+  type: Property
+  source:
+    id: DefaultStrict
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 87
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool DefaultStrict { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property DefaultStrict As Boolean
+  overload: TypeHelp.UCSurrogator.DefaultStrict*
+- uid: TypeHelp.UCSurrogator.FirstSentinel
+  commentId: P:TypeHelp.UCSurrogator.FirstSentinel
+  id: FirstSentinel
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: FirstSentinel
+  nameWithType: UCSurrogator.FirstSentinel
+  fullName: TypeHelp.UCSurrogator.FirstSentinel
+  type: Property
+  source:
+    id: FirstSentinel
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 88
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static int FirstSentinel { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property FirstSentinel As Integer
+  overload: TypeHelp.UCSurrogator.FirstSentinel*
+- uid: TypeHelp.UCSurrogator.HiSurrogateRange
+  commentId: P:TypeHelp.UCSurrogator.HiSurrogateRange
+  id: HiSurrogateRange
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: HiSurrogateRange
+  nameWithType: UCSurrogator.HiSurrogateRange
+  fullName: TypeHelp.UCSurrogator.HiSurrogateRange
+  type: Property
+  source:
+    id: HiSurrogateRange
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 89
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static int HiSurrogateRange { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property HiSurrogateRange As Integer
+  overload: TypeHelp.UCSurrogator.HiSurrogateRange*
+- uid: TypeHelp.UCSurrogator.LoSurrogateRange
+  commentId: P:TypeHelp.UCSurrogator.LoSurrogateRange
+  id: LoSurrogateRange
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: LoSurrogateRange
+  nameWithType: UCSurrogator.LoSurrogateRange
+  fullName: TypeHelp.UCSurrogator.LoSurrogateRange
+  type: Property
+  source:
+    id: LoSurrogateRange
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 90
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static int LoSurrogateRange { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property LoSurrogateRange As Integer
+  overload: TypeHelp.UCSurrogator.LoSurrogateRange*
+- uid: TypeHelp.UCSurrogator.MaxBMPCodePoint
+  commentId: P:TypeHelp.UCSurrogator.MaxBMPCodePoint
+  id: MaxBMPCodePoint
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: MaxBMPCodePoint
+  nameWithType: UCSurrogator.MaxBMPCodePoint
+  fullName: TypeHelp.UCSurrogator.MaxBMPCodePoint
+  type: Property
+  source:
+    id: MaxBMPCodePoint
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 91
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static int MaxBMPCodePoint { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property MaxBMPCodePoint As Integer
+  overload: TypeHelp.UCSurrogator.MaxBMPCodePoint*
+- uid: TypeHelp.UCSurrogator.MaxHiSurrogate
+  commentId: P:TypeHelp.UCSurrogator.MaxHiSurrogate
+  id: MaxHiSurrogate
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: MaxHiSurrogate
+  nameWithType: UCSurrogator.MaxHiSurrogate
+  fullName: TypeHelp.UCSurrogator.MaxHiSurrogate
+  type: Property
+  source:
+    id: MaxHiSurrogate
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 92
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static int MaxHiSurrogate { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property MaxHiSurrogate As Integer
+  overload: TypeHelp.UCSurrogator.MaxHiSurrogate*
+- uid: TypeHelp.UCSurrogator.MaxLoSurrogate
+  commentId: P:TypeHelp.UCSurrogator.MaxLoSurrogate
+  id: MaxLoSurrogate
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: MaxLoSurrogate
+  nameWithType: UCSurrogator.MaxLoSurrogate
+  fullName: TypeHelp.UCSurrogator.MaxLoSurrogate
+  type: Property
+  source:
+    id: MaxLoSurrogate
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 93
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static int MaxLoSurrogate { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property MaxLoSurrogate As Integer
+  overload: TypeHelp.UCSurrogator.MaxLoSurrogate*
+- uid: TypeHelp.UCSurrogator.MaxNonCharacter
+  commentId: P:TypeHelp.UCSurrogator.MaxNonCharacter
+  id: MaxNonCharacter
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: MaxNonCharacter
+  nameWithType: UCSurrogator.MaxNonCharacter
+  fullName: TypeHelp.UCSurrogator.MaxNonCharacter
+  type: Property
+  source:
+    id: MaxNonCharacter
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 94
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static int MaxNonCharacter { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property MaxNonCharacter As Integer
+  overload: TypeHelp.UCSurrogator.MaxNonCharacter*
+- uid: TypeHelp.UCSurrogator.MaxSupplementCode
+  commentId: P:TypeHelp.UCSurrogator.MaxSupplementCode
+  id: MaxSupplementCode
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: MaxSupplementCode
+  nameWithType: UCSurrogator.MaxSupplementCode
+  fullName: TypeHelp.UCSurrogator.MaxSupplementCode
+  type: Property
+  source:
+    id: MaxSupplementCode
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 95
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static int MaxSupplementCode { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property MaxSupplementCode As Integer
+  overload: TypeHelp.UCSurrogator.MaxSupplementCode*
+- uid: TypeHelp.UCSurrogator.MinHiSurrogate
+  commentId: P:TypeHelp.UCSurrogator.MinHiSurrogate
+  id: MinHiSurrogate
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: MinHiSurrogate
+  nameWithType: UCSurrogator.MinHiSurrogate
+  fullName: TypeHelp.UCSurrogator.MinHiSurrogate
+  type: Property
+  source:
+    id: MinHiSurrogate
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 96
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static int MinHiSurrogate { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property MinHiSurrogate As Integer
+  overload: TypeHelp.UCSurrogator.MinHiSurrogate*
+- uid: TypeHelp.UCSurrogator.MinLoSurrogate
+  commentId: P:TypeHelp.UCSurrogator.MinLoSurrogate
+  id: MinLoSurrogate
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: MinLoSurrogate
+  nameWithType: UCSurrogator.MinLoSurrogate
+  fullName: TypeHelp.UCSurrogator.MinLoSurrogate
+  type: Property
+  source:
+    id: MinLoSurrogate
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 97
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static int MinLoSurrogate { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property MinLoSurrogate As Integer
+  overload: TypeHelp.UCSurrogator.MinLoSurrogate*
+- uid: TypeHelp.UCSurrogator.MinNonCharacter
+  commentId: P:TypeHelp.UCSurrogator.MinNonCharacter
+  id: MinNonCharacter
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: MinNonCharacter
+  nameWithType: UCSurrogator.MinNonCharacter
+  fullName: TypeHelp.UCSurrogator.MinNonCharacter
+  type: Property
+  source:
+    id: MinNonCharacter
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 98
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static int MinNonCharacter { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property MinNonCharacter As Integer
+  overload: TypeHelp.UCSurrogator.MinNonCharacter*
+- uid: TypeHelp.UCSurrogator.MinSupplementCode
+  commentId: P:TypeHelp.UCSurrogator.MinSupplementCode
+  id: MinSupplementCode
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: MinSupplementCode
+  nameWithType: UCSurrogator.MinSupplementCode
+  fullName: TypeHelp.UCSurrogator.MinSupplementCode
+  type: Property
+  source:
+    id: MinSupplementCode
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 99
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static int MinSupplementCode { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property MinSupplementCode As Integer
+  overload: TypeHelp.UCSurrogator.MinSupplementCode*
+- uid: TypeHelp.UCSurrogator.MinValidCPGroup
+  commentId: P:TypeHelp.UCSurrogator.MinValidCPGroup
+  id: MinValidCPGroup
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: MinValidCPGroup
+  nameWithType: UCSurrogator.MinValidCPGroup
+  fullName: TypeHelp.UCSurrogator.MinValidCPGroup
+  type: Property
+  source:
+    id: MinValidCPGroup
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 100
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static CPG MinValidCPGroup { get; }
+    parameters: []
+    return:
+      type: TypeHelp.CPG
+    content.vb: Public Shared ReadOnly Property MinValidCPGroup As CPG
+  overload: TypeHelp.UCSurrogator.MinValidCPGroup*
+- uid: TypeHelp.UCSurrogator.NumSurrogates
+  commentId: P:TypeHelp.UCSurrogator.NumSurrogates
+  id: NumSurrogates
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: NumSurrogates
+  nameWithType: UCSurrogator.NumSurrogates
+  fullName: TypeHelp.UCSurrogator.NumSurrogates
+  type: Property
+  source:
+    id: NumSurrogates
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 101
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static int NumSurrogates { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property NumSurrogates As Integer
+  overload: TypeHelp.UCSurrogator.NumSurrogates*
+- uid: TypeHelp.UCSurrogator.ReplacementChar
+  commentId: P:TypeHelp.UCSurrogator.ReplacementChar
+  id: ReplacementChar
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: ReplacementChar
+  nameWithType: UCSurrogator.ReplacementChar
+  fullName: TypeHelp.UCSurrogator.ReplacementChar
+  type: Property
+  source:
+    id: ReplacementChar
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 102
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static char ReplacementChar { get; }
+    parameters: []
+    return:
+      type: System.Char
+    content.vb: Public Shared ReadOnly Property ReplacementChar As Char
+  overload: TypeHelp.UCSurrogator.ReplacementChar*
+- uid: TypeHelp.UCSurrogator.ReplacementInt
+  commentId: P:TypeHelp.UCSurrogator.ReplacementInt
+  id: ReplacementInt
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: ReplacementInt
+  nameWithType: UCSurrogator.ReplacementInt
+  fullName: TypeHelp.UCSurrogator.ReplacementInt
+  type: Property
+  source:
+    id: ReplacementInt
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 103
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static int ReplacementInt { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property ReplacementInt As Integer
+  overload: TypeHelp.UCSurrogator.ReplacementInt*
+- uid: TypeHelp.UCSurrogator.ReplacementPair
+  commentId: P:TypeHelp.UCSurrogator.ReplacementPair
+  id: ReplacementPair
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: ReplacementPair
+  nameWithType: UCSurrogator.ReplacementPair
+  fullName: TypeHelp.UCSurrogator.ReplacementPair
+  type: Property
+  source:
+    id: ReplacementPair
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 104
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static int[] ReplacementPair { get; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Shared ReadOnly Property ReplacementPair As Integer()
+  overload: TypeHelp.UCSurrogator.ReplacementPair*
+- uid: TypeHelp.UCSurrogator.ContainsReplacement(System.String)
+  commentId: M:TypeHelp.UCSurrogator.ContainsReplacement(System.String)
+  id: ContainsReplacement(System.String)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: ContainsReplacement(string)
+  nameWithType: UCSurrogator.ContainsReplacement(string)
+  fullName: TypeHelp.UCSurrogator.ContainsReplacement(string)
+  type: Method
+  source:
+    id: ContainsReplacement
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 110
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool ContainsReplacement(string text)
+    parameters:
+    - id: text
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function ContainsReplacement(text As String) As Boolean
+  overload: TypeHelp.UCSurrogator.ContainsReplacement*
+  nameWithType.vb: UCSurrogator.ContainsReplacement(String)
+  fullName.vb: TypeHelp.UCSurrogator.ContainsReplacement(String)
+  name.vb: ContainsReplacement(String)
+- uid: TypeHelp.UCSurrogator.ReplacementIndices(System.String)
+  commentId: M:TypeHelp.UCSurrogator.ReplacementIndices(System.String)
+  id: ReplacementIndices(System.String)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: ReplacementIndices(string)
+  nameWithType: UCSurrogator.ReplacementIndices(string)
+  fullName: TypeHelp.UCSurrogator.ReplacementIndices(string)
+  type: Method
+  source:
+    id: ReplacementIndices
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 120
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static int[] ReplacementIndices(string text)
+    parameters:
+    - id: text
+      type: System.String
+    return:
+      type: System.Int32[]
+    content.vb: Public Shared Function ReplacementIndices(text As String) As Integer()
+  overload: TypeHelp.UCSurrogator.ReplacementIndices*
+  nameWithType.vb: UCSurrogator.ReplacementIndices(String)
+  fullName.vb: TypeHelp.UCSurrogator.ReplacementIndices(String)
+  name.vb: ReplacementIndices(String)
+- uid: TypeHelp.UCSurrogator.ContainsSupplements(System.String)
+  commentId: M:TypeHelp.UCSurrogator.ContainsSupplements(System.String)
+  id: ContainsSupplements(System.String)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: ContainsSupplements(string)
+  nameWithType: UCSurrogator.ContainsSupplements(string)
+  fullName: TypeHelp.UCSurrogator.ContainsSupplements(string)
+  type: Method
+  source:
+    id: ContainsSupplements
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 131
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool ContainsSupplements(string text)
+    parameters:
+    - id: text
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function ContainsSupplements(text As String) As Boolean
+  overload: TypeHelp.UCSurrogator.ContainsSupplements*
+  nameWithType.vb: UCSurrogator.ContainsSupplements(String)
+  fullName.vb: TypeHelp.UCSurrogator.ContainsSupplements(String)
+  name.vb: ContainsSupplements(String)
+- uid: TypeHelp.UCSurrogator.SupplementsIndices(System.String)
+  commentId: M:TypeHelp.UCSurrogator.SupplementsIndices(System.String)
+  id: SupplementsIndices(System.String)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: SupplementsIndices(string)
+  nameWithType: UCSurrogator.SupplementsIndices(string)
+  fullName: TypeHelp.UCSurrogator.SupplementsIndices(string)
+  type: Method
+  source:
+    id: SupplementsIndices
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 141
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static int[] SupplementsIndices(string text)
+    parameters:
+    - id: text
+      type: System.String
+    return:
+      type: System.Int32[]
+    content.vb: Public Shared Function SupplementsIndices(text As String) As Integer()
+  overload: TypeHelp.UCSurrogator.SupplementsIndices*
+  nameWithType.vb: UCSurrogator.SupplementsIndices(String)
+  fullName.vb: TypeHelp.UCSurrogator.SupplementsIndices(String)
+  name.vb: SupplementsIndices(String)
+- uid: TypeHelp.UCSurrogator.ContainsSurrogates(System.String)
+  commentId: M:TypeHelp.UCSurrogator.ContainsSurrogates(System.String)
+  id: ContainsSurrogates(System.String)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: ContainsSurrogates(string)
+  nameWithType: UCSurrogator.ContainsSurrogates(string)
+  fullName: TypeHelp.UCSurrogator.ContainsSurrogates(string)
+  type: Method
+  source:
+    id: ContainsSurrogates
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 152
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool ContainsSurrogates(string text)
+    parameters:
+    - id: text
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function ContainsSurrogates(text As String) As Boolean
+  overload: TypeHelp.UCSurrogator.ContainsSurrogates*
+  nameWithType.vb: UCSurrogator.ContainsSurrogates(String)
+  fullName.vb: TypeHelp.UCSurrogator.ContainsSurrogates(String)
+  name.vb: ContainsSurrogates(String)
+- uid: TypeHelp.UCSurrogator.ContainsSurrogates(System.Boolean,System.String)
+  commentId: M:TypeHelp.UCSurrogator.ContainsSurrogates(System.Boolean,System.String)
+  id: ContainsSurrogates(System.Boolean,System.String)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: ContainsSurrogates(bool, string)
+  nameWithType: UCSurrogator.ContainsSurrogates(bool, string)
+  fullName: TypeHelp.UCSurrogator.ContainsSurrogates(bool, string)
+  type: Method
+  source:
+    id: ContainsSurrogates
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 162
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool ContainsSurrogates(bool pairedOrUnpaired, string text)
+    parameters:
+    - id: pairedOrUnpaired
+      type: System.Boolean
+    - id: text
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function ContainsSurrogates(pairedOrUnpaired As Boolean, text As String) As Boolean
+  overload: TypeHelp.UCSurrogator.ContainsSurrogates*
+  nameWithType.vb: UCSurrogator.ContainsSurrogates(Boolean, String)
+  fullName.vb: TypeHelp.UCSurrogator.ContainsSurrogates(Boolean, String)
+  name.vb: ContainsSurrogates(Boolean, String)
+- uid: TypeHelp.UCSurrogator.SurrogateIndices(System.String)
+  commentId: M:TypeHelp.UCSurrogator.SurrogateIndices(System.String)
+  id: SurrogateIndices(System.String)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: SurrogateIndices(string)
+  nameWithType: UCSurrogator.SurrogateIndices(string)
+  fullName: TypeHelp.UCSurrogator.SurrogateIndices(string)
+  type: Method
+  source:
+    id: SurrogateIndices
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 177
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static int[] SurrogateIndices(string text)
+    parameters:
+    - id: text
+      type: System.String
+    return:
+      type: System.Int32[]
+    content.vb: Public Shared Function SurrogateIndices(text As String) As Integer()
+  overload: TypeHelp.UCSurrogator.SurrogateIndices*
+  nameWithType.vb: UCSurrogator.SurrogateIndices(String)
+  fullName.vb: TypeHelp.UCSurrogator.SurrogateIndices(String)
+  name.vb: SurrogateIndices(String)
+- uid: TypeHelp.UCSurrogator.SurrogateIndices(System.Boolean,System.String)
+  commentId: M:TypeHelp.UCSurrogator.SurrogateIndices(System.Boolean,System.String)
+  id: SurrogateIndices(System.Boolean,System.String)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: SurrogateIndices(bool, string)
+  nameWithType: UCSurrogator.SurrogateIndices(bool, string)
+  fullName: TypeHelp.UCSurrogator.SurrogateIndices(bool, string)
+  type: Method
+  source:
+    id: SurrogateIndices
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 188
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static int[] SurrogateIndices(bool pairedOrUnpaired, string text)
+    parameters:
+    - id: pairedOrUnpaired
+      type: System.Boolean
+    - id: text
+      type: System.String
+    return:
+      type: System.Int32[]
+    content.vb: Public Shared Function SurrogateIndices(pairedOrUnpaired As Boolean, text As String) As Integer()
+  overload: TypeHelp.UCSurrogator.SurrogateIndices*
+  nameWithType.vb: UCSurrogator.SurrogateIndices(Boolean, String)
+  fullName.vb: TypeHelp.UCSurrogator.SurrogateIndices(Boolean, String)
+  name.vb: SurrogateIndices(Boolean, String)
+- uid: TypeHelp.UCSurrogator.CPGroupOf(System.Int32)
+  commentId: M:TypeHelp.UCSurrogator.CPGroupOf(System.Int32)
+  id: CPGroupOf(System.Int32)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: CPGroupOf(int)
+  nameWithType: UCSurrogator.CPGroupOf(int)
+  fullName: TypeHelp.UCSurrogator.CPGroupOf(int)
+  type: Method
+  source:
+    id: CPGroupOf
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 205
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static CPG CPGroupOf(int value)
+    parameters:
+    - id: value
+      type: System.Int32
+    return:
+      type: TypeHelp.CPG
+    content.vb: Public Shared Function CPGroupOf(value As Integer) As CPG
+  overload: TypeHelp.UCSurrogator.CPGroupOf*
+  nameWithType.vb: UCSurrogator.CPGroupOf(Integer)
+  fullName.vb: TypeHelp.UCSurrogator.CPGroupOf(Integer)
+  name.vb: CPGroupOf(Integer)
+- uid: TypeHelp.UCSurrogator.CPGroupOf(System.Boolean,System.Int32)
+  commentId: M:TypeHelp.UCSurrogator.CPGroupOf(System.Boolean,System.Int32)
+  id: CPGroupOf(System.Boolean,System.Int32)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: CPGroupOf(bool, int)
+  nameWithType: UCSurrogator.CPGroupOf(bool, int)
+  fullName: TypeHelp.UCSurrogator.CPGroupOf(bool, int)
+  type: Method
+  source:
+    id: CPGroupOf
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 210
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static CPG CPGroupOf(bool strict, int value)
+    parameters:
+    - id: strict
+      type: System.Boolean
+    - id: value
+      type: System.Int32
+    return:
+      type: TypeHelp.CPG
+    content.vb: Public Shared Function CPGroupOf(strict As Boolean, value As Integer) As CPG
+  overload: TypeHelp.UCSurrogator.CPGroupOf*
+  nameWithType.vb: UCSurrogator.CPGroupOf(Boolean, Integer)
+  fullName.vb: TypeHelp.UCSurrogator.CPGroupOf(Boolean, Integer)
+  name.vb: CPGroupOf(Boolean, Integer)
+- uid: TypeHelp.UCSurrogator.CPGroupValues(System.Boolean,System.String)
+  commentId: M:TypeHelp.UCSurrogator.CPGroupValues(System.Boolean,System.String)
+  id: CPGroupValues(System.Boolean,System.String)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: CPGroupValues(bool, string)
+  nameWithType: UCSurrogator.CPGroupValues(bool, string)
+  fullName: TypeHelp.UCSurrogator.CPGroupValues(bool, string)
+  type: Method
+  source:
+    id: CPGroupValues
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 237
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static CPG[] CPGroupValues(bool strict, string text)
+    parameters:
+    - id: strict
+      type: System.Boolean
+    - id: text
+      type: System.String
+    return:
+      type: TypeHelp.CPG[]
+    content.vb: Public Shared Function CPGroupValues(strict As Boolean, text As String) As CPG()
+  overload: TypeHelp.UCSurrogator.CPGroupValues*
+  nameWithType.vb: UCSurrogator.CPGroupValues(Boolean, String)
+  fullName.vb: TypeHelp.UCSurrogator.CPGroupValues(Boolean, String)
+  name.vb: CPGroupValues(Boolean, String)
+- uid: TypeHelp.UCSurrogator.ErrorInfo(System.Boolean,System.String)
+  commentId: M:TypeHelp.UCSurrogator.ErrorInfo(System.Boolean,System.String)
+  id: ErrorInfo(System.Boolean,System.String)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: ErrorInfo(bool, string)
+  nameWithType: UCSurrogator.ErrorInfo(bool, string)
+  fullName: TypeHelp.UCSurrogator.ErrorInfo(bool, string)
+  type: Method
+  source:
+    id: ErrorInfo
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 246
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static UCPInfo[] ErrorInfo(bool strict, string text)
+    parameters:
+    - id: strict
+      type: System.Boolean
+    - id: text
+      type: System.String
+    return:
+      type: TypeHelp.UCPInfo[]
+    content.vb: Public Shared Function ErrorInfo(strict As Boolean, text As String) As UCPInfo()
+  overload: TypeHelp.UCSurrogator.ErrorInfo*
+  nameWithType.vb: UCSurrogator.ErrorInfo(Boolean, String)
+  fullName.vb: TypeHelp.UCSurrogator.ErrorInfo(Boolean, String)
+  name.vb: ErrorInfo(Boolean, String)
+- uid: TypeHelp.UCSurrogator.Convert(System.Boolean,System.Object)
+  commentId: M:TypeHelp.UCSurrogator.Convert(System.Boolean,System.Object)
+  id: Convert(System.Boolean,System.Object)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: Convert(bool, object)
+  nameWithType: UCSurrogator.Convert(bool, object)
+  fullName: TypeHelp.UCSurrogator.Convert(bool, object)
+  type: Method
+  source:
+    id: Convert
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 283
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static Tuple<int, int[], int, bool[], string> Convert(bool strict, object candidate)
+    parameters:
+    - id: strict
+      type: System.Boolean
+    - id: candidate
+      type: System.Object
+    return:
+      type: System.Tuple{System.Int32,System.Int32[],System.Int32,System.Boolean[],System.String}
+    content.vb: Public Shared Function Convert(strict As Boolean, candidate As Object) As Tuple(Of Integer, Integer(), Integer, Boolean(), String)
+  overload: TypeHelp.UCSurrogator.Convert*
+  nameWithType.vb: UCSurrogator.Convert(Boolean, Object)
+  fullName.vb: TypeHelp.UCSurrogator.Convert(Boolean, Object)
+  name.vb: Convert(Boolean, Object)
+- uid: TypeHelp.UCSurrogator.IsCodePoint(System.Int32)
+  commentId: M:TypeHelp.UCSurrogator.IsCodePoint(System.Int32)
+  id: IsCodePoint(System.Int32)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: IsCodePoint(int)
+  nameWithType: UCSurrogator.IsCodePoint(int)
+  fullName: TypeHelp.UCSurrogator.IsCodePoint(int)
+  type: Method
+  source:
+    id: IsCodePoint
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 343
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool IsCodePoint(int value)
+    parameters:
+    - id: value
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsCodePoint(value As Integer) As Boolean
+  overload: TypeHelp.UCSurrogator.IsCodePoint*
+  nameWithType.vb: UCSurrogator.IsCodePoint(Integer)
+  fullName.vb: TypeHelp.UCSurrogator.IsCodePoint(Integer)
+  name.vb: IsCodePoint(Integer)
+- uid: TypeHelp.UCSurrogator.IsCodePoint(System.Int32,System.Boolean)
+  commentId: M:TypeHelp.UCSurrogator.IsCodePoint(System.Int32,System.Boolean)
+  id: IsCodePoint(System.Int32,System.Boolean)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: IsCodePoint(int, bool)
+  nameWithType: UCSurrogator.IsCodePoint(int, bool)
+  fullName: TypeHelp.UCSurrogator.IsCodePoint(int, bool)
+  type: Method
+  source:
+    id: IsCodePoint
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 348
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool IsCodePoint(int value, bool allowSurrogates)
+    parameters:
+    - id: value
+      type: System.Int32
+    - id: allowSurrogates
+      type: System.Boolean
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsCodePoint(value As Integer, allowSurrogates As Boolean) As Boolean
+  overload: TypeHelp.UCSurrogator.IsCodePoint*
+  nameWithType.vb: UCSurrogator.IsCodePoint(Integer, Boolean)
+  fullName.vb: TypeHelp.UCSurrogator.IsCodePoint(Integer, Boolean)
+  name.vb: IsCodePoint(Integer, Boolean)
+- uid: TypeHelp.UCSurrogator.IsCodePoint(System.Int32,System.Boolean,System.Boolean)
+  commentId: M:TypeHelp.UCSurrogator.IsCodePoint(System.Int32,System.Boolean,System.Boolean)
+  id: IsCodePoint(System.Int32,System.Boolean,System.Boolean)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: IsCodePoint(int, bool, bool)
+  nameWithType: UCSurrogator.IsCodePoint(int, bool, bool)
+  fullName: TypeHelp.UCSurrogator.IsCodePoint(int, bool, bool)
+  type: Method
+  source:
+    id: IsCodePoint
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 353
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool IsCodePoint(int value, bool allowSurrogates, bool bmpOnly)
+    parameters:
+    - id: value
+      type: System.Int32
+    - id: allowSurrogates
+      type: System.Boolean
+    - id: bmpOnly
+      type: System.Boolean
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsCodePoint(value As Integer, allowSurrogates As Boolean, bmpOnly As Boolean) As Boolean
+  overload: TypeHelp.UCSurrogator.IsCodePoint*
+  nameWithType.vb: UCSurrogator.IsCodePoint(Integer, Boolean, Boolean)
+  fullName.vb: TypeHelp.UCSurrogator.IsCodePoint(Integer, Boolean, Boolean)
+  name.vb: IsCodePoint(Integer, Boolean, Boolean)
+- uid: TypeHelp.UCSurrogator.IsHiSurrogate(System.Char)
+  commentId: M:TypeHelp.UCSurrogator.IsHiSurrogate(System.Char)
+  id: IsHiSurrogate(System.Char)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: IsHiSurrogate(char)
+  nameWithType: UCSurrogator.IsHiSurrogate(char)
+  fullName: TypeHelp.UCSurrogator.IsHiSurrogate(char)
+  type: Method
+  source:
+    id: IsHiSurrogate
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 368
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool IsHiSurrogate(char ch)
+    parameters:
+    - id: ch
+      type: System.Char
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsHiSurrogate(ch As Char) As Boolean
+  overload: TypeHelp.UCSurrogator.IsHiSurrogate*
+  nameWithType.vb: UCSurrogator.IsHiSurrogate(Char)
+  fullName.vb: TypeHelp.UCSurrogator.IsHiSurrogate(Char)
+  name.vb: IsHiSurrogate(Char)
+- uid: TypeHelp.UCSurrogator.IsHiSurrogate(System.Int32)
+  commentId: M:TypeHelp.UCSurrogator.IsHiSurrogate(System.Int32)
+  id: IsHiSurrogate(System.Int32)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: IsHiSurrogate(int)
+  nameWithType: UCSurrogator.IsHiSurrogate(int)
+  fullName: TypeHelp.UCSurrogator.IsHiSurrogate(int)
+  type: Method
+  source:
+    id: IsHiSurrogate
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 373
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool IsHiSurrogate(int value)
+    parameters:
+    - id: value
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsHiSurrogate(value As Integer) As Boolean
+  overload: TypeHelp.UCSurrogator.IsHiSurrogate*
+  nameWithType.vb: UCSurrogator.IsHiSurrogate(Integer)
+  fullName.vb: TypeHelp.UCSurrogator.IsHiSurrogate(Integer)
+  name.vb: IsHiSurrogate(Integer)
+- uid: TypeHelp.UCSurrogator.IsLoSurrogate(System.Char)
+  commentId: M:TypeHelp.UCSurrogator.IsLoSurrogate(System.Char)
+  id: IsLoSurrogate(System.Char)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: IsLoSurrogate(char)
+  nameWithType: UCSurrogator.IsLoSurrogate(char)
+  fullName: TypeHelp.UCSurrogator.IsLoSurrogate(char)
+  type: Method
+  source:
+    id: IsLoSurrogate
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 378
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool IsLoSurrogate(char ch)
+    parameters:
+    - id: ch
+      type: System.Char
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsLoSurrogate(ch As Char) As Boolean
+  overload: TypeHelp.UCSurrogator.IsLoSurrogate*
+  nameWithType.vb: UCSurrogator.IsLoSurrogate(Char)
+  fullName.vb: TypeHelp.UCSurrogator.IsLoSurrogate(Char)
+  name.vb: IsLoSurrogate(Char)
+- uid: TypeHelp.UCSurrogator.IsLoSurrogate(System.Int32)
+  commentId: M:TypeHelp.UCSurrogator.IsLoSurrogate(System.Int32)
+  id: IsLoSurrogate(System.Int32)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: IsLoSurrogate(int)
+  nameWithType: UCSurrogator.IsLoSurrogate(int)
+  fullName: TypeHelp.UCSurrogator.IsLoSurrogate(int)
+  type: Method
+  source:
+    id: IsLoSurrogate
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 383
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool IsLoSurrogate(int value)
+    parameters:
+    - id: value
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsLoSurrogate(value As Integer) As Boolean
+  overload: TypeHelp.UCSurrogator.IsLoSurrogate*
+  nameWithType.vb: UCSurrogator.IsLoSurrogate(Integer)
+  fullName.vb: TypeHelp.UCSurrogator.IsLoSurrogate(Integer)
+  name.vb: IsLoSurrogate(Integer)
+- uid: TypeHelp.UCSurrogator.IsNonCharacter(System.Nullable{System.Int32})
+  commentId: M:TypeHelp.UCSurrogator.IsNonCharacter(System.Nullable{System.Int32})
+  id: IsNonCharacter(System.Nullable{System.Int32})
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: IsNonCharacter(int?)
+  nameWithType: UCSurrogator.IsNonCharacter(int?)
+  fullName: TypeHelp.UCSurrogator.IsNonCharacter(int?)
+  type: Method
+  source:
+    id: IsNonCharacter
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 388
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool IsNonCharacter(int? value)
+    parameters:
+    - id: value
+      type: System.Nullable{System.Int32}
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsNonCharacter(value As Integer?) As Boolean
+  overload: TypeHelp.UCSurrogator.IsNonCharacter*
+  nameWithType.vb: UCSurrogator.IsNonCharacter(Integer?)
+  fullName.vb: TypeHelp.UCSurrogator.IsNonCharacter(Integer?)
+  name.vb: IsNonCharacter(Integer?)
+- uid: TypeHelp.UCSurrogator.IsNonCharacter(System.Nullable{System.Int32},System.Boolean)
+  commentId: M:TypeHelp.UCSurrogator.IsNonCharacter(System.Nullable{System.Int32},System.Boolean)
+  id: IsNonCharacter(System.Nullable{System.Int32},System.Boolean)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: IsNonCharacter(int?, bool)
+  nameWithType: UCSurrogator.IsNonCharacter(int?, bool)
+  fullName: TypeHelp.UCSurrogator.IsNonCharacter(int?, bool)
+  type: Method
+  source:
+    id: IsNonCharacter
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 393
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool IsNonCharacter(int? value, bool bmpOnly)
+    parameters:
+    - id: value
+      type: System.Nullable{System.Int32}
+    - id: bmpOnly
+      type: System.Boolean
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsNonCharacter(value As Integer?, bmpOnly As Boolean) As Boolean
+  overload: TypeHelp.UCSurrogator.IsNonCharacter*
+  nameWithType.vb: UCSurrogator.IsNonCharacter(Integer?, Boolean)
+  fullName.vb: TypeHelp.UCSurrogator.IsNonCharacter(Integer?, Boolean)
+  name.vb: IsNonCharacter(Integer?, Boolean)
+- uid: TypeHelp.UCSurrogator.IsReplacement(System.Int32)
+  commentId: M:TypeHelp.UCSurrogator.IsReplacement(System.Int32)
+  id: IsReplacement(System.Int32)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: IsReplacement(int)
+  nameWithType: UCSurrogator.IsReplacement(int)
+  fullName: TypeHelp.UCSurrogator.IsReplacement(int)
+  type: Method
+  source:
+    id: IsReplacement
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 410
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool IsReplacement(int value)
+    parameters:
+    - id: value
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsReplacement(value As Integer) As Boolean
+  overload: TypeHelp.UCSurrogator.IsReplacement*
+  nameWithType.vb: UCSurrogator.IsReplacement(Integer)
+  fullName.vb: TypeHelp.UCSurrogator.IsReplacement(Integer)
+  name.vb: IsReplacement(Integer)
+- uid: TypeHelp.UCSurrogator.IsReplacement(System.Char)
+  commentId: M:TypeHelp.UCSurrogator.IsReplacement(System.Char)
+  id: IsReplacement(System.Char)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: IsReplacement(char)
+  nameWithType: UCSurrogator.IsReplacement(char)
+  fullName: TypeHelp.UCSurrogator.IsReplacement(char)
+  type: Method
+  source:
+    id: IsReplacement
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 415
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool IsReplacement(char value)
+    parameters:
+    - id: value
+      type: System.Char
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsReplacement(value As Char) As Boolean
+  overload: TypeHelp.UCSurrogator.IsReplacement*
+  nameWithType.vb: UCSurrogator.IsReplacement(Char)
+  fullName.vb: TypeHelp.UCSurrogator.IsReplacement(Char)
+  name.vb: IsReplacement(Char)
+- uid: TypeHelp.UCSurrogator.IsReplacement(System.Int32[])
+  commentId: M:TypeHelp.UCSurrogator.IsReplacement(System.Int32[])
+  id: IsReplacement(System.Int32[])
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: IsReplacement(int[])
+  nameWithType: UCSurrogator.IsReplacement(int[])
+  fullName: TypeHelp.UCSurrogator.IsReplacement(int[])
+  type: Method
+  source:
+    id: IsReplacement
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 420
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool IsReplacement(int[] value)
+    parameters:
+    - id: value
+      type: System.Int32[]
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsReplacement(value As Integer()) As Boolean
+  overload: TypeHelp.UCSurrogator.IsReplacement*
+  nameWithType.vb: UCSurrogator.IsReplacement(Integer())
+  fullName.vb: TypeHelp.UCSurrogator.IsReplacement(Integer())
+  name.vb: IsReplacement(Integer())
+- uid: TypeHelp.UCSurrogator.IsReplacement(System.Boolean,System.Int32[])
+  commentId: M:TypeHelp.UCSurrogator.IsReplacement(System.Boolean,System.Int32[])
+  id: IsReplacement(System.Boolean,System.Int32[])
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: IsReplacement(bool, int[])
+  nameWithType: UCSurrogator.IsReplacement(bool, int[])
+  fullName: TypeHelp.UCSurrogator.IsReplacement(bool, int[])
+  type: Method
+  source:
+    id: IsReplacement
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 425
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool IsReplacement(bool strict, int[] surrogates)
+    parameters:
+    - id: strict
+      type: System.Boolean
+    - id: surrogates
+      type: System.Int32[]
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsReplacement(strict As Boolean, surrogates As Integer()) As Boolean
+  overload: TypeHelp.UCSurrogator.IsReplacement*
+  nameWithType.vb: UCSurrogator.IsReplacement(Boolean, Integer())
+  fullName.vb: TypeHelp.UCSurrogator.IsReplacement(Boolean, Integer())
+  name.vb: IsReplacement(Boolean, Integer())
+- uid: TypeHelp.UCSurrogator.IsReplacement(System.String)
+  commentId: M:TypeHelp.UCSurrogator.IsReplacement(System.String)
+  id: IsReplacement(System.String)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: IsReplacement(string)
+  nameWithType: UCSurrogator.IsReplacement(string)
+  fullName: TypeHelp.UCSurrogator.IsReplacement(string)
+  type: Method
+  source:
+    id: IsReplacement
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 435
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool IsReplacement(string text)
+    parameters:
+    - id: text
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsReplacement(text As String) As Boolean
+  overload: TypeHelp.UCSurrogator.IsReplacement*
+  nameWithType.vb: UCSurrogator.IsReplacement(String)
+  fullName.vb: TypeHelp.UCSurrogator.IsReplacement(String)
+  name.vb: IsReplacement(String)
+- uid: TypeHelp.UCSurrogator.IsReplacement(System.Boolean,System.String)
+  commentId: M:TypeHelp.UCSurrogator.IsReplacement(System.Boolean,System.String)
+  id: IsReplacement(System.Boolean,System.String)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: IsReplacement(bool, string)
+  nameWithType: UCSurrogator.IsReplacement(bool, string)
+  fullName: TypeHelp.UCSurrogator.IsReplacement(bool, string)
+  type: Method
+  source:
+    id: IsReplacement
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 440
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool IsReplacement(bool startsOrEndsWith, string text)
+    parameters:
+    - id: startsOrEndsWith
+      type: System.Boolean
+    - id: text
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsReplacement(startsOrEndsWith As Boolean, text As String) As Boolean
+  overload: TypeHelp.UCSurrogator.IsReplacement*
+  nameWithType.vb: UCSurrogator.IsReplacement(Boolean, String)
+  fullName.vb: TypeHelp.UCSurrogator.IsReplacement(Boolean, String)
+  name.vb: IsReplacement(Boolean, String)
+- uid: TypeHelp.UCSurrogator.IsSentinel(System.Int32)
+  commentId: M:TypeHelp.UCSurrogator.IsSentinel(System.Int32)
+  id: IsSentinel(System.Int32)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: IsSentinel(int)
+  nameWithType: UCSurrogator.IsSentinel(int)
+  fullName: TypeHelp.UCSurrogator.IsSentinel(int)
+  type: Method
+  source:
+    id: IsSentinel
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 449
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool IsSentinel(int value)
+    parameters:
+    - id: value
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsSentinel(value As Integer) As Boolean
+  overload: TypeHelp.UCSurrogator.IsSentinel*
+  nameWithType.vb: UCSurrogator.IsSentinel(Integer)
+  fullName.vb: TypeHelp.UCSurrogator.IsSentinel(Integer)
+  name.vb: IsSentinel(Integer)
+- uid: TypeHelp.UCSurrogator.IsSupplement(System.Int32)
+  commentId: M:TypeHelp.UCSurrogator.IsSupplement(System.Int32)
+  id: IsSupplement(System.Int32)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: IsSupplement(int)
+  nameWithType: UCSurrogator.IsSupplement(int)
+  fullName: TypeHelp.UCSurrogator.IsSupplement(int)
+  type: Method
+  source:
+    id: IsSupplement
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 455
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool IsSupplement(int value)
+    parameters:
+    - id: value
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsSupplement(value As Integer) As Boolean
+  overload: TypeHelp.UCSurrogator.IsSupplement*
+  nameWithType.vb: UCSurrogator.IsSupplement(Integer)
+  fullName.vb: TypeHelp.UCSurrogator.IsSupplement(Integer)
+  name.vb: IsSupplement(Integer)
+- uid: TypeHelp.UCSurrogator.IsSurrogate(System.Char)
+  commentId: M:TypeHelp.UCSurrogator.IsSurrogate(System.Char)
+  id: IsSurrogate(System.Char)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: IsSurrogate(char)
+  nameWithType: UCSurrogator.IsSurrogate(char)
+  fullName: TypeHelp.UCSurrogator.IsSurrogate(char)
+  type: Method
+  source:
+    id: IsSurrogate
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 463
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool IsSurrogate(char value)
+    parameters:
+    - id: value
+      type: System.Char
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsSurrogate(value As Char) As Boolean
+  overload: TypeHelp.UCSurrogator.IsSurrogate*
+  nameWithType.vb: UCSurrogator.IsSurrogate(Char)
+  fullName.vb: TypeHelp.UCSurrogator.IsSurrogate(Char)
+  name.vb: IsSurrogate(Char)
+- uid: TypeHelp.UCSurrogator.IsSurrogate(System.Int32)
+  commentId: M:TypeHelp.UCSurrogator.IsSurrogate(System.Int32)
+  id: IsSurrogate(System.Int32)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: IsSurrogate(int)
+  nameWithType: UCSurrogator.IsSurrogate(int)
+  fullName: TypeHelp.UCSurrogator.IsSurrogate(int)
+  type: Method
+  source:
+    id: IsSurrogate
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 468
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool IsSurrogate(int value)
+    parameters:
+    - id: value
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsSurrogate(value As Integer) As Boolean
+  overload: TypeHelp.UCSurrogator.IsSurrogate*
+  nameWithType.vb: UCSurrogator.IsSurrogate(Integer)
+  fullName.vb: TypeHelp.UCSurrogator.IsSurrogate(Integer)
+  name.vb: IsSurrogate(Integer)
+- uid: TypeHelp.UCSurrogator.IsSurrogate(System.Char,System.Char)
+  commentId: M:TypeHelp.UCSurrogator.IsSurrogate(System.Char,System.Char)
+  id: IsSurrogate(System.Char,System.Char)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: IsSurrogate(char, char)
+  nameWithType: UCSurrogator.IsSurrogate(char, char)
+  fullName: TypeHelp.UCSurrogator.IsSurrogate(char, char)
+  type: Method
+  source:
+    id: IsSurrogate
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 473
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool IsSurrogate(char hi, char lo)
+    parameters:
+    - id: hi
+      type: System.Char
+    - id: lo
+      type: System.Char
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsSurrogate(hi As Char, lo As Char) As Boolean
+  overload: TypeHelp.UCSurrogator.IsSurrogate*
+  nameWithType.vb: UCSurrogator.IsSurrogate(Char, Char)
+  fullName.vb: TypeHelp.UCSurrogator.IsSurrogate(Char, Char)
+  name.vb: IsSurrogate(Char, Char)
+- uid: TypeHelp.UCSurrogator.IsSurrogate(System.Int32,System.Int32)
+  commentId: M:TypeHelp.UCSurrogator.IsSurrogate(System.Int32,System.Int32)
+  id: IsSurrogate(System.Int32,System.Int32)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: IsSurrogate(int, int)
+  nameWithType: UCSurrogator.IsSurrogate(int, int)
+  fullName: TypeHelp.UCSurrogator.IsSurrogate(int, int)
+  type: Method
+  source:
+    id: IsSurrogate
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 478
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool IsSurrogate(int hi, int lo)
+    parameters:
+    - id: hi
+      type: System.Int32
+    - id: lo
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsSurrogate(hi As Integer, lo As Integer) As Boolean
+  overload: TypeHelp.UCSurrogator.IsSurrogate*
+  nameWithType.vb: UCSurrogator.IsSurrogate(Integer, Integer)
+  fullName.vb: TypeHelp.UCSurrogator.IsSurrogate(Integer, Integer)
+  name.vb: IsSurrogate(Integer, Integer)
+- uid: TypeHelp.UCSurrogator.IsSurrogate(System.Int32[])
+  commentId: M:TypeHelp.UCSurrogator.IsSurrogate(System.Int32[])
+  id: IsSurrogate(System.Int32[])
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: IsSurrogate(int[])
+  nameWithType: UCSurrogator.IsSurrogate(int[])
+  fullName: TypeHelp.UCSurrogator.IsSurrogate(int[])
+  type: Method
+  source:
+    id: IsSurrogate
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 483
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool IsSurrogate(int[] surrogates)
+    parameters:
+    - id: surrogates
+      type: System.Int32[]
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsSurrogate(surrogates As Integer()) As Boolean
+  overload: TypeHelp.UCSurrogator.IsSurrogate*
+  nameWithType.vb: UCSurrogator.IsSurrogate(Integer())
+  fullName.vb: TypeHelp.UCSurrogator.IsSurrogate(Integer())
+  name.vb: IsSurrogate(Integer())
+- uid: TypeHelp.UCSurrogator.IsSurrogate(System.Boolean,System.Int32[])
+  commentId: M:TypeHelp.UCSurrogator.IsSurrogate(System.Boolean,System.Int32[])
+  id: IsSurrogate(System.Boolean,System.Int32[])
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: IsSurrogate(bool, int[])
+  nameWithType: UCSurrogator.IsSurrogate(bool, int[])
+  fullName: TypeHelp.UCSurrogator.IsSurrogate(bool, int[])
+  type: Method
+  source:
+    id: IsSurrogate
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 488
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool IsSurrogate(bool strict, int[] surrogates)
+    parameters:
+    - id: strict
+      type: System.Boolean
+    - id: surrogates
+      type: System.Int32[]
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsSurrogate(strict As Boolean, surrogates As Integer()) As Boolean
+  overload: TypeHelp.UCSurrogator.IsSurrogate*
+  nameWithType.vb: UCSurrogator.IsSurrogate(Boolean, Integer())
+  fullName.vb: TypeHelp.UCSurrogator.IsSurrogate(Boolean, Integer())
+  name.vb: IsSurrogate(Boolean, Integer())
+- uid: TypeHelp.UCSurrogator.IsUnicode(System.Int32)
+  commentId: M:TypeHelp.UCSurrogator.IsUnicode(System.Int32)
+  id: IsUnicode(System.Int32)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: IsUnicode(int)
+  nameWithType: UCSurrogator.IsUnicode(int)
+  fullName: TypeHelp.UCSurrogator.IsUnicode(int)
+  type: Method
+  source:
+    id: IsUnicode
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 498
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool IsUnicode(int value)
+    parameters:
+    - id: value
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsUnicode(value As Integer) As Boolean
+  overload: TypeHelp.UCSurrogator.IsUnicode*
+  nameWithType.vb: UCSurrogator.IsUnicode(Integer)
+  fullName.vb: TypeHelp.UCSurrogator.IsUnicode(Integer)
+  name.vb: IsUnicode(Integer)
+- uid: TypeHelp.UCSurrogator.IsUnicode(System.Int32,System.Boolean)
+  commentId: M:TypeHelp.UCSurrogator.IsUnicode(System.Int32,System.Boolean)
+  id: IsUnicode(System.Int32,System.Boolean)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: IsUnicode(int, bool)
+  nameWithType: UCSurrogator.IsUnicode(int, bool)
+  fullName: TypeHelp.UCSurrogator.IsUnicode(int, bool)
+  type: Method
+  source:
+    id: IsUnicode
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 505
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool IsUnicode(int value, bool allowSentinels)
+    parameters:
+    - id: value
+      type: System.Int32
+    - id: allowSentinels
+      type: System.Boolean
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsUnicode(value As Integer, allowSentinels As Boolean) As Boolean
+  overload: TypeHelp.UCSurrogator.IsUnicode*
+  nameWithType.vb: UCSurrogator.IsUnicode(Integer, Boolean)
+  fullName.vb: TypeHelp.UCSurrogator.IsUnicode(Integer, Boolean)
+  name.vb: IsUnicode(Integer, Boolean)
+- uid: TypeHelp.UCSurrogator.Stringize(System.Char)
+  commentId: M:TypeHelp.UCSurrogator.Stringize(System.Char)
+  id: Stringize(System.Char)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: Stringize(char)
+  nameWithType: UCSurrogator.Stringize(char)
+  fullName: TypeHelp.UCSurrogator.Stringize(char)
+  type: Method
+  source:
+    id: Stringize
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 519
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static string Stringize(char value)
+    parameters:
+    - id: value
+      type: System.Char
+    return:
+      type: System.String
+    content.vb: Public Shared Function Stringize(value As Char) As String
+  overload: TypeHelp.UCSurrogator.Stringize*
+  nameWithType.vb: UCSurrogator.Stringize(Char)
+  fullName.vb: TypeHelp.UCSurrogator.Stringize(Char)
+  name.vb: Stringize(Char)
+- uid: TypeHelp.UCSurrogator.Stringize(System.Char,System.Boolean)
+  commentId: M:TypeHelp.UCSurrogator.Stringize(System.Char,System.Boolean)
+  id: Stringize(System.Char,System.Boolean)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: Stringize(char, bool)
+  nameWithType: UCSurrogator.Stringize(char, bool)
+  fullName: TypeHelp.UCSurrogator.Stringize(char, bool)
+  type: Method
+  source:
+    id: Stringize
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 524
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static string Stringize(char value, bool keepReplacements)
+    parameters:
+    - id: value
+      type: System.Char
+    - id: keepReplacements
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Shared Function Stringize(value As Char, keepReplacements As Boolean) As String
+  overload: TypeHelp.UCSurrogator.Stringize*
+  nameWithType.vb: UCSurrogator.Stringize(Char, Boolean)
+  fullName.vb: TypeHelp.UCSurrogator.Stringize(Char, Boolean)
+  name.vb: Stringize(Char, Boolean)
+- uid: TypeHelp.UCSurrogator.Stringize(System.Int32)
+  commentId: M:TypeHelp.UCSurrogator.Stringize(System.Int32)
+  id: Stringize(System.Int32)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: Stringize(int)
+  nameWithType: UCSurrogator.Stringize(int)
+  fullName: TypeHelp.UCSurrogator.Stringize(int)
+  type: Method
+  source:
+    id: Stringize
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 529
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static string Stringize(int value)
+    parameters:
+    - id: value
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Shared Function Stringize(value As Integer) As String
+  overload: TypeHelp.UCSurrogator.Stringize*
+  nameWithType.vb: UCSurrogator.Stringize(Integer)
+  fullName.vb: TypeHelp.UCSurrogator.Stringize(Integer)
+  name.vb: Stringize(Integer)
+- uid: TypeHelp.UCSurrogator.Stringize(System.Int32,System.Boolean)
+  commentId: M:TypeHelp.UCSurrogator.Stringize(System.Int32,System.Boolean)
+  id: Stringize(System.Int32,System.Boolean)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: Stringize(int, bool)
+  nameWithType: UCSurrogator.Stringize(int, bool)
+  fullName: TypeHelp.UCSurrogator.Stringize(int, bool)
+  type: Method
+  source:
+    id: Stringize
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 534
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static string Stringize(int value, bool keepReplacements)
+    parameters:
+    - id: value
+      type: System.Int32
+    - id: keepReplacements
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Shared Function Stringize(value As Integer, keepReplacements As Boolean) As String
+  overload: TypeHelp.UCSurrogator.Stringize*
+  nameWithType.vb: UCSurrogator.Stringize(Integer, Boolean)
+  fullName.vb: TypeHelp.UCSurrogator.Stringize(Integer, Boolean)
+  name.vb: Stringize(Integer, Boolean)
+- uid: TypeHelp.UCSurrogator.Stringize(System.Int32[])
+  commentId: M:TypeHelp.UCSurrogator.Stringize(System.Int32[])
+  id: Stringize(System.Int32[])
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: Stringize(int[])
+  nameWithType: UCSurrogator.Stringize(int[])
+  fullName: TypeHelp.UCSurrogator.Stringize(int[])
+  type: Method
+  source:
+    id: Stringize
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 539
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static string Stringize(int[] surrogates)
+    parameters:
+    - id: surrogates
+      type: System.Int32[]
+    return:
+      type: System.String
+    content.vb: Public Shared Function Stringize(surrogates As Integer()) As String
+  overload: TypeHelp.UCSurrogator.Stringize*
+  nameWithType.vb: UCSurrogator.Stringize(Integer())
+  fullName.vb: TypeHelp.UCSurrogator.Stringize(Integer())
+  name.vb: Stringize(Integer())
+- uid: TypeHelp.UCSurrogator.Stringize(System.Int32[],System.Boolean)
+  commentId: M:TypeHelp.UCSurrogator.Stringize(System.Int32[],System.Boolean)
+  id: Stringize(System.Int32[],System.Boolean)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: Stringize(int[], bool)
+  nameWithType: UCSurrogator.Stringize(int[], bool)
+  fullName: TypeHelp.UCSurrogator.Stringize(int[], bool)
+  type: Method
+  source:
+    id: Stringize
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 544
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static string Stringize(int[] surrogates, bool keepReplacements)
+    parameters:
+    - id: surrogates
+      type: System.Int32[]
+    - id: keepReplacements
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Shared Function Stringize(surrogates As Integer(), keepReplacements As Boolean) As String
+  overload: TypeHelp.UCSurrogator.Stringize*
+  nameWithType.vb: UCSurrogator.Stringize(Integer(), Boolean)
+  fullName.vb: TypeHelp.UCSurrogator.Stringize(Integer(), Boolean)
+  name.vb: Stringize(Integer(), Boolean)
+- uid: TypeHelp.UCSurrogator.ToSupplement(System.Int32,System.Int32)
+  commentId: M:TypeHelp.UCSurrogator.ToSupplement(System.Int32,System.Int32)
+  id: ToSupplement(System.Int32,System.Int32)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: ToSupplement(int, int)
+  nameWithType: UCSurrogator.ToSupplement(int, int)
+  fullName: TypeHelp.UCSurrogator.ToSupplement(int, int)
+  type: Method
+  source:
+    id: ToSupplement
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 561
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static int ToSupplement(int hi, int lo)
+    parameters:
+    - id: hi
+      type: System.Int32
+    - id: lo
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function ToSupplement(hi As Integer, lo As Integer) As Integer
+  overload: TypeHelp.UCSurrogator.ToSupplement*
+  nameWithType.vb: UCSurrogator.ToSupplement(Integer, Integer)
+  fullName.vb: TypeHelp.UCSurrogator.ToSupplement(Integer, Integer)
+  name.vb: ToSupplement(Integer, Integer)
+- uid: TypeHelp.UCSurrogator.ToSupplement(System.Boolean,System.Int32,System.Int32)
+  commentId: M:TypeHelp.UCSurrogator.ToSupplement(System.Boolean,System.Int32,System.Int32)
+  id: ToSupplement(System.Boolean,System.Int32,System.Int32)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: ToSupplement(bool, int, int)
+  nameWithType: UCSurrogator.ToSupplement(bool, int, int)
+  fullName: TypeHelp.UCSurrogator.ToSupplement(bool, int, int)
+  type: Method
+  source:
+    id: ToSupplement
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 567
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static int ToSupplement(bool strict, int hi, int lo)
+    parameters:
+    - id: strict
+      type: System.Boolean
+    - id: hi
+      type: System.Int32
+    - id: lo
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function ToSupplement(strict As Boolean, hi As Integer, lo As Integer) As Integer
+  overload: TypeHelp.UCSurrogator.ToSupplement*
+  nameWithType.vb: UCSurrogator.ToSupplement(Boolean, Integer, Integer)
+  fullName.vb: TypeHelp.UCSurrogator.ToSupplement(Boolean, Integer, Integer)
+  name.vb: ToSupplement(Boolean, Integer, Integer)
+- uid: TypeHelp.UCSurrogator.ToSupplement(System.Boolean,System.Int32,System.Int32,System.Int32@)
+  commentId: M:TypeHelp.UCSurrogator.ToSupplement(System.Boolean,System.Int32,System.Int32,System.Int32@)
+  id: ToSupplement(System.Boolean,System.Int32,System.Int32,System.Int32@)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: ToSupplement(bool, int, int, out int)
+  nameWithType: UCSurrogator.ToSupplement(bool, int, int, out int)
+  fullName: TypeHelp.UCSurrogator.ToSupplement(bool, int, int, out int)
+  type: Method
+  source:
+    id: ToSupplement
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 573
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool ToSupplement(bool strict, int hi, int lo, out int supplement)
+    parameters:
+    - id: strict
+      type: System.Boolean
+    - id: hi
+      type: System.Int32
+    - id: lo
+      type: System.Int32
+    - id: supplement
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function ToSupplement(strict As Boolean, hi As Integer, lo As Integer, supplement As Integer) As Boolean
+  overload: TypeHelp.UCSurrogator.ToSupplement*
+  nameWithType.vb: UCSurrogator.ToSupplement(Boolean, Integer, Integer, Integer)
+  fullName.vb: TypeHelp.UCSurrogator.ToSupplement(Boolean, Integer, Integer, Integer)
+  name.vb: ToSupplement(Boolean, Integer, Integer, Integer)
+- uid: TypeHelp.UCSurrogator.ToSupplement(System.Int32[])
+  commentId: M:TypeHelp.UCSurrogator.ToSupplement(System.Int32[])
+  id: ToSupplement(System.Int32[])
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: ToSupplement(int[])
+  nameWithType: UCSurrogator.ToSupplement(int[])
+  fullName: TypeHelp.UCSurrogator.ToSupplement(int[])
+  type: Method
+  source:
+    id: ToSupplement
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 602
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static int ToSupplement(int[] surrogates)
+    parameters:
+    - id: surrogates
+      type: System.Int32[]
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function ToSupplement(surrogates As Integer()) As Integer
+  overload: TypeHelp.UCSurrogator.ToSupplement*
+  nameWithType.vb: UCSurrogator.ToSupplement(Integer())
+  fullName.vb: TypeHelp.UCSurrogator.ToSupplement(Integer())
+  name.vb: ToSupplement(Integer())
+- uid: TypeHelp.UCSurrogator.ToSupplement(System.Boolean,System.Int32[])
+  commentId: M:TypeHelp.UCSurrogator.ToSupplement(System.Boolean,System.Int32[])
+  id: ToSupplement(System.Boolean,System.Int32[])
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: ToSupplement(bool, int[])
+  nameWithType: UCSurrogator.ToSupplement(bool, int[])
+  fullName: TypeHelp.UCSurrogator.ToSupplement(bool, int[])
+  type: Method
+  source:
+    id: ToSupplement
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 607
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static int ToSupplement(bool strict, int[] surrogates)
+    parameters:
+    - id: strict
+      type: System.Boolean
+    - id: surrogates
+      type: System.Int32[]
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function ToSupplement(strict As Boolean, surrogates As Integer()) As Integer
+  overload: TypeHelp.UCSurrogator.ToSupplement*
+  nameWithType.vb: UCSurrogator.ToSupplement(Boolean, Integer())
+  fullName.vb: TypeHelp.UCSurrogator.ToSupplement(Boolean, Integer())
+  name.vb: ToSupplement(Boolean, Integer())
+- uid: TypeHelp.UCSurrogator.ToSupplement(System.Boolean,System.Int32[],System.Int32@)
+  commentId: M:TypeHelp.UCSurrogator.ToSupplement(System.Boolean,System.Int32[],System.Int32@)
+  id: ToSupplement(System.Boolean,System.Int32[],System.Int32@)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: ToSupplement(bool, int[], out int)
+  nameWithType: UCSurrogator.ToSupplement(bool, int[], out int)
+  fullName: TypeHelp.UCSurrogator.ToSupplement(bool, int[], out int)
+  type: Method
+  source:
+    id: ToSupplement
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 613
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool ToSupplement(bool strict, int[] surrogates, out int supplement)
+    parameters:
+    - id: strict
+      type: System.Boolean
+    - id: surrogates
+      type: System.Int32[]
+    - id: supplement
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function ToSupplement(strict As Boolean, surrogates As Integer(), supplement As Integer) As Boolean
+  overload: TypeHelp.UCSurrogator.ToSupplement*
+  nameWithType.vb: UCSurrogator.ToSupplement(Boolean, Integer(), Integer)
+  fullName.vb: TypeHelp.UCSurrogator.ToSupplement(Boolean, Integer(), Integer)
+  name.vb: ToSupplement(Boolean, Integer(), Integer)
+- uid: TypeHelp.UCSurrogator.ToSurrogates(System.Char)
+  commentId: M:TypeHelp.UCSurrogator.ToSurrogates(System.Char)
+  id: ToSurrogates(System.Char)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: ToSurrogates(char)
+  nameWithType: UCSurrogator.ToSurrogates(char)
+  fullName: TypeHelp.UCSurrogator.ToSurrogates(char)
+  type: Method
+  source:
+    id: ToSurrogates
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 658
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static int[] ToSurrogates(char ch)
+    parameters:
+    - id: ch
+      type: System.Char
+    return:
+      type: System.Int32[]
+    content.vb: Public Shared Function ToSurrogates(ch As Char) As Integer()
+  overload: TypeHelp.UCSurrogator.ToSurrogates*
+  nameWithType.vb: UCSurrogator.ToSurrogates(Char)
+  fullName.vb: TypeHelp.UCSurrogator.ToSurrogates(Char)
+  name.vb: ToSurrogates(Char)
+- uid: TypeHelp.UCSurrogator.ToSurrogates(System.Char,System.Int32[]@)
+  commentId: M:TypeHelp.UCSurrogator.ToSurrogates(System.Char,System.Int32[]@)
+  id: ToSurrogates(System.Char,System.Int32[]@)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: ToSurrogates(char, out int[])
+  nameWithType: UCSurrogator.ToSurrogates(char, out int[])
+  fullName: TypeHelp.UCSurrogator.ToSurrogates(char, out int[])
+  type: Method
+  source:
+    id: ToSurrogates
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 664
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool ToSurrogates(char ch, out int[] surrogates)
+    parameters:
+    - id: ch
+      type: System.Char
+    - id: surrogates
+      type: System.Int32[]
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function ToSurrogates(ch As Char, surrogates As Integer()) As Boolean
+  overload: TypeHelp.UCSurrogator.ToSurrogates*
+  nameWithType.vb: UCSurrogator.ToSurrogates(Char, Integer())
+  fullName.vb: TypeHelp.UCSurrogator.ToSurrogates(Char, Integer())
+  name.vb: ToSurrogates(Char, Integer())
+- uid: TypeHelp.UCSurrogator.ToSurrogates(System.Int32)
+  commentId: M:TypeHelp.UCSurrogator.ToSurrogates(System.Int32)
+  id: ToSurrogates(System.Int32)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: ToSurrogates(int)
+  nameWithType: UCSurrogator.ToSurrogates(int)
+  fullName: TypeHelp.UCSurrogator.ToSurrogates(int)
+  type: Method
+  source:
+    id: ToSurrogates
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 669
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static int[] ToSurrogates(int value)
+    parameters:
+    - id: value
+      type: System.Int32
+    return:
+      type: System.Int32[]
+    content.vb: Public Shared Function ToSurrogates(value As Integer) As Integer()
+  overload: TypeHelp.UCSurrogator.ToSurrogates*
+  nameWithType.vb: UCSurrogator.ToSurrogates(Integer)
+  fullName.vb: TypeHelp.UCSurrogator.ToSurrogates(Integer)
+  name.vb: ToSurrogates(Integer)
+- uid: TypeHelp.UCSurrogator.ToSurrogates(System.Int32,System.Int32[]@)
+  commentId: M:TypeHelp.UCSurrogator.ToSurrogates(System.Int32,System.Int32[]@)
+  id: ToSurrogates(System.Int32,System.Int32[]@)
+  parent: TypeHelp.UCSurrogator
+  langs:
+  - csharp
+  - vb
+  name: ToSurrogates(int, out int[])
+  nameWithType: UCSurrogator.ToSurrogates(int, out int[])
+  fullName: TypeHelp.UCSurrogator.ToSurrogates(int, out int[])
+  type: Method
+  source:
+    id: ToSurrogates
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCSurrogator.cs
+    startLine: 675
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool ToSurrogates(int value, out int[] surrogates)
+    parameters:
+    - id: value
+      type: System.Int32
+    - id: surrogates
+      type: System.Int32[]
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function ToSurrogates(value As Integer, surrogates As Integer()) As Boolean
+  overload: TypeHelp.UCSurrogator.ToSurrogates*
+  nameWithType.vb: UCSurrogator.ToSurrogates(Integer, Integer())
+  fullName.vb: TypeHelp.UCSurrogator.ToSurrogates(Integer, Integer())
+  name.vb: ToSurrogates(Integer, Integer())
+references:
+- uid: TypeHelp
+  commentId: N:TypeHelp
+  href: TypeHelp.html
+  name: TypeHelp
+  nameWithType: TypeHelp
+  fullName: TypeHelp
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TypeHelp.UCSurrogator.DefaultStrict*
+  commentId: Overload:TypeHelp.UCSurrogator.DefaultStrict
+  href: TypeHelp.UCSurrogator.DefaultStrict.html
+  name: DefaultStrict
+  nameWithType: UCSurrogator.DefaultStrict
+  fullName: TypeHelp.UCSurrogator.DefaultStrict
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: TypeHelp.UCSurrogator.FirstSentinel*
+  commentId: Overload:TypeHelp.UCSurrogator.FirstSentinel
+  href: TypeHelp.UCSurrogator.FirstSentinel.html
+  name: FirstSentinel
+  nameWithType: UCSurrogator.FirstSentinel
+  fullName: TypeHelp.UCSurrogator.FirstSentinel
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: TypeHelp.UCSurrogator.HiSurrogateRange*
+  commentId: Overload:TypeHelp.UCSurrogator.HiSurrogateRange
+  href: TypeHelp.UCSurrogator.HiSurrogateRange.html
+  name: HiSurrogateRange
+  nameWithType: UCSurrogator.HiSurrogateRange
+  fullName: TypeHelp.UCSurrogator.HiSurrogateRange
+- uid: TypeHelp.UCSurrogator.LoSurrogateRange*
+  commentId: Overload:TypeHelp.UCSurrogator.LoSurrogateRange
+  href: TypeHelp.UCSurrogator.LoSurrogateRange.html
+  name: LoSurrogateRange
+  nameWithType: UCSurrogator.LoSurrogateRange
+  fullName: TypeHelp.UCSurrogator.LoSurrogateRange
+- uid: TypeHelp.UCSurrogator.MaxBMPCodePoint*
+  commentId: Overload:TypeHelp.UCSurrogator.MaxBMPCodePoint
+  href: TypeHelp.UCSurrogator.MaxBMPCodePoint.html
+  name: MaxBMPCodePoint
+  nameWithType: UCSurrogator.MaxBMPCodePoint
+  fullName: TypeHelp.UCSurrogator.MaxBMPCodePoint
+- uid: TypeHelp.UCSurrogator.MaxHiSurrogate*
+  commentId: Overload:TypeHelp.UCSurrogator.MaxHiSurrogate
+  href: TypeHelp.UCSurrogator.MaxHiSurrogate.html
+  name: MaxHiSurrogate
+  nameWithType: UCSurrogator.MaxHiSurrogate
+  fullName: TypeHelp.UCSurrogator.MaxHiSurrogate
+- uid: TypeHelp.UCSurrogator.MaxLoSurrogate*
+  commentId: Overload:TypeHelp.UCSurrogator.MaxLoSurrogate
+  href: TypeHelp.UCSurrogator.MaxLoSurrogate.html
+  name: MaxLoSurrogate
+  nameWithType: UCSurrogator.MaxLoSurrogate
+  fullName: TypeHelp.UCSurrogator.MaxLoSurrogate
+- uid: TypeHelp.UCSurrogator.MaxNonCharacter*
+  commentId: Overload:TypeHelp.UCSurrogator.MaxNonCharacter
+  href: TypeHelp.UCSurrogator.MaxNonCharacter.html
+  name: MaxNonCharacter
+  nameWithType: UCSurrogator.MaxNonCharacter
+  fullName: TypeHelp.UCSurrogator.MaxNonCharacter
+- uid: TypeHelp.UCSurrogator.MaxSupplementCode*
+  commentId: Overload:TypeHelp.UCSurrogator.MaxSupplementCode
+  href: TypeHelp.UCSurrogator.MaxSupplementCode.html
+  name: MaxSupplementCode
+  nameWithType: UCSurrogator.MaxSupplementCode
+  fullName: TypeHelp.UCSurrogator.MaxSupplementCode
+- uid: TypeHelp.UCSurrogator.MinHiSurrogate*
+  commentId: Overload:TypeHelp.UCSurrogator.MinHiSurrogate
+  href: TypeHelp.UCSurrogator.MinHiSurrogate.html
+  name: MinHiSurrogate
+  nameWithType: UCSurrogator.MinHiSurrogate
+  fullName: TypeHelp.UCSurrogator.MinHiSurrogate
+- uid: TypeHelp.UCSurrogator.MinLoSurrogate*
+  commentId: Overload:TypeHelp.UCSurrogator.MinLoSurrogate
+  href: TypeHelp.UCSurrogator.MinLoSurrogate.html
+  name: MinLoSurrogate
+  nameWithType: UCSurrogator.MinLoSurrogate
+  fullName: TypeHelp.UCSurrogator.MinLoSurrogate
+- uid: TypeHelp.UCSurrogator.MinNonCharacter*
+  commentId: Overload:TypeHelp.UCSurrogator.MinNonCharacter
+  href: TypeHelp.UCSurrogator.MinNonCharacter.html
+  name: MinNonCharacter
+  nameWithType: UCSurrogator.MinNonCharacter
+  fullName: TypeHelp.UCSurrogator.MinNonCharacter
+- uid: TypeHelp.UCSurrogator.MinSupplementCode*
+  commentId: Overload:TypeHelp.UCSurrogator.MinSupplementCode
+  href: TypeHelp.UCSurrogator.MinSupplementCode.html
+  name: MinSupplementCode
+  nameWithType: UCSurrogator.MinSupplementCode
+  fullName: TypeHelp.UCSurrogator.MinSupplementCode
+- uid: TypeHelp.UCSurrogator.MinValidCPGroup*
+  commentId: Overload:TypeHelp.UCSurrogator.MinValidCPGroup
+  href: TypeHelp.UCSurrogator.MinValidCPGroup.html
+  name: MinValidCPGroup
+  nameWithType: UCSurrogator.MinValidCPGroup
+  fullName: TypeHelp.UCSurrogator.MinValidCPGroup
+- uid: TypeHelp.CPG
+  commentId: T:TypeHelp.CPG
+  parent: TypeHelp
+  href: TypeHelp.CPG.html
+  name: CPG
+  nameWithType: CPG
+  fullName: TypeHelp.CPG
+- uid: TypeHelp.UCSurrogator.NumSurrogates*
+  commentId: Overload:TypeHelp.UCSurrogator.NumSurrogates
+  href: TypeHelp.UCSurrogator.NumSurrogates.html
+  name: NumSurrogates
+  nameWithType: UCSurrogator.NumSurrogates
+  fullName: TypeHelp.UCSurrogator.NumSurrogates
+- uid: TypeHelp.UCSurrogator.ReplacementChar*
+  commentId: Overload:TypeHelp.UCSurrogator.ReplacementChar
+  href: TypeHelp.UCSurrogator.ReplacementChar.html
+  name: ReplacementChar
+  nameWithType: UCSurrogator.ReplacementChar
+  fullName: TypeHelp.UCSurrogator.ReplacementChar
+- uid: System.Char
+  commentId: T:System.Char
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.char
+  name: char
+  nameWithType: char
+  fullName: char
+  nameWithType.vb: Char
+  fullName.vb: Char
+  name.vb: Char
+- uid: TypeHelp.UCSurrogator.ReplacementInt*
+  commentId: Overload:TypeHelp.UCSurrogator.ReplacementInt
+  href: TypeHelp.UCSurrogator.ReplacementInt.html
+  name: ReplacementInt
+  nameWithType: UCSurrogator.ReplacementInt
+  fullName: TypeHelp.UCSurrogator.ReplacementInt
+- uid: TypeHelp.UCSurrogator.ReplacementPair*
+  commentId: Overload:TypeHelp.UCSurrogator.ReplacementPair
+  href: TypeHelp.UCSurrogator.ReplacementPair.html
+  name: ReplacementPair
+  nameWithType: UCSurrogator.ReplacementPair
+  fullName: TypeHelp.UCSurrogator.ReplacementPair
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: TypeHelp.UCSurrogator.ContainsReplacement*
+  commentId: Overload:TypeHelp.UCSurrogator.ContainsReplacement
+  href: TypeHelp.UCSurrogator.ContainsReplacement(System.String).html
+  name: ContainsReplacement
+  nameWithType: UCSurrogator.ContainsReplacement
+  fullName: TypeHelp.UCSurrogator.ContainsReplacement
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: TypeHelp.UCSurrogator.ReplacementIndices*
+  commentId: Overload:TypeHelp.UCSurrogator.ReplacementIndices
+  href: TypeHelp.UCSurrogator.ReplacementIndices(System.String).html
+  name: ReplacementIndices
+  nameWithType: UCSurrogator.ReplacementIndices
+  fullName: TypeHelp.UCSurrogator.ReplacementIndices
+- uid: TypeHelp.UCSurrogator.ContainsSupplements*
+  commentId: Overload:TypeHelp.UCSurrogator.ContainsSupplements
+  href: TypeHelp.UCSurrogator.ContainsSupplements(System.String).html
+  name: ContainsSupplements
+  nameWithType: UCSurrogator.ContainsSupplements
+  fullName: TypeHelp.UCSurrogator.ContainsSupplements
+- uid: TypeHelp.UCSurrogator.SupplementsIndices*
+  commentId: Overload:TypeHelp.UCSurrogator.SupplementsIndices
+  href: TypeHelp.UCSurrogator.SupplementsIndices(System.String).html
+  name: SupplementsIndices
+  nameWithType: UCSurrogator.SupplementsIndices
+  fullName: TypeHelp.UCSurrogator.SupplementsIndices
+- uid: TypeHelp.UCSurrogator.ContainsSurrogates*
+  commentId: Overload:TypeHelp.UCSurrogator.ContainsSurrogates
+  href: TypeHelp.UCSurrogator.ContainsSurrogates(System.String).html
+  name: ContainsSurrogates
+  nameWithType: UCSurrogator.ContainsSurrogates
+  fullName: TypeHelp.UCSurrogator.ContainsSurrogates
+- uid: TypeHelp.UCSurrogator.SurrogateIndices*
+  commentId: Overload:TypeHelp.UCSurrogator.SurrogateIndices
+  href: TypeHelp.UCSurrogator.SurrogateIndices(System.String).html
+  name: SurrogateIndices
+  nameWithType: UCSurrogator.SurrogateIndices
+  fullName: TypeHelp.UCSurrogator.SurrogateIndices
+- uid: TypeHelp.UCSurrogator.CPGroupOf*
+  commentId: Overload:TypeHelp.UCSurrogator.CPGroupOf
+  href: TypeHelp.UCSurrogator.CPGroupOf(System.Int32).html
+  name: CPGroupOf
+  nameWithType: UCSurrogator.CPGroupOf
+  fullName: TypeHelp.UCSurrogator.CPGroupOf
+- uid: TypeHelp.UCSurrogator.CPGroupValues*
+  commentId: Overload:TypeHelp.UCSurrogator.CPGroupValues
+  href: TypeHelp.UCSurrogator.CPGroupValues(System.Boolean,System.String).html
+  name: CPGroupValues
+  nameWithType: UCSurrogator.CPGroupValues
+  fullName: TypeHelp.UCSurrogator.CPGroupValues
+- uid: TypeHelp.CPG[]
+  isExternal: true
+  href: TypeHelp.CPG.html
+  name: CPG[]
+  nameWithType: CPG[]
+  fullName: TypeHelp.CPG[]
+  nameWithType.vb: CPG()
+  fullName.vb: TypeHelp.CPG()
+  name.vb: CPG()
+  spec.csharp:
+  - uid: TypeHelp.CPG
+    name: CPG
+    href: TypeHelp.CPG.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: TypeHelp.CPG
+    name: CPG
+    href: TypeHelp.CPG.html
+  - name: (
+  - name: )
+- uid: TypeHelp.UCSurrogator.ErrorInfo*
+  commentId: Overload:TypeHelp.UCSurrogator.ErrorInfo
+  href: TypeHelp.UCSurrogator.ErrorInfo(System.Boolean,System.String).html
+  name: ErrorInfo
+  nameWithType: UCSurrogator.ErrorInfo
+  fullName: TypeHelp.UCSurrogator.ErrorInfo
+- uid: TypeHelp.UCPInfo[]
+  isExternal: true
+  href: TypeHelp.UCPInfo.html
+  name: UCPInfo[]
+  nameWithType: UCPInfo[]
+  fullName: TypeHelp.UCPInfo[]
+  nameWithType.vb: UCPInfo()
+  fullName.vb: TypeHelp.UCPInfo()
+  name.vb: UCPInfo()
+  spec.csharp:
+  - uid: TypeHelp.UCPInfo
+    name: UCPInfo
+    href: TypeHelp.UCPInfo.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: TypeHelp.UCPInfo
+    name: UCPInfo
+    href: TypeHelp.UCPInfo.html
+  - name: (
+  - name: )
+- uid: TypeHelp.UCSurrogator.Convert*
+  commentId: Overload:TypeHelp.UCSurrogator.Convert
+  href: TypeHelp.UCSurrogator.Convert(System.Boolean,System.Object).html
+  name: Convert
+  nameWithType: UCSurrogator.Convert
+  fullName: TypeHelp.UCSurrogator.Convert
+- uid: System.Tuple{System.Int32,System.Int32[],System.Int32,System.Boolean[],System.String}
+  commentId: T:System.Tuple{System.Int32,System.Int32[],System.Int32,System.Boolean[],System.String}
+  parent: System
+  definition: System.Tuple`5
+  href: https://learn.microsoft.com/dotnet/api/system.tuple-5
+  name: Tuple<int, int[], int, bool[], string>
+  nameWithType: Tuple<int, int[], int, bool[], string>
+  fullName: System.Tuple<int, int[], int, bool[], string>
+  nameWithType.vb: Tuple(Of Integer, Integer(), Integer, Boolean(), String)
+  fullName.vb: System.Tuple(Of Integer, Integer(), Integer, Boolean(), String)
+  name.vb: Tuple(Of Integer, Integer(), Integer, Boolean(), String)
+  spec.csharp:
+  - uid: System.Tuple`5
+    name: Tuple
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.tuple-5
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Tuple`5
+    name: Tuple
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.tuple-5
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Tuple`5
+  commentId: T:System.Tuple`5
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.tuple-5
+  name: Tuple<T1, T2, T3, T4, T5>
+  nameWithType: Tuple<T1, T2, T3, T4, T5>
+  fullName: System.Tuple<T1, T2, T3, T4, T5>
+  nameWithType.vb: Tuple(Of T1, T2, T3, T4, T5)
+  fullName.vb: System.Tuple(Of T1, T2, T3, T4, T5)
+  name.vb: Tuple(Of T1, T2, T3, T4, T5)
+  spec.csharp:
+  - uid: System.Tuple`5
+    name: Tuple
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.tuple-5
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: '>'
+  spec.vb:
+  - uid: System.Tuple`5
+    name: Tuple
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.tuple-5
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: ','
+  - name: " "
+  - name: T4
+  - name: ','
+  - name: " "
+  - name: T5
+  - name: )
+- uid: TypeHelp.UCSurrogator.IsCodePoint*
+  commentId: Overload:TypeHelp.UCSurrogator.IsCodePoint
+  href: TypeHelp.UCSurrogator.IsCodePoint(System.Int32).html
+  name: IsCodePoint
+  nameWithType: UCSurrogator.IsCodePoint
+  fullName: TypeHelp.UCSurrogator.IsCodePoint
+- uid: TypeHelp.UCSurrogator.IsHiSurrogate*
+  commentId: Overload:TypeHelp.UCSurrogator.IsHiSurrogate
+  href: TypeHelp.UCSurrogator.IsHiSurrogate(System.Char).html
+  name: IsHiSurrogate
+  nameWithType: UCSurrogator.IsHiSurrogate
+  fullName: TypeHelp.UCSurrogator.IsHiSurrogate
+- uid: TypeHelp.UCSurrogator.IsLoSurrogate*
+  commentId: Overload:TypeHelp.UCSurrogator.IsLoSurrogate
+  href: TypeHelp.UCSurrogator.IsLoSurrogate(System.Char).html
+  name: IsLoSurrogate
+  nameWithType: UCSurrogator.IsLoSurrogate
+  fullName: TypeHelp.UCSurrogator.IsLoSurrogate
+- uid: TypeHelp.UCSurrogator.IsNonCharacter*
+  commentId: Overload:TypeHelp.UCSurrogator.IsNonCharacter
+  href: TypeHelp.UCSurrogator.IsNonCharacter(System.Nullable{System.Int32}).html
+  name: IsNonCharacter
+  nameWithType: UCSurrogator.IsNonCharacter
+  fullName: TypeHelp.UCSurrogator.IsNonCharacter
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int?
+  nameWithType: int?
+  fullName: int?
+  nameWithType.vb: Integer?
+  fullName.vb: Integer?
+  name.vb: Integer?
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: TypeHelp.UCSurrogator.IsReplacement*
+  commentId: Overload:TypeHelp.UCSurrogator.IsReplacement
+  href: TypeHelp.UCSurrogator.IsReplacement(System.Int32).html
+  name: IsReplacement
+  nameWithType: UCSurrogator.IsReplacement
+  fullName: TypeHelp.UCSurrogator.IsReplacement
+- uid: TypeHelp.UCSurrogator.IsSentinel*
+  commentId: Overload:TypeHelp.UCSurrogator.IsSentinel
+  href: TypeHelp.UCSurrogator.IsSentinel(System.Int32).html
+  name: IsSentinel
+  nameWithType: UCSurrogator.IsSentinel
+  fullName: TypeHelp.UCSurrogator.IsSentinel
+- uid: TypeHelp.UCSurrogator.IsSupplement*
+  commentId: Overload:TypeHelp.UCSurrogator.IsSupplement
+  href: TypeHelp.UCSurrogator.IsSupplement(System.Int32).html
+  name: IsSupplement
+  nameWithType: UCSurrogator.IsSupplement
+  fullName: TypeHelp.UCSurrogator.IsSupplement
+- uid: TypeHelp.UCSurrogator.IsSurrogate*
+  commentId: Overload:TypeHelp.UCSurrogator.IsSurrogate
+  href: TypeHelp.UCSurrogator.IsSurrogate(System.Char).html
+  name: IsSurrogate
+  nameWithType: UCSurrogator.IsSurrogate
+  fullName: TypeHelp.UCSurrogator.IsSurrogate
+- uid: TypeHelp.UCSurrogator.IsUnicode*
+  commentId: Overload:TypeHelp.UCSurrogator.IsUnicode
+  href: TypeHelp.UCSurrogator.IsUnicode(System.Int32).html
+  name: IsUnicode
+  nameWithType: UCSurrogator.IsUnicode
+  fullName: TypeHelp.UCSurrogator.IsUnicode
+- uid: TypeHelp.UCSurrogator.Stringize*
+  commentId: Overload:TypeHelp.UCSurrogator.Stringize
+  href: TypeHelp.UCSurrogator.Stringize(System.Char).html
+  name: Stringize
+  nameWithType: UCSurrogator.Stringize
+  fullName: TypeHelp.UCSurrogator.Stringize
+- uid: TypeHelp.UCSurrogator.ToSupplement*
+  commentId: Overload:TypeHelp.UCSurrogator.ToSupplement
+  href: TypeHelp.UCSurrogator.ToSupplement(System.Int32,System.Int32).html
+  name: ToSupplement
+  nameWithType: UCSurrogator.ToSupplement
+  fullName: TypeHelp.UCSurrogator.ToSupplement
+- uid: TypeHelp.UCSurrogator.ToSurrogates*
+  commentId: Overload:TypeHelp.UCSurrogator.ToSurrogates
+  href: TypeHelp.UCSurrogator.ToSurrogates(System.Char).html
+  name: ToSurrogates
+  nameWithType: UCSurrogator.ToSurrogates
+  fullName: TypeHelp.UCSurrogator.ToSurrogates
+memberLayout: SeparatePages

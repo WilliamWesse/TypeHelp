@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+  "git.ignoreLimitWarning": true,
+  "gitHistory.showEditorTitleMenuBarIcons": false,
+  "settings": {
+    "markdownlint.config": {
+      "MD028": false,
+      "MD025": {
+        "front_matter_title": ""
+      }
+    },
+    "workbench.colorCustomizations": {
+      "editor.background": "#06060C",
+      "editorBracketHighlight.foreground1": "#999900"
+    "cSpell.ignoreWords": [],
+    "cSpell.words": []
+  }
+}
+    },

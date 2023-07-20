@@ -1,0 +1,450 @@
+### YamlMime:ManagedReference
+items:
+- uid: TypeHelp.IUCSInfo
+  commentId: T:TypeHelp.IUCSInfo
+  id: IUCSInfo
+  parent: TypeHelp
+  children:
+  - TypeHelp.IUCSInfo.Discard
+  - TypeHelp.IUCSInfo.Group
+  - TypeHelp.IUCSInfo.Groups
+  - TypeHelp.IUCSInfo.Plane
+  - TypeHelp.IUCSInfo.Strict
+  - TypeHelp.IUCSInfo.Supplement
+  - TypeHelp.IUCSInfo.Surrogates
+  - TypeHelp.IUCSInfo.Tag
+  - TypeHelp.IUCSInfo.Valid
+  - TypeHelp.IUCSInfo.Value
+  langs:
+  - csharp
+  - vb
+  name: IUCSInfo
+  nameWithType: IUCSInfo
+  fullName: TypeHelp.IUCSInfo
+  type: Interface
+  source:
+    id: IUCSInfo
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCInfo.cs
+    startLine: 12
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public interface IUCSInfo
+    content.vb: Public Interface IUCSInfo
+- uid: TypeHelp.IUCSInfo.Discard
+  commentId: P:TypeHelp.IUCSInfo.Discard
+  id: Discard
+  parent: TypeHelp.IUCSInfo
+  langs:
+  - csharp
+  - vb
+  name: Discard
+  nameWithType: IUCSInfo.Discard
+  fullName: TypeHelp.IUCSInfo.Discard
+  type: Property
+  source:
+    id: Discard
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCInfo.cs
+    startLine: 14
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: bool Discard { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property Discard As Boolean
+  overload: TypeHelp.IUCSInfo.Discard*
+- uid: TypeHelp.IUCSInfo.Group
+  commentId: P:TypeHelp.IUCSInfo.Group
+  id: Group
+  parent: TypeHelp.IUCSInfo
+  langs:
+  - csharp
+  - vb
+  name: Group
+  nameWithType: IUCSInfo.Group
+  fullName: TypeHelp.IUCSInfo.Group
+  type: Property
+  source:
+    id: Group
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCInfo.cs
+    startLine: 15
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: CPG Group { get; }
+    parameters: []
+    return:
+      type: TypeHelp.CPG
+    content.vb: ReadOnly Property Group As CPG
+  overload: TypeHelp.IUCSInfo.Group*
+- uid: TypeHelp.IUCSInfo.Groups
+  commentId: P:TypeHelp.IUCSInfo.Groups
+  id: Groups
+  parent: TypeHelp.IUCSInfo
+  langs:
+  - csharp
+  - vb
+  name: Groups
+  nameWithType: IUCSInfo.Groups
+  fullName: TypeHelp.IUCSInfo.Groups
+  type: Property
+  source:
+    id: Groups
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCInfo.cs
+    startLine: 16
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: CPG[] Groups { get; }
+    parameters: []
+    return:
+      type: TypeHelp.CPG[]
+    content.vb: ReadOnly Property Groups As CPG()
+  overload: TypeHelp.IUCSInfo.Groups*
+- uid: TypeHelp.IUCSInfo.Plane
+  commentId: P:TypeHelp.IUCSInfo.Plane
+  id: Plane
+  parent: TypeHelp.IUCSInfo
+  langs:
+  - csharp
+  - vb
+  name: Plane
+  nameWithType: IUCSInfo.Plane
+  fullName: TypeHelp.IUCSInfo.Plane
+  type: Property
+  source:
+    id: Plane
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCInfo.cs
+    startLine: 17
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: UCP Plane { get; }
+    parameters: []
+    return:
+      type: TypeHelp.UCP
+    content.vb: ReadOnly Property Plane As UCP
+  overload: TypeHelp.IUCSInfo.Plane*
+- uid: TypeHelp.IUCSInfo.Strict
+  commentId: P:TypeHelp.IUCSInfo.Strict
+  id: Strict
+  parent: TypeHelp.IUCSInfo
+  langs:
+  - csharp
+  - vb
+  name: Strict
+  nameWithType: IUCSInfo.Strict
+  fullName: TypeHelp.IUCSInfo.Strict
+  type: Property
+  source:
+    id: Strict
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCInfo.cs
+    startLine: 18
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: bool Strict { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property Strict As Boolean
+  overload: TypeHelp.IUCSInfo.Strict*
+- uid: TypeHelp.IUCSInfo.Supplement
+  commentId: P:TypeHelp.IUCSInfo.Supplement
+  id: Supplement
+  parent: TypeHelp.IUCSInfo
+  langs:
+  - csharp
+  - vb
+  name: Supplement
+  nameWithType: IUCSInfo.Supplement
+  fullName: TypeHelp.IUCSInfo.Supplement
+  type: Property
+  source:
+    id: Supplement
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCInfo.cs
+    startLine: 19
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: int Supplement { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property Supplement As Integer
+  overload: TypeHelp.IUCSInfo.Supplement*
+- uid: TypeHelp.IUCSInfo.Surrogates
+  commentId: P:TypeHelp.IUCSInfo.Surrogates
+  id: Surrogates
+  parent: TypeHelp.IUCSInfo
+  langs:
+  - csharp
+  - vb
+  name: Surrogates
+  nameWithType: IUCSInfo.Surrogates
+  fullName: TypeHelp.IUCSInfo.Surrogates
+  type: Property
+  source:
+    id: Surrogates
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCInfo.cs
+    startLine: 20
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: int[] Surrogates { get; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: ReadOnly Property Surrogates As Integer()
+  overload: TypeHelp.IUCSInfo.Surrogates*
+- uid: TypeHelp.IUCSInfo.Tag
+  commentId: P:TypeHelp.IUCSInfo.Tag
+  id: Tag
+  parent: TypeHelp.IUCSInfo
+  langs:
+  - csharp
+  - vb
+  name: Tag
+  nameWithType: IUCSInfo.Tag
+  fullName: TypeHelp.IUCSInfo.Tag
+  type: Property
+  source:
+    id: Tag
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCInfo.cs
+    startLine: 21
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: object? Tag { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Property Tag As Object
+  overload: TypeHelp.IUCSInfo.Tag*
+- uid: TypeHelp.IUCSInfo.Valid
+  commentId: P:TypeHelp.IUCSInfo.Valid
+  id: Valid
+  parent: TypeHelp.IUCSInfo
+  langs:
+  - csharp
+  - vb
+  name: Valid
+  nameWithType: IUCSInfo.Valid
+  fullName: TypeHelp.IUCSInfo.Valid
+  type: Property
+  source:
+    id: Valid
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCInfo.cs
+    startLine: 22
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: bool Valid { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property Valid As Boolean
+  overload: TypeHelp.IUCSInfo.Valid*
+- uid: TypeHelp.IUCSInfo.Value
+  commentId: P:TypeHelp.IUCSInfo.Value
+  id: Value
+  parent: TypeHelp.IUCSInfo
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: IUCSInfo.Value
+  fullName: TypeHelp.IUCSInfo.Value
+  type: Property
+  source:
+    id: Value
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCInfo.cs
+    startLine: 23
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: int Value { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property Value As Integer
+  overload: TypeHelp.IUCSInfo.Value*
+references:
+- uid: TypeHelp
+  commentId: N:TypeHelp
+  href: TypeHelp.html
+  name: TypeHelp
+  nameWithType: TypeHelp
+  fullName: TypeHelp
+- uid: TypeHelp.IUCSInfo.Discard*
+  commentId: Overload:TypeHelp.IUCSInfo.Discard
+  href: TypeHelp.IUCSInfo.Discard.html
+  name: Discard
+  nameWithType: IUCSInfo.Discard
+  fullName: TypeHelp.IUCSInfo.Discard
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TypeHelp.IUCSInfo.Group*
+  commentId: Overload:TypeHelp.IUCSInfo.Group
+  href: TypeHelp.IUCSInfo.Group.html
+  name: Group
+  nameWithType: IUCSInfo.Group
+  fullName: TypeHelp.IUCSInfo.Group
+- uid: TypeHelp.CPG
+  commentId: T:TypeHelp.CPG
+  parent: TypeHelp
+  href: TypeHelp.CPG.html
+  name: CPG
+  nameWithType: CPG
+  fullName: TypeHelp.CPG
+- uid: TypeHelp.IUCSInfo.Groups*
+  commentId: Overload:TypeHelp.IUCSInfo.Groups
+  href: TypeHelp.IUCSInfo.Groups.html
+  name: Groups
+  nameWithType: IUCSInfo.Groups
+  fullName: TypeHelp.IUCSInfo.Groups
+- uid: TypeHelp.CPG[]
+  isExternal: true
+  href: TypeHelp.CPG.html
+  name: CPG[]
+  nameWithType: CPG[]
+  fullName: TypeHelp.CPG[]
+  nameWithType.vb: CPG()
+  fullName.vb: TypeHelp.CPG()
+  name.vb: CPG()
+  spec.csharp:
+  - uid: TypeHelp.CPG
+    name: CPG
+    href: TypeHelp.CPG.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: TypeHelp.CPG
+    name: CPG
+    href: TypeHelp.CPG.html
+  - name: (
+  - name: )
+- uid: TypeHelp.IUCSInfo.Plane*
+  commentId: Overload:TypeHelp.IUCSInfo.Plane
+  href: TypeHelp.IUCSInfo.Plane.html
+  name: Plane
+  nameWithType: IUCSInfo.Plane
+  fullName: TypeHelp.IUCSInfo.Plane
+- uid: TypeHelp.UCP
+  commentId: T:TypeHelp.UCP
+  parent: TypeHelp
+  href: TypeHelp.UCP.html
+  name: UCP
+  nameWithType: UCP
+  fullName: TypeHelp.UCP
+- uid: TypeHelp.IUCSInfo.Strict*
+  commentId: Overload:TypeHelp.IUCSInfo.Strict
+  href: TypeHelp.IUCSInfo.Strict.html
+  name: Strict
+  nameWithType: IUCSInfo.Strict
+  fullName: TypeHelp.IUCSInfo.Strict
+- uid: TypeHelp.IUCSInfo.Supplement*
+  commentId: Overload:TypeHelp.IUCSInfo.Supplement
+  href: TypeHelp.IUCSInfo.Supplement.html
+  name: Supplement
+  nameWithType: IUCSInfo.Supplement
+  fullName: TypeHelp.IUCSInfo.Supplement
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: TypeHelp.IUCSInfo.Surrogates*
+  commentId: Overload:TypeHelp.IUCSInfo.Surrogates
+  href: TypeHelp.IUCSInfo.Surrogates.html
+  name: Surrogates
+  nameWithType: IUCSInfo.Surrogates
+  fullName: TypeHelp.IUCSInfo.Surrogates
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: TypeHelp.IUCSInfo.Tag*
+  commentId: Overload:TypeHelp.IUCSInfo.Tag
+  href: TypeHelp.IUCSInfo.Tag.html
+  name: Tag
+  nameWithType: IUCSInfo.Tag
+  fullName: TypeHelp.IUCSInfo.Tag
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: TypeHelp.IUCSInfo.Valid*
+  commentId: Overload:TypeHelp.IUCSInfo.Valid
+  href: TypeHelp.IUCSInfo.Valid.html
+  name: Valid
+  nameWithType: IUCSInfo.Valid
+  fullName: TypeHelp.IUCSInfo.Valid
+- uid: TypeHelp.IUCSInfo.Value*
+  commentId: Overload:TypeHelp.IUCSInfo.Value
+  href: TypeHelp.IUCSInfo.Value.html
+  name: Value
+  nameWithType: IUCSInfo.Value
+  fullName: TypeHelp.IUCSInfo.Value
+memberLayout: SeparatePages

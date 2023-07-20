@@ -1,0 +1,524 @@
+### YamlMime:ManagedReference
+items:
+- uid: TypeHelp.ZeroWidthChars
+  commentId: T:TypeHelp.ZeroWidthChars
+  id: ZeroWidthChars
+  parent: TypeHelp
+  children:
+  - TypeHelp.ZeroWidthChars.Activate_Arabic_Form_Shaping
+  - TypeHelp.ZeroWidthChars.Activate_Symmetric_Swapping
+  - TypeHelp.ZeroWidthChars.Arabic_Letter_Mark
+  - TypeHelp.ZeroWidthChars.Combining_Grapheme_Joiner
+  - TypeHelp.ZeroWidthChars.Function_Application
+  - TypeHelp.ZeroWidthChars.Inhibit_Arabic_Form_Shaping
+  - TypeHelp.ZeroWidthChars.Inhibit_Symmetric_Swapping
+  - TypeHelp.ZeroWidthChars.Invisible_Plus
+  - TypeHelp.ZeroWidthChars.Invisible_Separator
+  - TypeHelp.ZeroWidthChars.Invisible_Times
+  - TypeHelp.ZeroWidthChars.Khmer_Vowel_Inherent_Aa
+  - TypeHelp.ZeroWidthChars.Khmer_Vowel_Inherent_Aq
+  - TypeHelp.ZeroWidthChars.Left_To_Right_Mark
+  - TypeHelp.ZeroWidthChars.Mongolian_Vowel_Separator
+  - TypeHelp.ZeroWidthChars.National_Digit_Shapes
+  - TypeHelp.ZeroWidthChars.Nominal_Digit_Shapes
+  - TypeHelp.ZeroWidthChars.Right_To_Left_Mark
+  - TypeHelp.ZeroWidthChars.Word_Joiner
+  - TypeHelp.ZeroWidthChars.Zero_Width_Joiner
+  - TypeHelp.ZeroWidthChars.Zero_Width_Non_Joiner
+  - TypeHelp.ZeroWidthChars.Zero_Width_Space
+  langs:
+  - csharp
+  - vb
+  name: ZeroWidthChars
+  nameWithType: ZeroWidthChars
+  fullName: TypeHelp.ZeroWidthChars
+  type: Enum
+  source:
+    id: ZeroWidthChars
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 405
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: The zero width chars.
+  example: []
+  syntax:
+    content: 'public enum ZeroWidthChars : ushort'
+    content.vb: Public Enum ZeroWidthChars As UShort
+- uid: TypeHelp.ZeroWidthChars.Activate_Arabic_Form_Shaping
+  commentId: F:TypeHelp.ZeroWidthChars.Activate_Arabic_Form_Shaping
+  id: Activate_Arabic_Form_Shaping
+  parent: TypeHelp.ZeroWidthChars
+  langs:
+  - csharp
+  - vb
+  name: Activate_Arabic_Form_Shaping
+  nameWithType: ZeroWidthChars.Activate_Arabic_Form_Shaping
+  fullName: TypeHelp.ZeroWidthChars.Activate_Arabic_Form_Shaping
+  type: Field
+  source:
+    id: Activate_Arabic_Form_Shaping
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 410
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Activate_Arabic_Form_Shaping = 8301
+    return:
+      type: TypeHelp.ZeroWidthChars
+- uid: TypeHelp.ZeroWidthChars.Activate_Symmetric_Swapping
+  commentId: F:TypeHelp.ZeroWidthChars.Activate_Symmetric_Swapping
+  id: Activate_Symmetric_Swapping
+  parent: TypeHelp.ZeroWidthChars
+  langs:
+  - csharp
+  - vb
+  name: Activate_Symmetric_Swapping
+  nameWithType: ZeroWidthChars.Activate_Symmetric_Swapping
+  fullName: TypeHelp.ZeroWidthChars.Activate_Symmetric_Swapping
+  type: Field
+  source:
+    id: Activate_Symmetric_Swapping
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 411
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Activate_Symmetric_Swapping = 8299
+    return:
+      type: TypeHelp.ZeroWidthChars
+- uid: TypeHelp.ZeroWidthChars.Arabic_Letter_Mark
+  commentId: F:TypeHelp.ZeroWidthChars.Arabic_Letter_Mark
+  id: Arabic_Letter_Mark
+  parent: TypeHelp.ZeroWidthChars
+  langs:
+  - csharp
+  - vb
+  name: Arabic_Letter_Mark
+  nameWithType: ZeroWidthChars.Arabic_Letter_Mark
+  fullName: TypeHelp.ZeroWidthChars.Arabic_Letter_Mark
+  type: Field
+  source:
+    id: Arabic_Letter_Mark
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 412
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Arabic_Letter_Mark = 1564
+    return:
+      type: TypeHelp.ZeroWidthChars
+- uid: TypeHelp.ZeroWidthChars.Combining_Grapheme_Joiner
+  commentId: F:TypeHelp.ZeroWidthChars.Combining_Grapheme_Joiner
+  id: Combining_Grapheme_Joiner
+  parent: TypeHelp.ZeroWidthChars
+  langs:
+  - csharp
+  - vb
+  name: Combining_Grapheme_Joiner
+  nameWithType: ZeroWidthChars.Combining_Grapheme_Joiner
+  fullName: TypeHelp.ZeroWidthChars.Combining_Grapheme_Joiner
+  type: Field
+  source:
+    id: Combining_Grapheme_Joiner
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 413
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Combining_Grapheme_Joiner = 847
+    return:
+      type: TypeHelp.ZeroWidthChars
+- uid: TypeHelp.ZeroWidthChars.Function_Application
+  commentId: F:TypeHelp.ZeroWidthChars.Function_Application
+  id: Function_Application
+  parent: TypeHelp.ZeroWidthChars
+  langs:
+  - csharp
+  - vb
+  name: Function_Application
+  nameWithType: ZeroWidthChars.Function_Application
+  fullName: TypeHelp.ZeroWidthChars.Function_Application
+  type: Field
+  source:
+    id: Function_Application
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 414
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Function_Application = 8289
+    return:
+      type: TypeHelp.ZeroWidthChars
+- uid: TypeHelp.ZeroWidthChars.Inhibit_Arabic_Form_Shaping
+  commentId: F:TypeHelp.ZeroWidthChars.Inhibit_Arabic_Form_Shaping
+  id: Inhibit_Arabic_Form_Shaping
+  parent: TypeHelp.ZeroWidthChars
+  langs:
+  - csharp
+  - vb
+  name: Inhibit_Arabic_Form_Shaping
+  nameWithType: ZeroWidthChars.Inhibit_Arabic_Form_Shaping
+  fullName: TypeHelp.ZeroWidthChars.Inhibit_Arabic_Form_Shaping
+  type: Field
+  source:
+    id: Inhibit_Arabic_Form_Shaping
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 415
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Inhibit_Arabic_Form_Shaping = 8300
+    return:
+      type: TypeHelp.ZeroWidthChars
+- uid: TypeHelp.ZeroWidthChars.Inhibit_Symmetric_Swapping
+  commentId: F:TypeHelp.ZeroWidthChars.Inhibit_Symmetric_Swapping
+  id: Inhibit_Symmetric_Swapping
+  parent: TypeHelp.ZeroWidthChars
+  langs:
+  - csharp
+  - vb
+  name: Inhibit_Symmetric_Swapping
+  nameWithType: ZeroWidthChars.Inhibit_Symmetric_Swapping
+  fullName: TypeHelp.ZeroWidthChars.Inhibit_Symmetric_Swapping
+  type: Field
+  source:
+    id: Inhibit_Symmetric_Swapping
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 416
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Inhibit_Symmetric_Swapping = 8298
+    return:
+      type: TypeHelp.ZeroWidthChars
+- uid: TypeHelp.ZeroWidthChars.Invisible_Plus
+  commentId: F:TypeHelp.ZeroWidthChars.Invisible_Plus
+  id: Invisible_Plus
+  parent: TypeHelp.ZeroWidthChars
+  langs:
+  - csharp
+  - vb
+  name: Invisible_Plus
+  nameWithType: ZeroWidthChars.Invisible_Plus
+  fullName: TypeHelp.ZeroWidthChars.Invisible_Plus
+  type: Field
+  source:
+    id: Invisible_Plus
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 417
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Invisible_Plus = 8292
+    return:
+      type: TypeHelp.ZeroWidthChars
+- uid: TypeHelp.ZeroWidthChars.Invisible_Separator
+  commentId: F:TypeHelp.ZeroWidthChars.Invisible_Separator
+  id: Invisible_Separator
+  parent: TypeHelp.ZeroWidthChars
+  langs:
+  - csharp
+  - vb
+  name: Invisible_Separator
+  nameWithType: ZeroWidthChars.Invisible_Separator
+  fullName: TypeHelp.ZeroWidthChars.Invisible_Separator
+  type: Field
+  source:
+    id: Invisible_Separator
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 418
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Invisible_Separator = 8291
+    return:
+      type: TypeHelp.ZeroWidthChars
+- uid: TypeHelp.ZeroWidthChars.Invisible_Times
+  commentId: F:TypeHelp.ZeroWidthChars.Invisible_Times
+  id: Invisible_Times
+  parent: TypeHelp.ZeroWidthChars
+  langs:
+  - csharp
+  - vb
+  name: Invisible_Times
+  nameWithType: ZeroWidthChars.Invisible_Times
+  fullName: TypeHelp.ZeroWidthChars.Invisible_Times
+  type: Field
+  source:
+    id: Invisible_Times
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 419
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Invisible_Times = 8290
+    return:
+      type: TypeHelp.ZeroWidthChars
+- uid: TypeHelp.ZeroWidthChars.Khmer_Vowel_Inherent_Aa
+  commentId: F:TypeHelp.ZeroWidthChars.Khmer_Vowel_Inherent_Aa
+  id: Khmer_Vowel_Inherent_Aa
+  parent: TypeHelp.ZeroWidthChars
+  langs:
+  - csharp
+  - vb
+  name: Khmer_Vowel_Inherent_Aa
+  nameWithType: ZeroWidthChars.Khmer_Vowel_Inherent_Aa
+  fullName: TypeHelp.ZeroWidthChars.Khmer_Vowel_Inherent_Aa
+  type: Field
+  source:
+    id: Khmer_Vowel_Inherent_Aa
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 420
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Khmer_Vowel_Inherent_Aa = 6069
+    return:
+      type: TypeHelp.ZeroWidthChars
+- uid: TypeHelp.ZeroWidthChars.Khmer_Vowel_Inherent_Aq
+  commentId: F:TypeHelp.ZeroWidthChars.Khmer_Vowel_Inherent_Aq
+  id: Khmer_Vowel_Inherent_Aq
+  parent: TypeHelp.ZeroWidthChars
+  langs:
+  - csharp
+  - vb
+  name: Khmer_Vowel_Inherent_Aq
+  nameWithType: ZeroWidthChars.Khmer_Vowel_Inherent_Aq
+  fullName: TypeHelp.ZeroWidthChars.Khmer_Vowel_Inherent_Aq
+  type: Field
+  source:
+    id: Khmer_Vowel_Inherent_Aq
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 421
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Khmer_Vowel_Inherent_Aq = 6068
+    return:
+      type: TypeHelp.ZeroWidthChars
+- uid: TypeHelp.ZeroWidthChars.Left_To_Right_Mark
+  commentId: F:TypeHelp.ZeroWidthChars.Left_To_Right_Mark
+  id: Left_To_Right_Mark
+  parent: TypeHelp.ZeroWidthChars
+  langs:
+  - csharp
+  - vb
+  name: Left_To_Right_Mark
+  nameWithType: ZeroWidthChars.Left_To_Right_Mark
+  fullName: TypeHelp.ZeroWidthChars.Left_To_Right_Mark
+  type: Field
+  source:
+    id: Left_To_Right_Mark
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 422
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Left_To_Right_Mark = 8206
+    return:
+      type: TypeHelp.ZeroWidthChars
+- uid: TypeHelp.ZeroWidthChars.Mongolian_Vowel_Separator
+  commentId: F:TypeHelp.ZeroWidthChars.Mongolian_Vowel_Separator
+  id: Mongolian_Vowel_Separator
+  parent: TypeHelp.ZeroWidthChars
+  langs:
+  - csharp
+  - vb
+  name: Mongolian_Vowel_Separator
+  nameWithType: ZeroWidthChars.Mongolian_Vowel_Separator
+  fullName: TypeHelp.ZeroWidthChars.Mongolian_Vowel_Separator
+  type: Field
+  source:
+    id: Mongolian_Vowel_Separator
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 423
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Mongolian_Vowel_Separator = 6158
+    return:
+      type: TypeHelp.ZeroWidthChars
+- uid: TypeHelp.ZeroWidthChars.National_Digit_Shapes
+  commentId: F:TypeHelp.ZeroWidthChars.National_Digit_Shapes
+  id: National_Digit_Shapes
+  parent: TypeHelp.ZeroWidthChars
+  langs:
+  - csharp
+  - vb
+  name: National_Digit_Shapes
+  nameWithType: ZeroWidthChars.National_Digit_Shapes
+  fullName: TypeHelp.ZeroWidthChars.National_Digit_Shapes
+  type: Field
+  source:
+    id: National_Digit_Shapes
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 424
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: National_Digit_Shapes = 8302
+    return:
+      type: TypeHelp.ZeroWidthChars
+- uid: TypeHelp.ZeroWidthChars.Nominal_Digit_Shapes
+  commentId: F:TypeHelp.ZeroWidthChars.Nominal_Digit_Shapes
+  id: Nominal_Digit_Shapes
+  parent: TypeHelp.ZeroWidthChars
+  langs:
+  - csharp
+  - vb
+  name: Nominal_Digit_Shapes
+  nameWithType: ZeroWidthChars.Nominal_Digit_Shapes
+  fullName: TypeHelp.ZeroWidthChars.Nominal_Digit_Shapes
+  type: Field
+  source:
+    id: Nominal_Digit_Shapes
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 425
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Nominal_Digit_Shapes = 8303
+    return:
+      type: TypeHelp.ZeroWidthChars
+- uid: TypeHelp.ZeroWidthChars.Right_To_Left_Mark
+  commentId: F:TypeHelp.ZeroWidthChars.Right_To_Left_Mark
+  id: Right_To_Left_Mark
+  parent: TypeHelp.ZeroWidthChars
+  langs:
+  - csharp
+  - vb
+  name: Right_To_Left_Mark
+  nameWithType: ZeroWidthChars.Right_To_Left_Mark
+  fullName: TypeHelp.ZeroWidthChars.Right_To_Left_Mark
+  type: Field
+  source:
+    id: Right_To_Left_Mark
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 426
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Right_To_Left_Mark = 8207
+    return:
+      type: TypeHelp.ZeroWidthChars
+- uid: TypeHelp.ZeroWidthChars.Word_Joiner
+  commentId: F:TypeHelp.ZeroWidthChars.Word_Joiner
+  id: Word_Joiner
+  parent: TypeHelp.ZeroWidthChars
+  langs:
+  - csharp
+  - vb
+  name: Word_Joiner
+  nameWithType: ZeroWidthChars.Word_Joiner
+  fullName: TypeHelp.ZeroWidthChars.Word_Joiner
+  type: Field
+  source:
+    id: Word_Joiner
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 427
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Word_Joiner = 8288
+    return:
+      type: TypeHelp.ZeroWidthChars
+- uid: TypeHelp.ZeroWidthChars.Zero_Width_Joiner
+  commentId: F:TypeHelp.ZeroWidthChars.Zero_Width_Joiner
+  id: Zero_Width_Joiner
+  parent: TypeHelp.ZeroWidthChars
+  langs:
+  - csharp
+  - vb
+  name: Zero_Width_Joiner
+  nameWithType: ZeroWidthChars.Zero_Width_Joiner
+  fullName: TypeHelp.ZeroWidthChars.Zero_Width_Joiner
+  type: Field
+  source:
+    id: Zero_Width_Joiner
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 428
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Zero_Width_Joiner = 8205
+    return:
+      type: TypeHelp.ZeroWidthChars
+- uid: TypeHelp.ZeroWidthChars.Zero_Width_Non_Joiner
+  commentId: F:TypeHelp.ZeroWidthChars.Zero_Width_Non_Joiner
+  id: Zero_Width_Non_Joiner
+  parent: TypeHelp.ZeroWidthChars
+  langs:
+  - csharp
+  - vb
+  name: Zero_Width_Non_Joiner
+  nameWithType: ZeroWidthChars.Zero_Width_Non_Joiner
+  fullName: TypeHelp.ZeroWidthChars.Zero_Width_Non_Joiner
+  type: Field
+  source:
+    id: Zero_Width_Non_Joiner
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 429
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Zero_Width_Non_Joiner = 8204
+    return:
+      type: TypeHelp.ZeroWidthChars
+- uid: TypeHelp.ZeroWidthChars.Zero_Width_Space
+  commentId: F:TypeHelp.ZeroWidthChars.Zero_Width_Space
+  id: Zero_Width_Space
+  parent: TypeHelp.ZeroWidthChars
+  langs:
+  - csharp
+  - vb
+  name: Zero_Width_Space
+  nameWithType: ZeroWidthChars.Zero_Width_Space
+  fullName: TypeHelp.ZeroWidthChars.Zero_Width_Space
+  type: Field
+  source:
+    id: Zero_Width_Space
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 430
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Zero_Width_Space = 8203
+    return:
+      type: TypeHelp.ZeroWidthChars
+references:
+- uid: TypeHelp
+  commentId: N:TypeHelp
+  href: TypeHelp.html
+  name: TypeHelp
+  nameWithType: TypeHelp
+  fullName: TypeHelp
+- uid: TypeHelp.ZeroWidthChars
+  commentId: T:TypeHelp.ZeroWidthChars
+  parent: TypeHelp
+  href: TypeHelp.ZeroWidthChars.html
+  name: ZeroWidthChars
+  nameWithType: ZeroWidthChars
+  fullName: TypeHelp.ZeroWidthChars
+memberLayout: SeparatePages

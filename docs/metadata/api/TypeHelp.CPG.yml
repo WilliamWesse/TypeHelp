@@ -1,0 +1,317 @@
+### YamlMime:ManagedReference
+items:
+- uid: TypeHelp.CPG
+  commentId: T:TypeHelp.CPG
+  id: CPG
+  parent: TypeHelp
+  children:
+  - TypeHelp.CPG.BOM
+  - TypeHelp.CPG.CodePoint
+  - TypeHelp.CPG.HiSurrogate
+  - TypeHelp.CPG.LoSurrogate
+  - TypeHelp.CPG.NonCharacter
+  - TypeHelp.CPG.None
+  - TypeHelp.CPG.Overflow
+  - TypeHelp.CPG.Replacement
+  - TypeHelp.CPG.Sentinel
+  - TypeHelp.CPG.Supplement
+  - TypeHelp.CPG.Surrogate
+  - TypeHelp.CPG.Underflow
+  langs:
+  - csharp
+  - vb
+  name: CPG
+  nameWithType: CPG
+  fullName: TypeHelp.CPG
+  type: Enum
+  source:
+    id: CPG
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 16
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: The c p g.
+  example: []
+  syntax:
+    content: public enum CPG
+    content.vb: Public Enum CPG
+- uid: TypeHelp.CPG.None
+  commentId: F:TypeHelp.CPG.None
+  id: None
+  parent: TypeHelp.CPG
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: CPG.None
+  fullName: TypeHelp.CPG.None
+  type: Field
+  source:
+    id: None
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 18
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: None = 0
+    return:
+      type: TypeHelp.CPG
+- uid: TypeHelp.CPG.Underflow
+  commentId: F:TypeHelp.CPG.Underflow
+  id: Underflow
+  parent: TypeHelp.CPG
+  langs:
+  - csharp
+  - vb
+  name: Underflow
+  nameWithType: CPG.Underflow
+  fullName: TypeHelp.CPG.Underflow
+  type: Field
+  source:
+    id: Underflow
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 19
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Underflow = 1
+    return:
+      type: TypeHelp.CPG
+- uid: TypeHelp.CPG.Overflow
+  commentId: F:TypeHelp.CPG.Overflow
+  id: Overflow
+  parent: TypeHelp.CPG
+  langs:
+  - csharp
+  - vb
+  name: Overflow
+  nameWithType: CPG.Overflow
+  fullName: TypeHelp.CPG.Overflow
+  type: Field
+  source:
+    id: Overflow
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 20
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Overflow = 2
+    return:
+      type: TypeHelp.CPG
+- uid: TypeHelp.CPG.NonCharacter
+  commentId: F:TypeHelp.CPG.NonCharacter
+  id: NonCharacter
+  parent: TypeHelp.CPG
+  langs:
+  - csharp
+  - vb
+  name: NonCharacter
+  nameWithType: CPG.NonCharacter
+  fullName: TypeHelp.CPG.NonCharacter
+  type: Field
+  source:
+    id: NonCharacter
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 21
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: NonCharacter = 3
+    return:
+      type: TypeHelp.CPG
+- uid: TypeHelp.CPG.Replacement
+  commentId: F:TypeHelp.CPG.Replacement
+  id: Replacement
+  parent: TypeHelp.CPG
+  langs:
+  - csharp
+  - vb
+  name: Replacement
+  nameWithType: CPG.Replacement
+  fullName: TypeHelp.CPG.Replacement
+  type: Field
+  source:
+    id: Replacement
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 22
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Replacement = 4
+    return:
+      type: TypeHelp.CPG
+- uid: TypeHelp.CPG.Sentinel
+  commentId: F:TypeHelp.CPG.Sentinel
+  id: Sentinel
+  parent: TypeHelp.CPG
+  langs:
+  - csharp
+  - vb
+  name: Sentinel
+  nameWithType: CPG.Sentinel
+  fullName: TypeHelp.CPG.Sentinel
+  type: Field
+  source:
+    id: Sentinel
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 23
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Sentinel = 5
+    return:
+      type: TypeHelp.CPG
+- uid: TypeHelp.CPG.BOM
+  commentId: F:TypeHelp.CPG.BOM
+  id: BOM
+  parent: TypeHelp.CPG
+  langs:
+  - csharp
+  - vb
+  name: BOM
+  nameWithType: CPG.BOM
+  fullName: TypeHelp.CPG.BOM
+  type: Field
+  source:
+    id: BOM
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 24
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: BOM = 6
+    return:
+      type: TypeHelp.CPG
+- uid: TypeHelp.CPG.CodePoint
+  commentId: F:TypeHelp.CPG.CodePoint
+  id: CodePoint
+  parent: TypeHelp.CPG
+  langs:
+  - csharp
+  - vb
+  name: CodePoint
+  nameWithType: CPG.CodePoint
+  fullName: TypeHelp.CPG.CodePoint
+  type: Field
+  source:
+    id: CodePoint
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 25
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: CodePoint = 7
+    return:
+      type: TypeHelp.CPG
+- uid: TypeHelp.CPG.Supplement
+  commentId: F:TypeHelp.CPG.Supplement
+  id: Supplement
+  parent: TypeHelp.CPG
+  langs:
+  - csharp
+  - vb
+  name: Supplement
+  nameWithType: CPG.Supplement
+  fullName: TypeHelp.CPG.Supplement
+  type: Field
+  source:
+    id: Supplement
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 26
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Supplement = 8
+    return:
+      type: TypeHelp.CPG
+- uid: TypeHelp.CPG.Surrogate
+  commentId: F:TypeHelp.CPG.Surrogate
+  id: Surrogate
+  parent: TypeHelp.CPG
+  langs:
+  - csharp
+  - vb
+  name: Surrogate
+  nameWithType: CPG.Surrogate
+  fullName: TypeHelp.CPG.Surrogate
+  type: Field
+  source:
+    id: Surrogate
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 27
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Surrogate = 9
+    return:
+      type: TypeHelp.CPG
+- uid: TypeHelp.CPG.HiSurrogate
+  commentId: F:TypeHelp.CPG.HiSurrogate
+  id: HiSurrogate
+  parent: TypeHelp.CPG
+  langs:
+  - csharp
+  - vb
+  name: HiSurrogate
+  nameWithType: CPG.HiSurrogate
+  fullName: TypeHelp.CPG.HiSurrogate
+  type: Field
+  source:
+    id: HiSurrogate
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 28
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: HiSurrogate = 10
+    return:
+      type: TypeHelp.CPG
+- uid: TypeHelp.CPG.LoSurrogate
+  commentId: F:TypeHelp.CPG.LoSurrogate
+  id: LoSurrogate
+  parent: TypeHelp.CPG
+  langs:
+  - csharp
+  - vb
+  name: LoSurrogate
+  nameWithType: CPG.LoSurrogate
+  fullName: TypeHelp.CPG.LoSurrogate
+  type: Field
+  source:
+    id: LoSurrogate
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 29
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: LoSurrogate = 11
+    return:
+      type: TypeHelp.CPG
+references:
+- uid: TypeHelp
+  commentId: N:TypeHelp
+  href: TypeHelp.html
+  name: TypeHelp
+  nameWithType: TypeHelp
+  fullName: TypeHelp
+- uid: TypeHelp.CPG
+  commentId: T:TypeHelp.CPG
+  parent: TypeHelp
+  href: TypeHelp.CPG.html
+  name: CPG
+  nameWithType: CPG
+  fullName: TypeHelp.CPG
+memberLayout: SeparatePages

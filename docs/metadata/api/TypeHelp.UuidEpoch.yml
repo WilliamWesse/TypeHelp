@@ -1,0 +1,140 @@
+### YamlMime:ManagedReference
+items:
+- uid: TypeHelp.UuidEpoch
+  commentId: T:TypeHelp.UuidEpoch
+  id: UuidEpoch
+  parent: TypeHelp
+  children:
+  - TypeHelp.UuidEpoch.Common
+  - TypeHelp.UuidEpoch.None
+  - TypeHelp.UuidEpoch.Posix
+  langs:
+  - csharp
+  - vb
+  name: UuidEpoch
+  nameWithType: UuidEpoch
+  fullName: TypeHelp.UuidEpoch
+  type: Enum
+  source:
+    id: UuidEpoch
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\Uuid.cs
+    startLine: 61
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: >-
+    UuidEpoch Enum
+
+
+    <p><strong>Epoch-Value</strong></p>
+
+    <p>Gregorian:</p>
+
+    <p>   RFC 1123: Mon, 01 Jan 0001 00:00:00 GMT</p>
+
+    <p>   ISO 8601: 0001-00-01T12:00:00Z</p>
+
+    <p>      Ticks: 0</p>
+
+    <p>  Precision: 100-nanosecond</p>
+
+    <p>Posix:</p>
+
+    <p>   RFC 1123: Thu, 01 Jan 1970 00:00:00 GMT</p>
+
+    <p>   ISO 8601: 1970-00-01T12:00:00Z</p>
+
+    <p>      Ticks: 621355968000000000 (no leap seconds)</p>
+
+    <p>  Precision: millisecond</p>
+  example: []
+  syntax:
+    content: public enum UuidEpoch
+    content.vb: Public Enum UuidEpoch
+- uid: TypeHelp.UuidEpoch.None
+  commentId: F:TypeHelp.UuidEpoch.None
+  id: None
+  parent: TypeHelp.UuidEpoch
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: UuidEpoch.None
+  fullName: TypeHelp.UuidEpoch.None
+  type: Field
+  source:
+    id: None
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\Uuid.cs
+    startLine: 66
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: None, for non-CommonTime based Uuids
+  example: []
+  syntax:
+    content: None = 0
+    return:
+      type: TypeHelp.UuidEpoch
+- uid: TypeHelp.UuidEpoch.Posix
+  commentId: F:TypeHelp.UuidEpoch.Posix
+  id: Posix
+  parent: TypeHelp.UuidEpoch
+  langs:
+  - csharp
+  - vb
+  name: Posix
+  nameWithType: UuidEpoch.Posix
+  fullName: TypeHelp.UuidEpoch.Posix
+  type: Field
+  source:
+    id: Posix
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\Uuid.cs
+    startLine: 70
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: Posix/Unix millisecond precision, no leap seconds.
+  example: []
+  syntax:
+    content: Posix = 1
+    return:
+      type: TypeHelp.UuidEpoch
+- uid: TypeHelp.UuidEpoch.Common
+  commentId: F:TypeHelp.UuidEpoch.Common
+  id: Common
+  parent: TypeHelp.UuidEpoch
+  langs:
+  - csharp
+  - vb
+  name: Common
+  nameWithType: UuidEpoch.Common
+  fullName: TypeHelp.UuidEpoch.Common
+  type: Field
+  source:
+    id: Common
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\Uuid.cs
+    startLine: 74
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: Common era - Gregorian epoch 100-nanosecond precision
+  example: []
+  syntax:
+    content: Common = 2
+    return:
+      type: TypeHelp.UuidEpoch
+references:
+- uid: TypeHelp
+  commentId: N:TypeHelp
+  href: TypeHelp.html
+  name: TypeHelp
+  nameWithType: TypeHelp
+  fullName: TypeHelp
+- uid: TypeHelp.UuidEpoch
+  commentId: T:TypeHelp.UuidEpoch
+  parent: TypeHelp
+  href: TypeHelp.UuidEpoch.html
+  name: UuidEpoch
+  nameWithType: UuidEpoch
+  fullName: TypeHelp.UuidEpoch
+memberLayout: SeparatePages

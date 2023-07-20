@@ -1,0 +1,340 @@
+### YamlMime:ManagedReference
+items:
+- uid: TypeHelp.UuidField
+  commentId: T:TypeHelp.UuidField
+  id: UuidField
+  parent: TypeHelp
+  children:
+  - TypeHelp.UuidField.ClockSequence
+  - TypeHelp.UuidField.CommonTime
+  - TypeHelp.UuidField.CustomA
+  - TypeHelp.UuidField.CustomB
+  - TypeHelp.UuidField.CustomC
+  - TypeHelp.UuidField.Invalid
+  - TypeHelp.UuidField.Node
+  - TypeHelp.UuidField.PosixTime
+  - TypeHelp.UuidField.RandA
+  - TypeHelp.UuidField.RandB
+  - TypeHelp.UuidField.SequenceSize
+  - TypeHelp.UuidField.Variant
+  - TypeHelp.UuidField.Version
+  langs:
+  - csharp
+  - vb
+  name: UuidField
+  nameWithType: UuidField
+  fullName: TypeHelp.UuidField
+  type: Enum
+  source:
+    id: UuidField
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\Uuid.cs
+    startLine: 80
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: UuidField Enum
+  example: []
+  syntax:
+    content: public enum UuidField
+    content.vb: Public Enum UuidField
+- uid: TypeHelp.UuidField.Invalid
+  commentId: F:TypeHelp.UuidField.Invalid
+  id: Invalid
+  parent: TypeHelp.UuidField
+  langs:
+  - csharp
+  - vb
+  name: Invalid
+  nameWithType: UuidField.Invalid
+  fullName: TypeHelp.UuidField.Invalid
+  type: Field
+  source:
+    id: Invalid
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\Uuid.cs
+    startLine: 82
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Invalid = 0
+    return:
+      type: TypeHelp.UuidField
+- uid: TypeHelp.UuidField.ClockSequence
+  commentId: F:TypeHelp.UuidField.ClockSequence
+  id: ClockSequence
+  parent: TypeHelp.UuidField
+  langs:
+  - csharp
+  - vb
+  name: ClockSequence
+  nameWithType: UuidField.ClockSequence
+  fullName: TypeHelp.UuidField.ClockSequence
+  type: Field
+  source:
+    id: ClockSequence
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\Uuid.cs
+    startLine: 83
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: ClockSequence = 1
+    return:
+      type: TypeHelp.UuidField
+- uid: TypeHelp.UuidField.CommonTime
+  commentId: F:TypeHelp.UuidField.CommonTime
+  id: CommonTime
+  parent: TypeHelp.UuidField
+  langs:
+  - csharp
+  - vb
+  name: CommonTime
+  nameWithType: UuidField.CommonTime
+  fullName: TypeHelp.UuidField.CommonTime
+  type: Field
+  source:
+    id: CommonTime
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\Uuid.cs
+    startLine: 84
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: CommonTime = 2
+    return:
+      type: TypeHelp.UuidField
+- uid: TypeHelp.UuidField.Node
+  commentId: F:TypeHelp.UuidField.Node
+  id: Node
+  parent: TypeHelp.UuidField
+  langs:
+  - csharp
+  - vb
+  name: Node
+  nameWithType: UuidField.Node
+  fullName: TypeHelp.UuidField.Node
+  type: Field
+  source:
+    id: Node
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\Uuid.cs
+    startLine: 85
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Node = 3
+    return:
+      type: TypeHelp.UuidField
+- uid: TypeHelp.UuidField.SequenceSize
+  commentId: F:TypeHelp.UuidField.SequenceSize
+  id: SequenceSize
+  parent: TypeHelp.UuidField
+  langs:
+  - csharp
+  - vb
+  name: SequenceSize
+  nameWithType: UuidField.SequenceSize
+  fullName: TypeHelp.UuidField.SequenceSize
+  type: Field
+  source:
+    id: SequenceSize
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\Uuid.cs
+    startLine: 86
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: SequenceSize = 4
+    return:
+      type: TypeHelp.UuidField
+- uid: TypeHelp.UuidField.Variant
+  commentId: F:TypeHelp.UuidField.Variant
+  id: Variant
+  parent: TypeHelp.UuidField
+  langs:
+  - csharp
+  - vb
+  name: Variant
+  nameWithType: UuidField.Variant
+  fullName: TypeHelp.UuidField.Variant
+  type: Field
+  source:
+    id: Variant
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\Uuid.cs
+    startLine: 87
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Variant = 5
+    return:
+      type: TypeHelp.UuidField
+- uid: TypeHelp.UuidField.Version
+  commentId: F:TypeHelp.UuidField.Version
+  id: Version
+  parent: TypeHelp.UuidField
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: UuidField.Version
+  fullName: TypeHelp.UuidField.Version
+  type: Field
+  source:
+    id: Version
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\Uuid.cs
+    startLine: 88
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Version = 6
+    return:
+      type: TypeHelp.UuidField
+- uid: TypeHelp.UuidField.PosixTime
+  commentId: F:TypeHelp.UuidField.PosixTime
+  id: PosixTime
+  parent: TypeHelp.UuidField
+  langs:
+  - csharp
+  - vb
+  name: PosixTime
+  nameWithType: UuidField.PosixTime
+  fullName: TypeHelp.UuidField.PosixTime
+  type: Field
+  source:
+    id: PosixTime
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\Uuid.cs
+    startLine: 89
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: PosixTime = 7
+    return:
+      type: TypeHelp.UuidField
+- uid: TypeHelp.UuidField.RandA
+  commentId: F:TypeHelp.UuidField.RandA
+  id: RandA
+  parent: TypeHelp.UuidField
+  langs:
+  - csharp
+  - vb
+  name: RandA
+  nameWithType: UuidField.RandA
+  fullName: TypeHelp.UuidField.RandA
+  type: Field
+  source:
+    id: RandA
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\Uuid.cs
+    startLine: 90
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: RandA = 8
+    return:
+      type: TypeHelp.UuidField
+- uid: TypeHelp.UuidField.RandB
+  commentId: F:TypeHelp.UuidField.RandB
+  id: RandB
+  parent: TypeHelp.UuidField
+  langs:
+  - csharp
+  - vb
+  name: RandB
+  nameWithType: UuidField.RandB
+  fullName: TypeHelp.UuidField.RandB
+  type: Field
+  source:
+    id: RandB
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\Uuid.cs
+    startLine: 91
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: RandB = 9
+    return:
+      type: TypeHelp.UuidField
+- uid: TypeHelp.UuidField.CustomA
+  commentId: F:TypeHelp.UuidField.CustomA
+  id: CustomA
+  parent: TypeHelp.UuidField
+  langs:
+  - csharp
+  - vb
+  name: CustomA
+  nameWithType: UuidField.CustomA
+  fullName: TypeHelp.UuidField.CustomA
+  type: Field
+  source:
+    id: CustomA
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\Uuid.cs
+    startLine: 92
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: CustomA = 10
+    return:
+      type: TypeHelp.UuidField
+- uid: TypeHelp.UuidField.CustomB
+  commentId: F:TypeHelp.UuidField.CustomB
+  id: CustomB
+  parent: TypeHelp.UuidField
+  langs:
+  - csharp
+  - vb
+  name: CustomB
+  nameWithType: UuidField.CustomB
+  fullName: TypeHelp.UuidField.CustomB
+  type: Field
+  source:
+    id: CustomB
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\Uuid.cs
+    startLine: 93
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: CustomB = 11
+    return:
+      type: TypeHelp.UuidField
+- uid: TypeHelp.UuidField.CustomC
+  commentId: F:TypeHelp.UuidField.CustomC
+  id: CustomC
+  parent: TypeHelp.UuidField
+  langs:
+  - csharp
+  - vb
+  name: CustomC
+  nameWithType: UuidField.CustomC
+  fullName: TypeHelp.UuidField.CustomC
+  type: Field
+  source:
+    id: CustomC
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\Uuid.cs
+    startLine: 94
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: CustomC = 12
+    return:
+      type: TypeHelp.UuidField
+references:
+- uid: TypeHelp
+  commentId: N:TypeHelp
+  href: TypeHelp.html
+  name: TypeHelp
+  nameWithType: TypeHelp
+  fullName: TypeHelp
+- uid: TypeHelp.UuidField
+  commentId: T:TypeHelp.UuidField
+  parent: TypeHelp
+  href: TypeHelp.UuidField.html
+  name: UuidField
+  nameWithType: UuidField
+  fullName: TypeHelp.UuidField
+memberLayout: SeparatePages

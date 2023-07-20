@@ -1,0 +1,94 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0;net7.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+   <PropertyGroup>
+      <EnableNETAnalyzers>true</EnableNETAnalyzers>
+      <AnalysisLevel>latest</AnalysisLevel>
+   </PropertyGroup>
+   <PropertyGroup>
+      <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+      <Nullable>enable</Nullable>
+      <LangVersion>10.0</LangVersion>
+      <GenerateDocumentationFile>true</GenerateDocumentationFile>
+      <!-- Comment out or set to 'false' to get warnings about TLB conversion -->
+      <ResolveComReferenceSilent>true</ResolveComReferenceSilent>
+      <RuntimeIdentifiers>win</RuntimeIdentifiers>
+   </PropertyGroup>
+   <PropertyGroup>
+      <SignAssembly>true</SignAssembly>
+   </PropertyGroup>
+   <PropertyGroup>
+      <AssemblyOriginatorKeyFile>keyfile.snk</AssemblyOriginatorKeyFile>
+   </PropertyGroup>
+   <PropertyGroup>
+      <ApplicationIcon>assets\images\logo.ico</ApplicationIcon>
+      <DocumentationFile>docs\xml\TypeHelp.xml</DocumentationFile>
+      <Title>TypeHelp</Title>
+      <PackageLicenseFile>LICENSE</PackageLicenseFile>
+      <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+      <IncludeSymbols>True</IncludeSymbols>
+      <PackageReadmeFile>README.md</PackageReadmeFile>
+      <Authors>William Edward Wesse</Authors>
+      <Copyright>Copyright (c) William Edward Wesse</Copyright>
+      <PackageIcon>logo_128.png</PackageIcon>
+      <AssemblyVersion>0.1.0.0</AssemblyVersion>
+      <FileVersion>0.1.0.0</FileVersion>
+      <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+   </PropertyGroup>
+   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0|AnyCPU'">
+     <NoWarn>1591;1701;1702;CA1069</NoWarn>
+   </PropertyGroup>
+   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0|AnyCPU'">
+     <NoWarn>1591;1701;1702;CA1069</NoWarn>
+   </PropertyGroup>
+   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net6.0|AnyCPU'">
+     <NoWarn>1591;1701;1702;CA1069</NoWarn>
+   </PropertyGroup>
+   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net7.0|AnyCPU'">
+     <NoWarn>1591;1701;1702;CA1069</NoWarn>
+   </PropertyGroup>
+   <ItemGroup>
+     <Content Include="assets\images\logo.ico" />
+   </ItemGroup>
+
+   <ItemGroup>
+    <Folder Include="docs\markdown\api\" />
+    <Folder Include="docs\markdown\articles\" />
+    <Folder Include="docs\metadata\api\" />
+    <Folder Include="docs\metadata\articles\" />
+    <Folder Include="docs\xml\" />
+    <Folder Include="test\" />
+    <Folder Include="docs\site\styles\" />
+    <Folder Include="docs\site\api\" />
+    <Folder Include="docs\site\articles\" />
+    <Folder Include="docs\templates\enumerations\partials\" />
+    <Folder Include="docs\templates\enumerations\styles\" />
+    <Folder Include="src\Uuid\" />
+    <Folder Include="src\Unicode\" />
+    <Folder Include="src\Nullity\" />
+    <Folder Include="src\Slice\" />
+    <Folder Include="src\TypeParser\static\" />
+    <Folder Include="src\TypeParser\public\" />
+  </ItemGroup>
+
+   <ItemGroup>
+     <None Update="assets\images\logo_128.png">
+       <Pack>True</Pack>
+       <PackagePath>\</PackagePath>
+     </None>
+     <None Update="LICENSE">
+       <Pack>True</Pack>
+       <PackagePath>\</PackagePath>
+     </None>
+     <None Update="README.md">
+       <Pack>True</Pack>
+       <PackagePath>\</PackagePath>
+     </None>
+   </ItemGroup>
+
+</Project>

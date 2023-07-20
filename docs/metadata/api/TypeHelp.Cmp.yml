@@ -1,0 +1,244 @@
+### YamlMime:ManagedReference
+items:
+- uid: TypeHelp.Cmp
+  commentId: T:TypeHelp.Cmp
+  id: Cmp
+  parent: TypeHelp
+  children:
+  - TypeHelp.Cmp.EQU
+  - TypeHelp.Cmp.GTR
+  - TypeHelp.Cmp.LSS
+  - TypeHelp.Cmp.NAN
+  - TypeHelp.Cmp.NUL
+  - TypeHelp.Cmp.OVF
+  - TypeHelp.Cmp.UNF
+  langs:
+  - csharp
+  - vb
+  name: Cmp
+  nameWithType: Cmp
+  fullName: TypeHelp.Cmp
+  type: Enum
+  source:
+    id: Cmp
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\Enumerations.cs
+    startLine: 13
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: Specifies standard <code>LSS</code>, <code>EQU</code> and <code>GTR</code> comparison values (all positive) in addition to error values (all negative) such as <code>NAN</code> and <code>OVF</code> (overflow). These are used by <xref href="TypeHelp.TypeParser.Compare(System.Int32%2cSystem.Int32)" data-throw-if-not-resolved="false"></xref> and similar methods for other <code>TypeParser</code> supported types.
+  example: []
+  syntax:
+    content: public enum Cmp
+    content.vb: Public Enum Cmp
+- uid: TypeHelp.Cmp.NUL
+  commentId: F:TypeHelp.Cmp.NUL
+  id: NUL
+  parent: TypeHelp.Cmp
+  langs:
+  - csharp
+  - vb
+  name: NUL
+  nameWithType: Cmp.NUL
+  fullName: TypeHelp.Cmp.NUL
+  type: Field
+  source:
+    id: NUL
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\Enumerations.cs
+    startLine: 18
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: NUL = -4
+    return:
+      type: TypeHelp.Cmp
+- uid: TypeHelp.Cmp.NAN
+  commentId: F:TypeHelp.Cmp.NAN
+  id: NAN
+  parent: TypeHelp.Cmp
+  langs:
+  - csharp
+  - vb
+  name: NAN
+  nameWithType: Cmp.NAN
+  fullName: TypeHelp.Cmp.NAN
+  type: Field
+  source:
+    id: NAN
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\Enumerations.cs
+    startLine: 19
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: NAN = -3
+    return:
+      type: TypeHelp.Cmp
+- uid: TypeHelp.Cmp.UNF
+  commentId: F:TypeHelp.Cmp.UNF
+  id: UNF
+  parent: TypeHelp.Cmp
+  langs:
+  - csharp
+  - vb
+  name: UNF
+  nameWithType: Cmp.UNF
+  fullName: TypeHelp.Cmp.UNF
+  type: Field
+  source:
+    id: UNF
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\Enumerations.cs
+    startLine: 20
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: UNF = -2
+    return:
+      type: TypeHelp.Cmp
+- uid: TypeHelp.Cmp.OVF
+  commentId: F:TypeHelp.Cmp.OVF
+  id: OVF
+  parent: TypeHelp.Cmp
+  langs:
+  - csharp
+  - vb
+  name: OVF
+  nameWithType: Cmp.OVF
+  fullName: TypeHelp.Cmp.OVF
+  type: Field
+  source:
+    id: OVF
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\Enumerations.cs
+    startLine: 21
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: OVF = -1
+    return:
+      type: TypeHelp.Cmp
+- uid: TypeHelp.Cmp.LSS
+  commentId: F:TypeHelp.Cmp.LSS
+  id: LSS
+  parent: TypeHelp.Cmp
+  langs:
+  - csharp
+  - vb
+  name: LSS
+  nameWithType: Cmp.LSS
+  fullName: TypeHelp.Cmp.LSS
+  type: Field
+  source:
+    id: LSS
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\Enumerations.cs
+    startLine: 22
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: LSS = 0
+    return:
+      type: TypeHelp.Cmp
+- uid: TypeHelp.Cmp.EQU
+  commentId: F:TypeHelp.Cmp.EQU
+  id: EQU
+  parent: TypeHelp.Cmp
+  langs:
+  - csharp
+  - vb
+  name: EQU
+  nameWithType: Cmp.EQU
+  fullName: TypeHelp.Cmp.EQU
+  type: Field
+  source:
+    id: EQU
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\Enumerations.cs
+    startLine: 23
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: EQU = 1
+    return:
+      type: TypeHelp.Cmp
+- uid: TypeHelp.Cmp.GTR
+  commentId: F:TypeHelp.Cmp.GTR
+  id: GTR
+  parent: TypeHelp.Cmp
+  langs:
+  - csharp
+  - vb
+  name: GTR
+  nameWithType: Cmp.GTR
+  fullName: TypeHelp.Cmp.GTR
+  type: Field
+  source:
+    id: GTR
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\Enumerations.cs
+    startLine: 24
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: GTR = 2
+    return:
+      type: TypeHelp.Cmp
+references:
+- uid: TypeHelp.TypeParser.Compare(System.Int32,System.Int32)
+  commentId: M:TypeHelp.TypeParser.Compare(System.Int32,System.Int32)
+  isExternal: true
+  href: TypeHelp.TypeParser.Compare(System.Int32,System.Int32).html
+  name: Compare(int, int)
+  nameWithType: TypeParser.Compare(int, int)
+  fullName: TypeHelp.TypeParser.Compare(int, int)
+  nameWithType.vb: TypeParser.Compare(Integer, Integer)
+  fullName.vb: TypeHelp.TypeParser.Compare(Integer, Integer)
+  name.vb: Compare(Integer, Integer)
+  spec.csharp:
+  - uid: TypeHelp.TypeParser.Compare(System.Int32,System.Int32)
+    name: Compare
+    href: TypeHelp.TypeParser.Compare(System.Int32,System.Int32).html
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: TypeHelp.TypeParser.Compare(System.Int32,System.Int32)
+    name: Compare
+    href: TypeHelp.TypeParser.Compare(System.Int32,System.Int32).html
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: TypeHelp
+  commentId: N:TypeHelp
+  href: TypeHelp.html
+  name: TypeHelp
+  nameWithType: TypeHelp
+  fullName: TypeHelp
+- uid: TypeHelp.Cmp
+  commentId: T:TypeHelp.Cmp
+  parent: TypeHelp
+  href: TypeHelp.Cmp.html
+  name: Cmp
+  nameWithType: Cmp
+  fullName: TypeHelp.Cmp
+memberLayout: SeparatePages

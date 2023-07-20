@@ -1,0 +1,91 @@
+{
+   "build": {
+      "content": [
+         {
+            "files": [
+               "TypeHelp.csproj"
+            ]
+         },
+         {
+            "files": [
+               "docs/markdown/index.md",
+               "docs/markdown/toc.yml"
+            ]
+         },
+         {
+            "files": [
+               "docs/markdown/api/**.md",
+               "docs/markdown/api/toc.yml",
+               "docs/metadata/api/**.yml"
+            ]
+         },
+         {
+            "files": [
+               "docs/markdown/articles/**.md",
+               "docs/metadata/articles/**/toc.yml"
+            ]
+         }
+      ],
+      "dest": "docs/site",
+      "disableGitFeatures": false,
+      "fileMetadataFiles": [],
+      "globalMetadataFiles": [
+         "docs/metadata/TypeHelpMeta.json"
+      ],
+      "keepFileLink": false,
+      "overwrite": [
+         {
+            "exclude": [
+               ".*",
+               ".*/**",
+               "assets/**",
+               "bin/**",
+               "docs/markdown/**",
+               "docs/templates/**",
+               "obj/**",
+               "src/**",
+               "test/**"
+            ],
+            "files": [
+               "apidoc/**.md",
+               "docs/metadata/TypeHelpMeta.json"
+            ]
+         }
+      ],
+      "postProcessors": [],
+      "resource": [
+         {
+            "files": [
+               "assets/images/**"
+            ]
+         }
+      ],
+      "template": [
+         "docs/templates/default",
+         "docs/templates/enumerations"
+      ]
+   },
+   "metadata": [
+      {
+         "allowCompilationErrors": false,
+         "dest": "docs/metadata/api",
+         "disableDefaultFilter": false,
+         "disableGitFeatures": false,
+         "includePrivateMembers": false,
+         "memberLayout": "SeparatePages",
+         "namespaceLayout": "nested",
+         "noRestore": false,
+         "shouldSkipMarkup": false,
+         "src": [
+            {
+               "exclude": [
+                  "README.md"
+               ],
+               "files": [
+                  "**.csproj"
+               ]
+            }
+         ]
+      }
+   ]
+}

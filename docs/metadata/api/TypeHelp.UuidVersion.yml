@@ -1,0 +1,277 @@
+### YamlMime:ManagedReference
+items:
+- uid: TypeHelp.UuidVersion
+  commentId: T:TypeHelp.UuidVersion
+  id: UuidVersion
+  parent: TypeHelp
+  children:
+  - TypeHelp.UuidVersion.CustomFormats
+  - TypeHelp.UuidVersion.DCESecurity
+  - TypeHelp.UuidVersion.NameBasedMD5
+  - TypeHelp.UuidVersion.NameBasedSHA1
+  - TypeHelp.UuidVersion.PseudoRandom
+  - TypeHelp.UuidVersion.TimeGregorian
+  - TypeHelp.UuidVersion.TimePosixEpoch
+  - TypeHelp.UuidVersion.TimeReordered
+  - TypeHelp.UuidVersion.Unknown
+  langs:
+  - csharp
+  - vb
+  name: UuidVersion
+  nameWithType: UuidVersion
+  fullName: TypeHelp.UuidVersion
+  type: Enum
+  source:
+    id: UuidVersion
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\Uuid.cs
+    startLine: 232
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: >-
+    UuidVersion Enum
+
+    <p>
+
+    Provides a friendly-name list of UUID versions, using defined integer values.
+
+    Version <a href="https://www.rfc-editor.org/rfc/rfc4122#section-4.1.3">https://www.rfc-editor.org/rfc/rfc4122#section-4.1.3</a>
+
+    </p>
+
+    New UUID Formats
+
+    <a href="https://www.ietf.org/archive/id/draft-peabody-dispatch-new-uuid-uuidFormat-04.html">https://www.ietf.org/archive/id/draft-peabody-dispatch-new-uuid-uuidFormat-04.html</a>
+  remarks: <p><strong>Field-Description</strong></p>
+  example: []
+  syntax:
+    content: public enum UuidVersion
+    content.vb: Public Enum UuidVersion
+- uid: TypeHelp.UuidVersion.Unknown
+  commentId: F:TypeHelp.UuidVersion.Unknown
+  id: Unknown
+  parent: TypeHelp.UuidVersion
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: UuidVersion.Unknown
+  fullName: TypeHelp.UuidVersion.Unknown
+  type: Field
+  source:
+    id: Unknown
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\Uuid.cs
+    startLine: 237
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: Unknown = 0
+    return:
+      type: TypeHelp.UuidVersion
+- uid: TypeHelp.UuidVersion.TimeGregorian
+  commentId: F:TypeHelp.UuidVersion.TimeGregorian
+  id: TimeGregorian
+  parent: TypeHelp.UuidVersion
+  langs:
+  - csharp
+  - vb
+  name: TimeGregorian
+  nameWithType: UuidVersion.TimeGregorian
+  fullName: TypeHelp.UuidVersion.TimeGregorian
+  type: Field
+  source:
+    id: TimeGregorian
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\Uuid.cs
+    startLine: 241
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: TimeGregorian = 1
+    return:
+      type: TypeHelp.UuidVersion
+- uid: TypeHelp.UuidVersion.DCESecurity
+  commentId: F:TypeHelp.UuidVersion.DCESecurity
+  id: DCESecurity
+  parent: TypeHelp.UuidVersion
+  langs:
+  - csharp
+  - vb
+  name: DCESecurity
+  nameWithType: UuidVersion.DCESecurity
+  fullName: TypeHelp.UuidVersion.DCESecurity
+  type: Field
+  source:
+    id: DCESecurity
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\Uuid.cs
+    startLine: 245
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: DCESecurity = 2
+    return:
+      type: TypeHelp.UuidVersion
+- uid: TypeHelp.UuidVersion.NameBasedMD5
+  commentId: F:TypeHelp.UuidVersion.NameBasedMD5
+  id: NameBasedMD5
+  parent: TypeHelp.UuidVersion
+  langs:
+  - csharp
+  - vb
+  name: NameBasedMD5
+  nameWithType: UuidVersion.NameBasedMD5
+  fullName: TypeHelp.UuidVersion.NameBasedMD5
+  type: Field
+  source:
+    id: NameBasedMD5
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\Uuid.cs
+    startLine: 249
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: NameBasedMD5 = 3
+    return:
+      type: TypeHelp.UuidVersion
+- uid: TypeHelp.UuidVersion.PseudoRandom
+  commentId: F:TypeHelp.UuidVersion.PseudoRandom
+  id: PseudoRandom
+  parent: TypeHelp.UuidVersion
+  langs:
+  - csharp
+  - vb
+  name: PseudoRandom
+  nameWithType: UuidVersion.PseudoRandom
+  fullName: TypeHelp.UuidVersion.PseudoRandom
+  type: Field
+  source:
+    id: PseudoRandom
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\Uuid.cs
+    startLine: 253
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: PseudoRandom = 4
+    return:
+      type: TypeHelp.UuidVersion
+- uid: TypeHelp.UuidVersion.NameBasedSHA1
+  commentId: F:TypeHelp.UuidVersion.NameBasedSHA1
+  id: NameBasedSHA1
+  parent: TypeHelp.UuidVersion
+  langs:
+  - csharp
+  - vb
+  name: NameBasedSHA1
+  nameWithType: UuidVersion.NameBasedSHA1
+  fullName: TypeHelp.UuidVersion.NameBasedSHA1
+  type: Field
+  source:
+    id: NameBasedSHA1
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\Uuid.cs
+    startLine: 257
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: NameBasedSHA1 = 5
+    return:
+      type: TypeHelp.UuidVersion
+- uid: TypeHelp.UuidVersion.TimeReordered
+  commentId: F:TypeHelp.UuidVersion.TimeReordered
+  id: TimeReordered
+  parent: TypeHelp.UuidVersion
+  langs:
+  - csharp
+  - vb
+  name: TimeReordered
+  nameWithType: UuidVersion.TimeReordered
+  fullName: TypeHelp.UuidVersion.TimeReordered
+  type: Field
+  source:
+    id: TimeReordered
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\Uuid.cs
+    startLine: 261
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: TimeReordered = 6
+    return:
+      type: TypeHelp.UuidVersion
+- uid: TypeHelp.UuidVersion.TimePosixEpoch
+  commentId: F:TypeHelp.UuidVersion.TimePosixEpoch
+  id: TimePosixEpoch
+  parent: TypeHelp.UuidVersion
+  langs:
+  - csharp
+  - vb
+  name: TimePosixEpoch
+  nameWithType: UuidVersion.TimePosixEpoch
+  fullName: TypeHelp.UuidVersion.TimePosixEpoch
+  type: Field
+  source:
+    id: TimePosixEpoch
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\Uuid.cs
+    startLine: 265
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: TimePosixEpoch = 7
+    return:
+      type: TypeHelp.UuidVersion
+- uid: TypeHelp.UuidVersion.CustomFormats
+  commentId: F:TypeHelp.UuidVersion.CustomFormats
+  id: CustomFormats
+  parent: TypeHelp.UuidVersion
+  langs:
+  - csharp
+  - vb
+  name: CustomFormats
+  nameWithType: UuidVersion.CustomFormats
+  fullName: TypeHelp.UuidVersion.CustomFormats
+  type: Field
+  source:
+    id: CustomFormats
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\Uuid.cs
+    startLine: 269
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: CustomFormats = 8
+    return:
+      type: TypeHelp.UuidVersion
+references:
+- uid: TypeHelp
+  commentId: N:TypeHelp
+  href: TypeHelp.html
+  name: TypeHelp
+  nameWithType: TypeHelp
+  fullName: TypeHelp
+- uid: TypeHelp.UuidVersion
+  commentId: T:TypeHelp.UuidVersion
+  parent: TypeHelp
+  href: TypeHelp.UuidVersion.html
+  name: UuidVersion
+  nameWithType: UuidVersion
+  fullName: TypeHelp.UuidVersion
+- uid: TypeHelp.UuidVersion.TimeGregorian
+  commentId: F:TypeHelp.UuidVersion.TimeGregorian
+  href: TypeHelp.UuidVersion.html#TypeHelp.UuidVersion.TimeGregorian
+  name: TimeGregorian
+  nameWithType: UuidVersion.TimeGregorian
+  fullName: TypeHelp.UuidVersion.TimeGregorian
+memberLayout: SeparatePages

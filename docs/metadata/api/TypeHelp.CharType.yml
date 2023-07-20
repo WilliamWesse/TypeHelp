@@ -1,0 +1,248 @@
+### YamlMime:ManagedReference
+items:
+- uid: TypeHelp.CharType
+  commentId: T:TypeHelp.CharType
+  id: CharType
+  parent: TypeHelp
+  children:
+  - TypeHelp.CharType.ANSI
+  - TypeHelp.CharType.ASCII
+  - TypeHelp.CharType.UTF16
+  - TypeHelp.CharType.UTF16BE
+  - TypeHelp.CharType.UTF32
+  - TypeHelp.CharType.UTF32BE
+  - TypeHelp.CharType.UTF7
+  - TypeHelp.CharType.UTF8
+  - TypeHelp.CharType.Unicode
+  langs:
+  - csharp
+  - vb
+  name: CharType
+  nameWithType: CharType
+  fullName: TypeHelp.CharType
+  type: Enum
+  source:
+    id: CharType
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 80
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: The char DataType.
+  example: []
+  syntax:
+    content: public enum CharType
+    content.vb: Public Enum CharType
+- uid: TypeHelp.CharType.ASCII
+  commentId: F:TypeHelp.CharType.ASCII
+  id: ASCII
+  parent: TypeHelp.CharType
+  langs:
+  - csharp
+  - vb
+  name: ASCII
+  nameWithType: CharType.ASCII
+  fullName: TypeHelp.CharType.ASCII
+  type: Field
+  source:
+    id: ASCII
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 82
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: ASCII = 0
+    return:
+      type: TypeHelp.CharType
+- uid: TypeHelp.CharType.ANSI
+  commentId: F:TypeHelp.CharType.ANSI
+  id: ANSI
+  parent: TypeHelp.CharType
+  langs:
+  - csharp
+  - vb
+  name: ANSI
+  nameWithType: CharType.ANSI
+  fullName: TypeHelp.CharType.ANSI
+  type: Field
+  source:
+    id: ANSI
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 83
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: ANSI = 1
+    return:
+      type: TypeHelp.CharType
+- uid: TypeHelp.CharType.UTF7
+  commentId: F:TypeHelp.CharType.UTF7
+  id: UTF7
+  parent: TypeHelp.CharType
+  langs:
+  - csharp
+  - vb
+  name: UTF7
+  nameWithType: CharType.UTF7
+  fullName: TypeHelp.CharType.UTF7
+  type: Field
+  source:
+    id: UTF7
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 84
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: UTF7 = 2
+    return:
+      type: TypeHelp.CharType
+- uid: TypeHelp.CharType.UTF8
+  commentId: F:TypeHelp.CharType.UTF8
+  id: UTF8
+  parent: TypeHelp.CharType
+  langs:
+  - csharp
+  - vb
+  name: UTF8
+  nameWithType: CharType.UTF8
+  fullName: TypeHelp.CharType.UTF8
+  type: Field
+  source:
+    id: UTF8
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 85
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: UTF8 = 3
+    return:
+      type: TypeHelp.CharType
+- uid: TypeHelp.CharType.UTF16
+  commentId: F:TypeHelp.CharType.UTF16
+  id: UTF16
+  parent: TypeHelp.CharType
+  langs:
+  - csharp
+  - vb
+  name: UTF16
+  nameWithType: CharType.UTF16
+  fullName: TypeHelp.CharType.UTF16
+  type: Field
+  source:
+    id: UTF16
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 86
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: UTF16 = 4
+    return:
+      type: TypeHelp.CharType
+- uid: TypeHelp.CharType.UTF16BE
+  commentId: F:TypeHelp.CharType.UTF16BE
+  id: UTF16BE
+  parent: TypeHelp.CharType
+  langs:
+  - csharp
+  - vb
+  name: UTF16BE
+  nameWithType: CharType.UTF16BE
+  fullName: TypeHelp.CharType.UTF16BE
+  type: Field
+  source:
+    id: UTF16BE
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 87
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: UTF16BE = 5
+    return:
+      type: TypeHelp.CharType
+- uid: TypeHelp.CharType.UTF32
+  commentId: F:TypeHelp.CharType.UTF32
+  id: UTF32
+  parent: TypeHelp.CharType
+  langs:
+  - csharp
+  - vb
+  name: UTF32
+  nameWithType: CharType.UTF32
+  fullName: TypeHelp.CharType.UTF32
+  type: Field
+  source:
+    id: UTF32
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 88
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: UTF32 = 6
+    return:
+      type: TypeHelp.CharType
+- uid: TypeHelp.CharType.UTF32BE
+  commentId: F:TypeHelp.CharType.UTF32BE
+  id: UTF32BE
+  parent: TypeHelp.CharType
+  langs:
+  - csharp
+  - vb
+  name: UTF32BE
+  nameWithType: CharType.UTF32BE
+  fullName: TypeHelp.CharType.UTF32BE
+  type: Field
+  source:
+    id: UTF32BE
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 89
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: UTF32BE = 7
+    return:
+      type: TypeHelp.CharType
+- uid: TypeHelp.CharType.Unicode
+  commentId: F:TypeHelp.CharType.Unicode
+  id: Unicode
+  parent: TypeHelp.CharType
+  langs:
+  - csharp
+  - vb
+  name: Unicode
+  nameWithType: CharType.Unicode
+  fullName: TypeHelp.CharType.Unicode
+  type: Field
+  source:
+    id: Unicode
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCEnums.cs
+    startLine: 90
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: Unicode = 8
+    return:
+      type: TypeHelp.CharType
+references:
+- uid: TypeHelp
+  commentId: N:TypeHelp
+  href: TypeHelp.html
+  name: TypeHelp
+  nameWithType: TypeHelp
+  fullName: TypeHelp
+- uid: TypeHelp.CharType
+  commentId: T:TypeHelp.CharType
+  parent: TypeHelp
+  href: TypeHelp.CharType.html
+  name: CharType
+  nameWithType: CharType
+  fullName: TypeHelp.CharType
+memberLayout: SeparatePages

@@ -1,0 +1,112 @@
+### YamlMime:TableOfContent
+items:
+- uid: TypeHelp
+  name: TypeHelp
+  items:
+  - uid: TypeHelp.CharType
+    name: CharType
+  - uid: TypeHelp.Cmp
+    name: Cmp
+  - uid: TypeHelp.CmpOp
+    name: CmpOp
+  - uid: TypeHelp.CmpUC
+    name: CmpUC
+  - uid: TypeHelp.CPG
+    name: CPG
+  - uid: TypeHelp.CPGI
+    name: CPGI
+  - uid: TypeHelp.FieldInfo
+    name: FieldInfo
+  - uid: TypeHelp.IRuntimeFeatures
+    name: IRuntimeFeatures
+  - uid: TypeHelp.IRuntimeProperties
+    name: IRuntimeProperties
+  - uid: TypeHelp.IUCSInfo
+    name: IUCSInfo
+  - uid: TypeHelp.Nullity
+    name: Nullity
+  - uid: TypeHelp.RTFeatures
+    name: RTFeatures
+  - uid: TypeHelp.RTProp
+    name: RTProp
+  - uid: TypeHelp.RTProps
+    name: RTProps
+  - uid: TypeHelp.RuntimeProps
+    name: RuntimeProps
+  - uid: TypeHelp.Slice
+    name: Slice
+  - uid: TypeHelp.SliceOpts
+    name: SliceOpts
+  - uid: TypeHelp.TCF
+    name: TCF
+  - uid: TypeHelp.TCO
+    name: TCO
+  - uid: TypeHelp.TIP
+    name: TIP
+  - uid: TypeHelp.TypeCoex
+    name: TypeCoex
+  - uid: TypeHelp.TypedStr
+    name: TypedStr
+  - uid: TypeHelp.TypeInfo
+    name: TypeInfo
+  - uid: TypeHelp.TypeParser
+    name: TypeParser
+  - uid: TypeHelp.UCat
+    name: UCat
+  - uid: TypeHelp.UCGeneralUse
+    name: UCGeneralUse
+  - uid: TypeHelp.UCGreek
+    name: UCGreek
+  - uid: TypeHelp.UCInfo
+    name: UCInfo
+  - uid: TypeHelp.UCMath
+    name: UCMath
+  - uid: TypeHelp.UCP
+    name: UCP
+  - uid: TypeHelp.UCPF
+    name: UCPF
+  - uid: TypeHelp.UCPField
+    name: UCPField
+  - uid: TypeHelp.UCPInfo
+    name: UCPInfo
+  - uid: TypeHelp.UCPlane
+    name: UCPlane
+  - uid: TypeHelp.UCSurrogator
+    name: UCSurrogator
+  - uid: TypeHelp.Uuid
+    name: Uuid
+  - uid: TypeHelp.UuidEpoch
+    name: UuidEpoch
+  - uid: TypeHelp.UuidField
+    name: UuidField
+  - uid: TypeHelp.UuidFormat
+    name: UuidFormat
+  - uid: TypeHelp.UuidParser
+    name: UuidParser
+  - uid: TypeHelp.UuidRfc
+    name: UuidRfc
+  - uid: TypeHelp.UuidV1
+    name: UuidV1
+  - uid: TypeHelp.UuidV2
+    name: UuidV2
+  - uid: TypeHelp.UuidV3
+    name: UuidV3
+  - uid: TypeHelp.UuidV4
+    name: UuidV4
+  - uid: TypeHelp.UuidV5
+    name: UuidV5
+  - uid: TypeHelp.UuidV6
+    name: UuidV6
+  - uid: TypeHelp.UuidV7
+    name: UuidV7
+  - uid: TypeHelp.UuidV8
+    name: UuidV8
+  - uid: TypeHelp.UuidVariant
+    name: UuidVariant
+  - uid: TypeHelp.UuidVersion
+    name: UuidVersion
+  - uid: TypeHelp.ZeroWidthChars
+    name: ZeroWidthChars
+  - uid: TypeHelp.ZeroWidthSpaces
+    name: ZeroWidthSpaces
+memberLayout: SeparatePages

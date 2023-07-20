@@ -1,0 +1,1696 @@
+### YamlMime:ManagedReference
+items:
+- uid: TypeHelp.TypeInfo
+  commentId: T:TypeHelp.TypeInfo
+  id: TypeInfo
+  parent: TypeHelp
+  children:
+  - TypeHelp.TypeInfo.#ctor(System.Object)
+  - TypeHelp.TypeInfo.#ctor(System.String)
+  - TypeHelp.TypeInfo.#ctor(System.Type)
+  - TypeHelp.TypeInfo.#ctor(System.TypeCode)
+  - TypeHelp.TypeInfo.#ctor(TypeHelp.TypeCoex)
+  - TypeHelp.TypeInfo.CodeFlag
+  - TypeHelp.TypeInfo.CoexFlag
+  - TypeHelp.TypeInfo.CoexStat
+  - TypeHelp.TypeInfo.Elements
+  - TypeHelp.TypeInfo.FullName
+  - TypeHelp.TypeInfo.HasValue
+  - TypeHelp.TypeInfo.Is(System.TypeCode)
+  - TypeHelp.TypeInfo.Is(TypeHelp.TypeCoex)
+  - TypeHelp.TypeInfo.IsEmpty
+  - TypeHelp.TypeInfo.IsEnum
+  - TypeHelp.TypeInfo.IsInteger
+  - TypeHelp.TypeInfo.IsNatural
+  - TypeHelp.TypeInfo.IsNumber
+  - TypeHelp.TypeInfo.IsObject
+  - TypeHelp.TypeInfo.IsPrecision
+  - TypeHelp.TypeInfo.IsString
+  - TypeHelp.TypeInfo.IsType
+  - TypeHelp.TypeInfo.Item(TypeHelp.TIP)
+  - TypeHelp.TypeInfo.Length
+  - TypeHelp.TypeInfo.LongSize
+  - TypeHelp.TypeInfo.Name
+  - TypeHelp.TypeInfo.Size
+  - TypeHelp.TypeInfo.Text
+  - TypeHelp.TypeInfo.Type
+  - TypeHelp.TypeInfo.TypeCode
+  - TypeHelp.TypeInfo.TypeCoex
+  - TypeHelp.TypeInfo.Value
+  langs:
+  - csharp
+  - vb
+  name: TypeInfo
+  nameWithType: TypeInfo
+  fullName: TypeHelp.TypeInfo
+  type: Struct
+  source:
+    id: TypeInfo
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\TypeInfo.cs
+    startLine: 111
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: Contains information about a data type or value defined by either the <xref href="System.TypeCode" data-throw-if-not-resolved="false"></xref> or <xref href="TypeHelp.TypeInfo.TypeCoex" data-throw-if-not-resolved="false"></xref> enumeration.
+  example: []
+  syntax:
+    content: public struct TypeInfo
+    content.vb: Public Structure TypeInfo
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: TypeHelp.TypeInfo.#ctor(System.Object)
+  commentId: M:TypeHelp.TypeInfo.#ctor(System.Object)
+  id: '#ctor(System.Object)'
+  parent: TypeHelp.TypeInfo
+  langs:
+  - csharp
+  - vb
+  name: TypeInfo(object?)
+  nameWithType: TypeInfo.TypeInfo(object?)
+  fullName: TypeHelp.TypeInfo.TypeInfo(object?)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\TypeInfo.cs
+    startLine: 119
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: Initializes a new instance of the <xref href="TypeHelp.TypeInfo" data-throw-if-not-resolved="false"></xref> class using a <xref href="System.Type" data-throw-if-not-resolved="false"></xref> or <xref href="System.ValueType" data-throw-if-not-resolved="false"></xref> object.
+  example: []
+  syntax:
+    content: public TypeInfo(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: The object to deconstruct. This may be any <xref href="System.Type" data-throw-if-not-resolved="false"></xref> or <xref href="System.ValueType" data-throw-if-not-resolved="false"></xref> defined by the <xref href="System.TypeCode" data-throw-if-not-resolved="false"></xref> and <xref href="TypeHelp.TypeCoex" data-throw-if-not-resolved="false"></xref> enumerations.
+    content.vb: Public Sub New(obj As Object)
+  overload: TypeHelp.TypeInfo.#ctor*
+  nameWithType.vb: TypeInfo.New(Object)
+  fullName.vb: TypeHelp.TypeInfo.New(Object)
+  name.vb: New(Object)
+- uid: TypeHelp.TypeInfo.#ctor(System.Type)
+  commentId: M:TypeHelp.TypeInfo.#ctor(System.Type)
+  id: '#ctor(System.Type)'
+  parent: TypeHelp.TypeInfo
+  langs:
+  - csharp
+  - vb
+  name: TypeInfo(Type)
+  nameWithType: TypeInfo.TypeInfo(Type)
+  fullName: TypeHelp.TypeInfo.TypeInfo(System.Type)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\TypeInfo.cs
+    startLine: 139
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: Initializes a new instance of the <xref href="TypeHelp.TypeInfo" data-throw-if-not-resolved="false"></xref> class using a <xref href="System.Type" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TypeInfo(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+      description: The type to deconstruct. This may be any type defined by the <xref href="System.TypeCode" data-throw-if-not-resolved="false"></xref> and <xref href="TypeHelp.TypeCoex" data-throw-if-not-resolved="false"></xref> enumerations.
+    content.vb: Public Sub New(type As Type)
+  overload: TypeHelp.TypeInfo.#ctor*
+  nameWithType.vb: TypeInfo.New(Type)
+  fullName.vb: TypeHelp.TypeInfo.New(System.Type)
+  name.vb: New(Type)
+- uid: TypeHelp.TypeInfo.#ctor(System.TypeCode)
+  commentId: M:TypeHelp.TypeInfo.#ctor(System.TypeCode)
+  id: '#ctor(System.TypeCode)'
+  parent: TypeHelp.TypeInfo
+  langs:
+  - csharp
+  - vb
+  name: TypeInfo(TypeCode)
+  nameWithType: TypeInfo.TypeInfo(TypeCode)
+  fullName: TypeHelp.TypeInfo.TypeInfo(System.TypeCode)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\TypeInfo.cs
+    startLine: 160
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: Initializes a new instance of the <xref href="TypeHelp.TypeInfo" data-throw-if-not-resolved="false"></xref> class using a <xref href="System.TypeCode" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TypeInfo(TypeCode typeCode)
+    parameters:
+    - id: typeCode
+      type: System.TypeCode
+      description: >-
+        A <xref href="System.TypeCode" data-throw-if-not-resolved="false"></xref>
+            enumeration value to deconstruct.
+    content.vb: Public Sub New(typeCode As TypeCode)
+  overload: TypeHelp.TypeInfo.#ctor*
+  nameWithType.vb: TypeInfo.New(TypeCode)
+  fullName.vb: TypeHelp.TypeInfo.New(System.TypeCode)
+  name.vb: New(TypeCode)
+- uid: TypeHelp.TypeInfo.#ctor(TypeHelp.TypeCoex)
+  commentId: M:TypeHelp.TypeInfo.#ctor(TypeHelp.TypeCoex)
+  id: '#ctor(TypeHelp.TypeCoex)'
+  parent: TypeHelp.TypeInfo
+  langs:
+  - csharp
+  - vb
+  name: TypeInfo(TypeCoex)
+  nameWithType: TypeInfo.TypeInfo(TypeCoex)
+  fullName: TypeHelp.TypeInfo.TypeInfo(TypeHelp.TypeCoex)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\TypeInfo.cs
+    startLine: 181
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: Initializes a new instance of the <xref href="TypeHelp.TypeInfo" data-throw-if-not-resolved="false"></xref> class using a <xref href="TypeHelp.TypeCoex" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TypeInfo(TypeCoex typeCoex)
+    parameters:
+    - id: typeCoex
+      type: TypeHelp.TypeCoex
+      description: >-
+        A <xref href="TypeHelp.TypeCoex" data-throw-if-not-resolved="false"></xref> enumeration value
+            to deconstruct.
+    content.vb: Public Sub New(typeCoex As TypeCoex)
+  overload: TypeHelp.TypeInfo.#ctor*
+  nameWithType.vb: TypeInfo.New(TypeCoex)
+  fullName.vb: TypeHelp.TypeInfo.New(TypeHelp.TypeCoex)
+  name.vb: New(TypeCoex)
+- uid: TypeHelp.TypeInfo.#ctor(System.String)
+  commentId: M:TypeHelp.TypeInfo.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: TypeHelp.TypeInfo
+  langs:
+  - csharp
+  - vb
+  name: TypeInfo(string)
+  nameWithType: TypeInfo.TypeInfo(string)
+  fullName: TypeHelp.TypeInfo.TypeInfo(string)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\TypeInfo.cs
+    startLine: 202
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: Initializes a new instance of the <xref href="TypeHelp.TypeInfo" data-throw-if-not-resolved="false"></xref> class using a <xref href="System.String" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TypeInfo(string text)
+    parameters:
+    - id: text
+      type: System.String
+      description: >-
+        A <xref href="System.String" data-throw-if-not-resolved="false"></xref>
+            value to deconstruct.
+    content.vb: Public Sub New(text As String)
+  overload: TypeHelp.TypeInfo.#ctor*
+  nameWithType.vb: TypeInfo.New(String)
+  fullName.vb: TypeHelp.TypeInfo.New(String)
+  name.vb: New(String)
+- uid: TypeHelp.TypeInfo.Item(TypeHelp.TIP)
+  commentId: P:TypeHelp.TypeInfo.Item(TypeHelp.TIP)
+  id: Item(TypeHelp.TIP)
+  parent: TypeHelp.TypeInfo
+  langs:
+  - csharp
+  - vb
+  name: this[TIP]
+  nameWithType: TypeInfo.this[TIP]
+  fullName: TypeHelp.TypeInfo.this[TypeHelp.TIP]
+  type: Property
+  source:
+    id: this[]
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\TypeInfo.cs
+    startLine: 230
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: >-
+    Indexer [<xref href="TypeHelp.TIP" data-throw-if-not-resolved="false"></xref>]
+
+    <p>
+
+    Gets the <xref href="System.Boolean" data-throw-if-not-resolved="false"></xref> for the specified property.
+
+    </p>
+  example: []
+  syntax:
+    content: public bool this[TIP prop] { get; }
+    parameters:
+    - id: prop
+      type: TypeHelp.TIP
+      description: The <xref href="TypeHelp.TIP" data-throw-if-not-resolved="false"></xref> property to obtain.
+    return:
+      type: System.Boolean
+      description: The <xref href="System.Boolean" data-throw-if-not-resolved="false"></xref> value for the specified property.
+    content.vb: Public ReadOnly Default Property this[](prop As TIP) As Boolean
+  overload: TypeHelp.TypeInfo.Item*
+  nameWithType.vb: TypeInfo.this[](TIP)
+  fullName.vb: TypeHelp.TypeInfo.this[](TypeHelp.TIP)
+  name.vb: this[](TIP)
+- uid: TypeHelp.TypeInfo.CoexStat
+  commentId: P:TypeHelp.TypeInfo.CoexStat
+  id: CoexStat
+  parent: TypeHelp.TypeInfo
+  langs:
+  - csharp
+  - vb
+  name: CoexStat
+  nameWithType: TypeInfo.CoexStat
+  fullName: TypeHelp.TypeInfo.CoexStat
+  type: Property
+  source:
+    id: CoexStat
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\TypeInfo.cs
+    startLine: 243
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: >-
+    CoexStat Property
+
+    <p>TypeOf: <xref href="TypeHelp.TCF" data-throw-if-not-resolved="false"></xref></p>
+
+    Gets and sets the CoexStat value.
+  example: []
+  syntax:
+    content: public TCF CoexStat { get; set; }
+    parameters: []
+    return:
+      type: TypeHelp.TCF
+    content.vb: Public Property CoexStat As TCF
+  overload: TypeHelp.TypeInfo.CoexStat*
+- uid: TypeHelp.TypeInfo.Elements
+  commentId: P:TypeHelp.TypeInfo.Elements
+  id: Elements
+  parent: TypeHelp.TypeInfo
+  langs:
+  - csharp
+  - vb
+  name: Elements
+  nameWithType: TypeInfo.Elements
+  fullName: TypeHelp.TypeInfo.Elements
+  type: Property
+  source:
+    id: Elements
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\TypeInfo.cs
+    startLine: 253
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: >-
+    Elements
+
+    <p>TypeOf: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref></p>
+
+    The number of elements comprising the IsType or HasValue.
+  example: []
+  syntax:
+    content: public int Elements { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Elements As Integer
+  overload: TypeHelp.TypeInfo.Elements*
+- uid: TypeHelp.TypeInfo.FullName
+  commentId: P:TypeHelp.TypeInfo.FullName
+  id: FullName
+  parent: TypeHelp.TypeInfo
+  langs:
+  - csharp
+  - vb
+  name: FullName
+  nameWithType: TypeInfo.FullName
+  fullName: TypeHelp.TypeInfo.FullName
+  type: Property
+  source:
+    id: FullName
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\TypeInfo.cs
+    startLine: 261
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: >-
+    FullName
+
+    <p>TypeOf: <xref href="System.String" data-throw-if-not-resolved="false"></xref></p>
+
+    The FullName of the <xref href="TypeHelp.TypeInfo.Type" data-throw-if-not-resolved="false"></xref> Property,
+
+    or "null" if the type is null.
+  example: []
+  syntax:
+    content: public string FullName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property FullName As String
+  overload: TypeHelp.TypeInfo.FullName*
+- uid: TypeHelp.TypeInfo.HasValue
+  commentId: P:TypeHelp.TypeInfo.HasValue
+  id: HasValue
+  parent: TypeHelp.TypeInfo
+  langs:
+  - csharp
+  - vb
+  name: HasValue
+  nameWithType: TypeInfo.HasValue
+  fullName: TypeHelp.TypeInfo.HasValue
+  type: Property
+  source:
+    id: HasValue
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\TypeInfo.cs
+    startLine: 268
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: >-
+    HasValue Property
+
+    <p>TypeOf: <xref href="System.Boolean" data-throw-if-not-resolved="false"></xref></p>
+
+    The <xref href="TypeHelp.TIP.HasValue" data-throw-if-not-resolved="false"></xref> value from this struct indexer.
+  example: []
+  syntax:
+    content: public bool HasValue { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasValue As Boolean
+  overload: TypeHelp.TypeInfo.HasValue*
+- uid: TypeHelp.TypeInfo.IsEmpty
+  commentId: P:TypeHelp.TypeInfo.IsEmpty
+  id: IsEmpty
+  parent: TypeHelp.TypeInfo
+  langs:
+  - csharp
+  - vb
+  name: IsEmpty
+  nameWithType: TypeInfo.IsEmpty
+  fullName: TypeHelp.TypeInfo.IsEmpty
+  type: Property
+  source:
+    id: IsEmpty
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\TypeInfo.cs
+    startLine: 277
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: >-
+    IsEmpty Property
+
+    <p>TypeOf: <xref href="System.Boolean" data-throw-if-not-resolved="false"></xref></p>
+
+    The <xref href="TypeHelp.TIP.IsEmpty" data-throw-if-not-resolved="false"></xref> value from this struct indexer,
+
+    indicating the <xref href="TypeHelp.TypeInfo.Value?text=+Property%0a++++" data-throw-if-not-resolved="false"></xref> is null.
+  example: []
+  syntax:
+    content: public bool IsEmpty { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsEmpty As Boolean
+  overload: TypeHelp.TypeInfo.IsEmpty*
+- uid: TypeHelp.TypeInfo.IsEnum
+  commentId: P:TypeHelp.TypeInfo.IsEnum
+  id: IsEnum
+  parent: TypeHelp.TypeInfo
+  langs:
+  - csharp
+  - vb
+  name: IsEnum
+  nameWithType: TypeInfo.IsEnum
+  fullName: TypeHelp.TypeInfo.IsEnum
+  type: Property
+  source:
+    id: IsEnum
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\TypeInfo.cs
+    startLine: 286
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: >-
+    IsEnum Property
+
+    <p>TypeOf: <xref href="System.Boolean" data-throw-if-not-resolved="false"></xref></p>
+
+    The <xref href="TypeHelp.TIP.IsEnum" data-throw-if-not-resolved="false"></xref> value from this struct indexer,
+
+    indicating the <xref href="TypeHelp.TypeInfo.Value?text=+Property%0a++++" data-throw-if-not-resolved="false"></xref> is an enumeration.
+  example: []
+  syntax:
+    content: public bool IsEnum { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsEnum As Boolean
+  overload: TypeHelp.TypeInfo.IsEnum*
+- uid: TypeHelp.TypeInfo.IsInteger
+  commentId: P:TypeHelp.TypeInfo.IsInteger
+  id: IsInteger
+  parent: TypeHelp.TypeInfo
+  langs:
+  - csharp
+  - vb
+  name: IsInteger
+  nameWithType: TypeInfo.IsInteger
+  fullName: TypeHelp.TypeInfo.IsInteger
+  type: Property
+  source:
+    id: IsInteger
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\TypeInfo.cs
+    startLine: 296
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: >-
+    IsInteger Property
+
+    <p>TypeOf: <xref href="System.Boolean" data-throw-if-not-resolved="false"></xref></p>
+
+    The <xref href="TypeHelp.TIP.IsInteger" data-throw-if-not-resolved="false"></xref> value from this struct indexer,
+
+    indicating the <xref href="TypeHelp.TypeInfo.Value?text=+Property%0a++++" data-throw-if-not-resolved="false"></xref> is an integer or
+
+    <xref href="System.Numerics.BigInteger" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public bool IsInteger { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsInteger As Boolean
+  overload: TypeHelp.TypeInfo.IsInteger*
+- uid: TypeHelp.TypeInfo.IsNatural
+  commentId: P:TypeHelp.TypeInfo.IsNatural
+  id: IsNatural
+  parent: TypeHelp.TypeInfo
+  langs:
+  - csharp
+  - vb
+  name: IsNatural
+  nameWithType: TypeInfo.IsNatural
+  fullName: TypeHelp.TypeInfo.IsNatural
+  type: Property
+  source:
+    id: IsNatural
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\TypeInfo.cs
+    startLine: 305
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: >-
+    IsNatural Property
+
+    <p>TypeOf: <xref href="System.Boolean" data-throw-if-not-resolved="false"></xref></p>
+
+    The <xref href="TypeHelp.TIP.IsNatural" data-throw-if-not-resolved="false"></xref> value from this struct indexer,
+
+    indicating the <xref href="TypeHelp.TypeInfo.Value?text=+Property%0a++++" data-throw-if-not-resolved="false"></xref> is a natural number.
+  example: []
+  syntax:
+    content: public bool IsNatural { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsNatural As Boolean
+  overload: TypeHelp.TypeInfo.IsNatural*
+- uid: TypeHelp.TypeInfo.IsNumber
+  commentId: P:TypeHelp.TypeInfo.IsNumber
+  id: IsNumber
+  parent: TypeHelp.TypeInfo
+  langs:
+  - csharp
+  - vb
+  name: IsNumber
+  nameWithType: TypeInfo.IsNumber
+  fullName: TypeHelp.TypeInfo.IsNumber
+  type: Property
+  source:
+    id: IsNumber
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\TypeInfo.cs
+    startLine: 316
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: >-
+    IsNumber Property
+
+    <p>TypeOf: <xref href="System.Boolean" data-throw-if-not-resolved="false"></xref></p>
+
+    The <xref href="TypeHelp.TIP.IsNumber" data-throw-if-not-resolved="false"></xref> value from this struct indexer,
+
+    indicating the <xref href="TypeHelp.TypeInfo.Value?text=+Property%0a++++" data-throw-if-not-resolved="false"></xref> is an integer, natural,
+
+    <xref href="System.Numerics.BigInteger" data-throw-if-not-resolved="false"></xref> or
+
+    floating point number.
+  example: []
+  syntax:
+    content: public bool IsNumber { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsNumber As Boolean
+  overload: TypeHelp.TypeInfo.IsNumber*
+- uid: TypeHelp.TypeInfo.IsObject
+  commentId: P:TypeHelp.TypeInfo.IsObject
+  id: IsObject
+  parent: TypeHelp.TypeInfo
+  langs:
+  - csharp
+  - vb
+  name: IsObject
+  nameWithType: TypeInfo.IsObject
+  fullName: TypeHelp.TypeInfo.IsObject
+  type: Property
+  source:
+    id: IsObject
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\TypeInfo.cs
+    startLine: 325
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: >-
+    IsObject Property
+
+    <p>TypeOf: <xref href="System.Boolean" data-throw-if-not-resolved="false"></xref></p>
+
+    The <xref href="TypeHelp.TIP.IsObject" data-throw-if-not-resolved="false"></xref> value from this struct indexer,
+
+    indicating the <xref href="TypeHelp.TypeInfo.Value?text=+Property%0a++++" data-throw-if-not-resolved="false"></xref> is a <xref href="System.Object" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public bool IsObject { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsObject As Boolean
+  overload: TypeHelp.TypeInfo.IsObject*
+- uid: TypeHelp.TypeInfo.IsPrecision
+  commentId: P:TypeHelp.TypeInfo.IsPrecision
+  id: IsPrecision
+  parent: TypeHelp.TypeInfo
+  langs:
+  - csharp
+  - vb
+  name: IsPrecision
+  nameWithType: TypeInfo.IsPrecision
+  fullName: TypeHelp.TypeInfo.IsPrecision
+  type: Property
+  source:
+    id: IsPrecision
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\TypeInfo.cs
+    startLine: 334
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: >-
+    IsPrecision Property
+
+    <p>TypeOf: <xref href="System.Boolean" data-throw-if-not-resolved="false"></xref></p>
+
+    The <xref href="TypeHelp.TIP.IsPrecision" data-throw-if-not-resolved="false"></xref> value from this struct indexer,
+
+    indicating the <xref href="TypeHelp.TypeInfo.Value?text=+Property%0a++++" data-throw-if-not-resolved="false"></xref> is a floating point number.
+  example: []
+  syntax:
+    content: public bool IsPrecision { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsPrecision As Boolean
+  overload: TypeHelp.TypeInfo.IsPrecision*
+- uid: TypeHelp.TypeInfo.IsString
+  commentId: P:TypeHelp.TypeInfo.IsString
+  id: IsString
+  parent: TypeHelp.TypeInfo
+  langs:
+  - csharp
+  - vb
+  name: IsString
+  nameWithType: TypeInfo.IsString
+  fullName: TypeHelp.TypeInfo.IsString
+  type: Property
+  source:
+    id: IsString
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\TypeInfo.cs
+    startLine: 343
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: >-
+    IsString Property
+
+    <p>TypeOf: <xref href="System.Boolean" data-throw-if-not-resolved="false"></xref></p>
+
+    The <xref href="TypeHelp.TIP.IsString" data-throw-if-not-resolved="false"></xref> value from this struct indexer,
+
+    indicating the <xref href="TypeHelp.TypeInfo.Value?text=+Property%0a++++" data-throw-if-not-resolved="false"></xref> is a <xref href="System.String" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public bool IsString { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsString As Boolean
+  overload: TypeHelp.TypeInfo.IsString*
+- uid: TypeHelp.TypeInfo.IsType
+  commentId: P:TypeHelp.TypeInfo.IsType
+  id: IsType
+  parent: TypeHelp.TypeInfo
+  langs:
+  - csharp
+  - vb
+  name: IsType
+  nameWithType: TypeInfo.IsType
+  fullName: TypeHelp.TypeInfo.IsType
+  type: Property
+  source:
+    id: IsType
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\TypeInfo.cs
+    startLine: 352
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: >-
+    IsType Property
+
+    <p>TypeOf: <xref href="System.Boolean" data-throw-if-not-resolved="false"></xref></p>
+
+    The <xref href="TypeHelp.TIP.IsType" data-throw-if-not-resolved="false"></xref> value from this struct indexer,
+
+    indicating the <xref href="TypeHelp.TypeInfo.Value?text=+Property%0a++++" data-throw-if-not-resolved="false"></xref> is a <xref href="System.Type" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public bool IsType { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsType As Boolean
+  overload: TypeHelp.TypeInfo.IsType*
+- uid: TypeHelp.TypeInfo.Length
+  commentId: P:TypeHelp.TypeInfo.Length
+  id: Length
+  parent: TypeHelp.TypeInfo
+  langs:
+  - csharp
+  - vb
+  name: Length
+  nameWithType: TypeInfo.Length
+  fullName: TypeHelp.TypeInfo.Length
+  type: Property
+  source:
+    id: Length
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\TypeInfo.cs
+    startLine: 359
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: >-
+    Length
+
+    <p>TypeOf: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref></p>
+
+    The length of the value in bytes, or zero if the value is null.
+  example: []
+  syntax:
+    content: public int Length { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Length As Integer
+  overload: TypeHelp.TypeInfo.Length*
+- uid: TypeHelp.TypeInfo.LongSize
+  commentId: P:TypeHelp.TypeInfo.LongSize
+  id: LongSize
+  parent: TypeHelp.TypeInfo
+  langs:
+  - csharp
+  - vb
+  name: LongSize
+  nameWithType: TypeInfo.LongSize
+  fullName: TypeHelp.TypeInfo.LongSize
+  type: Property
+  source:
+    id: LongSize
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\TypeInfo.cs
+    startLine: 369
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: >-
+    LongSize
+
+    <p>TypeOf: <xref href="System.Int64" data-throw-if-not-resolved="false"></xref></p>
+
+    The size of the value in bytes, or zero if the value is null.
+
+    <p>Note this value applies to <xref href="System.String" data-throw-if-not-resolved="false"></xref>,
+
+    <xref href="System.Numerics.BigInteger" data-throw-if-not-resolved="false"></xref> and array or
+
+    multi-part values.</p>
+  example: []
+  syntax:
+    content: public long LongSize { get; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public ReadOnly Property LongSize As Long
+  overload: TypeHelp.TypeInfo.LongSize*
+- uid: TypeHelp.TypeInfo.Name
+  commentId: P:TypeHelp.TypeInfo.Name
+  id: Name
+  parent: TypeHelp.TypeInfo
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: TypeInfo.Name
+  fullName: TypeHelp.TypeInfo.Name
+  type: Property
+  source:
+    id: Name
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\TypeInfo.cs
+    startLine: 377
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: >-
+    Name
+
+    <p>TypeOf: <xref href="System.String" data-throw-if-not-resolved="false"></xref></p>
+
+    The Name of the <xref href="TypeHelp.TypeInfo.Type" data-throw-if-not-resolved="false"></xref> Property,
+
+    or "null" if the type is null.
+  example: []
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: TypeHelp.TypeInfo.Name*
+- uid: TypeHelp.TypeInfo.Size
+  commentId: P:TypeHelp.TypeInfo.Size
+  id: Size
+  parent: TypeHelp.TypeInfo
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: TypeInfo.Size
+  fullName: TypeHelp.TypeInfo.Size
+  type: Property
+  source:
+    id: Size
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\TypeInfo.cs
+    startLine: 386
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: >-
+    Size
+
+    <p>TypeOf: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref></p>
+
+    The size of the value in bytes, or zero if the value is null.
+
+    <p><xref href="TypeHelp.TypeInfo.LongSize" data-throw-if-not-resolved="false"></xref> concerning array or
+
+    multi-part values.</p>
+  example: []
+  syntax:
+    content: public int Size { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Size As Integer
+  overload: TypeHelp.TypeInfo.Size*
+- uid: TypeHelp.TypeInfo.CodeFlag
+  commentId: F:TypeHelp.TypeInfo.CodeFlag
+  id: CodeFlag
+  parent: TypeHelp.TypeInfo
+  langs:
+  - csharp
+  - vb
+  name: CodeFlag
+  nameWithType: TypeInfo.CodeFlag
+  fullName: TypeHelp.TypeInfo.CodeFlag
+  type: Field
+  source:
+    id: CodeFlag
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\TypeInfo.cs
+    startLine: 396
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: >-
+    CodeFlag Field
+
+    <p>TypeOf: <xref href="TypeHelp.TCF" data-throw-if-not-resolved="false"></xref></p>
+  example: []
+  syntax:
+    content: public readonly TCF CodeFlag
+    return:
+      type: TypeHelp.TCF
+    content.vb: Public ReadOnly CodeFlag As TCF
+- uid: TypeHelp.TypeInfo.CoexFlag
+  commentId: F:TypeHelp.TypeInfo.CoexFlag
+  id: CoexFlag
+  parent: TypeHelp.TypeInfo
+  langs:
+  - csharp
+  - vb
+  name: CoexFlag
+  nameWithType: TypeInfo.CoexFlag
+  fullName: TypeHelp.TypeInfo.CoexFlag
+  type: Field
+  source:
+    id: CoexFlag
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\TypeInfo.cs
+    startLine: 402
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: >-
+    CoexFlag Field
+
+    <p>TypeOf: <xref href="TypeHelp.TCF" data-throw-if-not-resolved="false"></xref></p>
+  example: []
+  syntax:
+    content: public readonly TCF CoexFlag
+    return:
+      type: TypeHelp.TCF
+    content.vb: Public ReadOnly CoexFlag As TCF
+- uid: TypeHelp.TypeInfo.Text
+  commentId: F:TypeHelp.TypeInfo.Text
+  id: Text
+  parent: TypeHelp.TypeInfo
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: TypeInfo.Text
+  fullName: TypeHelp.TypeInfo.Text
+  type: Field
+  source:
+    id: Text
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\TypeInfo.cs
+    startLine: 412
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: >-
+    Text Field
+
+    <p>TypeOf: <xref href="System.String" data-throw-if-not-resolved="false"></xref></p>
+
+    This will be <xref href="System.String.Empty" data-throw-if-not-resolved="false"></xref>,
+
+    a <xref href="System.String" data-throw-if-not-resolved="false"></xref>, or <code>ToString()</code>
+
+    against a <xref href="System.Object" data-throw-if-not-resolved="false"></xref>
+
+    provided to the <xref href="TypeHelp.TypeInfo" data-throw-if-not-resolved="false"></xref> constructor.
+  example: []
+  syntax:
+    content: public readonly string Text
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Text As String
+- uid: TypeHelp.TypeInfo.Type
+  commentId: F:TypeHelp.TypeInfo.Type
+  id: Type
+  parent: TypeHelp.TypeInfo
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: TypeInfo.Type
+  fullName: TypeHelp.TypeInfo.Type
+  type: Field
+  source:
+    id: Type
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\TypeInfo.cs
+    startLine: 421
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: >-
+    IsType Field
+
+    <p>TypeOf: <xref href="System.Type" data-throw-if-not-resolved="false"></xref> or null.</p>
+
+    The <xref href="System.Type" data-throw-if-not-resolved="false"></xref> of the <xref href="TypeHelp.TypeInfo.Value" data-throw-if-not-resolved="false"></xref>,
+
+    <xref href="TypeHelp.TypeInfo.TypeCode" data-throw-if-not-resolved="false"></xref> Property
+
+    or <xref href="TypeHelp.TypeInfo.TypeCode" data-throw-if-not-resolved="false"></xref> Property
+  example: []
+  syntax:
+    content: public readonly Type? Type
+    return:
+      type: System.Type
+    content.vb: Public ReadOnly Type As Type
+- uid: TypeHelp.TypeInfo.TypeCode
+  commentId: F:TypeHelp.TypeInfo.TypeCode
+  id: TypeCode
+  parent: TypeHelp.TypeInfo
+  langs:
+  - csharp
+  - vb
+  name: TypeCode
+  nameWithType: TypeInfo.TypeCode
+  fullName: TypeHelp.TypeInfo.TypeCode
+  type: Field
+  source:
+    id: TypeCode
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\TypeInfo.cs
+    startLine: 429
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: >-
+    TypeCode Field
+
+    <p>TypeOf: <xref href="System.TypeCode" data-throw-if-not-resolved="false"></xref></p>
+
+    The value provided to the <xref href="TypeHelp.TypeInfo" data-throw-if-not-resolved="false"></xref> constructor,
+
+    or from the <xref href="TypeHelp.TypeInfo.Value" data-throw-if-not-resolved="false"></xref> Property.
+  example: []
+  syntax:
+    content: public readonly TypeCode TypeCode
+    return:
+      type: System.TypeCode
+    content.vb: Public ReadOnly TypeCode As TypeCode
+- uid: TypeHelp.TypeInfo.TypeCoex
+  commentId: F:TypeHelp.TypeInfo.TypeCoex
+  id: TypeCoex
+  parent: TypeHelp.TypeInfo
+  langs:
+  - csharp
+  - vb
+  name: TypeCoex
+  nameWithType: TypeInfo.TypeCoex
+  fullName: TypeHelp.TypeInfo.TypeCoex
+  type: Field
+  source:
+    id: TypeCoex
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\TypeInfo.cs
+    startLine: 437
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: >-
+    TypeCoex Field
+
+    <p>TypeOf: <xref href="TypeHelp.TypeInfo.TypeCoex" data-throw-if-not-resolved="false"></xref></p>
+
+    The value provided to the <xref href="TypeHelp.TypeInfo" data-throw-if-not-resolved="false"></xref> constructor,
+
+    or from the <xref href="TypeHelp.TypeInfo.Value" data-throw-if-not-resolved="false"></xref> Property.
+  example: []
+  syntax:
+    content: public readonly TypeCoex TypeCoex
+    return:
+      type: TypeHelp.TypeCoex
+    content.vb: Public ReadOnly TypeCoex As TypeCoex
+- uid: TypeHelp.TypeInfo.Value
+  commentId: F:TypeHelp.TypeInfo.Value
+  id: Value
+  parent: TypeHelp.TypeInfo
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: TypeInfo.Value
+  fullName: TypeHelp.TypeInfo.Value
+  type: Field
+  source:
+    id: Value
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\TypeInfo.cs
+    startLine: 444
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: >-
+    Value Field
+
+    <p>TypeOf: <xref href="System.Object" data-throw-if-not-resolved="false"></xref> or null.</p>
+
+    The value provided to the <xref href="TypeHelp.TypeInfo" data-throw-if-not-resolved="false"></xref> constructor.
+  example: []
+  syntax:
+    content: public readonly object? Value
+    return:
+      type: System.Object
+    content.vb: Public ReadOnly Value As Object
+- uid: TypeHelp.TypeInfo.Is(System.TypeCode)
+  commentId: M:TypeHelp.TypeInfo.Is(System.TypeCode)
+  id: Is(System.TypeCode)
+  parent: TypeHelp.TypeInfo
+  langs:
+  - csharp
+  - vb
+  name: Is(TypeCode)
+  nameWithType: TypeInfo.Is(TypeCode)
+  fullName: TypeHelp.TypeInfo.Is(System.TypeCode)
+  type: Method
+  source:
+    id: Is
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\TypeInfo.cs
+    startLine: 450
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public bool Is(TypeCode typeCode)
+    parameters:
+    - id: typeCode
+      type: System.TypeCode
+    return:
+      type: System.Boolean
+    content.vb: Public Function [Is](typeCode As TypeCode) As Boolean
+  overload: TypeHelp.TypeInfo.Is*
+- uid: TypeHelp.TypeInfo.Is(TypeHelp.TypeCoex)
+  commentId: M:TypeHelp.TypeInfo.Is(TypeHelp.TypeCoex)
+  id: Is(TypeHelp.TypeCoex)
+  parent: TypeHelp.TypeInfo
+  langs:
+  - csharp
+  - vb
+  name: Is(TypeCoex)
+  nameWithType: TypeInfo.Is(TypeCoex)
+  fullName: TypeHelp.TypeInfo.Is(TypeHelp.TypeCoex)
+  type: Method
+  source:
+    id: Is
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\TypeInfo.cs
+    startLine: 455
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public bool Is(TypeCoex typeCoex)
+    parameters:
+    - id: typeCoex
+      type: TypeHelp.TypeCoex
+    return:
+      type: System.Boolean
+    content.vb: Public Function [Is](typeCoex As TypeCoex) As Boolean
+  overload: TypeHelp.TypeInfo.Is*
+references:
+- uid: TypeHelp.TypeInfo.TypeCoex
+  commentId: F:TypeHelp.TypeInfo.TypeCoex
+  href: TypeHelp.TypeInfo.TypeCoex.html
+  name: TypeCoex
+  nameWithType: TypeInfo.TypeCoex
+  fullName: TypeHelp.TypeInfo.TypeCoex
+- uid: System.TypeCode
+  commentId: T:System.TypeCode
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.typecode
+  name: TypeCode
+  nameWithType: TypeCode
+  fullName: System.TypeCode
+- uid: TypeHelp
+  commentId: N:TypeHelp
+  href: TypeHelp.html
+  name: TypeHelp
+  nameWithType: TypeHelp
+  fullName: TypeHelp
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: TypeHelp.TypeCoex
+  commentId: T:TypeHelp.TypeCoex
+  parent: TypeHelp
+  href: TypeHelp.TypeCoex.html
+  name: TypeCoex
+  nameWithType: TypeCoex
+  fullName: TypeHelp.TypeCoex
+- uid: TypeHelp.TypeInfo
+  commentId: T:TypeHelp.TypeInfo
+  parent: TypeHelp
+  href: TypeHelp.TypeInfo.html
+  name: TypeInfo
+  nameWithType: TypeInfo
+  fullName: TypeHelp.TypeInfo
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: TypeHelp.TypeInfo.#ctor*
+  commentId: Overload:TypeHelp.TypeInfo.#ctor
+  href: TypeHelp.TypeInfo.#ctor(System.Object).html
+  name: TypeInfo
+  nameWithType: TypeInfo.TypeInfo
+  fullName: TypeHelp.TypeInfo.TypeInfo
+  nameWithType.vb: TypeInfo.New
+  fullName.vb: TypeHelp.TypeInfo.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: TypeHelp.TIP
+  commentId: T:TypeHelp.TIP
+  parent: TypeHelp
+  href: TypeHelp.TIP.html
+  name: TIP
+  nameWithType: TIP
+  fullName: TypeHelp.TIP
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: TypeHelp.TypeInfo.Item*
+  commentId: Overload:TypeHelp.TypeInfo.Item
+  href: TypeHelp.TypeInfo.Item(TypeHelp.TIP).html
+  name: this
+  nameWithType: TypeInfo.this
+  fullName: TypeHelp.TypeInfo.this
+  nameWithType.vb: TypeInfo.this[]
+  fullName.vb: TypeHelp.TypeInfo.this[]
+  name.vb: this[]
+- uid: TypeHelp.TCF
+  commentId: T:TypeHelp.TCF
+  parent: TypeHelp
+  href: TypeHelp.TCF.html
+  name: TCF
+  nameWithType: TCF
+  fullName: TypeHelp.TCF
+- uid: TypeHelp.TypeInfo.CoexStat*
+  commentId: Overload:TypeHelp.TypeInfo.CoexStat
+  href: TypeHelp.TypeInfo.CoexStat.html
+  name: CoexStat
+  nameWithType: TypeInfo.CoexStat
+  fullName: TypeHelp.TypeInfo.CoexStat
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: TypeHelp.TypeInfo.Elements*
+  commentId: Overload:TypeHelp.TypeInfo.Elements
+  href: TypeHelp.TypeInfo.Elements.html
+  name: Elements
+  nameWithType: TypeInfo.Elements
+  fullName: TypeHelp.TypeInfo.Elements
+- uid: TypeHelp.TypeInfo.Type
+  commentId: F:TypeHelp.TypeInfo.Type
+  href: TypeHelp.TypeInfo.Type.html
+  name: Type
+  nameWithType: TypeInfo.Type
+  fullName: TypeHelp.TypeInfo.Type
+- uid: TypeHelp.TypeInfo.FullName*
+  commentId: Overload:TypeHelp.TypeInfo.FullName
+  href: TypeHelp.TypeInfo.FullName.html
+  name: FullName
+  nameWithType: TypeInfo.FullName
+  fullName: TypeHelp.TypeInfo.FullName
+- uid: TypeHelp.TIP.HasValue
+  commentId: F:TypeHelp.TIP.HasValue
+  href: TypeHelp.TIP.html#TypeHelp.TIP.HasValue
+  name: HasValue
+  nameWithType: TIP.HasValue
+  fullName: TypeHelp.TIP.HasValue
+- uid: TypeHelp.TypeInfo.HasValue*
+  commentId: Overload:TypeHelp.TypeInfo.HasValue
+  href: TypeHelp.TypeInfo.HasValue.html
+  name: HasValue
+  nameWithType: TypeInfo.HasValue
+  fullName: TypeHelp.TypeInfo.HasValue
+- uid: TypeHelp.TypeInfo.Value
+  commentId: F:TypeHelp.TypeInfo.Value
+  href: TypeHelp.TypeInfo.Value.html
+  name: Value
+  nameWithType: TypeInfo.Value
+  fullName: TypeHelp.TypeInfo.Value
+- uid: TypeHelp.TIP.IsEmpty
+  commentId: F:TypeHelp.TIP.IsEmpty
+  href: TypeHelp.TIP.html#TypeHelp.TIP.IsEmpty
+  name: IsEmpty
+  nameWithType: TIP.IsEmpty
+  fullName: TypeHelp.TIP.IsEmpty
+- uid: TypeHelp.TypeInfo.IsEmpty*
+  commentId: Overload:TypeHelp.TypeInfo.IsEmpty
+  href: TypeHelp.TypeInfo.IsEmpty.html
+  name: IsEmpty
+  nameWithType: TypeInfo.IsEmpty
+  fullName: TypeHelp.TypeInfo.IsEmpty
+- uid: TypeHelp.TIP.IsEnum
+  commentId: F:TypeHelp.TIP.IsEnum
+  href: TypeHelp.TIP.html#TypeHelp.TIP.IsEnum
+  name: IsEnum
+  nameWithType: TIP.IsEnum
+  fullName: TypeHelp.TIP.IsEnum
+- uid: TypeHelp.TypeInfo.IsEnum*
+  commentId: Overload:TypeHelp.TypeInfo.IsEnum
+  href: TypeHelp.TypeInfo.IsEnum.html
+  name: IsEnum
+  nameWithType: TypeInfo.IsEnum
+  fullName: TypeHelp.TypeInfo.IsEnum
+- uid: System.Numerics.BigInteger
+  commentId: T:System.Numerics.BigInteger
+  parent: System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.biginteger
+  name: BigInteger
+  nameWithType: BigInteger
+  fullName: System.Numerics.BigInteger
+- uid: TypeHelp.TIP.IsInteger
+  commentId: F:TypeHelp.TIP.IsInteger
+  href: TypeHelp.TIP.html#TypeHelp.TIP.IsInteger
+  name: IsInteger
+  nameWithType: TIP.IsInteger
+  fullName: TypeHelp.TIP.IsInteger
+- uid: TypeHelp.TypeInfo.IsInteger*
+  commentId: Overload:TypeHelp.TypeInfo.IsInteger
+  href: TypeHelp.TypeInfo.IsInteger.html
+  name: IsInteger
+  nameWithType: TypeInfo.IsInteger
+  fullName: TypeHelp.TypeInfo.IsInteger
+- uid: System.Numerics
+  commentId: N:System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Numerics
+  nameWithType: System.Numerics
+  fullName: System.Numerics
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+- uid: TypeHelp.TIP.IsNatural
+  commentId: F:TypeHelp.TIP.IsNatural
+  href: TypeHelp.TIP.html#TypeHelp.TIP.IsNatural
+  name: IsNatural
+  nameWithType: TIP.IsNatural
+  fullName: TypeHelp.TIP.IsNatural
+- uid: TypeHelp.TypeInfo.IsNatural*
+  commentId: Overload:TypeHelp.TypeInfo.IsNatural
+  href: TypeHelp.TypeInfo.IsNatural.html
+  name: IsNatural
+  nameWithType: TypeInfo.IsNatural
+  fullName: TypeHelp.TypeInfo.IsNatural
+- uid: TypeHelp.TIP.IsNumber
+  commentId: F:TypeHelp.TIP.IsNumber
+  href: TypeHelp.TIP.html#TypeHelp.TIP.IsNumber
+  name: IsNumber
+  nameWithType: TIP.IsNumber
+  fullName: TypeHelp.TIP.IsNumber
+- uid: TypeHelp.TypeInfo.IsNumber*
+  commentId: Overload:TypeHelp.TypeInfo.IsNumber
+  href: TypeHelp.TypeInfo.IsNumber.html
+  name: IsNumber
+  nameWithType: TypeInfo.IsNumber
+  fullName: TypeHelp.TypeInfo.IsNumber
+- uid: TypeHelp.TIP.IsObject
+  commentId: F:TypeHelp.TIP.IsObject
+  href: TypeHelp.TIP.html#TypeHelp.TIP.IsObject
+  name: IsObject
+  nameWithType: TIP.IsObject
+  fullName: TypeHelp.TIP.IsObject
+- uid: TypeHelp.TypeInfo.IsObject*
+  commentId: Overload:TypeHelp.TypeInfo.IsObject
+  href: TypeHelp.TypeInfo.IsObject.html
+  name: IsObject
+  nameWithType: TypeInfo.IsObject
+  fullName: TypeHelp.TypeInfo.IsObject
+- uid: TypeHelp.TIP.IsPrecision
+  commentId: F:TypeHelp.TIP.IsPrecision
+  href: TypeHelp.TIP.html#TypeHelp.TIP.IsPrecision
+  name: IsPrecision
+  nameWithType: TIP.IsPrecision
+  fullName: TypeHelp.TIP.IsPrecision
+- uid: TypeHelp.TypeInfo.IsPrecision*
+  commentId: Overload:TypeHelp.TypeInfo.IsPrecision
+  href: TypeHelp.TypeInfo.IsPrecision.html
+  name: IsPrecision
+  nameWithType: TypeInfo.IsPrecision
+  fullName: TypeHelp.TypeInfo.IsPrecision
+- uid: TypeHelp.TIP.IsString
+  commentId: F:TypeHelp.TIP.IsString
+  href: TypeHelp.TIP.html#TypeHelp.TIP.IsString
+  name: IsString
+  nameWithType: TIP.IsString
+  fullName: TypeHelp.TIP.IsString
+- uid: TypeHelp.TypeInfo.IsString*
+  commentId: Overload:TypeHelp.TypeInfo.IsString
+  href: TypeHelp.TypeInfo.IsString.html
+  name: IsString
+  nameWithType: TypeInfo.IsString
+  fullName: TypeHelp.TypeInfo.IsString
+- uid: TypeHelp.TIP.IsType
+  commentId: F:TypeHelp.TIP.IsType
+  href: TypeHelp.TIP.html#TypeHelp.TIP.IsType
+  name: IsType
+  nameWithType: TIP.IsType
+  fullName: TypeHelp.TIP.IsType
+- uid: TypeHelp.TypeInfo.IsType*
+  commentId: Overload:TypeHelp.TypeInfo.IsType
+  href: TypeHelp.TypeInfo.IsType.html
+  name: IsType
+  nameWithType: TypeInfo.IsType
+  fullName: TypeHelp.TypeInfo.IsType
+- uid: TypeHelp.TypeInfo.Length*
+  commentId: Overload:TypeHelp.TypeInfo.Length
+  href: TypeHelp.TypeInfo.Length.html
+  name: Length
+  nameWithType: TypeInfo.Length
+  fullName: TypeHelp.TypeInfo.Length
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: TypeHelp.TypeInfo.LongSize*
+  commentId: Overload:TypeHelp.TypeInfo.LongSize
+  href: TypeHelp.TypeInfo.LongSize.html
+  name: LongSize
+  nameWithType: TypeInfo.LongSize
+  fullName: TypeHelp.TypeInfo.LongSize
+- uid: TypeHelp.TypeInfo.Name*
+  commentId: Overload:TypeHelp.TypeInfo.Name
+  href: TypeHelp.TypeInfo.Name.html
+  name: Name
+  nameWithType: TypeInfo.Name
+  fullName: TypeHelp.TypeInfo.Name
+- uid: TypeHelp.TypeInfo.LongSize
+  commentId: P:TypeHelp.TypeInfo.LongSize
+  href: TypeHelp.TypeInfo.LongSize.html
+  name: LongSize
+  nameWithType: TypeInfo.LongSize
+  fullName: TypeHelp.TypeInfo.LongSize
+- uid: TypeHelp.TypeInfo.Size*
+  commentId: Overload:TypeHelp.TypeInfo.Size
+  href: TypeHelp.TypeInfo.Size.html
+  name: Size
+  nameWithType: TypeInfo.Size
+  fullName: TypeHelp.TypeInfo.Size
+- uid: System.String.Empty
+  commentId: F:System.String.Empty
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string.empty
+  name: Empty
+  nameWithType: string.Empty
+  fullName: string.Empty
+  nameWithType.vb: String.Empty
+  fullName.vb: String.Empty
+- uid: TypeHelp.TypeInfo.TypeCode
+  commentId: F:TypeHelp.TypeInfo.TypeCode
+  href: TypeHelp.TypeInfo.TypeCode.html
+  name: TypeCode
+  nameWithType: TypeInfo.TypeCode
+  fullName: TypeHelp.TypeInfo.TypeCode
+- uid: TypeHelp.TypeInfo.Is*
+  commentId: Overload:TypeHelp.TypeInfo.Is
+  href: TypeHelp.TypeInfo.Is(System.TypeCode).html
+  name: Is
+  nameWithType: TypeInfo.Is
+  fullName: TypeHelp.TypeInfo.Is
+memberLayout: SeparatePages

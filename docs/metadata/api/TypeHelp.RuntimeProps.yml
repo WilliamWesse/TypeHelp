@@ -1,0 +1,1570 @@
+### YamlMime:ManagedReference
+items:
+- uid: TypeHelp.RuntimeProps
+  commentId: T:TypeHelp.RuntimeProps
+  id: RuntimeProps
+  parent: TypeHelp
+  children:
+  - TypeHelp.RuntimeProps.#ctor(System.Boolean,System.Nullable{System.Boolean})
+  - TypeHelp.RuntimeProps.#ctor(System.Nullable{System.Boolean})
+  - TypeHelp.RuntimeProps.Culture
+  - TypeHelp.RuntimeProps.Features
+  - TypeHelp.RuntimeProps.FormatSPs
+  - TypeHelp.RuntimeProps.Formats
+  - TypeHelp.RuntimeProps.Is32Bit
+  - TypeHelp.RuntimeProps.Is32BitApp
+  - TypeHelp.RuntimeProps.Is32BitSys
+  - TypeHelp.RuntimeProps.Is32On64
+  - TypeHelp.RuntimeProps.Is64Bit
+  - TypeHelp.RuntimeProps.Is64BitApp
+  - TypeHelp.RuntimeProps.Is64BitSys
+  - TypeHelp.RuntimeProps.LongPointers
+  - TypeHelp.RuntimeProps.NullName
+  - TypeHelp.RuntimeProps.Nullity
+  - TypeHelp.RuntimeProps.PreferInt32
+  - TypeHelp.RuntimeProps.Properties
+  - TypeHelp.RuntimeProps.ResourceString(System.String)
+  - TypeHelp.RuntimeProps.ResourceString(System.String,System.String)
+  - TypeHelp.RuntimeProps.SizeOfChar
+  - TypeHelp.RuntimeProps.SizeOfComplex
+  - TypeHelp.RuntimeProps.SizeOfDateTime
+  - TypeHelp.RuntimeProps.SizeOfGuid
+  - TypeHelp.RuntimeProps.SizeOfPointer
+  - TypeHelp.RuntimeProps.SizeOfTimeSpan
+  - TypeHelp.RuntimeProps.SizeOfVoid
+  - TypeHelp.RuntimeProps.Strict
+  - TypeHelp.RuntimeProps.TickCount
+  langs:
+  - csharp
+  - vb
+  name: RuntimeProps
+  nameWithType: RuntimeProps
+  fullName: TypeHelp.RuntimeProps
+  type: Struct
+  source:
+    id: RuntimeProps
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 216
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: 'public readonly struct RuntimeProps : IRuntimeFeatures, IRuntimeProperties'
+    content.vb: Public Structure RuntimeProps Implements IRuntimeFeatures, IRuntimeProperties
+  implements:
+  - TypeHelp.IRuntimeFeatures
+  - TypeHelp.IRuntimeProperties
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: TypeHelp.RuntimeProps.#ctor(System.Nullable{System.Boolean})
+  commentId: M:TypeHelp.RuntimeProps.#ctor(System.Nullable{System.Boolean})
+  id: '#ctor(System.Nullable{System.Boolean})'
+  parent: TypeHelp.RuntimeProps
+  langs:
+  - csharp
+  - vb
+  name: RuntimeProps(bool?)
+  nameWithType: RuntimeProps.RuntimeProps(bool?)
+  fullName: TypeHelp.RuntimeProps.RuntimeProps(bool?)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 219
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public RuntimeProps(bool? preferInt32)
+    parameters:
+    - id: preferInt32
+      type: System.Nullable{System.Boolean}
+    content.vb: Public Sub New(preferInt32 As Boolean?)
+  overload: TypeHelp.RuntimeProps.#ctor*
+  nameWithType.vb: RuntimeProps.New(Boolean?)
+  fullName.vb: TypeHelp.RuntimeProps.New(Boolean?)
+  name.vb: New(Boolean?)
+- uid: TypeHelp.RuntimeProps.#ctor(System.Boolean,System.Nullable{System.Boolean})
+  commentId: M:TypeHelp.RuntimeProps.#ctor(System.Boolean,System.Nullable{System.Boolean})
+  id: '#ctor(System.Boolean,System.Nullable{System.Boolean})'
+  parent: TypeHelp.RuntimeProps
+  langs:
+  - csharp
+  - vb
+  name: RuntimeProps(bool, bool?)
+  nameWithType: RuntimeProps.RuntimeProps(bool, bool?)
+  fullName: TypeHelp.RuntimeProps.RuntimeProps(bool, bool?)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 229
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public RuntimeProps(bool strict, bool? preferInt32)
+    parameters:
+    - id: strict
+      type: System.Boolean
+    - id: preferInt32
+      type: System.Nullable{System.Boolean}
+    content.vb: Public Sub New(strict As Boolean, preferInt32 As Boolean?)
+  overload: TypeHelp.RuntimeProps.#ctor*
+  nameWithType.vb: RuntimeProps.New(Boolean, Boolean?)
+  fullName.vb: TypeHelp.RuntimeProps.New(Boolean, Boolean?)
+  name.vb: New(Boolean, Boolean?)
+- uid: TypeHelp.RuntimeProps.Culture
+  commentId: P:TypeHelp.RuntimeProps.Culture
+  id: Culture
+  parent: TypeHelp.RuntimeProps
+  langs:
+  - csharp
+  - vb
+  name: Culture
+  nameWithType: RuntimeProps.Culture
+  fullName: TypeHelp.RuntimeProps.Culture
+  type: Property
+  source:
+    id: Culture
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 239
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public CultureInfo Culture { get; }
+    parameters: []
+    return:
+      type: System.Globalization.CultureInfo
+    content.vb: Public ReadOnly Property Culture As CultureInfo
+  overload: TypeHelp.RuntimeProps.Culture*
+- uid: TypeHelp.RuntimeProps.Features
+  commentId: P:TypeHelp.RuntimeProps.Features
+  id: Features
+  parent: TypeHelp.RuntimeProps
+  langs:
+  - csharp
+  - vb
+  name: Features
+  nameWithType: RuntimeProps.Features
+  fullName: TypeHelp.RuntimeProps.Features
+  type: Property
+  source:
+    id: Features
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 240
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public RTFeatures Features { get; }
+    parameters: []
+    return:
+      type: TypeHelp.RTFeatures
+    content.vb: Public ReadOnly Property Features As RTFeatures
+  overload: TypeHelp.RuntimeProps.Features*
+- uid: TypeHelp.RuntimeProps.Properties
+  commentId: P:TypeHelp.RuntimeProps.Properties
+  id: Properties
+  parent: TypeHelp.RuntimeProps
+  langs:
+  - csharp
+  - vb
+  name: Properties
+  nameWithType: RuntimeProps.Properties
+  fullName: TypeHelp.RuntimeProps.Properties
+  type: Property
+  source:
+    id: Properties
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 241
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public RTProps Properties { get; }
+    parameters: []
+    return:
+      type: TypeHelp.RTProps
+    content.vb: Public ReadOnly Property Properties As RTProps
+  overload: TypeHelp.RuntimeProps.Properties*
+- uid: TypeHelp.RuntimeProps.Formats
+  commentId: F:TypeHelp.RuntimeProps.Formats
+  id: Formats
+  parent: TypeHelp.RuntimeProps
+  langs:
+  - csharp
+  - vb
+  name: Formats
+  nameWithType: RuntimeProps.Formats
+  fullName: TypeHelp.RuntimeProps.Formats
+  type: Field
+  source:
+    id: Formats
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 243
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static readonly string[] Formats
+    return:
+      type: System.String[]
+    content.vb: Public Shared ReadOnly Formats As String()
+- uid: TypeHelp.RuntimeProps.FormatSPs
+  commentId: F:TypeHelp.RuntimeProps.FormatSPs
+  id: FormatSPs
+  parent: TypeHelp.RuntimeProps
+  langs:
+  - csharp
+  - vb
+  name: FormatSPs
+  nameWithType: RuntimeProps.FormatSPs
+  fullName: TypeHelp.RuntimeProps.FormatSPs
+  type: Field
+  source:
+    id: FormatSPs
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 249
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static readonly string[] FormatSPs
+    return:
+      type: System.String[]
+    content.vb: Public Shared ReadOnly FormatSPs As String()
+- uid: TypeHelp.RuntimeProps.Is32Bit
+  commentId: P:TypeHelp.RuntimeProps.Is32Bit
+  id: Is32Bit
+  parent: TypeHelp.RuntimeProps
+  langs:
+  - csharp
+  - vb
+  name: Is32Bit
+  nameWithType: RuntimeProps.Is32Bit
+  fullName: TypeHelp.RuntimeProps.Is32Bit
+  type: Property
+  source:
+    id: Is32Bit
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 255
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: public bool Is32Bit { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Is32Bit As Boolean
+  overload: TypeHelp.RuntimeProps.Is32Bit*
+  implements:
+  - TypeHelp.IRuntimeFeatures.Is32Bit
+- uid: TypeHelp.RuntimeProps.Is32BitApp
+  commentId: P:TypeHelp.RuntimeProps.Is32BitApp
+  id: Is32BitApp
+  parent: TypeHelp.RuntimeProps
+  langs:
+  - csharp
+  - vb
+  name: Is32BitApp
+  nameWithType: RuntimeProps.Is32BitApp
+  fullName: TypeHelp.RuntimeProps.Is32BitApp
+  type: Property
+  source:
+    id: Is32BitApp
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 256
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: public bool Is32BitApp { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Is32BitApp As Boolean
+  overload: TypeHelp.RuntimeProps.Is32BitApp*
+  implements:
+  - TypeHelp.IRuntimeFeatures.Is32BitApp
+- uid: TypeHelp.RuntimeProps.Is32BitSys
+  commentId: P:TypeHelp.RuntimeProps.Is32BitSys
+  id: Is32BitSys
+  parent: TypeHelp.RuntimeProps
+  langs:
+  - csharp
+  - vb
+  name: Is32BitSys
+  nameWithType: RuntimeProps.Is32BitSys
+  fullName: TypeHelp.RuntimeProps.Is32BitSys
+  type: Property
+  source:
+    id: Is32BitSys
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 257
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: public bool Is32BitSys { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Is32BitSys As Boolean
+  overload: TypeHelp.RuntimeProps.Is32BitSys*
+  implements:
+  - TypeHelp.IRuntimeFeatures.Is32BitSys
+- uid: TypeHelp.RuntimeProps.Is32On64
+  commentId: P:TypeHelp.RuntimeProps.Is32On64
+  id: Is32On64
+  parent: TypeHelp.RuntimeProps
+  langs:
+  - csharp
+  - vb
+  name: Is32On64
+  nameWithType: RuntimeProps.Is32On64
+  fullName: TypeHelp.RuntimeProps.Is32On64
+  type: Property
+  source:
+    id: Is32On64
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 258
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: public bool Is32On64 { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Is32On64 As Boolean
+  overload: TypeHelp.RuntimeProps.Is32On64*
+  implements:
+  - TypeHelp.IRuntimeFeatures.Is32On64
+- uid: TypeHelp.RuntimeProps.Is64Bit
+  commentId: P:TypeHelp.RuntimeProps.Is64Bit
+  id: Is64Bit
+  parent: TypeHelp.RuntimeProps
+  langs:
+  - csharp
+  - vb
+  name: Is64Bit
+  nameWithType: RuntimeProps.Is64Bit
+  fullName: TypeHelp.RuntimeProps.Is64Bit
+  type: Property
+  source:
+    id: Is64Bit
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 259
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: public bool Is64Bit { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Is64Bit As Boolean
+  overload: TypeHelp.RuntimeProps.Is64Bit*
+  implements:
+  - TypeHelp.IRuntimeFeatures.Is64Bit
+- uid: TypeHelp.RuntimeProps.Is64BitApp
+  commentId: P:TypeHelp.RuntimeProps.Is64BitApp
+  id: Is64BitApp
+  parent: TypeHelp.RuntimeProps
+  langs:
+  - csharp
+  - vb
+  name: Is64BitApp
+  nameWithType: RuntimeProps.Is64BitApp
+  fullName: TypeHelp.RuntimeProps.Is64BitApp
+  type: Property
+  source:
+    id: Is64BitApp
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 260
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: public bool Is64BitApp { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Is64BitApp As Boolean
+  overload: TypeHelp.RuntimeProps.Is64BitApp*
+  implements:
+  - TypeHelp.IRuntimeFeatures.Is64BitApp
+- uid: TypeHelp.RuntimeProps.Is64BitSys
+  commentId: P:TypeHelp.RuntimeProps.Is64BitSys
+  id: Is64BitSys
+  parent: TypeHelp.RuntimeProps
+  langs:
+  - csharp
+  - vb
+  name: Is64BitSys
+  nameWithType: RuntimeProps.Is64BitSys
+  fullName: TypeHelp.RuntimeProps.Is64BitSys
+  type: Property
+  source:
+    id: Is64BitSys
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 261
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: public bool Is64BitSys { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Is64BitSys As Boolean
+  overload: TypeHelp.RuntimeProps.Is64BitSys*
+  implements:
+  - TypeHelp.IRuntimeFeatures.Is64BitSys
+- uid: TypeHelp.RuntimeProps.LongPointers
+  commentId: P:TypeHelp.RuntimeProps.LongPointers
+  id: LongPointers
+  parent: TypeHelp.RuntimeProps
+  langs:
+  - csharp
+  - vb
+  name: LongPointers
+  nameWithType: RuntimeProps.LongPointers
+  fullName: TypeHelp.RuntimeProps.LongPointers
+  type: Property
+  source:
+    id: LongPointers
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 262
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: public bool LongPointers { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property LongPointers As Boolean
+  overload: TypeHelp.RuntimeProps.LongPointers*
+  implements:
+  - TypeHelp.IRuntimeFeatures.LongPointers
+- uid: TypeHelp.RuntimeProps.PreferInt32
+  commentId: P:TypeHelp.RuntimeProps.PreferInt32
+  id: PreferInt32
+  parent: TypeHelp.RuntimeProps
+  langs:
+  - csharp
+  - vb
+  name: PreferInt32
+  nameWithType: RuntimeProps.PreferInt32
+  fullName: TypeHelp.RuntimeProps.PreferInt32
+  type: Property
+  source:
+    id: PreferInt32
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 263
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: public bool PreferInt32 { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property PreferInt32 As Boolean
+  overload: TypeHelp.RuntimeProps.PreferInt32*
+  implements:
+  - TypeHelp.IRuntimeFeatures.PreferInt32
+- uid: TypeHelp.RuntimeProps.Strict
+  commentId: P:TypeHelp.RuntimeProps.Strict
+  id: Strict
+  parent: TypeHelp.RuntimeProps
+  langs:
+  - csharp
+  - vb
+  name: Strict
+  nameWithType: RuntimeProps.Strict
+  fullName: TypeHelp.RuntimeProps.Strict
+  type: Property
+  source:
+    id: Strict
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 264
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: public bool Strict { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Strict As Boolean
+  overload: TypeHelp.RuntimeProps.Strict*
+  implements:
+  - TypeHelp.IRuntimeFeatures.Strict
+- uid: TypeHelp.RuntimeProps.Nullity
+  commentId: P:TypeHelp.RuntimeProps.Nullity
+  id: Nullity
+  parent: TypeHelp.RuntimeProps
+  langs:
+  - csharp
+  - vb
+  name: Nullity
+  nameWithType: RuntimeProps.Nullity
+  fullName: TypeHelp.RuntimeProps.Nullity
+  type: Property
+  source:
+    id: Nullity
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 265
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: public Nullity Nullity { get; }
+    parameters: []
+    return:
+      type: TypeHelp.Nullity
+    content.vb: Public ReadOnly Property Nullity As Nullity
+  overload: TypeHelp.RuntimeProps.Nullity*
+  implements:
+  - TypeHelp.IRuntimeProperties.Nullity
+- uid: TypeHelp.RuntimeProps.NullName
+  commentId: P:TypeHelp.RuntimeProps.NullName
+  id: NullName
+  parent: TypeHelp.RuntimeProps
+  langs:
+  - csharp
+  - vb
+  name: NullName
+  nameWithType: RuntimeProps.NullName
+  fullName: TypeHelp.RuntimeProps.NullName
+  type: Property
+  source:
+    id: NullName
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 266
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: public string NullName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property NullName As String
+  overload: TypeHelp.RuntimeProps.NullName*
+  implements:
+  - TypeHelp.IRuntimeProperties.NullName
+- uid: TypeHelp.RuntimeProps.SizeOfChar
+  commentId: P:TypeHelp.RuntimeProps.SizeOfChar
+  id: SizeOfChar
+  parent: TypeHelp.RuntimeProps
+  langs:
+  - csharp
+  - vb
+  name: SizeOfChar
+  nameWithType: RuntimeProps.SizeOfChar
+  fullName: TypeHelp.RuntimeProps.SizeOfChar
+  type: Property
+  source:
+    id: SizeOfChar
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 267
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: public int SizeOfChar { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property SizeOfChar As Integer
+  overload: TypeHelp.RuntimeProps.SizeOfChar*
+  implements:
+  - TypeHelp.IRuntimeProperties.SizeOfChar
+- uid: TypeHelp.RuntimeProps.SizeOfComplex
+  commentId: P:TypeHelp.RuntimeProps.SizeOfComplex
+  id: SizeOfComplex
+  parent: TypeHelp.RuntimeProps
+  langs:
+  - csharp
+  - vb
+  name: SizeOfComplex
+  nameWithType: RuntimeProps.SizeOfComplex
+  fullName: TypeHelp.RuntimeProps.SizeOfComplex
+  type: Property
+  source:
+    id: SizeOfComplex
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 268
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: public int SizeOfComplex { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property SizeOfComplex As Integer
+  overload: TypeHelp.RuntimeProps.SizeOfComplex*
+  implements:
+  - TypeHelp.IRuntimeProperties.SizeOfComplex
+- uid: TypeHelp.RuntimeProps.SizeOfDateTime
+  commentId: P:TypeHelp.RuntimeProps.SizeOfDateTime
+  id: SizeOfDateTime
+  parent: TypeHelp.RuntimeProps
+  langs:
+  - csharp
+  - vb
+  name: SizeOfDateTime
+  nameWithType: RuntimeProps.SizeOfDateTime
+  fullName: TypeHelp.RuntimeProps.SizeOfDateTime
+  type: Property
+  source:
+    id: SizeOfDateTime
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 269
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: public int SizeOfDateTime { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property SizeOfDateTime As Integer
+  overload: TypeHelp.RuntimeProps.SizeOfDateTime*
+  implements:
+  - TypeHelp.IRuntimeProperties.SizeOfDateTime
+- uid: TypeHelp.RuntimeProps.SizeOfGuid
+  commentId: P:TypeHelp.RuntimeProps.SizeOfGuid
+  id: SizeOfGuid
+  parent: TypeHelp.RuntimeProps
+  langs:
+  - csharp
+  - vb
+  name: SizeOfGuid
+  nameWithType: RuntimeProps.SizeOfGuid
+  fullName: TypeHelp.RuntimeProps.SizeOfGuid
+  type: Property
+  source:
+    id: SizeOfGuid
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 270
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: public int SizeOfGuid { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property SizeOfGuid As Integer
+  overload: TypeHelp.RuntimeProps.SizeOfGuid*
+  implements:
+  - TypeHelp.IRuntimeProperties.SizeOfGuid
+- uid: TypeHelp.RuntimeProps.SizeOfPointer
+  commentId: P:TypeHelp.RuntimeProps.SizeOfPointer
+  id: SizeOfPointer
+  parent: TypeHelp.RuntimeProps
+  langs:
+  - csharp
+  - vb
+  name: SizeOfPointer
+  nameWithType: RuntimeProps.SizeOfPointer
+  fullName: TypeHelp.RuntimeProps.SizeOfPointer
+  type: Property
+  source:
+    id: SizeOfPointer
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 271
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: public int SizeOfPointer { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property SizeOfPointer As Integer
+  overload: TypeHelp.RuntimeProps.SizeOfPointer*
+  implements:
+  - TypeHelp.IRuntimeProperties.SizeOfPointer
+- uid: TypeHelp.RuntimeProps.SizeOfTimeSpan
+  commentId: P:TypeHelp.RuntimeProps.SizeOfTimeSpan
+  id: SizeOfTimeSpan
+  parent: TypeHelp.RuntimeProps
+  langs:
+  - csharp
+  - vb
+  name: SizeOfTimeSpan
+  nameWithType: RuntimeProps.SizeOfTimeSpan
+  fullName: TypeHelp.RuntimeProps.SizeOfTimeSpan
+  type: Property
+  source:
+    id: SizeOfTimeSpan
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 272
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: public int SizeOfTimeSpan { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property SizeOfTimeSpan As Integer
+  overload: TypeHelp.RuntimeProps.SizeOfTimeSpan*
+  implements:
+  - TypeHelp.IRuntimeProperties.SizeOfTimeSpan
+- uid: TypeHelp.RuntimeProps.SizeOfVoid
+  commentId: P:TypeHelp.RuntimeProps.SizeOfVoid
+  id: SizeOfVoid
+  parent: TypeHelp.RuntimeProps
+  langs:
+  - csharp
+  - vb
+  name: SizeOfVoid
+  nameWithType: RuntimeProps.SizeOfVoid
+  fullName: TypeHelp.RuntimeProps.SizeOfVoid
+  type: Property
+  source:
+    id: SizeOfVoid
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 273
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: public int SizeOfVoid { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property SizeOfVoid As Integer
+  overload: TypeHelp.RuntimeProps.SizeOfVoid*
+  implements:
+  - TypeHelp.IRuntimeProperties.SizeOfVoid
+- uid: TypeHelp.RuntimeProps.TickCount
+  commentId: P:TypeHelp.RuntimeProps.TickCount
+  id: TickCount
+  parent: TypeHelp.RuntimeProps
+  langs:
+  - csharp
+  - vb
+  name: TickCount
+  nameWithType: RuntimeProps.TickCount
+  fullName: TypeHelp.RuntimeProps.TickCount
+  type: Property
+  source:
+    id: TickCount
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 274
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  example: []
+  syntax:
+    content: public long TickCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property TickCount As Long
+  overload: TypeHelp.RuntimeProps.TickCount*
+  implements:
+  - TypeHelp.IRuntimeProperties.TickCount
+- uid: TypeHelp.RuntimeProps.ResourceString(System.String)
+  commentId: M:TypeHelp.RuntimeProps.ResourceString(System.String)
+  id: ResourceString(System.String)
+  parent: TypeHelp.RuntimeProps
+  langs:
+  - csharp
+  - vb
+  name: ResourceString(string)
+  nameWithType: RuntimeProps.ResourceString(string)
+  fullName: TypeHelp.RuntimeProps.ResourceString(string)
+  type: Method
+  source:
+    id: ResourceString
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 280
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public string ResourceString(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function ResourceString(name As String) As String
+  overload: TypeHelp.RuntimeProps.ResourceString*
+  nameWithType.vb: RuntimeProps.ResourceString(String)
+  fullName.vb: TypeHelp.RuntimeProps.ResourceString(String)
+  name.vb: ResourceString(String)
+- uid: TypeHelp.RuntimeProps.ResourceString(System.String,System.String)
+  commentId: M:TypeHelp.RuntimeProps.ResourceString(System.String,System.String)
+  id: ResourceString(System.String,System.String)
+  parent: TypeHelp.RuntimeProps
+  langs:
+  - csharp
+  - vb
+  name: ResourceString(string, string)
+  nameWithType: RuntimeProps.ResourceString(string, string)
+  fullName: TypeHelp.RuntimeProps.ResourceString(string, string)
+  type: Method
+  source:
+    id: ResourceString
+    path: C:\Users\wwess\source\repos\TypeHelp\src\common\RuntimeProps.cs
+    startLine: 301
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public string ResourceString(string name, string argument)
+    parameters:
+    - id: name
+      type: System.String
+    - id: argument
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function ResourceString(name As String, argument As String) As String
+  overload: TypeHelp.RuntimeProps.ResourceString*
+  nameWithType.vb: RuntimeProps.ResourceString(String, String)
+  fullName.vb: TypeHelp.RuntimeProps.ResourceString(String, String)
+  name.vb: ResourceString(String, String)
+references:
+- uid: TypeHelp
+  commentId: N:TypeHelp
+  href: TypeHelp.html
+  name: TypeHelp
+  nameWithType: TypeHelp
+  fullName: TypeHelp
+- uid: TypeHelp.IRuntimeFeatures
+  commentId: T:TypeHelp.IRuntimeFeatures
+  parent: TypeHelp
+  href: TypeHelp.IRuntimeFeatures.html
+  name: IRuntimeFeatures
+  nameWithType: IRuntimeFeatures
+  fullName: TypeHelp.IRuntimeFeatures
+- uid: TypeHelp.IRuntimeProperties
+  commentId: T:TypeHelp.IRuntimeProperties
+  parent: TypeHelp
+  href: TypeHelp.IRuntimeProperties.html
+  name: IRuntimeProperties
+  nameWithType: IRuntimeProperties
+  fullName: TypeHelp.IRuntimeProperties
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TypeHelp.RuntimeProps.#ctor*
+  commentId: Overload:TypeHelp.RuntimeProps.#ctor
+  href: TypeHelp.RuntimeProps.#ctor(System.Nullable{System.Boolean}).html
+  name: RuntimeProps
+  nameWithType: RuntimeProps.RuntimeProps
+  fullName: TypeHelp.RuntimeProps.RuntimeProps
+  nameWithType.vb: RuntimeProps.New
+  fullName.vb: TypeHelp.RuntimeProps.New
+  name.vb: New
+- uid: System.Nullable{System.Boolean}
+  commentId: T:System.Nullable{System.Boolean}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool?
+  nameWithType: bool?
+  fullName: bool?
+  nameWithType.vb: Boolean?
+  fullName.vb: Boolean?
+  name.vb: Boolean?
+  spec.csharp:
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  spec.vb:
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: TypeHelp.RuntimeProps.Culture*
+  commentId: Overload:TypeHelp.RuntimeProps.Culture
+  href: TypeHelp.RuntimeProps.Culture.html
+  name: Culture
+  nameWithType: RuntimeProps.Culture
+  fullName: TypeHelp.RuntimeProps.Culture
+- uid: System.Globalization.CultureInfo
+  commentId: T:System.Globalization.CultureInfo
+  parent: System.Globalization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo
+  name: CultureInfo
+  nameWithType: CultureInfo
+  fullName: System.Globalization.CultureInfo
+- uid: System.Globalization
+  commentId: N:System.Globalization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Globalization
+  nameWithType: System.Globalization
+  fullName: System.Globalization
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Globalization
+    name: Globalization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Globalization
+    name: Globalization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization
+- uid: TypeHelp.RuntimeProps.Features*
+  commentId: Overload:TypeHelp.RuntimeProps.Features
+  href: TypeHelp.RuntimeProps.Features.html
+  name: Features
+  nameWithType: RuntimeProps.Features
+  fullName: TypeHelp.RuntimeProps.Features
+- uid: TypeHelp.RTFeatures
+  commentId: T:TypeHelp.RTFeatures
+  parent: TypeHelp
+  href: TypeHelp.RTFeatures.html
+  name: RTFeatures
+  nameWithType: RTFeatures
+  fullName: TypeHelp.RTFeatures
+- uid: TypeHelp.RuntimeProps.Properties*
+  commentId: Overload:TypeHelp.RuntimeProps.Properties
+  href: TypeHelp.RuntimeProps.Properties.html
+  name: Properties
+  nameWithType: RuntimeProps.Properties
+  fullName: TypeHelp.RuntimeProps.Properties
+- uid: TypeHelp.RTProps
+  commentId: T:TypeHelp.RTProps
+  parent: TypeHelp
+  href: TypeHelp.RTProps.html
+  name: RTProps
+  nameWithType: RTProps
+  fullName: TypeHelp.RTProps
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: TypeHelp.RuntimeProps.Is32Bit*
+  commentId: Overload:TypeHelp.RuntimeProps.Is32Bit
+  href: TypeHelp.RuntimeProps.Is32Bit.html
+  name: Is32Bit
+  nameWithType: RuntimeProps.Is32Bit
+  fullName: TypeHelp.RuntimeProps.Is32Bit
+- uid: TypeHelp.IRuntimeFeatures.Is32Bit
+  commentId: P:TypeHelp.IRuntimeFeatures.Is32Bit
+  parent: TypeHelp.IRuntimeFeatures
+  href: TypeHelp.IRuntimeFeatures.Is32Bit.html
+  name: Is32Bit
+  nameWithType: IRuntimeFeatures.Is32Bit
+  fullName: TypeHelp.IRuntimeFeatures.Is32Bit
+- uid: TypeHelp.RuntimeProps.Is32BitApp*
+  commentId: Overload:TypeHelp.RuntimeProps.Is32BitApp
+  href: TypeHelp.RuntimeProps.Is32BitApp.html
+  name: Is32BitApp
+  nameWithType: RuntimeProps.Is32BitApp
+  fullName: TypeHelp.RuntimeProps.Is32BitApp
+- uid: TypeHelp.IRuntimeFeatures.Is32BitApp
+  commentId: P:TypeHelp.IRuntimeFeatures.Is32BitApp
+  parent: TypeHelp.IRuntimeFeatures
+  href: TypeHelp.IRuntimeFeatures.Is32BitApp.html
+  name: Is32BitApp
+  nameWithType: IRuntimeFeatures.Is32BitApp
+  fullName: TypeHelp.IRuntimeFeatures.Is32BitApp
+- uid: TypeHelp.RuntimeProps.Is32BitSys*
+  commentId: Overload:TypeHelp.RuntimeProps.Is32BitSys
+  href: TypeHelp.RuntimeProps.Is32BitSys.html
+  name: Is32BitSys
+  nameWithType: RuntimeProps.Is32BitSys
+  fullName: TypeHelp.RuntimeProps.Is32BitSys
+- uid: TypeHelp.IRuntimeFeatures.Is32BitSys
+  commentId: P:TypeHelp.IRuntimeFeatures.Is32BitSys
+  parent: TypeHelp.IRuntimeFeatures
+  href: TypeHelp.IRuntimeFeatures.Is32BitSys.html
+  name: Is32BitSys
+  nameWithType: IRuntimeFeatures.Is32BitSys
+  fullName: TypeHelp.IRuntimeFeatures.Is32BitSys
+- uid: TypeHelp.RuntimeProps.Is32On64*
+  commentId: Overload:TypeHelp.RuntimeProps.Is32On64
+  href: TypeHelp.RuntimeProps.Is32On64.html
+  name: Is32On64
+  nameWithType: RuntimeProps.Is32On64
+  fullName: TypeHelp.RuntimeProps.Is32On64
+- uid: TypeHelp.IRuntimeFeatures.Is32On64
+  commentId: P:TypeHelp.IRuntimeFeatures.Is32On64
+  parent: TypeHelp.IRuntimeFeatures
+  href: TypeHelp.IRuntimeFeatures.Is32On64.html
+  name: Is32On64
+  nameWithType: IRuntimeFeatures.Is32On64
+  fullName: TypeHelp.IRuntimeFeatures.Is32On64
+- uid: TypeHelp.RuntimeProps.Is64Bit*
+  commentId: Overload:TypeHelp.RuntimeProps.Is64Bit
+  href: TypeHelp.RuntimeProps.Is64Bit.html
+  name: Is64Bit
+  nameWithType: RuntimeProps.Is64Bit
+  fullName: TypeHelp.RuntimeProps.Is64Bit
+- uid: TypeHelp.IRuntimeFeatures.Is64Bit
+  commentId: P:TypeHelp.IRuntimeFeatures.Is64Bit
+  parent: TypeHelp.IRuntimeFeatures
+  href: TypeHelp.IRuntimeFeatures.Is64Bit.html
+  name: Is64Bit
+  nameWithType: IRuntimeFeatures.Is64Bit
+  fullName: TypeHelp.IRuntimeFeatures.Is64Bit
+- uid: TypeHelp.RuntimeProps.Is64BitApp*
+  commentId: Overload:TypeHelp.RuntimeProps.Is64BitApp
+  href: TypeHelp.RuntimeProps.Is64BitApp.html
+  name: Is64BitApp
+  nameWithType: RuntimeProps.Is64BitApp
+  fullName: TypeHelp.RuntimeProps.Is64BitApp
+- uid: TypeHelp.IRuntimeFeatures.Is64BitApp
+  commentId: P:TypeHelp.IRuntimeFeatures.Is64BitApp
+  parent: TypeHelp.IRuntimeFeatures
+  href: TypeHelp.IRuntimeFeatures.Is64BitApp.html
+  name: Is64BitApp
+  nameWithType: IRuntimeFeatures.Is64BitApp
+  fullName: TypeHelp.IRuntimeFeatures.Is64BitApp
+- uid: TypeHelp.RuntimeProps.Is64BitSys*
+  commentId: Overload:TypeHelp.RuntimeProps.Is64BitSys
+  href: TypeHelp.RuntimeProps.Is64BitSys.html
+  name: Is64BitSys
+  nameWithType: RuntimeProps.Is64BitSys
+  fullName: TypeHelp.RuntimeProps.Is64BitSys
+- uid: TypeHelp.IRuntimeFeatures.Is64BitSys
+  commentId: P:TypeHelp.IRuntimeFeatures.Is64BitSys
+  parent: TypeHelp.IRuntimeFeatures
+  href: TypeHelp.IRuntimeFeatures.Is64BitSys.html
+  name: Is64BitSys
+  nameWithType: IRuntimeFeatures.Is64BitSys
+  fullName: TypeHelp.IRuntimeFeatures.Is64BitSys
+- uid: TypeHelp.RuntimeProps.LongPointers*
+  commentId: Overload:TypeHelp.RuntimeProps.LongPointers
+  href: TypeHelp.RuntimeProps.LongPointers.html
+  name: LongPointers
+  nameWithType: RuntimeProps.LongPointers
+  fullName: TypeHelp.RuntimeProps.LongPointers
+- uid: TypeHelp.IRuntimeFeatures.LongPointers
+  commentId: P:TypeHelp.IRuntimeFeatures.LongPointers
+  parent: TypeHelp.IRuntimeFeatures
+  href: TypeHelp.IRuntimeFeatures.LongPointers.html
+  name: LongPointers
+  nameWithType: IRuntimeFeatures.LongPointers
+  fullName: TypeHelp.IRuntimeFeatures.LongPointers
+- uid: TypeHelp.RuntimeProps.PreferInt32*
+  commentId: Overload:TypeHelp.RuntimeProps.PreferInt32
+  href: TypeHelp.RuntimeProps.PreferInt32.html
+  name: PreferInt32
+  nameWithType: RuntimeProps.PreferInt32
+  fullName: TypeHelp.RuntimeProps.PreferInt32
+- uid: TypeHelp.IRuntimeFeatures.PreferInt32
+  commentId: P:TypeHelp.IRuntimeFeatures.PreferInt32
+  parent: TypeHelp.IRuntimeFeatures
+  href: TypeHelp.IRuntimeFeatures.PreferInt32.html
+  name: PreferInt32
+  nameWithType: IRuntimeFeatures.PreferInt32
+  fullName: TypeHelp.IRuntimeFeatures.PreferInt32
+- uid: TypeHelp.RuntimeProps.Strict*
+  commentId: Overload:TypeHelp.RuntimeProps.Strict
+  href: TypeHelp.RuntimeProps.Strict.html
+  name: Strict
+  nameWithType: RuntimeProps.Strict
+  fullName: TypeHelp.RuntimeProps.Strict
+- uid: TypeHelp.IRuntimeFeatures.Strict
+  commentId: P:TypeHelp.IRuntimeFeatures.Strict
+  parent: TypeHelp.IRuntimeFeatures
+  href: TypeHelp.IRuntimeFeatures.Strict.html
+  name: Strict
+  nameWithType: IRuntimeFeatures.Strict
+  fullName: TypeHelp.IRuntimeFeatures.Strict
+- uid: TypeHelp.RuntimeProps.Nullity*
+  commentId: Overload:TypeHelp.RuntimeProps.Nullity
+  href: TypeHelp.RuntimeProps.Nullity.html
+  name: Nullity
+  nameWithType: RuntimeProps.Nullity
+  fullName: TypeHelp.RuntimeProps.Nullity
+- uid: TypeHelp.IRuntimeProperties.Nullity
+  commentId: P:TypeHelp.IRuntimeProperties.Nullity
+  parent: TypeHelp.IRuntimeProperties
+  href: TypeHelp.IRuntimeProperties.Nullity.html
+  name: Nullity
+  nameWithType: IRuntimeProperties.Nullity
+  fullName: TypeHelp.IRuntimeProperties.Nullity
+- uid: TypeHelp.Nullity
+  commentId: T:TypeHelp.Nullity
+  parent: TypeHelp
+  href: TypeHelp.Nullity.html
+  name: Nullity
+  nameWithType: Nullity
+  fullName: TypeHelp.Nullity
+- uid: TypeHelp.RuntimeProps.NullName*
+  commentId: Overload:TypeHelp.RuntimeProps.NullName
+  href: TypeHelp.RuntimeProps.NullName.html
+  name: NullName
+  nameWithType: RuntimeProps.NullName
+  fullName: TypeHelp.RuntimeProps.NullName
+- uid: TypeHelp.IRuntimeProperties.NullName
+  commentId: P:TypeHelp.IRuntimeProperties.NullName
+  parent: TypeHelp.IRuntimeProperties
+  href: TypeHelp.IRuntimeProperties.NullName.html
+  name: NullName
+  nameWithType: IRuntimeProperties.NullName
+  fullName: TypeHelp.IRuntimeProperties.NullName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: TypeHelp.RuntimeProps.SizeOfChar*
+  commentId: Overload:TypeHelp.RuntimeProps.SizeOfChar
+  href: TypeHelp.RuntimeProps.SizeOfChar.html
+  name: SizeOfChar
+  nameWithType: RuntimeProps.SizeOfChar
+  fullName: TypeHelp.RuntimeProps.SizeOfChar
+- uid: TypeHelp.IRuntimeProperties.SizeOfChar
+  commentId: P:TypeHelp.IRuntimeProperties.SizeOfChar
+  parent: TypeHelp.IRuntimeProperties
+  href: TypeHelp.IRuntimeProperties.SizeOfChar.html
+  name: SizeOfChar
+  nameWithType: IRuntimeProperties.SizeOfChar
+  fullName: TypeHelp.IRuntimeProperties.SizeOfChar
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: TypeHelp.RuntimeProps.SizeOfComplex*
+  commentId: Overload:TypeHelp.RuntimeProps.SizeOfComplex
+  href: TypeHelp.RuntimeProps.SizeOfComplex.html
+  name: SizeOfComplex
+  nameWithType: RuntimeProps.SizeOfComplex
+  fullName: TypeHelp.RuntimeProps.SizeOfComplex
+- uid: TypeHelp.IRuntimeProperties.SizeOfComplex
+  commentId: P:TypeHelp.IRuntimeProperties.SizeOfComplex
+  parent: TypeHelp.IRuntimeProperties
+  href: TypeHelp.IRuntimeProperties.SizeOfComplex.html
+  name: SizeOfComplex
+  nameWithType: IRuntimeProperties.SizeOfComplex
+  fullName: TypeHelp.IRuntimeProperties.SizeOfComplex
+- uid: TypeHelp.RuntimeProps.SizeOfDateTime*
+  commentId: Overload:TypeHelp.RuntimeProps.SizeOfDateTime
+  href: TypeHelp.RuntimeProps.SizeOfDateTime.html
+  name: SizeOfDateTime
+  nameWithType: RuntimeProps.SizeOfDateTime
+  fullName: TypeHelp.RuntimeProps.SizeOfDateTime
+- uid: TypeHelp.IRuntimeProperties.SizeOfDateTime
+  commentId: P:TypeHelp.IRuntimeProperties.SizeOfDateTime
+  parent: TypeHelp.IRuntimeProperties
+  href: TypeHelp.IRuntimeProperties.SizeOfDateTime.html
+  name: SizeOfDateTime
+  nameWithType: IRuntimeProperties.SizeOfDateTime
+  fullName: TypeHelp.IRuntimeProperties.SizeOfDateTime
+- uid: TypeHelp.RuntimeProps.SizeOfGuid*
+  commentId: Overload:TypeHelp.RuntimeProps.SizeOfGuid
+  href: TypeHelp.RuntimeProps.SizeOfGuid.html
+  name: SizeOfGuid
+  nameWithType: RuntimeProps.SizeOfGuid
+  fullName: TypeHelp.RuntimeProps.SizeOfGuid
+- uid: TypeHelp.IRuntimeProperties.SizeOfGuid
+  commentId: P:TypeHelp.IRuntimeProperties.SizeOfGuid
+  parent: TypeHelp.IRuntimeProperties
+  href: TypeHelp.IRuntimeProperties.SizeOfGuid.html
+  name: SizeOfGuid
+  nameWithType: IRuntimeProperties.SizeOfGuid
+  fullName: TypeHelp.IRuntimeProperties.SizeOfGuid
+- uid: TypeHelp.RuntimeProps.SizeOfPointer*
+  commentId: Overload:TypeHelp.RuntimeProps.SizeOfPointer
+  href: TypeHelp.RuntimeProps.SizeOfPointer.html
+  name: SizeOfPointer
+  nameWithType: RuntimeProps.SizeOfPointer
+  fullName: TypeHelp.RuntimeProps.SizeOfPointer
+- uid: TypeHelp.IRuntimeProperties.SizeOfPointer
+  commentId: P:TypeHelp.IRuntimeProperties.SizeOfPointer
+  parent: TypeHelp.IRuntimeProperties
+  href: TypeHelp.IRuntimeProperties.SizeOfPointer.html
+  name: SizeOfPointer
+  nameWithType: IRuntimeProperties.SizeOfPointer
+  fullName: TypeHelp.IRuntimeProperties.SizeOfPointer
+- uid: TypeHelp.RuntimeProps.SizeOfTimeSpan*
+  commentId: Overload:TypeHelp.RuntimeProps.SizeOfTimeSpan
+  href: TypeHelp.RuntimeProps.SizeOfTimeSpan.html
+  name: SizeOfTimeSpan
+  nameWithType: RuntimeProps.SizeOfTimeSpan
+  fullName: TypeHelp.RuntimeProps.SizeOfTimeSpan
+- uid: TypeHelp.IRuntimeProperties.SizeOfTimeSpan
+  commentId: P:TypeHelp.IRuntimeProperties.SizeOfTimeSpan
+  parent: TypeHelp.IRuntimeProperties
+  href: TypeHelp.IRuntimeProperties.SizeOfTimeSpan.html
+  name: SizeOfTimeSpan
+  nameWithType: IRuntimeProperties.SizeOfTimeSpan
+  fullName: TypeHelp.IRuntimeProperties.SizeOfTimeSpan
+- uid: TypeHelp.RuntimeProps.SizeOfVoid*
+  commentId: Overload:TypeHelp.RuntimeProps.SizeOfVoid
+  href: TypeHelp.RuntimeProps.SizeOfVoid.html
+  name: SizeOfVoid
+  nameWithType: RuntimeProps.SizeOfVoid
+  fullName: TypeHelp.RuntimeProps.SizeOfVoid
+- uid: TypeHelp.IRuntimeProperties.SizeOfVoid
+  commentId: P:TypeHelp.IRuntimeProperties.SizeOfVoid
+  parent: TypeHelp.IRuntimeProperties
+  href: TypeHelp.IRuntimeProperties.SizeOfVoid.html
+  name: SizeOfVoid
+  nameWithType: IRuntimeProperties.SizeOfVoid
+  fullName: TypeHelp.IRuntimeProperties.SizeOfVoid
+- uid: TypeHelp.RuntimeProps.TickCount*
+  commentId: Overload:TypeHelp.RuntimeProps.TickCount
+  href: TypeHelp.RuntimeProps.TickCount.html
+  name: TickCount
+  nameWithType: RuntimeProps.TickCount
+  fullName: TypeHelp.RuntimeProps.TickCount
+- uid: TypeHelp.IRuntimeProperties.TickCount
+  commentId: P:TypeHelp.IRuntimeProperties.TickCount
+  parent: TypeHelp.IRuntimeProperties
+  href: TypeHelp.IRuntimeProperties.TickCount.html
+  name: TickCount
+  nameWithType: IRuntimeProperties.TickCount
+  fullName: TypeHelp.IRuntimeProperties.TickCount
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: TypeHelp.RuntimeProps.ResourceString*
+  commentId: Overload:TypeHelp.RuntimeProps.ResourceString
+  href: TypeHelp.RuntimeProps.ResourceString(System.String).html
+  name: ResourceString
+  nameWithType: RuntimeProps.ResourceString
+  fullName: TypeHelp.RuntimeProps.ResourceString
+memberLayout: SeparatePages

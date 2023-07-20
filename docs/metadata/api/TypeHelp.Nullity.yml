@@ -1,0 +1,710 @@
+### YamlMime:ManagedReference
+items:
+- uid: TypeHelp.Nullity
+  commentId: T:TypeHelp.Nullity
+  id: Nullity
+  parent: TypeHelp
+  children:
+  - TypeHelp.Nullity.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - TypeHelp.Nullity.GetTypeCode
+  - TypeHelp.Nullity.GetTypeCoex
+  - TypeHelp.Nullity.ToString
+  - TypeHelp.Nullity.ToString(System.IFormatProvider)
+  - TypeHelp.Nullity.Value
+  langs:
+  - csharp
+  - vb
+  name: Nullity
+  nameWithType: Nullity
+  fullName: TypeHelp.Nullity
+  type: Class
+  source:
+    id: Nullity
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Nullity\Nullity.cs
+    startLine: 22
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: Represents a nulled value. This class cannot be inherited.
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      [ComVisible(true)]
+
+      public sealed class Nullity : IConvertible, ISerializable
+    content.vb: >-
+      <Serializable>
+
+      <ComVisible(True)>
+
+      Public NotInheritable Class Nullity Implements IConvertible, ISerializable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IConvertible
+  - System.Runtime.Serialization.ISerializable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  - type: System.Runtime.InteropServices.ComVisibleAttribute
+    ctor: System.Runtime.InteropServices.ComVisibleAttribute.#ctor(System.Boolean)
+    arguments:
+    - type: System.Boolean
+      value: true
+- uid: TypeHelp.Nullity.Value
+  commentId: F:TypeHelp.Nullity.Value
+  id: Value
+  parent: TypeHelp.Nullity
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: Nullity.Value
+  fullName: TypeHelp.Nullity.Value
+  type: Field
+  source:
+    id: Value
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Nullity\Nullity.cs
+    startLine: 29
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: Represents the sole instance of the TypeHelp.Nullity class.
+  example: []
+  syntax:
+    content: public static readonly Nullity Value
+    return:
+      type: TypeHelp.Nullity
+    content.vb: Public Shared ReadOnly Value As Nullity
+- uid: TypeHelp.Nullity.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  commentId: M:TypeHelp.Nullity.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  id: GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: TypeHelp.Nullity
+  langs:
+  - csharp
+  - vb
+  name: GetObjectData(SerializationInfo, StreamingContext)
+  nameWithType: Nullity.GetObjectData(SerializationInfo, StreamingContext)
+  fullName: TypeHelp.Nullity.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  type: Method
+  source:
+    id: GetObjectData
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Nullity\Nullity.cs
+    startLine: 57
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: Implements the System.Runtime.Serialization.ISerializable interface and returns the data needed to serialize the TypeHelp.Nullity object.
+  example: []
+  syntax:
+    content: >-
+      [SecurityCritical]
+
+      public void GetObjectData(SerializationInfo info, StreamingContext context)
+    parameters:
+    - id: info
+      type: System.Runtime.Serialization.SerializationInfo
+      description: A System.Runtime.Serialization.SerializationInfo object containing information required to serialize the TypeHelp.Nullity object.
+    - id: context
+      type: System.Runtime.Serialization.StreamingContext
+      description: A System.Runtime.Serialization.StreamingContext object containing the source and destination of the serialized stream associated with the TypeHelp.Nullity object.
+    content.vb: >-
+      <SecurityCritical>
+
+      Public Sub GetObjectData(info As SerializationInfo, context As StreamingContext)
+  overload: TypeHelp.Nullity.GetObjectData*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: ''
+  implements:
+  - System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  attributes:
+  - type: System.Security.SecurityCriticalAttribute
+    ctor: System.Security.SecurityCriticalAttribute.#ctor
+    arguments: []
+- uid: TypeHelp.Nullity.ToString
+  commentId: M:TypeHelp.Nullity.ToString
+  id: ToString
+  parent: TypeHelp.Nullity
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Nullity.ToString()
+  fullName: TypeHelp.Nullity.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Nullity\Nullity.cs
+    startLine: 69
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: Returns an empty string (System.String.Empty).
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: System.String.Empty
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: TypeHelp.Nullity.ToString*
+- uid: TypeHelp.Nullity.ToString(System.IFormatProvider)
+  commentId: M:TypeHelp.Nullity.ToString(System.IFormatProvider)
+  id: ToString(System.IFormatProvider)
+  parent: TypeHelp.Nullity
+  langs:
+  - csharp
+  - vb
+  name: ToString(IFormatProvider?)
+  nameWithType: Nullity.ToString(IFormatProvider?)
+  fullName: TypeHelp.Nullity.ToString(System.IFormatProvider?)
+  type: Method
+  source:
+    id: ToString
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Nullity\Nullity.cs
+    startLine: 81
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: Returns an empty string using the specified System.IFormatProvider.
+  example: []
+  syntax:
+    content: public string ToString(IFormatProvider? provider)
+    parameters:
+    - id: provider
+      type: System.IFormatProvider
+      description: The System.IFormatProvider to be used to format the return value. -or- null to obtain the format information from the current locale setting of the operating system.
+    return:
+      type: System.String
+      description: System.String.Empty
+    content.vb: Public Function ToString(provider As IFormatProvider) As String
+  overload: TypeHelp.Nullity.ToString*
+  implements:
+  - System.IConvertible.ToString(System.IFormatProvider)
+  nameWithType.vb: Nullity.ToString(IFormatProvider)
+  fullName.vb: TypeHelp.Nullity.ToString(System.IFormatProvider)
+  name.vb: ToString(IFormatProvider)
+- uid: TypeHelp.Nullity.GetTypeCode
+  commentId: M:TypeHelp.Nullity.GetTypeCode
+  id: GetTypeCode
+  parent: TypeHelp.Nullity
+  langs:
+  - csharp
+  - vb
+  name: GetTypeCode()
+  nameWithType: Nullity.GetTypeCode()
+  fullName: TypeHelp.Nullity.GetTypeCode()
+  type: Method
+  source:
+    id: GetTypeCode
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Nullity\Nullity.cs
+    startLine: 90
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: Gets the System.TypeCode value for TypeHelp.Nullity.
+  example: []
+  syntax:
+    content: public TypeCode GetTypeCode()
+    return:
+      type: System.TypeCode
+      description: The System.TypeCode value for TypeHelp.Nullity, which is System.TypeCode.Object.
+    content.vb: Public Function GetTypeCode() As TypeCode
+  overload: TypeHelp.Nullity.GetTypeCode*
+  implements:
+  - System.IConvertible.GetTypeCode
+- uid: TypeHelp.Nullity.GetTypeCoex
+  commentId: M:TypeHelp.Nullity.GetTypeCoex
+  id: GetTypeCoex
+  parent: TypeHelp.Nullity
+  langs:
+  - csharp
+  - vb
+  name: GetTypeCoex()
+  nameWithType: Nullity.GetTypeCoex()
+  fullName: TypeHelp.Nullity.GetTypeCoex()
+  type: Method
+  source:
+    id: GetTypeCoex
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Nullity\Nullity.cs
+    startLine: 101
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: Gets the System.TypeCoex value for TypeHelp.Nullity.
+  example: []
+  syntax:
+    content: public TypeCoex GetTypeCoex()
+    return:
+      type: TypeHelp.TypeCoex
+      description: The TypeHelp.TypeCoex value for TypeHelp.Nullity, which is TypeCoex.Nullity.
+    content.vb: Public Function GetTypeCoex() As TypeCoex
+  overload: TypeHelp.Nullity.GetTypeCoex*
+references:
+- uid: TypeHelp
+  commentId: N:TypeHelp
+  href: TypeHelp.html
+  name: TypeHelp
+  nameWithType: TypeHelp
+  fullName: TypeHelp
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IConvertible
+  commentId: T:System.IConvertible
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iconvertible
+  name: IConvertible
+  nameWithType: IConvertible
+  fullName: System.IConvertible
+- uid: System.Runtime.Serialization.ISerializable
+  commentId: T:System.Runtime.Serialization.ISerializable
+  parent: System.Runtime.Serialization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.iserializable
+  name: ISerializable
+  nameWithType: ISerializable
+  fullName: System.Runtime.Serialization.ISerializable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Runtime.Serialization
+  commentId: N:System.Runtime.Serialization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Runtime.Serialization
+  nameWithType: System.Runtime.Serialization
+  fullName: System.Runtime.Serialization
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime
+  - name: .
+  - uid: System.Runtime.Serialization
+    name: Serialization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Runtime
+    name: Runtime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime
+  - name: .
+  - uid: System.Runtime.Serialization
+    name: Serialization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization
+- uid: TypeHelp.Nullity
+  commentId: T:TypeHelp.Nullity
+  parent: TypeHelp
+  href: TypeHelp.Nullity.html
+  name: Nullity
+  nameWithType: Nullity
+  fullName: TypeHelp.Nullity
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentnullexception
+  name: ArgumentNullException
+  nameWithType: ArgumentNullException
+  fullName: System.ArgumentNullException
+- uid: TypeHelp.Nullity.GetObjectData*
+  commentId: Overload:TypeHelp.Nullity.GetObjectData
+  href: TypeHelp.Nullity.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext).html
+  name: GetObjectData
+  nameWithType: Nullity.GetObjectData
+  fullName: TypeHelp.Nullity.GetObjectData
+- uid: System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  commentId: M:System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.Runtime.Serialization.ISerializable
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.iserializable.getobjectdata
+  name: GetObjectData(SerializationInfo, StreamingContext)
+  nameWithType: ISerializable.GetObjectData(SerializationInfo, StreamingContext)
+  fullName: System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  spec.csharp:
+  - uid: System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+    name: GetObjectData
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.iserializable.getobjectdata
+  - name: (
+  - uid: System.Runtime.Serialization.SerializationInfo
+    name: SerializationInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo
+  - name: ','
+  - name: " "
+  - uid: System.Runtime.Serialization.StreamingContext
+    name: StreamingContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext
+  - name: )
+  spec.vb:
+  - uid: System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+    name: GetObjectData
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.iserializable.getobjectdata
+  - name: (
+  - uid: System.Runtime.Serialization.SerializationInfo
+    name: SerializationInfo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo
+  - name: ','
+  - name: " "
+  - uid: System.Runtime.Serialization.StreamingContext
+    name: StreamingContext
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext
+  - name: )
+- uid: System.Runtime.Serialization.SerializationInfo
+  commentId: T:System.Runtime.Serialization.SerializationInfo
+  parent: System.Runtime.Serialization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo
+  name: SerializationInfo
+  nameWithType: SerializationInfo
+  fullName: System.Runtime.Serialization.SerializationInfo
+- uid: System.Runtime.Serialization.StreamingContext
+  commentId: T:System.Runtime.Serialization.StreamingContext
+  parent: System.Runtime.Serialization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext
+  name: StreamingContext
+  nameWithType: StreamingContext
+  fullName: System.Runtime.Serialization.StreamingContext
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: TypeHelp.Nullity.ToString*
+  commentId: Overload:TypeHelp.Nullity.ToString
+  href: TypeHelp.Nullity.ToString.html
+  name: ToString
+  nameWithType: Nullity.ToString
+  fullName: TypeHelp.Nullity.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.IConvertible.ToString(System.IFormatProvider)
+  commentId: M:System.IConvertible.ToString(System.IFormatProvider)
+  parent: System.IConvertible
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iconvertible.tostring
+  name: ToString(IFormatProvider)
+  nameWithType: IConvertible.ToString(IFormatProvider)
+  fullName: System.IConvertible.ToString(System.IFormatProvider)
+  spec.csharp:
+  - uid: System.IConvertible.ToString(System.IFormatProvider)
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iconvertible.tostring
+  - name: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iformatprovider
+  - name: )
+  spec.vb:
+  - uid: System.IConvertible.ToString(System.IFormatProvider)
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iconvertible.tostring
+  - name: (
+  - uid: System.IFormatProvider
+    name: IFormatProvider
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iformatprovider
+  - name: )
+- uid: System.IFormatProvider
+  commentId: T:System.IFormatProvider
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iformatprovider
+  name: IFormatProvider
+  nameWithType: IFormatProvider
+  fullName: System.IFormatProvider
+- uid: TypeHelp.Nullity.GetTypeCode*
+  commentId: Overload:TypeHelp.Nullity.GetTypeCode
+  href: TypeHelp.Nullity.GetTypeCode.html
+  name: GetTypeCode
+  nameWithType: Nullity.GetTypeCode
+  fullName: TypeHelp.Nullity.GetTypeCode
+- uid: System.IConvertible.GetTypeCode
+  commentId: M:System.IConvertible.GetTypeCode
+  parent: System.IConvertible
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iconvertible.gettypecode
+  name: GetTypeCode()
+  nameWithType: IConvertible.GetTypeCode()
+  fullName: System.IConvertible.GetTypeCode()
+  spec.csharp:
+  - uid: System.IConvertible.GetTypeCode
+    name: GetTypeCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iconvertible.gettypecode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.IConvertible.GetTypeCode
+    name: GetTypeCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iconvertible.gettypecode
+  - name: (
+  - name: )
+- uid: System.TypeCode
+  commentId: T:System.TypeCode
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.typecode
+  name: TypeCode
+  nameWithType: TypeCode
+  fullName: System.TypeCode
+- uid: TypeHelp.Nullity.GetTypeCoex*
+  commentId: Overload:TypeHelp.Nullity.GetTypeCoex
+  href: TypeHelp.Nullity.GetTypeCoex.html
+  name: GetTypeCoex
+  nameWithType: Nullity.GetTypeCoex
+  fullName: TypeHelp.Nullity.GetTypeCoex
+- uid: TypeHelp.TypeCoex
+  commentId: T:TypeHelp.TypeCoex
+  parent: TypeHelp
+  href: TypeHelp.TypeCoex.html
+  name: TypeCoex
+  nameWithType: TypeCoex
+  fullName: TypeHelp.TypeCoex
+memberLayout: SeparatePages

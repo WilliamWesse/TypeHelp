@@ -1,0 +1,1703 @@
+### YamlMime:ManagedReference
+items:
+- uid: TypeHelp.UCPlane
+  commentId: T:TypeHelp.UCPlane
+  id: UCPlane
+  parent: TypeHelp
+  children:
+  - TypeHelp.UCPlane.#ctor(TypeHelp.UCP,System.Int32,System.Int32)
+  - TypeHelp.UCPlane.Blocks
+  - TypeHelp.UCPlane.Chars
+  - TypeHelp.UCPlane.CodePlaneOf(System.Int32)
+  - TypeHelp.UCPlane.CodePlaneOf(System.Int32,TypeHelp.UCP@)
+  - TypeHelp.UCPlane.Convert(System.Boolean,TypeHelp.UCPF)
+  - TypeHelp.UCPlane.Convert(System.Boolean,TypeHelp.UCPF,TypeHelp.UCP@)
+  - TypeHelp.UCPlane.Convert(TypeHelp.UCP)
+  - TypeHelp.UCPlane.Convert(TypeHelp.UCP,TypeHelp.UCPF@)
+  - TypeHelp.UCPlane.Convert(TypeHelp.UCPF)
+  - TypeHelp.UCPlane.Convert(TypeHelp.UCPF,TypeHelp.UCP@)
+  - TypeHelp.UCPlane.Final
+  - TypeHelp.UCPlane.First
+  - TypeHelp.UCPlane.GetUCPlanes(TypeHelp.UCPF)
+  - TypeHelp.UCPlane.GetUCPlanes(TypeHelp.UCP[])
+  - TypeHelp.UCPlane.HasFlags(System.Boolean,TypeHelp.UCPF,TypeHelp.UCPF)
+  - TypeHelp.UCPlane.Id
+  - TypeHelp.UCPlane.InvalidPlaneLabel
+  - TypeHelp.UCPlane.InvalidPlaneName
+  - TypeHelp.UCPlane.IsCodePlane(System.Int32)
+  - TypeHelp.UCPlane.IsInCodePlane(System.Int32,TypeHelp.UCP)
+  - TypeHelp.UCPlane.IsUCPlane(System.Boolean,System.Int32)
+  - TypeHelp.UCPlane.IsUCPlane(TypeHelp.UCP)
+  - TypeHelp.UCPlane.IsUCPlane(TypeHelp.UCPF)
+  - TypeHelp.UCPlane.Label
+  - TypeHelp.UCPlane.Name
+  - TypeHelp.UCPlane.NonUCPlane
+  - TypeHelp.UCPlane.NumCodePlanes
+  - TypeHelp.UCPlane.PFlag
+  - TypeHelp.UCPlane.Plane
+  - TypeHelp.UCPlane.QueryField(TypeHelp.UCPField)
+  - TypeHelp.UCPlane.Sanitize(TypeHelp.UCPF)
+  - TypeHelp.UCPlane.Set(System.Boolean,TypeHelp.UCPF,TypeHelp.UCP)
+  - TypeHelp.UCPlane.Set(System.Boolean,TypeHelp.UCPF,TypeHelp.UCPF)
+  - TypeHelp.UCPlane.Size
+  - TypeHelp.UCPlane.UCPLabels
+  - TypeHelp.UCPlane.UCPNames
+  - TypeHelp.UCPlane.UCPSentinel
+  - TypeHelp.UCPlane.UCPlaneOf(System.Int32)
+  - TypeHelp.UCPlane.UCPlaneOf(TypeHelp.UCP)
+  - TypeHelp.UCPlane.UCPlanes
+  - TypeHelp.UCPlane.ValidPlanes
+  langs:
+  - csharp
+  - vb
+  name: UCPlane
+  nameWithType: UCPlane
+  fullName: TypeHelp.UCPlane
+  type: Struct
+  source:
+    id: UCPlane
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 35
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public readonly struct UCPlane
+    content.vb: Public Structure UCPlane
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: TypeHelp.UCPlane.Blocks
+  commentId: F:TypeHelp.UCPlane.Blocks
+  id: Blocks
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: Blocks
+  nameWithType: UCPlane.Blocks
+  fullName: TypeHelp.UCPlane.Blocks
+  type: Field
+  source:
+    id: Blocks
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 40
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public readonly int Blocks
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Blocks As Integer
+- uid: TypeHelp.UCPlane.Chars
+  commentId: F:TypeHelp.UCPlane.Chars
+  id: Chars
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: Chars
+  nameWithType: UCPlane.Chars
+  fullName: TypeHelp.UCPlane.Chars
+  type: Field
+  source:
+    id: Chars
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 41
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public readonly int Chars
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Chars As Integer
+- uid: TypeHelp.UCPlane.First
+  commentId: F:TypeHelp.UCPlane.First
+  id: First
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: First
+  nameWithType: UCPlane.First
+  fullName: TypeHelp.UCPlane.First
+  type: Field
+  source:
+    id: First
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 42
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public readonly int First
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly First As Integer
+- uid: TypeHelp.UCPlane.Final
+  commentId: F:TypeHelp.UCPlane.Final
+  id: Final
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: Final
+  nameWithType: UCPlane.Final
+  fullName: TypeHelp.UCPlane.Final
+  type: Field
+  source:
+    id: Final
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 43
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public readonly int Final
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Final As Integer
+- uid: TypeHelp.UCPlane.Id
+  commentId: F:TypeHelp.UCPlane.Id
+  id: Id
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: UCPlane.Id
+  fullName: TypeHelp.UCPlane.Id
+  type: Field
+  source:
+    id: Id
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 44
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public readonly int Id
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Id As Integer
+- uid: TypeHelp.UCPlane.Label
+  commentId: F:TypeHelp.UCPlane.Label
+  id: Label
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: Label
+  nameWithType: UCPlane.Label
+  fullName: TypeHelp.UCPlane.Label
+  type: Field
+  source:
+    id: Label
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 45
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public readonly string Label
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Label As String
+- uid: TypeHelp.UCPlane.Name
+  commentId: F:TypeHelp.UCPlane.Name
+  id: Name
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: UCPlane.Name
+  fullName: TypeHelp.UCPlane.Name
+  type: Field
+  source:
+    id: Name
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 46
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public readonly string Name
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Name As String
+- uid: TypeHelp.UCPlane.PFlag
+  commentId: F:TypeHelp.UCPlane.PFlag
+  id: PFlag
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: PFlag
+  nameWithType: UCPlane.PFlag
+  fullName: TypeHelp.UCPlane.PFlag
+  type: Field
+  source:
+    id: PFlag
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 47
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public readonly UCPF PFlag
+    return:
+      type: TypeHelp.UCPF
+    content.vb: Public ReadOnly PFlag As UCPF
+- uid: TypeHelp.UCPlane.Plane
+  commentId: F:TypeHelp.UCPlane.Plane
+  id: Plane
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: Plane
+  nameWithType: UCPlane.Plane
+  fullName: TypeHelp.UCPlane.Plane
+  type: Field
+  source:
+    id: Plane
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 48
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public readonly UCP Plane
+    return:
+      type: TypeHelp.UCP
+    content.vb: Public ReadOnly Plane As UCP
+- uid: TypeHelp.UCPlane.Size
+  commentId: F:TypeHelp.UCPlane.Size
+  id: Size
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: UCPlane.Size
+  fullName: TypeHelp.UCPlane.Size
+  type: Field
+  source:
+    id: Size
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 49
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public readonly int Size
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Size As Integer
+- uid: TypeHelp.UCPlane.#ctor(TypeHelp.UCP,System.Int32,System.Int32)
+  commentId: M:TypeHelp.UCPlane.#ctor(TypeHelp.UCP,System.Int32,System.Int32)
+  id: '#ctor(TypeHelp.UCP,System.Int32,System.Int32)'
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: UCPlane(UCP, int, int)
+  nameWithType: UCPlane.UCPlane(UCP, int, int)
+  fullName: TypeHelp.UCPlane.UCPlane(TypeHelp.UCP, int, int)
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 55
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public UCPlane(UCP ucp, int blocks, int chars)
+    parameters:
+    - id: ucp
+      type: TypeHelp.UCP
+    - id: blocks
+      type: System.Int32
+    - id: chars
+      type: System.Int32
+    content.vb: Public Sub New(ucp As UCP, blocks As Integer, chars As Integer)
+  overload: TypeHelp.UCPlane.#ctor*
+  nameWithType.vb: UCPlane.New(UCP, Integer, Integer)
+  fullName.vb: TypeHelp.UCPlane.New(TypeHelp.UCP, Integer, Integer)
+  name.vb: New(UCP, Integer, Integer)
+- uid: TypeHelp.UCPlane.InvalidPlaneLabel
+  commentId: P:TypeHelp.UCPlane.InvalidPlaneLabel
+  id: InvalidPlaneLabel
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: InvalidPlaneLabel
+  nameWithType: UCPlane.InvalidPlaneLabel
+  fullName: TypeHelp.UCPlane.InvalidPlaneLabel
+  type: Property
+  source:
+    id: InvalidPlaneLabel
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 88
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static string InvalidPlaneLabel { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property InvalidPlaneLabel As String
+  overload: TypeHelp.UCPlane.InvalidPlaneLabel*
+- uid: TypeHelp.UCPlane.InvalidPlaneName
+  commentId: P:TypeHelp.UCPlane.InvalidPlaneName
+  id: InvalidPlaneName
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: InvalidPlaneName
+  nameWithType: UCPlane.InvalidPlaneName
+  fullName: TypeHelp.UCPlane.InvalidPlaneName
+  type: Property
+  source:
+    id: InvalidPlaneName
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 92
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static string InvalidPlaneName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property InvalidPlaneName As String
+  overload: TypeHelp.UCPlane.InvalidPlaneName*
+- uid: TypeHelp.UCPlane.NonUCPlane
+  commentId: P:TypeHelp.UCPlane.NonUCPlane
+  id: NonUCPlane
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: NonUCPlane
+  nameWithType: UCPlane.NonUCPlane
+  fullName: TypeHelp.UCPlane.NonUCPlane
+  type: Property
+  source:
+    id: NonUCPlane
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 96
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static UCPlane NonUCPlane { get; }
+    parameters: []
+    return:
+      type: TypeHelp.UCPlane
+    content.vb: Public Shared ReadOnly Property NonUCPlane As UCPlane
+  overload: TypeHelp.UCPlane.NonUCPlane*
+- uid: TypeHelp.UCPlane.NumCodePlanes
+  commentId: P:TypeHelp.UCPlane.NumCodePlanes
+  id: NumCodePlanes
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: NumCodePlanes
+  nameWithType: UCPlane.NumCodePlanes
+  fullName: TypeHelp.UCPlane.NumCodePlanes
+  type: Property
+  source:
+    id: NumCodePlanes
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 100
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static int NumCodePlanes { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property NumCodePlanes As Integer
+  overload: TypeHelp.UCPlane.NumCodePlanes*
+- uid: TypeHelp.UCPlane.ValidPlanes
+  commentId: P:TypeHelp.UCPlane.ValidPlanes
+  id: ValidPlanes
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: ValidPlanes
+  nameWithType: UCPlane.ValidPlanes
+  fullName: TypeHelp.UCPlane.ValidPlanes
+  type: Property
+  source:
+    id: ValidPlanes
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 104
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static UCPF ValidPlanes { get; }
+    parameters: []
+    return:
+      type: TypeHelp.UCPF
+    content.vb: Public Shared ReadOnly Property ValidPlanes As UCPF
+  overload: TypeHelp.UCPlane.ValidPlanes*
+- uid: TypeHelp.UCPlane.UCPSentinel
+  commentId: P:TypeHelp.UCPlane.UCPSentinel
+  id: UCPSentinel
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: UCPSentinel
+  nameWithType: UCPlane.UCPSentinel
+  fullName: TypeHelp.UCPlane.UCPSentinel
+  type: Property
+  source:
+    id: UCPSentinel
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 108
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static int UCPSentinel { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property UCPSentinel As Integer
+  overload: TypeHelp.UCPlane.UCPSentinel*
+- uid: TypeHelp.UCPlane.UCPLabels
+  commentId: F:TypeHelp.UCPlane.UCPLabels
+  id: UCPLabels
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: UCPLabels
+  nameWithType: UCPlane.UCPLabels
+  fullName: TypeHelp.UCPlane.UCPLabels
+  type: Field
+  source:
+    id: UCPLabels
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 112
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static readonly string[] UCPLabels
+    return:
+      type: System.String[]
+    content.vb: Public Shared ReadOnly UCPLabels As String()
+- uid: TypeHelp.UCPlane.UCPNames
+  commentId: F:TypeHelp.UCPlane.UCPNames
+  id: UCPNames
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: UCPNames
+  nameWithType: UCPlane.UCPNames
+  fullName: TypeHelp.UCPlane.UCPNames
+  type: Field
+  source:
+    id: UCPNames
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 119
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static readonly string[] UCPNames
+    return:
+      type: System.String[]
+    content.vb: Public Shared ReadOnly UCPNames As String()
+- uid: TypeHelp.UCPlane.UCPlanes
+  commentId: F:TypeHelp.UCPlane.UCPlanes
+  id: UCPlanes
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: UCPlanes
+  nameWithType: UCPlane.UCPlanes
+  fullName: TypeHelp.UCPlane.UCPlanes
+  type: Field
+  source:
+    id: UCPlanes
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 133
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static readonly UCPlane[] UCPlanes
+    return:
+      type: TypeHelp.UCPlane[]
+    content.vb: Public Shared ReadOnly UCPlanes As UCPlane()
+- uid: TypeHelp.UCPlane.CodePlaneOf(System.Int32)
+  commentId: M:TypeHelp.UCPlane.CodePlaneOf(System.Int32)
+  id: CodePlaneOf(System.Int32)
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: CodePlaneOf(int)
+  nameWithType: UCPlane.CodePlaneOf(int)
+  fullName: TypeHelp.UCPlane.CodePlaneOf(int)
+  type: Method
+  source:
+    id: CodePlaneOf
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 152
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static UCP CodePlaneOf(int codePoint)
+    parameters:
+    - id: codePoint
+      type: System.Int32
+    return:
+      type: TypeHelp.UCP
+    content.vb: Public Shared Function CodePlaneOf(codePoint As Integer) As UCP
+  overload: TypeHelp.UCPlane.CodePlaneOf*
+  nameWithType.vb: UCPlane.CodePlaneOf(Integer)
+  fullName.vb: TypeHelp.UCPlane.CodePlaneOf(Integer)
+  name.vb: CodePlaneOf(Integer)
+- uid: TypeHelp.UCPlane.CodePlaneOf(System.Int32,TypeHelp.UCP@)
+  commentId: M:TypeHelp.UCPlane.CodePlaneOf(System.Int32,TypeHelp.UCP@)
+  id: CodePlaneOf(System.Int32,TypeHelp.UCP@)
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: CodePlaneOf(int, out UCP)
+  nameWithType: UCPlane.CodePlaneOf(int, out UCP)
+  fullName: TypeHelp.UCPlane.CodePlaneOf(int, out TypeHelp.UCP)
+  type: Method
+  source:
+    id: CodePlaneOf
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 160
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool CodePlaneOf(int value, out UCP ucp)
+    parameters:
+    - id: value
+      type: System.Int32
+    - id: ucp
+      type: TypeHelp.UCP
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function CodePlaneOf(value As Integer, ucp As UCP) As Boolean
+  overload: TypeHelp.UCPlane.CodePlaneOf*
+  nameWithType.vb: UCPlane.CodePlaneOf(Integer, UCP)
+  fullName.vb: TypeHelp.UCPlane.CodePlaneOf(Integer, TypeHelp.UCP)
+  name.vb: CodePlaneOf(Integer, UCP)
+- uid: TypeHelp.UCPlane.Convert(TypeHelp.UCPF)
+  commentId: M:TypeHelp.UCPlane.Convert(TypeHelp.UCPF)
+  id: Convert(TypeHelp.UCPF)
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: Convert(UCPF)
+  nameWithType: UCPlane.Convert(UCPF)
+  fullName: TypeHelp.UCPlane.Convert(TypeHelp.UCPF)
+  type: Method
+  source:
+    id: Convert
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 166
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static UCP Convert(UCPF flag)
+    parameters:
+    - id: flag
+      type: TypeHelp.UCPF
+    return:
+      type: TypeHelp.UCP
+    content.vb: Public Shared Function Convert(flag As UCPF) As UCP
+  overload: TypeHelp.UCPlane.Convert*
+- uid: TypeHelp.UCPlane.Convert(TypeHelp.UCPF,TypeHelp.UCP@)
+  commentId: M:TypeHelp.UCPlane.Convert(TypeHelp.UCPF,TypeHelp.UCP@)
+  id: Convert(TypeHelp.UCPF,TypeHelp.UCP@)
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: Convert(UCPF, out UCP)
+  nameWithType: UCPlane.Convert(UCPF, out UCP)
+  fullName: TypeHelp.UCPlane.Convert(TypeHelp.UCPF, out TypeHelp.UCP)
+  type: Method
+  source:
+    id: Convert
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 171
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool Convert(UCPF flag, out UCP ucp)
+    parameters:
+    - id: flag
+      type: TypeHelp.UCPF
+    - id: ucp
+      type: TypeHelp.UCP
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function Convert(flag As UCPF, ucp As UCP) As Boolean
+  overload: TypeHelp.UCPlane.Convert*
+  nameWithType.vb: UCPlane.Convert(UCPF, UCP)
+  fullName.vb: TypeHelp.UCPlane.Convert(TypeHelp.UCPF, TypeHelp.UCP)
+  name.vb: Convert(UCPF, UCP)
+- uid: TypeHelp.UCPlane.Convert(System.Boolean,TypeHelp.UCPF)
+  commentId: M:TypeHelp.UCPlane.Convert(System.Boolean,TypeHelp.UCPF)
+  id: Convert(System.Boolean,TypeHelp.UCPF)
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: Convert(bool, UCPF)
+  nameWithType: UCPlane.Convert(bool, UCPF)
+  fullName: TypeHelp.UCPlane.Convert(bool, TypeHelp.UCPF)
+  type: Method
+  source:
+    id: Convert
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 177
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static UCP Convert(bool ascending, UCPF flag)
+    parameters:
+    - id: ascending
+      type: System.Boolean
+    - id: flag
+      type: TypeHelp.UCPF
+    return:
+      type: TypeHelp.UCP
+    content.vb: Public Shared Function Convert(ascending As Boolean, flag As UCPF) As UCP
+  overload: TypeHelp.UCPlane.Convert*
+  nameWithType.vb: UCPlane.Convert(Boolean, UCPF)
+  fullName.vb: TypeHelp.UCPlane.Convert(Boolean, TypeHelp.UCPF)
+  name.vb: Convert(Boolean, UCPF)
+- uid: TypeHelp.UCPlane.Convert(System.Boolean,TypeHelp.UCPF,TypeHelp.UCP@)
+  commentId: M:TypeHelp.UCPlane.Convert(System.Boolean,TypeHelp.UCPF,TypeHelp.UCP@)
+  id: Convert(System.Boolean,TypeHelp.UCPF,TypeHelp.UCP@)
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: Convert(bool, UCPF, out UCP)
+  nameWithType: UCPlane.Convert(bool, UCPF, out UCP)
+  fullName: TypeHelp.UCPlane.Convert(bool, TypeHelp.UCPF, out TypeHelp.UCP)
+  type: Method
+  source:
+    id: Convert
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 198
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool Convert(bool ascending, UCPF flag, out UCP ucp)
+    parameters:
+    - id: ascending
+      type: System.Boolean
+    - id: flag
+      type: TypeHelp.UCPF
+    - id: ucp
+      type: TypeHelp.UCP
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function Convert(ascending As Boolean, flag As UCPF, ucp As UCP) As Boolean
+  overload: TypeHelp.UCPlane.Convert*
+  nameWithType.vb: UCPlane.Convert(Boolean, UCPF, UCP)
+  fullName.vb: TypeHelp.UCPlane.Convert(Boolean, TypeHelp.UCPF, TypeHelp.UCP)
+  name.vb: Convert(Boolean, UCPF, UCP)
+- uid: TypeHelp.UCPlane.Convert(TypeHelp.UCP)
+  commentId: M:TypeHelp.UCPlane.Convert(TypeHelp.UCP)
+  id: Convert(TypeHelp.UCP)
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: Convert(UCP)
+  nameWithType: UCPlane.Convert(UCP)
+  fullName: TypeHelp.UCPlane.Convert(TypeHelp.UCP)
+  type: Method
+  source:
+    id: Convert
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 204
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static UCPF Convert(UCP ucp)
+    parameters:
+    - id: ucp
+      type: TypeHelp.UCP
+    return:
+      type: TypeHelp.UCPF
+    content.vb: Public Shared Function Convert(ucp As UCP) As UCPF
+  overload: TypeHelp.UCPlane.Convert*
+- uid: TypeHelp.UCPlane.Convert(TypeHelp.UCP,TypeHelp.UCPF@)
+  commentId: M:TypeHelp.UCPlane.Convert(TypeHelp.UCP,TypeHelp.UCPF@)
+  id: Convert(TypeHelp.UCP,TypeHelp.UCPF@)
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: Convert(UCP, out UCPF)
+  nameWithType: UCPlane.Convert(UCP, out UCPF)
+  fullName: TypeHelp.UCPlane.Convert(TypeHelp.UCP, out TypeHelp.UCPF)
+  type: Method
+  source:
+    id: Convert
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 209
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool Convert(UCP ucp, out UCPF flag)
+    parameters:
+    - id: ucp
+      type: TypeHelp.UCP
+    - id: flag
+      type: TypeHelp.UCPF
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function Convert(ucp As UCP, flag As UCPF) As Boolean
+  overload: TypeHelp.UCPlane.Convert*
+  nameWithType.vb: UCPlane.Convert(UCP, UCPF)
+  fullName.vb: TypeHelp.UCPlane.Convert(TypeHelp.UCP, TypeHelp.UCPF)
+  name.vb: Convert(UCP, UCPF)
+- uid: TypeHelp.UCPlane.GetUCPlanes(TypeHelp.UCP[])
+  commentId: M:TypeHelp.UCPlane.GetUCPlanes(TypeHelp.UCP[])
+  id: GetUCPlanes(TypeHelp.UCP[])
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: GetUCPlanes(UCP[])
+  nameWithType: UCPlane.GetUCPlanes(UCP[])
+  fullName: TypeHelp.UCPlane.GetUCPlanes(TypeHelp.UCP[])
+  type: Method
+  source:
+    id: GetUCPlanes
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 216
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static UCPlane[] GetUCPlanes(UCP[] selections)
+    parameters:
+    - id: selections
+      type: TypeHelp.UCP[]
+    return:
+      type: TypeHelp.UCPlane[]
+    content.vb: Public Shared Function GetUCPlanes(selections As UCP()) As UCPlane()
+  overload: TypeHelp.UCPlane.GetUCPlanes*
+  nameWithType.vb: UCPlane.GetUCPlanes(UCP())
+  fullName.vb: TypeHelp.UCPlane.GetUCPlanes(TypeHelp.UCP())
+  name.vb: GetUCPlanes(UCP())
+- uid: TypeHelp.UCPlane.GetUCPlanes(TypeHelp.UCPF)
+  commentId: M:TypeHelp.UCPlane.GetUCPlanes(TypeHelp.UCPF)
+  id: GetUCPlanes(TypeHelp.UCPF)
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: GetUCPlanes(UCPF)
+  nameWithType: UCPlane.GetUCPlanes(UCPF)
+  fullName: TypeHelp.UCPlane.GetUCPlanes(TypeHelp.UCPF)
+  type: Method
+  source:
+    id: GetUCPlanes
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 230
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static UCPlane[] GetUCPlanes(UCPF selections)
+    parameters:
+    - id: selections
+      type: TypeHelp.UCPF
+    return:
+      type: TypeHelp.UCPlane[]
+    content.vb: Public Shared Function GetUCPlanes(selections As UCPF) As UCPlane()
+  overload: TypeHelp.UCPlane.GetUCPlanes*
+- uid: TypeHelp.UCPlane.HasFlags(System.Boolean,TypeHelp.UCPF,TypeHelp.UCPF)
+  commentId: M:TypeHelp.UCPlane.HasFlags(System.Boolean,TypeHelp.UCPF,TypeHelp.UCPF)
+  id: HasFlags(System.Boolean,TypeHelp.UCPF,TypeHelp.UCPF)
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: HasFlags(bool, UCPF, UCPF)
+  nameWithType: UCPlane.HasFlags(bool, UCPF, UCPF)
+  fullName: TypeHelp.UCPlane.HasFlags(bool, TypeHelp.UCPF, TypeHelp.UCPF)
+  type: Method
+  source:
+    id: HasFlags
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 246
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool HasFlags(bool exact, UCPF value, UCPF flags)
+    parameters:
+    - id: exact
+      type: System.Boolean
+    - id: value
+      type: TypeHelp.UCPF
+    - id: flags
+      type: TypeHelp.UCPF
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function HasFlags(exact As Boolean, value As UCPF, flags As UCPF) As Boolean
+  overload: TypeHelp.UCPlane.HasFlags*
+  nameWithType.vb: UCPlane.HasFlags(Boolean, UCPF, UCPF)
+  fullName.vb: TypeHelp.UCPlane.HasFlags(Boolean, TypeHelp.UCPF, TypeHelp.UCPF)
+  name.vb: HasFlags(Boolean, UCPF, UCPF)
+- uid: TypeHelp.UCPlane.IsInCodePlane(System.Int32,TypeHelp.UCP)
+  commentId: M:TypeHelp.UCPlane.IsInCodePlane(System.Int32,TypeHelp.UCP)
+  id: IsInCodePlane(System.Int32,TypeHelp.UCP)
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: IsInCodePlane(int, UCP)
+  nameWithType: UCPlane.IsInCodePlane(int, UCP)
+  fullName: TypeHelp.UCPlane.IsInCodePlane(int, TypeHelp.UCP)
+  type: Method
+  source:
+    id: IsInCodePlane
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 252
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool IsInCodePlane(int value, UCP ucp)
+    parameters:
+    - id: value
+      type: System.Int32
+    - id: ucp
+      type: TypeHelp.UCP
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsInCodePlane(value As Integer, ucp As UCP) As Boolean
+  overload: TypeHelp.UCPlane.IsInCodePlane*
+  nameWithType.vb: UCPlane.IsInCodePlane(Integer, UCP)
+  fullName.vb: TypeHelp.UCPlane.IsInCodePlane(Integer, TypeHelp.UCP)
+  name.vb: IsInCodePlane(Integer, UCP)
+- uid: TypeHelp.UCPlane.IsCodePlane(System.Int32)
+  commentId: M:TypeHelp.UCPlane.IsCodePlane(System.Int32)
+  id: IsCodePlane(System.Int32)
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: IsCodePlane(int)
+  nameWithType: UCPlane.IsCodePlane(int)
+  fullName: TypeHelp.UCPlane.IsCodePlane(int)
+  type: Method
+  source:
+    id: IsCodePlane
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 257
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool IsCodePlane(int value)
+    parameters:
+    - id: value
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsCodePlane(value As Integer) As Boolean
+  overload: TypeHelp.UCPlane.IsCodePlane*
+  nameWithType.vb: UCPlane.IsCodePlane(Integer)
+  fullName.vb: TypeHelp.UCPlane.IsCodePlane(Integer)
+  name.vb: IsCodePlane(Integer)
+- uid: TypeHelp.UCPlane.IsUCPlane(TypeHelp.UCP)
+  commentId: M:TypeHelp.UCPlane.IsUCPlane(TypeHelp.UCP)
+  id: IsUCPlane(TypeHelp.UCP)
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: IsUCPlane(UCP)
+  nameWithType: UCPlane.IsUCPlane(UCP)
+  fullName: TypeHelp.UCPlane.IsUCPlane(TypeHelp.UCP)
+  type: Method
+  source:
+    id: IsUCPlane
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 262
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool IsUCPlane(UCP ucp)
+    parameters:
+    - id: ucp
+      type: TypeHelp.UCP
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsUCPlane(ucp As UCP) As Boolean
+  overload: TypeHelp.UCPlane.IsUCPlane*
+- uid: TypeHelp.UCPlane.IsUCPlane(TypeHelp.UCPF)
+  commentId: M:TypeHelp.UCPlane.IsUCPlane(TypeHelp.UCPF)
+  id: IsUCPlane(TypeHelp.UCPF)
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: IsUCPlane(UCPF)
+  nameWithType: UCPlane.IsUCPlane(UCPF)
+  fullName: TypeHelp.UCPlane.IsUCPlane(TypeHelp.UCPF)
+  type: Method
+  source:
+    id: IsUCPlane
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 267
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool IsUCPlane(UCPF ucpf)
+    parameters:
+    - id: ucpf
+      type: TypeHelp.UCPF
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsUCPlane(ucpf As UCPF) As Boolean
+  overload: TypeHelp.UCPlane.IsUCPlane*
+- uid: TypeHelp.UCPlane.IsUCPlane(System.Boolean,System.Int32)
+  commentId: M:TypeHelp.UCPlane.IsUCPlane(System.Boolean,System.Int32)
+  id: IsUCPlane(System.Boolean,System.Int32)
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: IsUCPlane(bool, int)
+  nameWithType: UCPlane.IsUCPlane(bool, int)
+  fullName: TypeHelp.UCPlane.IsUCPlane(bool, int)
+  type: Method
+  source:
+    id: IsUCPlane
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 272
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static bool IsUCPlane(bool allowNON, int value)
+    parameters:
+    - id: allowNON
+      type: System.Boolean
+    - id: value
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsUCPlane(allowNON As Boolean, value As Integer) As Boolean
+  overload: TypeHelp.UCPlane.IsUCPlane*
+  nameWithType.vb: UCPlane.IsUCPlane(Boolean, Integer)
+  fullName.vb: TypeHelp.UCPlane.IsUCPlane(Boolean, Integer)
+  name.vb: IsUCPlane(Boolean, Integer)
+- uid: TypeHelp.UCPlane.QueryField(TypeHelp.UCPField)
+  commentId: M:TypeHelp.UCPlane.QueryField(TypeHelp.UCPField)
+  id: QueryField(TypeHelp.UCPField)
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: QueryField(UCPField)
+  nameWithType: UCPlane.QueryField(UCPField)
+  fullName: TypeHelp.UCPlane.QueryField(TypeHelp.UCPField)
+  type: Method
+  source:
+    id: QueryField
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 283
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static object[] QueryField(UCPField field)
+    parameters:
+    - id: field
+      type: TypeHelp.UCPField
+    return:
+      type: System.Object[]
+    content.vb: Public Shared Function QueryField(field As UCPField) As Object()
+  overload: TypeHelp.UCPlane.QueryField*
+- uid: TypeHelp.UCPlane.Sanitize(TypeHelp.UCPF)
+  commentId: M:TypeHelp.UCPlane.Sanitize(TypeHelp.UCPF)
+  id: Sanitize(TypeHelp.UCPF)
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: Sanitize(UCPF)
+  nameWithType: UCPlane.Sanitize(UCPF)
+  fullName: TypeHelp.UCPlane.Sanitize(TypeHelp.UCPF)
+  type: Method
+  source:
+    id: Sanitize
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 317
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static UCPF Sanitize(UCPF ucpf)
+    parameters:
+    - id: ucpf
+      type: TypeHelp.UCPF
+    return:
+      type: TypeHelp.UCPF
+    content.vb: Public Shared Function Sanitize(ucpf As UCPF) As UCPF
+  overload: TypeHelp.UCPlane.Sanitize*
+- uid: TypeHelp.UCPlane.Set(System.Boolean,TypeHelp.UCPF,TypeHelp.UCPF)
+  commentId: M:TypeHelp.UCPlane.Set(System.Boolean,TypeHelp.UCPF,TypeHelp.UCPF)
+  id: Set(System.Boolean,TypeHelp.UCPF,TypeHelp.UCPF)
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: Set(bool, UCPF, UCPF)
+  nameWithType: UCPlane.Set(bool, UCPF, UCPF)
+  fullName: TypeHelp.UCPlane.Set(bool, TypeHelp.UCPF, TypeHelp.UCPF)
+  type: Method
+  source:
+    id: Set
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 322
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static UCPF Set(bool set, UCPF ucpf, UCPF flags)
+    parameters:
+    - id: set
+      type: System.Boolean
+    - id: ucpf
+      type: TypeHelp.UCPF
+    - id: flags
+      type: TypeHelp.UCPF
+    return:
+      type: TypeHelp.UCPF
+    content.vb: Public Shared Function [Set]([set] As Boolean, ucpf As UCPF, flags As UCPF) As UCPF
+  overload: TypeHelp.UCPlane.Set*
+  nameWithType.vb: UCPlane.Set(Boolean, UCPF, UCPF)
+  fullName.vb: TypeHelp.UCPlane.Set(Boolean, TypeHelp.UCPF, TypeHelp.UCPF)
+  name.vb: Set(Boolean, UCPF, UCPF)
+- uid: TypeHelp.UCPlane.Set(System.Boolean,TypeHelp.UCPF,TypeHelp.UCP)
+  commentId: M:TypeHelp.UCPlane.Set(System.Boolean,TypeHelp.UCPF,TypeHelp.UCP)
+  id: Set(System.Boolean,TypeHelp.UCPF,TypeHelp.UCP)
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: Set(bool, UCPF, UCP)
+  nameWithType: UCPlane.Set(bool, UCPF, UCP)
+  fullName: TypeHelp.UCPlane.Set(bool, TypeHelp.UCPF, TypeHelp.UCP)
+  type: Method
+  source:
+    id: Set
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 327
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static UCPF Set(bool set, UCPF ucpf, UCP ucp)
+    parameters:
+    - id: set
+      type: System.Boolean
+    - id: ucpf
+      type: TypeHelp.UCPF
+    - id: ucp
+      type: TypeHelp.UCP
+    return:
+      type: TypeHelp.UCPF
+    content.vb: Public Shared Function [Set]([set] As Boolean, ucpf As UCPF, ucp As UCP) As UCPF
+  overload: TypeHelp.UCPlane.Set*
+  nameWithType.vb: UCPlane.Set(Boolean, UCPF, UCP)
+  fullName.vb: TypeHelp.UCPlane.Set(Boolean, TypeHelp.UCPF, TypeHelp.UCP)
+  name.vb: Set(Boolean, UCPF, UCP)
+- uid: TypeHelp.UCPlane.UCPlaneOf(System.Int32)
+  commentId: M:TypeHelp.UCPlane.UCPlaneOf(System.Int32)
+  id: UCPlaneOf(System.Int32)
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: UCPlaneOf(int)
+  nameWithType: UCPlane.UCPlaneOf(int)
+  fullName: TypeHelp.UCPlane.UCPlaneOf(int)
+  type: Method
+  source:
+    id: UCPlaneOf
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 333
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static UCPlane UCPlaneOf(int codePoint)
+    parameters:
+    - id: codePoint
+      type: System.Int32
+    return:
+      type: TypeHelp.UCPlane
+    content.vb: Public Shared Function UCPlaneOf(codePoint As Integer) As UCPlane
+  overload: TypeHelp.UCPlane.UCPlaneOf*
+  nameWithType.vb: UCPlane.UCPlaneOf(Integer)
+  fullName.vb: TypeHelp.UCPlane.UCPlaneOf(Integer)
+  name.vb: UCPlaneOf(Integer)
+- uid: TypeHelp.UCPlane.UCPlaneOf(TypeHelp.UCP)
+  commentId: M:TypeHelp.UCPlane.UCPlaneOf(TypeHelp.UCP)
+  id: UCPlaneOf(TypeHelp.UCP)
+  parent: TypeHelp.UCPlane
+  langs:
+  - csharp
+  - vb
+  name: UCPlaneOf(UCP)
+  nameWithType: UCPlane.UCPlaneOf(UCP)
+  fullName: TypeHelp.UCPlane.UCPlaneOf(TypeHelp.UCP)
+  type: Method
+  source:
+    id: UCPlaneOf
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Unicode\UCPlane.cs
+    startLine: 339
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  syntax:
+    content: public static UCPlane UCPlaneOf(UCP ucp)
+    parameters:
+    - id: ucp
+      type: TypeHelp.UCP
+    return:
+      type: TypeHelp.UCPlane
+    content.vb: Public Shared Function UCPlaneOf(ucp As UCP) As UCPlane
+  overload: TypeHelp.UCPlane.UCPlaneOf*
+references:
+- uid: TypeHelp
+  commentId: N:TypeHelp
+  href: TypeHelp.html
+  name: TypeHelp
+  nameWithType: TypeHelp
+  fullName: TypeHelp
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: TypeHelp.UCPF
+  commentId: T:TypeHelp.UCPF
+  parent: TypeHelp
+  href: TypeHelp.UCPF.html
+  name: UCPF
+  nameWithType: UCPF
+  fullName: TypeHelp.UCPF
+- uid: TypeHelp.UCP
+  commentId: T:TypeHelp.UCP
+  parent: TypeHelp
+  href: TypeHelp.UCP.html
+  name: UCP
+  nameWithType: UCP
+  fullName: TypeHelp.UCP
+- uid: TypeHelp.UCPlane.#ctor*
+  commentId: Overload:TypeHelp.UCPlane.#ctor
+  href: TypeHelp.UCPlane.#ctor(TypeHelp.UCP,System.Int32,System.Int32).html
+  name: UCPlane
+  nameWithType: UCPlane.UCPlane
+  fullName: TypeHelp.UCPlane.UCPlane
+  nameWithType.vb: UCPlane.New
+  fullName.vb: TypeHelp.UCPlane.New
+  name.vb: New
+- uid: TypeHelp.UCPlane.InvalidPlaneLabel*
+  commentId: Overload:TypeHelp.UCPlane.InvalidPlaneLabel
+  href: TypeHelp.UCPlane.InvalidPlaneLabel.html
+  name: InvalidPlaneLabel
+  nameWithType: UCPlane.InvalidPlaneLabel
+  fullName: TypeHelp.UCPlane.InvalidPlaneLabel
+- uid: TypeHelp.UCPlane.InvalidPlaneName*
+  commentId: Overload:TypeHelp.UCPlane.InvalidPlaneName
+  href: TypeHelp.UCPlane.InvalidPlaneName.html
+  name: InvalidPlaneName
+  nameWithType: UCPlane.InvalidPlaneName
+  fullName: TypeHelp.UCPlane.InvalidPlaneName
+- uid: TypeHelp.UCPlane.NonUCPlane*
+  commentId: Overload:TypeHelp.UCPlane.NonUCPlane
+  href: TypeHelp.UCPlane.NonUCPlane.html
+  name: NonUCPlane
+  nameWithType: UCPlane.NonUCPlane
+  fullName: TypeHelp.UCPlane.NonUCPlane
+- uid: TypeHelp.UCPlane
+  commentId: T:TypeHelp.UCPlane
+  parent: TypeHelp
+  href: TypeHelp.UCPlane.html
+  name: UCPlane
+  nameWithType: UCPlane
+  fullName: TypeHelp.UCPlane
+- uid: TypeHelp.UCPlane.NumCodePlanes*
+  commentId: Overload:TypeHelp.UCPlane.NumCodePlanes
+  href: TypeHelp.UCPlane.NumCodePlanes.html
+  name: NumCodePlanes
+  nameWithType: UCPlane.NumCodePlanes
+  fullName: TypeHelp.UCPlane.NumCodePlanes
+- uid: TypeHelp.UCPlane.ValidPlanes*
+  commentId: Overload:TypeHelp.UCPlane.ValidPlanes
+  href: TypeHelp.UCPlane.ValidPlanes.html
+  name: ValidPlanes
+  nameWithType: UCPlane.ValidPlanes
+  fullName: TypeHelp.UCPlane.ValidPlanes
+- uid: TypeHelp.UCPlane.UCPSentinel*
+  commentId: Overload:TypeHelp.UCPlane.UCPSentinel
+  href: TypeHelp.UCPlane.UCPSentinel.html
+  name: UCPSentinel
+  nameWithType: UCPlane.UCPSentinel
+  fullName: TypeHelp.UCPlane.UCPSentinel
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: TypeHelp.UCPlane[]
+  isExternal: true
+  href: TypeHelp.UCPlane.html
+  name: UCPlane[]
+  nameWithType: UCPlane[]
+  fullName: TypeHelp.UCPlane[]
+  nameWithType.vb: UCPlane()
+  fullName.vb: TypeHelp.UCPlane()
+  name.vb: UCPlane()
+  spec.csharp:
+  - uid: TypeHelp.UCPlane
+    name: UCPlane
+    href: TypeHelp.UCPlane.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: TypeHelp.UCPlane
+    name: UCPlane
+    href: TypeHelp.UCPlane.html
+  - name: (
+  - name: )
+- uid: TypeHelp.UCPlane.CodePlaneOf*
+  commentId: Overload:TypeHelp.UCPlane.CodePlaneOf
+  href: TypeHelp.UCPlane.CodePlaneOf(System.Int32).html
+  name: CodePlaneOf
+  nameWithType: UCPlane.CodePlaneOf
+  fullName: TypeHelp.UCPlane.CodePlaneOf
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: TypeHelp.UCPlane.Convert*
+  commentId: Overload:TypeHelp.UCPlane.Convert
+  href: TypeHelp.UCPlane.Convert(TypeHelp.UCPF).html
+  name: Convert
+  nameWithType: UCPlane.Convert
+  fullName: TypeHelp.UCPlane.Convert
+- uid: TypeHelp.UCPlane.GetUCPlanes*
+  commentId: Overload:TypeHelp.UCPlane.GetUCPlanes
+  href: TypeHelp.UCPlane.GetUCPlanes(TypeHelp.UCP[]).html
+  name: GetUCPlanes
+  nameWithType: UCPlane.GetUCPlanes
+  fullName: TypeHelp.UCPlane.GetUCPlanes
+- uid: TypeHelp.UCP[]
+  isExternal: true
+  href: TypeHelp.UCP.html
+  name: UCP[]
+  nameWithType: UCP[]
+  fullName: TypeHelp.UCP[]
+  nameWithType.vb: UCP()
+  fullName.vb: TypeHelp.UCP()
+  name.vb: UCP()
+  spec.csharp:
+  - uid: TypeHelp.UCP
+    name: UCP
+    href: TypeHelp.UCP.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: TypeHelp.UCP
+    name: UCP
+    href: TypeHelp.UCP.html
+  - name: (
+  - name: )
+- uid: TypeHelp.UCPlane.HasFlags*
+  commentId: Overload:TypeHelp.UCPlane.HasFlags
+  href: TypeHelp.UCPlane.HasFlags(System.Boolean,TypeHelp.UCPF,TypeHelp.UCPF).html
+  name: HasFlags
+  nameWithType: UCPlane.HasFlags
+  fullName: TypeHelp.UCPlane.HasFlags
+- uid: TypeHelp.UCPlane.IsInCodePlane*
+  commentId: Overload:TypeHelp.UCPlane.IsInCodePlane
+  href: TypeHelp.UCPlane.IsInCodePlane(System.Int32,TypeHelp.UCP).html
+  name: IsInCodePlane
+  nameWithType: UCPlane.IsInCodePlane
+  fullName: TypeHelp.UCPlane.IsInCodePlane
+- uid: TypeHelp.UCPlane.IsCodePlane*
+  commentId: Overload:TypeHelp.UCPlane.IsCodePlane
+  href: TypeHelp.UCPlane.IsCodePlane(System.Int32).html
+  name: IsCodePlane
+  nameWithType: UCPlane.IsCodePlane
+  fullName: TypeHelp.UCPlane.IsCodePlane
+- uid: TypeHelp.UCPlane.IsUCPlane*
+  commentId: Overload:TypeHelp.UCPlane.IsUCPlane
+  href: TypeHelp.UCPlane.IsUCPlane(TypeHelp.UCP).html
+  name: IsUCPlane
+  nameWithType: UCPlane.IsUCPlane
+  fullName: TypeHelp.UCPlane.IsUCPlane
+- uid: TypeHelp.UCPlane.QueryField*
+  commentId: Overload:TypeHelp.UCPlane.QueryField
+  href: TypeHelp.UCPlane.QueryField(TypeHelp.UCPField).html
+  name: QueryField
+  nameWithType: UCPlane.QueryField
+  fullName: TypeHelp.UCPlane.QueryField
+- uid: TypeHelp.UCPField
+  commentId: T:TypeHelp.UCPField
+  parent: TypeHelp
+  href: TypeHelp.UCPField.html
+  name: UCPField
+  nameWithType: UCPField
+  fullName: TypeHelp.UCPField
+- uid: System.Object[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object[]
+  nameWithType: object[]
+  fullName: object[]
+  nameWithType.vb: Object()
+  fullName.vb: Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: (
+  - name: )
+- uid: TypeHelp.UCPlane.Sanitize*
+  commentId: Overload:TypeHelp.UCPlane.Sanitize
+  href: TypeHelp.UCPlane.Sanitize(TypeHelp.UCPF).html
+  name: Sanitize
+  nameWithType: UCPlane.Sanitize
+  fullName: TypeHelp.UCPlane.Sanitize
+- uid: TypeHelp.UCPlane.Set*
+  commentId: Overload:TypeHelp.UCPlane.Set
+  href: TypeHelp.UCPlane.Set(System.Boolean,TypeHelp.UCPF,TypeHelp.UCPF).html
+  name: Set
+  nameWithType: UCPlane.Set
+  fullName: TypeHelp.UCPlane.Set
+- uid: TypeHelp.UCPlane.UCPlaneOf*
+  commentId: Overload:TypeHelp.UCPlane.UCPlaneOf
+  href: TypeHelp.UCPlane.UCPlaneOf(System.Int32).html
+  name: UCPlaneOf
+  nameWithType: UCPlane.UCPlaneOf
+  fullName: TypeHelp.UCPlane.UCPlaneOf
+memberLayout: SeparatePages

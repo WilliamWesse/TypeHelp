@@ -1,0 +1,2053 @@
+### YamlMime:ManagedReference
+items:
+- uid: TypeHelp.UuidV7
+  commentId: T:TypeHelp.UuidV7
+  id: UuidV7
+  parent: TypeHelp
+  children:
+  - TypeHelp.UuidV7.#ctor(System.Boolean,System.Byte[])
+  - TypeHelp.UuidV7.RandA
+  - TypeHelp.UuidV7.RandAInfo
+  - TypeHelp.UuidV7.RandB
+  - TypeHelp.UuidV7.RandBInfo
+  - TypeHelp.UuidV7.UnixTime
+  - TypeHelp.UuidV7.UnixTimeInfo
+  langs:
+  - csharp
+  - vb
+  name: UuidV7
+  nameWithType: UuidV7
+  fullName: TypeHelp.UuidV7
+  type: Class
+  source:
+    id: UuidV7
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\UuidVersions.cs
+    startLine: 115
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: UuidV7.
+  example: []
+  syntax:
+    content: 'public class UuidV7 : Uuid'
+    content.vb: Public Class UuidV7 Inherits Uuid
+  inheritance:
+  - System.Object
+  - TypeHelp.Uuid
+  inheritedMembers:
+  - TypeHelp.Uuid.Data
+  - TypeHelp.Uuid.Epoch
+  - TypeHelp.Uuid.IsMaxUuid
+  - TypeHelp.Uuid.IsNilUuid
+  - TypeHelp.Uuid.IsStrict
+  - TypeHelp.Uuid.IsValid
+  - TypeHelp.Uuid.Variant
+  - TypeHelp.Uuid.VariantInfo
+  - TypeHelp.Uuid.Version
+  - TypeHelp.Uuid.VersionInfo
+  - TypeHelp.Uuid.TimeStamp
+  - TypeHelp.Uuid.ToString(System.String)
+  - TypeHelp.Uuid.ToString(TypeHelp.UuidFormat)
+  - TypeHelp.Uuid.ToString(TypeHelp.UuidFormat,System.Nullable{System.Int32})
+  - TypeHelp.Uuid.Clamp(System.Int32,System.Int32,System.Nullable{System.Boolean})
+  - TypeHelp.Uuid.GetValue(System.Int32,System.Int32)
+  - TypeHelp.Uuid.IsSafeOffset(System.Nullable{System.Boolean},System.Int32)
+  - TypeHelp.Uuid.SafeOffset(System.Int32)
+  - TypeHelp.Uuid.SafeOffset(System.Int32,System.Nullable{System.Boolean})
+  - TypeHelp.Uuid.SafeOffset(System.Int32,System.Int32)
+  - TypeHelp.Uuid.SafeOffset(System.Int32,System.Int32,System.Nullable{System.Boolean})
+  - TypeHelp.Uuid.SafeOffset(System.Int32,System.Nullable{System.Boolean},System.Int32)
+  - TypeHelp.Uuid.SafeOffset(System.Int32,System.Nullable{System.Boolean},System.Int32,System.Nullable{System.Boolean})
+  - TypeHelp.Uuid.SafeOffsetCheck(System.Int32,System.Nullable{System.Boolean})
+  - TypeHelp.Uuid.SafeLength(System.Int32)
+  - TypeHelp.Uuid.SafeLength(System.Int32,System.Nullable{System.Boolean})
+  - TypeHelp.Uuid.SafeLength(System.Int32,System.Int32)
+  - TypeHelp.Uuid.SafeLength(System.Int32,System.Nullable{System.Boolean},System.Int32)
+  - TypeHelp.Uuid.SafeLength(System.Int32,System.Nullable{System.Boolean},System.Nullable{System.Boolean})
+  - TypeHelp.Uuid.SafeLength(System.Int32,System.Nullable{System.Boolean},System.Int32,System.Nullable{System.Boolean})
+  - TypeHelp.Uuid.SafeLengthCheck(System.Int32,System.Nullable{System.Boolean})
+  - TypeHelp.Uuid.ToStringBinary
+  - TypeHelp.Uuid.ToStringCsv(System.String)
+  - TypeHelp.Uuid.ToStringPackedHex
+  - TypeHelp.Uuid.ToStringPrefixed
+  - TypeHelp.Uuid.ToStringRfc(TypeHelp.UuidFormat)
+  - TypeHelp.Uuid.field_info_set
+  - TypeHelp.Uuid.field_size
+  - TypeHelp.Uuid.ErrorPrefix
+  - TypeHelp.Uuid.FormatSizes
+  - TypeHelp.Uuid.FormatSizeMin
+  - TypeHelp.Uuid.FormatSizeMax
+  - TypeHelp.Uuid.UuidFormats
+  - TypeHelp.Uuid.UuidFormatRE
+  - TypeHelp.Uuid.GetBigInteger(System.Byte[])
+  - TypeHelp.Uuid.GetBigInteger(System.Byte[],System.Int32,System.Int32)
+  - TypeHelp.Uuid.GetUInt16(System.Byte[],System.Int32)
+  - TypeHelp.Uuid.GetUInt32(System.Byte[],System.Int32)
+  - TypeHelp.Uuid.GetUInt64(System.Byte[],System.Int32)
+  - TypeHelp.Uuid.InvalidParamText(System.String)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: TypeHelp.UuidV7.UnixTime
+  commentId: F:TypeHelp.UuidV7.UnixTime
+  id: UnixTime
+  parent: TypeHelp.UuidV7
+  langs:
+  - csharp
+  - vb
+  name: UnixTime
+  nameWithType: UuidV7.UnixTime
+  fullName: TypeHelp.UuidV7.UnixTime
+  type: Field
+  source:
+    id: UnixTime
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\UuidVersions.cs
+    startLine: 120
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: The unix time.
+  example: []
+  syntax:
+    content: public readonly ulong UnixTime
+    return:
+      type: System.UInt64
+    content.vb: Public ReadOnly UnixTime As ULong
+- uid: TypeHelp.UuidV7.UnixTimeInfo
+  commentId: F:TypeHelp.UuidV7.UnixTimeInfo
+  id: UnixTimeInfo
+  parent: TypeHelp.UuidV7
+  langs:
+  - csharp
+  - vb
+  name: UnixTimeInfo
+  nameWithType: UuidV7.UnixTimeInfo
+  fullName: TypeHelp.UuidV7.UnixTimeInfo
+  type: Field
+  source:
+    id: UnixTimeInfo
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\UuidVersions.cs
+    startLine: 124
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: The unix time info.
+  example: []
+  syntax:
+    content: public readonly FieldInfo UnixTimeInfo
+    return:
+      type: TypeHelp.FieldInfo
+    content.vb: Public ReadOnly UnixTimeInfo As FieldInfo
+- uid: TypeHelp.UuidV7.RandA
+  commentId: F:TypeHelp.UuidV7.RandA
+  id: RandA
+  parent: TypeHelp.UuidV7
+  langs:
+  - csharp
+  - vb
+  name: RandA
+  nameWithType: UuidV7.RandA
+  fullName: TypeHelp.UuidV7.RandA
+  type: Field
+  source:
+    id: RandA
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\UuidVersions.cs
+    startLine: 128
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: The rand a.
+  example: []
+  syntax:
+    content: public readonly ulong RandA
+    return:
+      type: System.UInt64
+    content.vb: Public ReadOnly RandA As ULong
+- uid: TypeHelp.UuidV7.RandAInfo
+  commentId: F:TypeHelp.UuidV7.RandAInfo
+  id: RandAInfo
+  parent: TypeHelp.UuidV7
+  langs:
+  - csharp
+  - vb
+  name: RandAInfo
+  nameWithType: UuidV7.RandAInfo
+  fullName: TypeHelp.UuidV7.RandAInfo
+  type: Field
+  source:
+    id: RandAInfo
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\UuidVersions.cs
+    startLine: 132
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: The rand a info.
+  example: []
+  syntax:
+    content: public readonly FieldInfo RandAInfo
+    return:
+      type: TypeHelp.FieldInfo
+    content.vb: Public ReadOnly RandAInfo As FieldInfo
+- uid: TypeHelp.UuidV7.RandB
+  commentId: F:TypeHelp.UuidV7.RandB
+  id: RandB
+  parent: TypeHelp.UuidV7
+  langs:
+  - csharp
+  - vb
+  name: RandB
+  nameWithType: UuidV7.RandB
+  fullName: TypeHelp.UuidV7.RandB
+  type: Field
+  source:
+    id: RandB
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\UuidVersions.cs
+    startLine: 136
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: The rand b.
+  example: []
+  syntax:
+    content: public readonly ulong RandB
+    return:
+      type: System.UInt64
+    content.vb: Public ReadOnly RandB As ULong
+- uid: TypeHelp.UuidV7.RandBInfo
+  commentId: F:TypeHelp.UuidV7.RandBInfo
+  id: RandBInfo
+  parent: TypeHelp.UuidV7
+  langs:
+  - csharp
+  - vb
+  name: RandBInfo
+  nameWithType: UuidV7.RandBInfo
+  fullName: TypeHelp.UuidV7.RandBInfo
+  type: Field
+  source:
+    id: RandBInfo
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\UuidVersions.cs
+    startLine: 140
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: The rand b info.
+  example: []
+  syntax:
+    content: public readonly FieldInfo RandBInfo
+    return:
+      type: TypeHelp.FieldInfo
+    content.vb: Public ReadOnly RandBInfo As FieldInfo
+- uid: TypeHelp.UuidV7.#ctor(System.Boolean,System.Byte[])
+  commentId: M:TypeHelp.UuidV7.#ctor(System.Boolean,System.Byte[])
+  id: '#ctor(System.Boolean,System.Byte[])'
+  parent: TypeHelp.UuidV7
+  langs:
+  - csharp
+  - vb
+  name: UuidV7(bool, byte[])
+  nameWithType: UuidV7.UuidV7(bool, byte[])
+  fullName: TypeHelp.UuidV7.UuidV7(bool, byte[])
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Users\wwess\source\repos\TypeHelp\src\Uuid\UuidVersions.cs
+    startLine: 147
+  assemblies:
+  - TypeHelp
+  namespace: TypeHelp
+  summary: Initializes a new instance of the <xref href="TypeHelp.UuidV7" data-throw-if-not-resolved="false"></xref> class.
+  example: []
+  syntax:
+    content: public UuidV7(bool strict, byte[] data)
+    parameters:
+    - id: strict
+      type: System.Boolean
+      description: If true, strict.
+    - id: data
+      type: System.Byte[]
+      description: The data.
+    content.vb: Public Sub New(strict As Boolean, data As Byte())
+  overload: TypeHelp.UuidV7.#ctor*
+  nameWithType.vb: UuidV7.New(Boolean, Byte())
+  fullName.vb: TypeHelp.UuidV7.New(Boolean, Byte())
+  name.vb: New(Boolean, Byte())
+references:
+- uid: TypeHelp
+  commentId: N:TypeHelp
+  href: TypeHelp.html
+  name: TypeHelp
+  nameWithType: TypeHelp
+  fullName: TypeHelp
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: TypeHelp.Uuid
+  commentId: T:TypeHelp.Uuid
+  parent: TypeHelp
+  href: TypeHelp.Uuid.html
+  name: Uuid
+  nameWithType: Uuid
+  fullName: TypeHelp.Uuid
+- uid: TypeHelp.Uuid.Data
+  commentId: F:TypeHelp.Uuid.Data
+  parent: TypeHelp.Uuid
+  href: TypeHelp.Uuid.Data.html
+  name: Data
+  nameWithType: Uuid.Data
+  fullName: TypeHelp.Uuid.Data
+- uid: TypeHelp.Uuid.Epoch
+  commentId: F:TypeHelp.Uuid.Epoch
+  parent: TypeHelp.Uuid
+  href: TypeHelp.Uuid.Epoch.html
+  name: Epoch
+  nameWithType: Uuid.Epoch
+  fullName: TypeHelp.Uuid.Epoch
+- uid: TypeHelp.Uuid.IsMaxUuid
+  commentId: F:TypeHelp.Uuid.IsMaxUuid
+  parent: TypeHelp.Uuid
+  href: TypeHelp.Uuid.IsMaxUuid.html
+  name: IsMaxUuid
+  nameWithType: Uuid.IsMaxUuid
+  fullName: TypeHelp.Uuid.IsMaxUuid
+- uid: TypeHelp.Uuid.IsNilUuid
+  commentId: F:TypeHelp.Uuid.IsNilUuid
+  parent: TypeHelp.Uuid
+  href: TypeHelp.Uuid.IsNilUuid.html
+  name: IsNilUuid
+  nameWithType: Uuid.IsNilUuid
+  fullName: TypeHelp.Uuid.IsNilUuid
+- uid: TypeHelp.Uuid.IsStrict
+  commentId: F:TypeHelp.Uuid.IsStrict
+  parent: TypeHelp.Uuid
+  href: TypeHelp.Uuid.IsStrict.html
+  name: IsStrict
+  nameWithType: Uuid.IsStrict
+  fullName: TypeHelp.Uuid.IsStrict
+- uid: TypeHelp.Uuid.IsValid
+  commentId: F:TypeHelp.Uuid.IsValid
+  parent: TypeHelp.Uuid
+  href: TypeHelp.Uuid.IsValid.html
+  name: IsValid
+  nameWithType: Uuid.IsValid
+  fullName: TypeHelp.Uuid.IsValid
+- uid: TypeHelp.Uuid.Variant
+  commentId: F:TypeHelp.Uuid.Variant
+  parent: TypeHelp.Uuid
+  href: TypeHelp.Uuid.Variant.html
+  name: Variant
+  nameWithType: Uuid.Variant
+  fullName: TypeHelp.Uuid.Variant
+- uid: TypeHelp.Uuid.VariantInfo
+  commentId: F:TypeHelp.Uuid.VariantInfo
+  parent: TypeHelp.Uuid
+  href: TypeHelp.Uuid.VariantInfo.html
+  name: VariantInfo
+  nameWithType: Uuid.VariantInfo
+  fullName: TypeHelp.Uuid.VariantInfo
+- uid: TypeHelp.Uuid.Version
+  commentId: F:TypeHelp.Uuid.Version
+  parent: TypeHelp.Uuid
+  href: TypeHelp.Uuid.Version.html
+  name: Version
+  nameWithType: Uuid.Version
+  fullName: TypeHelp.Uuid.Version
+- uid: TypeHelp.Uuid.VersionInfo
+  commentId: F:TypeHelp.Uuid.VersionInfo
+  parent: TypeHelp.Uuid
+  href: TypeHelp.Uuid.VersionInfo.html
+  name: VersionInfo
+  nameWithType: Uuid.VersionInfo
+  fullName: TypeHelp.Uuid.VersionInfo
+- uid: TypeHelp.Uuid.TimeStamp
+  commentId: P:TypeHelp.Uuid.TimeStamp
+  parent: TypeHelp.Uuid
+  href: TypeHelp.Uuid.TimeStamp.html
+  name: TimeStamp
+  nameWithType: Uuid.TimeStamp
+  fullName: TypeHelp.Uuid.TimeStamp
+- uid: TypeHelp.Uuid.ToString(System.String)
+  commentId: M:TypeHelp.Uuid.ToString(System.String)
+  parent: TypeHelp.Uuid
+  isExternal: true
+  href: TypeHelp.Uuid.ToString(System.String).html
+  name: ToString(string)
+  nameWithType: Uuid.ToString(string)
+  fullName: TypeHelp.Uuid.ToString(string)
+  nameWithType.vb: Uuid.ToString(String)
+  fullName.vb: TypeHelp.Uuid.ToString(String)
+  name.vb: ToString(String)
+  spec.csharp:
+  - uid: TypeHelp.Uuid.ToString(System.String)
+    name: ToString
+    href: TypeHelp.Uuid.ToString(System.String).html
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: TypeHelp.Uuid.ToString(System.String)
+    name: ToString
+    href: TypeHelp.Uuid.ToString(System.String).html
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: TypeHelp.Uuid.ToString(TypeHelp.UuidFormat)
+  commentId: M:TypeHelp.Uuid.ToString(TypeHelp.UuidFormat)
+  parent: TypeHelp.Uuid
+  href: TypeHelp.Uuid.ToString(TypeHelp.UuidFormat).html
+  name: ToString(UuidFormat)
+  nameWithType: Uuid.ToString(UuidFormat)
+  fullName: TypeHelp.Uuid.ToString(TypeHelp.UuidFormat)
+  spec.csharp:
+  - uid: TypeHelp.Uuid.ToString(TypeHelp.UuidFormat)
+    name: ToString
+    href: TypeHelp.Uuid.ToString(TypeHelp.UuidFormat).html
+  - name: (
+  - uid: TypeHelp.UuidFormat
+    name: UuidFormat
+    href: TypeHelp.UuidFormat.html
+  - name: )
+  spec.vb:
+  - uid: TypeHelp.Uuid.ToString(TypeHelp.UuidFormat)
+    name: ToString
+    href: TypeHelp.Uuid.ToString(TypeHelp.UuidFormat).html
+  - name: (
+  - uid: TypeHelp.UuidFormat
+    name: UuidFormat
+    href: TypeHelp.UuidFormat.html
+  - name: )
+- uid: TypeHelp.Uuid.ToString(TypeHelp.UuidFormat,System.Nullable{System.Int32})
+  commentId: M:TypeHelp.Uuid.ToString(TypeHelp.UuidFormat,System.Nullable{System.Int32})
+  parent: TypeHelp.Uuid
+  isExternal: true
+  href: TypeHelp.Uuid.ToString(TypeHelp.UuidFormat,System.Nullable{System.Int32}).html
+  name: ToString(UuidFormat, int?)
+  nameWithType: Uuid.ToString(UuidFormat, int?)
+  fullName: TypeHelp.Uuid.ToString(TypeHelp.UuidFormat, int?)
+  nameWithType.vb: Uuid.ToString(UuidFormat, Integer?)
+  fullName.vb: TypeHelp.Uuid.ToString(TypeHelp.UuidFormat, Integer?)
+  name.vb: ToString(UuidFormat, Integer?)
+  spec.csharp:
+  - uid: TypeHelp.Uuid.ToString(TypeHelp.UuidFormat,System.Nullable{System.Int32})
+    name: ToString
+    href: TypeHelp.Uuid.ToString(TypeHelp.UuidFormat,System.Nullable{System.Int32}).html
+  - name: (
+  - uid: TypeHelp.UuidFormat
+    name: UuidFormat
+    href: TypeHelp.UuidFormat.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: TypeHelp.Uuid.ToString(TypeHelp.UuidFormat,System.Nullable{System.Int32})
+    name: ToString
+    href: TypeHelp.Uuid.ToString(TypeHelp.UuidFormat,System.Nullable{System.Int32}).html
+  - name: (
+  - uid: TypeHelp.UuidFormat
+    name: UuidFormat
+    href: TypeHelp.UuidFormat.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+  - name: )
+- uid: TypeHelp.Uuid.Clamp(System.Int32,System.Int32,System.Nullable{System.Boolean})
+  commentId: M:TypeHelp.Uuid.Clamp(System.Int32,System.Int32,System.Nullable{System.Boolean})
+  parent: TypeHelp.Uuid
+  isExternal: true
+  href: TypeHelp.Uuid.Clamp(System.Int32,System.Int32,System.Nullable{System.Boolean}).html
+  name: Clamp(int, int, bool?)
+  nameWithType: Uuid.Clamp(int, int, bool?)
+  fullName: TypeHelp.Uuid.Clamp(int, int, bool?)
+  nameWithType.vb: Uuid.Clamp(Integer, Integer, Boolean?)
+  fullName.vb: TypeHelp.Uuid.Clamp(Integer, Integer, Boolean?)
+  name.vb: Clamp(Integer, Integer, Boolean?)
+  spec.csharp:
+  - uid: TypeHelp.Uuid.Clamp(System.Int32,System.Int32,System.Nullable{System.Boolean})
+    name: Clamp
+    href: TypeHelp.Uuid.Clamp(System.Int32,System.Int32,System.Nullable{System.Boolean}).html
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: TypeHelp.Uuid.Clamp(System.Int32,System.Int32,System.Nullable{System.Boolean})
+    name: Clamp
+    href: TypeHelp.Uuid.Clamp(System.Int32,System.Int32,System.Nullable{System.Boolean}).html
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: )
+- uid: TypeHelp.Uuid.GetValue(System.Int32,System.Int32)
+  commentId: M:TypeHelp.Uuid.GetValue(System.Int32,System.Int32)
+  parent: TypeHelp.Uuid
+  isExternal: true
+  href: TypeHelp.Uuid.GetValue(System.Int32,System.Int32).html
+  name: GetValue(int, int)
+  nameWithType: Uuid.GetValue(int, int)
+  fullName: TypeHelp.Uuid.GetValue(int, int)
+  nameWithType.vb: Uuid.GetValue(Integer, Integer)
+  fullName.vb: TypeHelp.Uuid.GetValue(Integer, Integer)
+  name.vb: GetValue(Integer, Integer)
+  spec.csharp:
+  - uid: TypeHelp.Uuid.GetValue(System.Int32,System.Int32)
+    name: GetValue
+    href: TypeHelp.Uuid.GetValue(System.Int32,System.Int32).html
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: TypeHelp.Uuid.GetValue(System.Int32,System.Int32)
+    name: GetValue
+    href: TypeHelp.Uuid.GetValue(System.Int32,System.Int32).html
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: TypeHelp.Uuid.IsSafeOffset(System.Nullable{System.Boolean},System.Int32)
+  commentId: M:TypeHelp.Uuid.IsSafeOffset(System.Nullable{System.Boolean},System.Int32)
+  parent: TypeHelp.Uuid
+  isExternal: true
+  href: TypeHelp.Uuid.IsSafeOffset(System.Nullable{System.Boolean},System.Int32).html
+  name: IsSafeOffset(bool?, int)
+  nameWithType: Uuid.IsSafeOffset(bool?, int)
+  fullName: TypeHelp.Uuid.IsSafeOffset(bool?, int)
+  nameWithType.vb: Uuid.IsSafeOffset(Boolean?, Integer)
+  fullName.vb: TypeHelp.Uuid.IsSafeOffset(Boolean?, Integer)
+  name.vb: IsSafeOffset(Boolean?, Integer)
+  spec.csharp:
+  - uid: TypeHelp.Uuid.IsSafeOffset(System.Nullable{System.Boolean},System.Int32)
+    name: IsSafeOffset
+    href: TypeHelp.Uuid.IsSafeOffset(System.Nullable{System.Boolean},System.Int32).html
+  - name: (
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: TypeHelp.Uuid.IsSafeOffset(System.Nullable{System.Boolean},System.Int32)
+    name: IsSafeOffset
+    href: TypeHelp.Uuid.IsSafeOffset(System.Nullable{System.Boolean},System.Int32).html
+  - name: (
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: TypeHelp.Uuid.SafeOffset(System.Int32)
+  commentId: M:TypeHelp.Uuid.SafeOffset(System.Int32)
+  parent: TypeHelp.Uuid
+  isExternal: true
+  href: TypeHelp.Uuid.SafeOffset(System.Int32).html
+  name: SafeOffset(int)
+  nameWithType: Uuid.SafeOffset(int)
+  fullName: TypeHelp.Uuid.SafeOffset(int)
+  nameWithType.vb: Uuid.SafeOffset(Integer)
+  fullName.vb: TypeHelp.Uuid.SafeOffset(Integer)
+  name.vb: SafeOffset(Integer)
+  spec.csharp:
+  - uid: TypeHelp.Uuid.SafeOffset(System.Int32)
+    name: SafeOffset
+    href: TypeHelp.Uuid.SafeOffset(System.Int32).html
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: TypeHelp.Uuid.SafeOffset(System.Int32)
+    name: SafeOffset
+    href: TypeHelp.Uuid.SafeOffset(System.Int32).html
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: TypeHelp.Uuid.SafeOffset(System.Int32,System.Nullable{System.Boolean})
+  commentId: M:TypeHelp.Uuid.SafeOffset(System.Int32,System.Nullable{System.Boolean})
+  parent: TypeHelp.Uuid
+  isExternal: true
+  href: TypeHelp.Uuid.SafeOffset(System.Int32,System.Nullable{System.Boolean}).html
+  name: SafeOffset(int, bool?)
+  nameWithType: Uuid.SafeOffset(int, bool?)
+  fullName: TypeHelp.Uuid.SafeOffset(int, bool?)
+  nameWithType.vb: Uuid.SafeOffset(Integer, Boolean?)
+  fullName.vb: TypeHelp.Uuid.SafeOffset(Integer, Boolean?)
+  name.vb: SafeOffset(Integer, Boolean?)
+  spec.csharp:
+  - uid: TypeHelp.Uuid.SafeOffset(System.Int32,System.Nullable{System.Boolean})
+    name: SafeOffset
+    href: TypeHelp.Uuid.SafeOffset(System.Int32,System.Nullable{System.Boolean}).html
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: TypeHelp.Uuid.SafeOffset(System.Int32,System.Nullable{System.Boolean})
+    name: SafeOffset
+    href: TypeHelp.Uuid.SafeOffset(System.Int32,System.Nullable{System.Boolean}).html
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: )
+- uid: TypeHelp.Uuid.SafeOffset(System.Int32,System.Int32)
+  commentId: M:TypeHelp.Uuid.SafeOffset(System.Int32,System.Int32)
+  parent: TypeHelp.Uuid
+  isExternal: true
+  href: TypeHelp.Uuid.SafeOffset(System.Int32,System.Int32).html
+  name: SafeOffset(int, int)
+  nameWithType: Uuid.SafeOffset(int, int)
+  fullName: TypeHelp.Uuid.SafeOffset(int, int)
+  nameWithType.vb: Uuid.SafeOffset(Integer, Integer)
+  fullName.vb: TypeHelp.Uuid.SafeOffset(Integer, Integer)
+  name.vb: SafeOffset(Integer, Integer)
+  spec.csharp:
+  - uid: TypeHelp.Uuid.SafeOffset(System.Int32,System.Int32)
+    name: SafeOffset
+    href: TypeHelp.Uuid.SafeOffset(System.Int32,System.Int32).html
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: TypeHelp.Uuid.SafeOffset(System.Int32,System.Int32)
+    name: SafeOffset
+    href: TypeHelp.Uuid.SafeOffset(System.Int32,System.Int32).html
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: TypeHelp.Uuid.SafeOffset(System.Int32,System.Int32,System.Nullable{System.Boolean})
+  commentId: M:TypeHelp.Uuid.SafeOffset(System.Int32,System.Int32,System.Nullable{System.Boolean})
+  parent: TypeHelp.Uuid
+  isExternal: true
+  href: TypeHelp.Uuid.SafeOffset(System.Int32,System.Int32,System.Nullable{System.Boolean}).html
+  name: SafeOffset(int, int, bool?)
+  nameWithType: Uuid.SafeOffset(int, int, bool?)
+  fullName: TypeHelp.Uuid.SafeOffset(int, int, bool?)
+  nameWithType.vb: Uuid.SafeOffset(Integer, Integer, Boolean?)
+  fullName.vb: TypeHelp.Uuid.SafeOffset(Integer, Integer, Boolean?)
+  name.vb: SafeOffset(Integer, Integer, Boolean?)
+  spec.csharp:
+  - uid: TypeHelp.Uuid.SafeOffset(System.Int32,System.Int32,System.Nullable{System.Boolean})
+    name: SafeOffset
+    href: TypeHelp.Uuid.SafeOffset(System.Int32,System.Int32,System.Nullable{System.Boolean}).html
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: TypeHelp.Uuid.SafeOffset(System.Int32,System.Int32,System.Nullable{System.Boolean})
+    name: SafeOffset
+    href: TypeHelp.Uuid.SafeOffset(System.Int32,System.Int32,System.Nullable{System.Boolean}).html
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: )
+- uid: TypeHelp.Uuid.SafeOffset(System.Int32,System.Nullable{System.Boolean},System.Int32)
+  commentId: M:TypeHelp.Uuid.SafeOffset(System.Int32,System.Nullable{System.Boolean},System.Int32)
+  parent: TypeHelp.Uuid
+  isExternal: true
+  href: TypeHelp.Uuid.SafeOffset(System.Int32,System.Nullable{System.Boolean},System.Int32).html
+  name: SafeOffset(int, bool?, int)
+  nameWithType: Uuid.SafeOffset(int, bool?, int)
+  fullName: TypeHelp.Uuid.SafeOffset(int, bool?, int)
+  nameWithType.vb: Uuid.SafeOffset(Integer, Boolean?, Integer)
+  fullName.vb: TypeHelp.Uuid.SafeOffset(Integer, Boolean?, Integer)
+  name.vb: SafeOffset(Integer, Boolean?, Integer)
+  spec.csharp:
+  - uid: TypeHelp.Uuid.SafeOffset(System.Int32,System.Nullable{System.Boolean},System.Int32)
+    name: SafeOffset
+    href: TypeHelp.Uuid.SafeOffset(System.Int32,System.Nullable{System.Boolean},System.Int32).html
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: TypeHelp.Uuid.SafeOffset(System.Int32,System.Nullable{System.Boolean},System.Int32)
+    name: SafeOffset
+    href: TypeHelp.Uuid.SafeOffset(System.Int32,System.Nullable{System.Boolean},System.Int32).html
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: TypeHelp.Uuid.SafeOffset(System.Int32,System.Nullable{System.Boolean},System.Int32,System.Nullable{System.Boolean})
+  commentId: M:TypeHelp.Uuid.SafeOffset(System.Int32,System.Nullable{System.Boolean},System.Int32,System.Nullable{System.Boolean})
+  parent: TypeHelp.Uuid
+  isExternal: true
+  href: TypeHelp.Uuid.SafeOffset(System.Int32,System.Nullable{System.Boolean},System.Int32,System.Nullable{System.Boolean}).html
+  name: SafeOffset(int, bool?, int, bool?)
+  nameWithType: Uuid.SafeOffset(int, bool?, int, bool?)
+  fullName: TypeHelp.Uuid.SafeOffset(int, bool?, int, bool?)
+  nameWithType.vb: Uuid.SafeOffset(Integer, Boolean?, Integer, Boolean?)
+  fullName.vb: TypeHelp.Uuid.SafeOffset(Integer, Boolean?, Integer, Boolean?)
+  name.vb: SafeOffset(Integer, Boolean?, Integer, Boolean?)
+  spec.csharp:
+  - uid: TypeHelp.Uuid.SafeOffset(System.Int32,System.Nullable{System.Boolean},System.Int32,System.Nullable{System.Boolean})
+    name: SafeOffset
+    href: TypeHelp.Uuid.SafeOffset(System.Int32,System.Nullable{System.Boolean},System.Int32,System.Nullable{System.Boolean}).html
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: TypeHelp.Uuid.SafeOffset(System.Int32,System.Nullable{System.Boolean},System.Int32,System.Nullable{System.Boolean})
+    name: SafeOffset
+    href: TypeHelp.Uuid.SafeOffset(System.Int32,System.Nullable{System.Boolean},System.Int32,System.Nullable{System.Boolean}).html
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: )
+- uid: TypeHelp.Uuid.SafeOffsetCheck(System.Int32,System.Nullable{System.Boolean})
+  commentId: M:TypeHelp.Uuid.SafeOffsetCheck(System.Int32,System.Nullable{System.Boolean})
+  parent: TypeHelp.Uuid
+  isExternal: true
+  href: TypeHelp.Uuid.SafeOffsetCheck(System.Int32,System.Nullable{System.Boolean}).html
+  name: SafeOffsetCheck(int, bool?)
+  nameWithType: Uuid.SafeOffsetCheck(int, bool?)
+  fullName: TypeHelp.Uuid.SafeOffsetCheck(int, bool?)
+  nameWithType.vb: Uuid.SafeOffsetCheck(Integer, Boolean?)
+  fullName.vb: TypeHelp.Uuid.SafeOffsetCheck(Integer, Boolean?)
+  name.vb: SafeOffsetCheck(Integer, Boolean?)
+  spec.csharp:
+  - uid: TypeHelp.Uuid.SafeOffsetCheck(System.Int32,System.Nullable{System.Boolean})
+    name: SafeOffsetCheck
+    href: TypeHelp.Uuid.SafeOffsetCheck(System.Int32,System.Nullable{System.Boolean}).html
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: TypeHelp.Uuid.SafeOffsetCheck(System.Int32,System.Nullable{System.Boolean})
+    name: SafeOffsetCheck
+    href: TypeHelp.Uuid.SafeOffsetCheck(System.Int32,System.Nullable{System.Boolean}).html
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: )
+- uid: TypeHelp.Uuid.SafeLength(System.Int32)
+  commentId: M:TypeHelp.Uuid.SafeLength(System.Int32)
+  parent: TypeHelp.Uuid
+  isExternal: true
+  href: TypeHelp.Uuid.SafeLength(System.Int32).html
+  name: SafeLength(int)
+  nameWithType: Uuid.SafeLength(int)
+  fullName: TypeHelp.Uuid.SafeLength(int)
+  nameWithType.vb: Uuid.SafeLength(Integer)
+  fullName.vb: TypeHelp.Uuid.SafeLength(Integer)
+  name.vb: SafeLength(Integer)
+  spec.csharp:
+  - uid: TypeHelp.Uuid.SafeLength(System.Int32)
+    name: SafeLength
+    href: TypeHelp.Uuid.SafeLength(System.Int32).html
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: TypeHelp.Uuid.SafeLength(System.Int32)
+    name: SafeLength
+    href: TypeHelp.Uuid.SafeLength(System.Int32).html
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: TypeHelp.Uuid.SafeLength(System.Int32,System.Nullable{System.Boolean})
+  commentId: M:TypeHelp.Uuid.SafeLength(System.Int32,System.Nullable{System.Boolean})
+  parent: TypeHelp.Uuid
+  isExternal: true
+  href: TypeHelp.Uuid.SafeLength(System.Int32,System.Nullable{System.Boolean}).html
+  name: SafeLength(int, bool?)
+  nameWithType: Uuid.SafeLength(int, bool?)
+  fullName: TypeHelp.Uuid.SafeLength(int, bool?)
+  nameWithType.vb: Uuid.SafeLength(Integer, Boolean?)
+  fullName.vb: TypeHelp.Uuid.SafeLength(Integer, Boolean?)
+  name.vb: SafeLength(Integer, Boolean?)
+  spec.csharp:
+  - uid: TypeHelp.Uuid.SafeLength(System.Int32,System.Nullable{System.Boolean})
+    name: SafeLength
+    href: TypeHelp.Uuid.SafeLength(System.Int32,System.Nullable{System.Boolean}).html
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: TypeHelp.Uuid.SafeLength(System.Int32,System.Nullable{System.Boolean})
+    name: SafeLength
+    href: TypeHelp.Uuid.SafeLength(System.Int32,System.Nullable{System.Boolean}).html
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: )
+- uid: TypeHelp.Uuid.SafeLength(System.Int32,System.Int32)
+  commentId: M:TypeHelp.Uuid.SafeLength(System.Int32,System.Int32)
+  parent: TypeHelp.Uuid
+  isExternal: true
+  href: TypeHelp.Uuid.SafeLength(System.Int32,System.Int32).html
+  name: SafeLength(int, int)
+  nameWithType: Uuid.SafeLength(int, int)
+  fullName: TypeHelp.Uuid.SafeLength(int, int)
+  nameWithType.vb: Uuid.SafeLength(Integer, Integer)
+  fullName.vb: TypeHelp.Uuid.SafeLength(Integer, Integer)
+  name.vb: SafeLength(Integer, Integer)
+  spec.csharp:
+  - uid: TypeHelp.Uuid.SafeLength(System.Int32,System.Int32)
+    name: SafeLength
+    href: TypeHelp.Uuid.SafeLength(System.Int32,System.Int32).html
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: TypeHelp.Uuid.SafeLength(System.Int32,System.Int32)
+    name: SafeLength
+    href: TypeHelp.Uuid.SafeLength(System.Int32,System.Int32).html
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: TypeHelp.Uuid.SafeLength(System.Int32,System.Nullable{System.Boolean},System.Int32)
+  commentId: M:TypeHelp.Uuid.SafeLength(System.Int32,System.Nullable{System.Boolean},System.Int32)
+  parent: TypeHelp.Uuid
+  isExternal: true
+  href: TypeHelp.Uuid.SafeLength(System.Int32,System.Nullable{System.Boolean},System.Int32).html
+  name: SafeLength(int, bool?, int)
+  nameWithType: Uuid.SafeLength(int, bool?, int)
+  fullName: TypeHelp.Uuid.SafeLength(int, bool?, int)
+  nameWithType.vb: Uuid.SafeLength(Integer, Boolean?, Integer)
+  fullName.vb: TypeHelp.Uuid.SafeLength(Integer, Boolean?, Integer)
+  name.vb: SafeLength(Integer, Boolean?, Integer)
+  spec.csharp:
+  - uid: TypeHelp.Uuid.SafeLength(System.Int32,System.Nullable{System.Boolean},System.Int32)
+    name: SafeLength
+    href: TypeHelp.Uuid.SafeLength(System.Int32,System.Nullable{System.Boolean},System.Int32).html
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: TypeHelp.Uuid.SafeLength(System.Int32,System.Nullable{System.Boolean},System.Int32)
+    name: SafeLength
+    href: TypeHelp.Uuid.SafeLength(System.Int32,System.Nullable{System.Boolean},System.Int32).html
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: TypeHelp.Uuid.SafeLength(System.Int32,System.Nullable{System.Boolean},System.Nullable{System.Boolean})
+  commentId: M:TypeHelp.Uuid.SafeLength(System.Int32,System.Nullable{System.Boolean},System.Nullable{System.Boolean})
+  parent: TypeHelp.Uuid
+  isExternal: true
+  href: TypeHelp.Uuid.SafeLength(System.Int32,System.Nullable{System.Boolean},System.Nullable{System.Boolean}).html
+  name: SafeLength(int, bool?, bool?)
+  nameWithType: Uuid.SafeLength(int, bool?, bool?)
+  fullName: TypeHelp.Uuid.SafeLength(int, bool?, bool?)
+  nameWithType.vb: Uuid.SafeLength(Integer, Boolean?, Boolean?)
+  fullName.vb: TypeHelp.Uuid.SafeLength(Integer, Boolean?, Boolean?)
+  name.vb: SafeLength(Integer, Boolean?, Boolean?)
+  spec.csharp:
+  - uid: TypeHelp.Uuid.SafeLength(System.Int32,System.Nullable{System.Boolean},System.Nullable{System.Boolean})
+    name: SafeLength
+    href: TypeHelp.Uuid.SafeLength(System.Int32,System.Nullable{System.Boolean},System.Nullable{System.Boolean}).html
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: TypeHelp.Uuid.SafeLength(System.Int32,System.Nullable{System.Boolean},System.Nullable{System.Boolean})
+    name: SafeLength
+    href: TypeHelp.Uuid.SafeLength(System.Int32,System.Nullable{System.Boolean},System.Nullable{System.Boolean}).html
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: )
+- uid: TypeHelp.Uuid.SafeLength(System.Int32,System.Nullable{System.Boolean},System.Int32,System.Nullable{System.Boolean})
+  commentId: M:TypeHelp.Uuid.SafeLength(System.Int32,System.Nullable{System.Boolean},System.Int32,System.Nullable{System.Boolean})
+  parent: TypeHelp.Uuid
+  isExternal: true
+  href: TypeHelp.Uuid.SafeLength(System.Int32,System.Nullable{System.Boolean},System.Int32,System.Nullable{System.Boolean}).html
+  name: SafeLength(int, bool?, int, bool?)
+  nameWithType: Uuid.SafeLength(int, bool?, int, bool?)
+  fullName: TypeHelp.Uuid.SafeLength(int, bool?, int, bool?)
+  nameWithType.vb: Uuid.SafeLength(Integer, Boolean?, Integer, Boolean?)
+  fullName.vb: TypeHelp.Uuid.SafeLength(Integer, Boolean?, Integer, Boolean?)
+  name.vb: SafeLength(Integer, Boolean?, Integer, Boolean?)
+  spec.csharp:
+  - uid: TypeHelp.Uuid.SafeLength(System.Int32,System.Nullable{System.Boolean},System.Int32,System.Nullable{System.Boolean})
+    name: SafeLength
+    href: TypeHelp.Uuid.SafeLength(System.Int32,System.Nullable{System.Boolean},System.Int32,System.Nullable{System.Boolean}).html
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: TypeHelp.Uuid.SafeLength(System.Int32,System.Nullable{System.Boolean},System.Int32,System.Nullable{System.Boolean})
+    name: SafeLength
+    href: TypeHelp.Uuid.SafeLength(System.Int32,System.Nullable{System.Boolean},System.Int32,System.Nullable{System.Boolean}).html
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: )
+- uid: TypeHelp.Uuid.SafeLengthCheck(System.Int32,System.Nullable{System.Boolean})
+  commentId: M:TypeHelp.Uuid.SafeLengthCheck(System.Int32,System.Nullable{System.Boolean})
+  parent: TypeHelp.Uuid
+  isExternal: true
+  href: TypeHelp.Uuid.SafeLengthCheck(System.Int32,System.Nullable{System.Boolean}).html
+  name: SafeLengthCheck(int, bool?)
+  nameWithType: Uuid.SafeLengthCheck(int, bool?)
+  fullName: TypeHelp.Uuid.SafeLengthCheck(int, bool?)
+  nameWithType.vb: Uuid.SafeLengthCheck(Integer, Boolean?)
+  fullName.vb: TypeHelp.Uuid.SafeLengthCheck(Integer, Boolean?)
+  name.vb: SafeLengthCheck(Integer, Boolean?)
+  spec.csharp:
+  - uid: TypeHelp.Uuid.SafeLengthCheck(System.Int32,System.Nullable{System.Boolean})
+    name: SafeLengthCheck
+    href: TypeHelp.Uuid.SafeLengthCheck(System.Int32,System.Nullable{System.Boolean}).html
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: )
+  spec.vb:
+  - uid: TypeHelp.Uuid.SafeLengthCheck(System.Int32,System.Nullable{System.Boolean})
+    name: SafeLengthCheck
+    href: TypeHelp.Uuid.SafeLengthCheck(System.Int32,System.Nullable{System.Boolean}).html
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '?'
+  - name: )
+- uid: TypeHelp.Uuid.ToStringBinary
+  commentId: M:TypeHelp.Uuid.ToStringBinary
+  parent: TypeHelp.Uuid
+  href: TypeHelp.Uuid.ToStringBinary.html
+  name: ToStringBinary()
+  nameWithType: Uuid.ToStringBinary()
+  fullName: TypeHelp.Uuid.ToStringBinary()
+  spec.csharp:
+  - uid: TypeHelp.Uuid.ToStringBinary
+    name: ToStringBinary
+    href: TypeHelp.Uuid.ToStringBinary.html
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: TypeHelp.Uuid.ToStringBinary
+    name: ToStringBinary
+    href: TypeHelp.Uuid.ToStringBinary.html
+  - name: (
+  - name: )
+- uid: TypeHelp.Uuid.ToStringCsv(System.String)
+  commentId: M:TypeHelp.Uuid.ToStringCsv(System.String)
+  parent: TypeHelp.Uuid
+  isExternal: true
+  href: TypeHelp.Uuid.ToStringCsv(System.String).html
+  name: ToStringCsv(string)
+  nameWithType: Uuid.ToStringCsv(string)
+  fullName: TypeHelp.Uuid.ToStringCsv(string)
+  nameWithType.vb: Uuid.ToStringCsv(String)
+  fullName.vb: TypeHelp.Uuid.ToStringCsv(String)
+  name.vb: ToStringCsv(String)
+  spec.csharp:
+  - uid: TypeHelp.Uuid.ToStringCsv(System.String)
+    name: ToStringCsv
+    href: TypeHelp.Uuid.ToStringCsv(System.String).html
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: TypeHelp.Uuid.ToStringCsv(System.String)
+    name: ToStringCsv
+    href: TypeHelp.Uuid.ToStringCsv(System.String).html
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: TypeHelp.Uuid.ToStringPackedHex
+  commentId: M:TypeHelp.Uuid.ToStringPackedHex
+  parent: TypeHelp.Uuid
+  href: TypeHelp.Uuid.ToStringPackedHex.html
+  name: ToStringPackedHex()
+  nameWithType: Uuid.ToStringPackedHex()
+  fullName: TypeHelp.Uuid.ToStringPackedHex()
+  spec.csharp:
+  - uid: TypeHelp.Uuid.ToStringPackedHex
+    name: ToStringPackedHex
+    href: TypeHelp.Uuid.ToStringPackedHex.html
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: TypeHelp.Uuid.ToStringPackedHex
+    name: ToStringPackedHex
+    href: TypeHelp.Uuid.ToStringPackedHex.html
+  - name: (
+  - name: )
+- uid: TypeHelp.Uuid.ToStringPrefixed
+  commentId: M:TypeHelp.Uuid.ToStringPrefixed
+  parent: TypeHelp.Uuid
+  href: TypeHelp.Uuid.ToStringPrefixed.html
+  name: ToStringPrefixed()
+  nameWithType: Uuid.ToStringPrefixed()
+  fullName: TypeHelp.Uuid.ToStringPrefixed()
+  spec.csharp:
+  - uid: TypeHelp.Uuid.ToStringPrefixed
+    name: ToStringPrefixed
+    href: TypeHelp.Uuid.ToStringPrefixed.html
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: TypeHelp.Uuid.ToStringPrefixed
+    name: ToStringPrefixed
+    href: TypeHelp.Uuid.ToStringPrefixed.html
+  - name: (
+  - name: )
+- uid: TypeHelp.Uuid.ToStringRfc(TypeHelp.UuidFormat)
+  commentId: M:TypeHelp.Uuid.ToStringRfc(TypeHelp.UuidFormat)
+  parent: TypeHelp.Uuid
+  href: TypeHelp.Uuid.ToStringRfc(TypeHelp.UuidFormat).html
+  name: ToStringRfc(UuidFormat)
+  nameWithType: Uuid.ToStringRfc(UuidFormat)
+  fullName: TypeHelp.Uuid.ToStringRfc(TypeHelp.UuidFormat)
+  spec.csharp:
+  - uid: TypeHelp.Uuid.ToStringRfc(TypeHelp.UuidFormat)
+    name: ToStringRfc
+    href: TypeHelp.Uuid.ToStringRfc(TypeHelp.UuidFormat).html
+  - name: (
+  - uid: TypeHelp.UuidFormat
+    name: UuidFormat
+    href: TypeHelp.UuidFormat.html
+  - name: )
+  spec.vb:
+  - uid: TypeHelp.Uuid.ToStringRfc(TypeHelp.UuidFormat)
+    name: ToStringRfc
+    href: TypeHelp.Uuid.ToStringRfc(TypeHelp.UuidFormat).html
+  - name: (
+  - uid: TypeHelp.UuidFormat
+    name: UuidFormat
+    href: TypeHelp.UuidFormat.html
+  - name: )
+- uid: TypeHelp.Uuid.field_info_set
+  commentId: F:TypeHelp.Uuid.field_info_set
+  parent: TypeHelp.Uuid
+  href: TypeHelp.Uuid.field_info_set.html
+  name: field_info_set
+  nameWithType: Uuid.field_info_set
+  fullName: TypeHelp.Uuid.field_info_set
+- uid: TypeHelp.Uuid.field_size
+  commentId: F:TypeHelp.Uuid.field_size
+  parent: TypeHelp.Uuid
+  href: TypeHelp.Uuid.field_size.html
+  name: field_size
+  nameWithType: Uuid.field_size
+  fullName: TypeHelp.Uuid.field_size
+- uid: TypeHelp.Uuid.ErrorPrefix
+  commentId: F:TypeHelp.Uuid.ErrorPrefix
+  parent: TypeHelp.Uuid
+  href: TypeHelp.Uuid.ErrorPrefix.html
+  name: ErrorPrefix
+  nameWithType: Uuid.ErrorPrefix
+  fullName: TypeHelp.Uuid.ErrorPrefix
+- uid: TypeHelp.Uuid.FormatSizes
+  commentId: F:TypeHelp.Uuid.FormatSizes
+  parent: TypeHelp.Uuid
+  href: TypeHelp.Uuid.FormatSizes.html
+  name: FormatSizes
+  nameWithType: Uuid.FormatSizes
+  fullName: TypeHelp.Uuid.FormatSizes
+- uid: TypeHelp.Uuid.FormatSizeMin
+  commentId: F:TypeHelp.Uuid.FormatSizeMin
+  parent: TypeHelp.Uuid
+  href: TypeHelp.Uuid.FormatSizeMin.html
+  name: FormatSizeMin
+  nameWithType: Uuid.FormatSizeMin
+  fullName: TypeHelp.Uuid.FormatSizeMin
+- uid: TypeHelp.Uuid.FormatSizeMax
+  commentId: F:TypeHelp.Uuid.FormatSizeMax
+  parent: TypeHelp.Uuid
+  href: TypeHelp.Uuid.FormatSizeMax.html
+  name: FormatSizeMax
+  nameWithType: Uuid.FormatSizeMax
+  fullName: TypeHelp.Uuid.FormatSizeMax
+- uid: TypeHelp.Uuid.UuidFormats
+  commentId: F:TypeHelp.Uuid.UuidFormats
+  parent: TypeHelp.Uuid
+  href: TypeHelp.Uuid.UuidFormats.html
+  name: UuidFormats
+  nameWithType: Uuid.UuidFormats
+  fullName: TypeHelp.Uuid.UuidFormats
+- uid: TypeHelp.Uuid.UuidFormatRE
+  commentId: F:TypeHelp.Uuid.UuidFormatRE
+  parent: TypeHelp.Uuid
+  href: TypeHelp.Uuid.UuidFormatRE.html
+  name: UuidFormatRE
+  nameWithType: Uuid.UuidFormatRE
+  fullName: TypeHelp.Uuid.UuidFormatRE
+- uid: TypeHelp.Uuid.GetBigInteger(System.Byte[])
+  commentId: M:TypeHelp.Uuid.GetBigInteger(System.Byte[])
+  parent: TypeHelp.Uuid
+  isExternal: true
+  href: TypeHelp.Uuid.GetBigInteger(System.Byte[]).html
+  name: GetBigInteger(byte[])
+  nameWithType: Uuid.GetBigInteger(byte[])
+  fullName: TypeHelp.Uuid.GetBigInteger(byte[])
+  nameWithType.vb: Uuid.GetBigInteger(Byte())
+  fullName.vb: TypeHelp.Uuid.GetBigInteger(Byte())
+  name.vb: GetBigInteger(Byte())
+  spec.csharp:
+  - uid: TypeHelp.Uuid.GetBigInteger(System.Byte[])
+    name: GetBigInteger
+    href: TypeHelp.Uuid.GetBigInteger(System.Byte[]).html
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: TypeHelp.Uuid.GetBigInteger(System.Byte[])
+    name: GetBigInteger
+    href: TypeHelp.Uuid.GetBigInteger(System.Byte[]).html
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: )
+- uid: TypeHelp.Uuid.GetBigInteger(System.Byte[],System.Int32,System.Int32)
+  commentId: M:TypeHelp.Uuid.GetBigInteger(System.Byte[],System.Int32,System.Int32)
+  parent: TypeHelp.Uuid
+  isExternal: true
+  href: TypeHelp.Uuid.GetBigInteger(System.Byte[],System.Int32,System.Int32).html
+  name: GetBigInteger(byte[], int, int)
+  nameWithType: Uuid.GetBigInteger(byte[], int, int)
+  fullName: TypeHelp.Uuid.GetBigInteger(byte[], int, int)
+  nameWithType.vb: Uuid.GetBigInteger(Byte(), Integer, Integer)
+  fullName.vb: TypeHelp.Uuid.GetBigInteger(Byte(), Integer, Integer)
+  name.vb: GetBigInteger(Byte(), Integer, Integer)
+  spec.csharp:
+  - uid: TypeHelp.Uuid.GetBigInteger(System.Byte[],System.Int32,System.Int32)
+    name: GetBigInteger
+    href: TypeHelp.Uuid.GetBigInteger(System.Byte[],System.Int32,System.Int32).html
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: TypeHelp.Uuid.GetBigInteger(System.Byte[],System.Int32,System.Int32)
+    name: GetBigInteger
+    href: TypeHelp.Uuid.GetBigInteger(System.Byte[],System.Int32,System.Int32).html
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: TypeHelp.Uuid.GetUInt16(System.Byte[],System.Int32)
+  commentId: M:TypeHelp.Uuid.GetUInt16(System.Byte[],System.Int32)
+  parent: TypeHelp.Uuid
+  isExternal: true
+  href: TypeHelp.Uuid.GetUInt16(System.Byte[],System.Int32).html
+  name: GetUInt16(byte[], int)
+  nameWithType: Uuid.GetUInt16(byte[], int)
+  fullName: TypeHelp.Uuid.GetUInt16(byte[], int)
+  nameWithType.vb: Uuid.GetUInt16(Byte(), Integer)
+  fullName.vb: TypeHelp.Uuid.GetUInt16(Byte(), Integer)
+  name.vb: GetUInt16(Byte(), Integer)
+  spec.csharp:
+  - uid: TypeHelp.Uuid.GetUInt16(System.Byte[],System.Int32)
+    name: GetUInt16
+    href: TypeHelp.Uuid.GetUInt16(System.Byte[],System.Int32).html
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: TypeHelp.Uuid.GetUInt16(System.Byte[],System.Int32)
+    name: GetUInt16
+    href: TypeHelp.Uuid.GetUInt16(System.Byte[],System.Int32).html
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: TypeHelp.Uuid.GetUInt32(System.Byte[],System.Int32)
+  commentId: M:TypeHelp.Uuid.GetUInt32(System.Byte[],System.Int32)
+  parent: TypeHelp.Uuid
+  isExternal: true
+  href: TypeHelp.Uuid.GetUInt32(System.Byte[],System.Int32).html
+  name: GetUInt32(byte[], int)
+  nameWithType: Uuid.GetUInt32(byte[], int)
+  fullName: TypeHelp.Uuid.GetUInt32(byte[], int)
+  nameWithType.vb: Uuid.GetUInt32(Byte(), Integer)
+  fullName.vb: TypeHelp.Uuid.GetUInt32(Byte(), Integer)
+  name.vb: GetUInt32(Byte(), Integer)
+  spec.csharp:
+  - uid: TypeHelp.Uuid.GetUInt32(System.Byte[],System.Int32)
+    name: GetUInt32
+    href: TypeHelp.Uuid.GetUInt32(System.Byte[],System.Int32).html
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: TypeHelp.Uuid.GetUInt32(System.Byte[],System.Int32)
+    name: GetUInt32
+    href: TypeHelp.Uuid.GetUInt32(System.Byte[],System.Int32).html
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: TypeHelp.Uuid.GetUInt64(System.Byte[],System.Int32)
+  commentId: M:TypeHelp.Uuid.GetUInt64(System.Byte[],System.Int32)
+  parent: TypeHelp.Uuid
+  isExternal: true
+  href: TypeHelp.Uuid.GetUInt64(System.Byte[],System.Int32).html
+  name: GetUInt64(byte[], int)
+  nameWithType: Uuid.GetUInt64(byte[], int)
+  fullName: TypeHelp.Uuid.GetUInt64(byte[], int)
+  nameWithType.vb: Uuid.GetUInt64(Byte(), Integer)
+  fullName.vb: TypeHelp.Uuid.GetUInt64(Byte(), Integer)
+  name.vb: GetUInt64(Byte(), Integer)
+  spec.csharp:
+  - uid: TypeHelp.Uuid.GetUInt64(System.Byte[],System.Int32)
+    name: GetUInt64
+    href: TypeHelp.Uuid.GetUInt64(System.Byte[],System.Int32).html
+  - name: (
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: TypeHelp.Uuid.GetUInt64(System.Byte[],System.Int32)
+    name: GetUInt64
+    href: TypeHelp.Uuid.GetUInt64(System.Byte[],System.Int32).html
+  - name: (
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: TypeHelp.Uuid.InvalidParamText(System.String)
+  commentId: M:TypeHelp.Uuid.InvalidParamText(System.String)
+  parent: TypeHelp.Uuid
+  isExternal: true
+  href: TypeHelp.Uuid.InvalidParamText(System.String).html
+  name: InvalidParamText(string)
+  nameWithType: Uuid.InvalidParamText(string)
+  fullName: TypeHelp.Uuid.InvalidParamText(string)
+  nameWithType.vb: Uuid.InvalidParamText(String)
+  fullName.vb: TypeHelp.Uuid.InvalidParamText(String)
+  name.vb: InvalidParamText(String)
+  spec.csharp:
+  - uid: TypeHelp.Uuid.InvalidParamText(System.String)
+    name: InvalidParamText
+    href: TypeHelp.Uuid.InvalidParamText(System.String).html
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: TypeHelp.Uuid.InvalidParamText(System.String)
+    name: InvalidParamText
+    href: TypeHelp.Uuid.InvalidParamText(System.String).html
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: TypeHelp.FieldInfo
+  commentId: T:TypeHelp.FieldInfo
+  parent: TypeHelp
+  href: TypeHelp.FieldInfo.html
+  name: FieldInfo
+  nameWithType: FieldInfo
+  fullName: TypeHelp.FieldInfo
+- uid: TypeHelp.UuidV7
+  commentId: T:TypeHelp.UuidV7
+  href: TypeHelp.UuidV7.html
+  name: UuidV7
+  nameWithType: UuidV7
+  fullName: TypeHelp.UuidV7
+- uid: TypeHelp.UuidV7.#ctor*
+  commentId: Overload:TypeHelp.UuidV7.#ctor
+  href: TypeHelp.UuidV7.#ctor(System.Boolean,System.Byte[]).html
+  name: UuidV7
+  nameWithType: UuidV7.UuidV7
+  fullName: TypeHelp.UuidV7.UuidV7
+  nameWithType.vb: UuidV7.New
+  fullName.vb: TypeHelp.UuidV7.New
+  name.vb: New
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+memberLayout: SeparatePages
