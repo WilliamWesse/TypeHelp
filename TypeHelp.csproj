@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net6.0;net7.0</TargetFrameworks>
+    <TargetFrameworks>net7.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
@@ -26,8 +26,8 @@
       <AssemblyOriginatorKeyFile>keyfile.snk</AssemblyOriginatorKeyFile>
    </PropertyGroup>
    <PropertyGroup>
-      <ApplicationIcon>assets\images\logo.ico</ApplicationIcon>
-      <DocumentationFile>docs\xml\TypeHelp.xml</DocumentationFile>
+      <ApplicationIcon>images\logo.ico</ApplicationIcon>
+      <DocumentationFile></DocumentationFile>
       <Title>TypeHelp</Title>
       <PackageLicenseFile>LICENSE</PackageLicenseFile>
       <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
@@ -40,34 +40,24 @@
       <FileVersion>0.1.0.0</FileVersion>
       <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
    </PropertyGroup>
-   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0|AnyCPU'">
-     <NoWarn>1591;1701;1702;CA1069</NoWarn>
-   </PropertyGroup>
    <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0|AnyCPU'">
-     <NoWarn>1591;1701;1702;CA1069</NoWarn>
-   </PropertyGroup>
-   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net6.0|AnyCPU'">
      <NoWarn>1591;1701;1702;CA1069</NoWarn>
    </PropertyGroup>
    <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net7.0|AnyCPU'">
      <NoWarn>1591;1701;1702;CA1069</NoWarn>
    </PropertyGroup>
    <ItemGroup>
-     <Content Include="assets\images\logo.ico" />
+     <Compile Remove="docs\site\**" />
+     <EmbeddedResource Remove="docs\site\**" />
+     <None Remove="docs\site\**" />
+   </ItemGroup>
+   <ItemGroup>
+     <Content Include="images\logo.ico" />
    </ItemGroup>
 
    <ItemGroup>
-    <Folder Include="docs\markdown\api\" />
-    <Folder Include="docs\markdown\articles\" />
-    <Folder Include="docs\metadata\api\" />
-    <Folder Include="docs\metadata\articles\" />
-    <Folder Include="docs\xml\" />
+    <Folder Include="site\" />
     <Folder Include="test\" />
-    <Folder Include="docs\site\styles\" />
-    <Folder Include="docs\site\api\" />
-    <Folder Include="docs\site\articles\" />
-    <Folder Include="docs\templates\enumerations\partials\" />
-    <Folder Include="docs\templates\enumerations\styles\" />
     <Folder Include="src\Uuid\" />
     <Folder Include="src\Unicode\" />
     <Folder Include="src\Nullity\" />
@@ -77,7 +67,7 @@
   </ItemGroup>
 
    <ItemGroup>
-     <None Update="assets\images\logo_128.png">
+     <None Update="images\logo_128.png">
        <Pack>True</Pack>
        <PackagePath>\</PackagePath>
      </None>

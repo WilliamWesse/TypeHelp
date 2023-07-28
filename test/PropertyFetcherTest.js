@@ -1,12 +1,14 @@
 // Copyright (c) William Edward Wesse. All rights reserved. Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
-const Fetcher = require('./docs/templates/enumerations/PropertyFetcher.js').Fetcher;
+const pf = require('../docs/templates/enumerations/Property_Fetcher.js');
 
 const sep = ''.padEnd(80, '#');
 console.log(sep);
+console.log(Object.getPrototypeOf(pf.Fetcher).constructor.name);
+console.log(sep);
 
-const opts = Fetcher.getOptions();
-const info = Fetcher.getPropertyInfo({
+const opts = pf.Fetcher.getOptions();
+const info = pf.Fetcher.getPropertyInfo({
     name:   "name",
     value:  0,
     values: [0, 1]
@@ -56,6 +58,7 @@ console.table(Types);
 console.log(sep);
 console.log('');
 
+// Object.getPrototypeOf(obj).constructor.name
 // Fundamental objects
 //   Object
 //   Function

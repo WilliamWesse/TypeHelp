@@ -1,0 +1,4 @@
+table tbody tr td:first-of-type {
+  word-break: keep-all;
+  white-space: nowrap;
+}

@@ -1,0 +1,103 @@
+{
+   "metadata": [
+      {
+         "allowCompilationErrors": false,
+         "dest": "docs/metadata/api",
+         "disableDefaultFilter": false,
+         "disableGitFeatures": false,
+         "includePrivateMembers": false,
+         "memberLayout": "SeparatePages",
+         "namespaceLayout": "nested",
+         "noRestore": false,
+         "shouldSkipMarkup": false,
+         "src": [
+            {
+               "exclude": [
+                  "README.md"
+               ],
+               "files": [
+                  "**.csproj"
+               ]
+            }
+         ]
+      }
+   ],
+   "build": {
+      "content": [
+         {
+            "files": [
+               "docs/markdown/**.md",
+               "docs/markdown/toc.yml",
+               "docs/markdown/api/**.md",
+               "docs/markdown/api/toc.yml",
+               "docs/markdown/articles/**.md",
+               "docs/markdown/articles/toc.yml"
+            ]
+         },
+         //{
+         //   "files": [
+         //      "docs/markdown/**.md",
+         //      "docs/markdown/toc.yml"
+         //   ]
+         //},
+         //{
+         //   "files": [
+         //      "docs/markdown/api/**.md",
+         //      "docs/markdown/api/toc.yml"
+         //   ]
+         //},
+         //{
+         //   "files": [
+         //      "docs/markdown/articles/**.md",
+         //      "docs/markdown/articles/toc.yml"
+         //   ]
+         //},
+         {
+            "files": [
+               "docs/metadata/**/**.md",
+               "docs/metadata/**/**.yml"
+            ]
+         }
+      ],
+      "dest": "site",
+      "disableGitFeatures": false,
+      "fileMetadataFiles": [],
+      "globalMetadataFiles": [
+         "docs/metadata/TypeHelpMeta.json"
+      ],
+      "keepFileLink": false,
+      "overwrite": [
+         {
+            "exclude": [
+               ".*",
+               ".*/**",
+               "assets/**",
+               "bin/**",
+               "docs/markdown/**",
+               "docs/templates/**",
+               "obj/**",
+               "src/**",
+               "test/**"
+            ],
+            "files": [
+               "apidoc/**.md"
+            ]
+         }
+      ],
+      "postProcessors": [],
+      "resource": [
+         {
+            "files": ["assets/images/**"]
+         }
+      ],
+      "sitemap": {
+         "baseUrl": "https://github.com/WilliamWesse/TypeHelp",
+         "priority": 0.1,
+         "changefreq": "daily"
+      },
+      "template": [
+         "docs/templates/default",
+         "docs/templates/enumerations"
+      ]
+   }
+}

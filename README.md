@@ -1,14 +1,8 @@
-﻿# Build Notes
+﻿# TypeHelp
 
-## Local site
+The TypeHelp solution is a monorepo containing **TypeHelp**, .NET 7.0 Framework DLL with XML documented classes, structs and enums for type parsing and analysis, and incorporates *DocFx* configuration, UI decoration extensions, and test facilities. It is currently available under the MIT License.
 
-## TypeHelp Solution
-
-The TypeHelp solution is a monorepo containing **TypeHelp**, .NET 6.0 & 7.0 Framework DLLs with XML documented classes, structs and enums for type parsing and analysis, and incorporates *DocFx* configuration, UI decoration extensions, and test facilities.
-
-### TypeHelp Test Website
-- [TypeHelp](http://localhost:5000) Website
-- [TypeHelp](http://localhost:5000/api/TypeHelp.html)&#xA0;Namespace
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ### References
 
@@ -23,3 +17,4 @@ The TypeHelp solution is a monorepo containing **TypeHelp**, .NET 6.0 & 7.0 Fram
 - Multi-targeting | Microsoft Learn
    - [NuGet Packages](https://learn.microsoft.com/en-us/nuget/create-packages/supporting-multiple-target-frameworks)
    - [NuGet Packages in project files](https://learn.microsoft.com/en-us/nuget/create-packages/multiple-target-frameworks-project-file)
+

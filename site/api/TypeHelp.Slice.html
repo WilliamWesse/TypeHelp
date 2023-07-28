@@ -1,0 +1,449 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class Slice
+ | TypeHelp Documentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class Slice
+ | TypeHelp Documentation ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TypeHelp.Slice">
+
+
+
+  <h1 id="TypeHelp_Slice" data-uid="TypeHelp.Slice" class="text-break">Class Slice
+</h1>
+  <div class="markdown level0 summary"><p>A class that will extract one of the following data types from an array of bytes:</p>
+<pre><code class="lang-csharp">System.Boolean   System.Byte    System.Char
+System.DateTime  System.DBNull  System.Decimal
+System.Double    System.Int16   System.Int32
+System.Int64     System.SByte   System.Single
+System.UInt16    System.UInt32  System.UInt64
+System.Numerics.BigInteger
+System.Numerics.Complex
+TypeHelp.Nullity</code></pre>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><span class="xref">Slice</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TypeHelp.html">TypeHelp</a></h6>
+  <h6><strong>Assembly</strong>: TypeHelp.dll</h6>
+  <h5 id="TypeHelp_Slice_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Slice</code></pre>
+  </div>
+  <h5 id="TypeHelp_Slice_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>Constructor parameter array boundary violations in conjunction with the <a class="xref" href="TypeHelp.SliceOpts.html#TypeHelp_SliceOpts_StrictLength">StrictLength</a> and <a class="xref" href="TypeHelp.SliceOpts.html#TypeHelp_SliceOpts_StrictOffset">StrictOffset</a> options MAY raise a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.typeinitializationexception">TypeInitializationException</a> with an inner <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a>.</p>
+</div>
+  <h3 id="constructors">Constructors
+</h3>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="TypeHelp_Slice__ctor_System_Byte___System_Int32_System_Int32_" data-uid="TypeHelp.Slice.#ctor(System.Byte[],System.Int32,System.Int32)">
+          <a class="xref" href="TypeHelp.Slice.-ctor.html#TypeHelp_Slice__ctor_System_Byte___System_Int32_System_Int32_">Slice(byte[], int, int)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Create a <code>Slice</code> using length, offset and the default options:</p>
+<ul><li><code class="paramref">data</code> is in Network Byte Order (NBO), a.k.a., big-endian.</li><li><code class="paramref">offset</code> is locked, data MAY be truncated.</li></ul>
+</td>
+      </tr>
+      <tr>
+        <td id="TypeHelp_Slice__ctor_System_Byte___System_Int32_System_Int32_System_Nullable_TypeHelp_SliceOpts__" data-uid="TypeHelp.Slice.#ctor(System.Byte[],System.Int32,System.Int32,System.Nullable{TypeHelp.SliceOpts})">
+          <a class="xref" href="TypeHelp.Slice.-ctor.html#TypeHelp_Slice__ctor_System_Byte___System_Int32_System_Int32_System_Nullable_TypeHelp_SliceOpts__">Slice(byte[], int, int, SliceOpts?)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Create a <code>Slice</code> using length, offset and the selected <code>SliceOpts</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="TypeHelp_Slice__ctor_System_Byte___System_TypeCode_System_Int32_System_Nullable_TypeHelp_SliceOpts__" data-uid="TypeHelp.Slice.#ctor(System.Byte[],System.TypeCode,System.Int32,System.Nullable{TypeHelp.SliceOpts})">
+          <a class="xref" href="TypeHelp.Slice.-ctor.html#TypeHelp_Slice__ctor_System_Byte___System_TypeCode_System_Int32_System_Nullable_TypeHelp_SliceOpts__">Slice(byte[], TypeCode, int, SliceOpts?)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Create a <code>Slice</code> using the selected <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.typecode">TypeCode</a> <code class="paramref">typeCode</code>, <code class="paramref">offset</code> and selected <a class="xref" href="TypeHelp.SliceOpts.html">SliceOpts</a>.</p>
+<p>If the <code class="paramref">typeCode</code> is <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.typecode#system-typecode-object">Object</a>, a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.biginteger">BigInteger</a> will be assumed, using the equivalent (<a class="xref" href="TypeHelp.TypeCoex.html#TypeHelp_TypeCoex_BigInteger">BigInteger</a>).</p>
+</td>
+      </tr>
+      <tr>
+        <td id="TypeHelp_Slice__ctor_System_Byte___TypeHelp_TypeCoex_System_Int32_System_Nullable_TypeHelp_SliceOpts__" data-uid="TypeHelp.Slice.#ctor(System.Byte[],TypeHelp.TypeCoex,System.Int32,System.Nullable{TypeHelp.SliceOpts})">
+          <a class="xref" href="TypeHelp.Slice.-ctor.html#TypeHelp_Slice__ctor_System_Byte___TypeHelp_TypeCoex_System_Int32_System_Nullable_TypeHelp_SliceOpts__">Slice(byte[], TypeCoex, int, SliceOpts?)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Create a <code>Slice</code> using the selected <code>TypeCoex</code>, offset and selected <code>SliceOpts</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+</h3>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="TypeHelp_Slice_Defaults" data-uid="TypeHelp.Slice.Defaults">
+          <a class="xref" href="TypeHelp.Slice.Defaults.html#TypeHelp_Slice_Defaults">Defaults</a>
+        </td>
+        <td class="markdown level1 summary"><p>The <a class="xref" href="TypeHelp.SliceOpts.html">SliceOpts</a> <a class="xref" href="TypeHelp.SliceOpts.html#TypeHelp_SliceOpts_None">None</a> value (0).</p>
+</td>
+      </tr>
+      <tr>
+        <td id="TypeHelp_Slice_LockLittleEndian" data-uid="TypeHelp.Slice.LockLittleEndian">
+          <a class="xref" href="TypeHelp.Slice.LockLittleEndian.html#TypeHelp_Slice_LockLittleEndian">LockLittleEndian</a>
+        </td>
+        <td class="markdown level1 summary"><p>A bitwise OR of the <a class="xref" href="TypeHelp.SliceOpts.html">SliceOpts</a> <a class="xref" href="TypeHelp.SliceOpts.html#TypeHelp_SliceOpts_LittleEndian">LittleEndian</a>, <a class="xref" href="TypeHelp.SliceOpts.html#TypeHelp_SliceOpts_LockedLength">LockedLength</a> and <a class="xref" href="TypeHelp.SliceOpts.html#TypeHelp_SliceOpts_LockUnsigned">LockUnsigned</a> flags.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="TypeHelp_Slice_Locked" data-uid="TypeHelp.Slice.Locked">
+          <a class="xref" href="TypeHelp.Slice.Locked.html#TypeHelp_Slice_Locked">Locked</a>
+        </td>
+        <td class="markdown level1 summary"><p>A bitwise OR of the <a class="xref" href="TypeHelp.SliceOpts.html">SliceOpts</a> <a class="xref" href="TypeHelp.SliceOpts.html#TypeHelp_SliceOpts_LockedLength">LockedLength</a> and <a class="xref" href="TypeHelp.SliceOpts.html#TypeHelp_SliceOpts_LockUnsigned">LockUnsigned</a> flags.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="TypeHelp_Slice_Strict" data-uid="TypeHelp.Slice.Strict">
+          <a class="xref" href="TypeHelp.Slice.Strict.html#TypeHelp_Slice_Strict">Strict</a>
+        </td>
+        <td class="markdown level1 summary"><p>A bitwise OR of the <a class="xref" href="TypeHelp.SliceOpts.html">SliceOpts</a> <a class="xref" href="TypeHelp.SliceOpts.html#TypeHelp_SliceOpts_StrictLength">StrictLength</a> and <a class="xref" href="TypeHelp.SliceOpts.html#TypeHelp_SliceOpts_StrictOffset">StrictOffset</a> flags.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="TypeHelp_Slice_AllowSigned" data-uid="TypeHelp.Slice.AllowSigned">
+          <a class="xref" href="TypeHelp.Slice.AllowSigned.html#TypeHelp_Slice_AllowSigned">AllowSigned</a>
+        </td>
+        <td class="markdown level1 summary"><p><code>true</code> if the <a class="xref" href="TypeHelp.SliceOpts.html#TypeHelp_SliceOpts_LockUnsigned">LockUnsigned</a> flag is not set, otherwise <code>false</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="TypeHelp_Slice_Data" data-uid="TypeHelp.Slice.Data">
+          <a class="xref" href="TypeHelp.Slice.Data.html#TypeHelp_Slice_Data">Data</a>
+        </td>
+        <td class="markdown level1 summary"><p>A copy of the extracted byte array in big-endian order.</p>
+<p>If the <a class="xref" href="TypeHelp.Slice.AllowSigned.html#TypeHelp_Slice_AllowSigned">AllowSigned</a> Property is <code>false</code> and the <a class="xref" href="TypeHelp.Slice.HighBit.html#TypeHelp_Slice_HighBit">HighBit</a> Property is <code>true</code>, an additional zero-value byte will be present in the high-order (first) byte of the returned big-endian array.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="TypeHelp_Slice_HighBit" data-uid="TypeHelp.Slice.HighBit">
+          <a class="xref" href="TypeHelp.Slice.HighBit.html#TypeHelp_Slice_HighBit">HighBit</a>
+        </td>
+        <td class="markdown level1 summary"><p>The value is <code>true</code> if the first (big-endian normalized) data byte has the high-order bit set, otherwise <code>false</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="TypeHelp_Slice_IsEmpty" data-uid="TypeHelp.Slice.IsEmpty">
+          <a class="xref" href="TypeHelp.Slice.IsEmpty.html#TypeHelp_Slice_IsEmpty">IsEmpty</a>
+        </td>
+        <td class="markdown level1 summary"><p>The value is <code>true</code> if the <a class="xref" href="TypeHelp.Slice.Data.html#TypeHelp_Slice_Data">Data</a> Property length is zero, otherwise <code>false</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="TypeHelp_Slice_IsExact" data-uid="TypeHelp.Slice.IsExact">
+          <a class="xref" href="TypeHelp.Slice.IsExact.html#TypeHelp_Slice_IsExact">IsExact</a>
+        </td>
+        <td class="markdown level1 summary"><p>The value is <code>true</code> if <a class="xref" href="TypeHelp.Slice.Length.html#TypeHelp_Slice_Length">Length</a> or <a class="xref" href="TypeHelp.Slice.Offset.html#TypeHelp_Slice_Offset">Offset</a> were not modified during initialization, else <code>false</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="TypeHelp_Slice_IsLittleEndian" data-uid="TypeHelp.Slice.IsLittleEndian">
+          <a class="xref" href="TypeHelp.Slice.IsLittleEndian.html#TypeHelp_Slice_IsLittleEndian">IsLittleEndian</a>
+        </td>
+        <td class="markdown level1 summary"><p>The value is <code>true</code> if the <a class="xref" href="TypeHelp.SliceOpts.html#TypeHelp_SliceOpts_LittleEndian">LittleEndian</a> flag is set, indicating the <a class="xref" href="TypeHelp.Slice.Data.html#TypeHelp_Slice_Data">Data</a> Property byte order is the inverse of that extracted from the data provided to the constructor, otherwise <code>false</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="TypeHelp_Slice_IsSigned" data-uid="TypeHelp.Slice.IsSigned">
+          <a class="xref" href="TypeHelp.Slice.IsSigned.html#TypeHelp_Slice_IsSigned">IsSigned</a>
+        </td>
+        <td class="markdown level1 summary"><p>The value is<code>true</code> if the <a class="xref" href="TypeHelp.Slice.HighBit.html#TypeHelp_Slice_HighBit">HighBit</a> Property is true and the <a class="xref" href="TypeHelp.SliceOpts.html#TypeHelp_SliceOpts_LockUnsigned">LockUnsigned</a> flag is set, otherwise <code>false</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="TypeHelp_Slice_IsUnsigned" data-uid="TypeHelp.Slice.IsUnsigned">
+          <a class="xref" href="TypeHelp.Slice.IsUnsigned.html#TypeHelp_Slice_IsUnsigned">IsUnsigned</a>
+        </td>
+        <td class="markdown level1 summary"><p>The value is<code>true</code> if the <a class="xref" href="TypeHelp.Slice.HighBit.html#TypeHelp_Slice_HighBit">HighBit</a> Property is true and the <a class="xref" href="TypeHelp.SliceOpts.html#TypeHelp_SliceOpts_LockUnsigned">LockUnsigned</a> flag is set, otherwise <code>false</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="TypeHelp_Slice_Length" data-uid="TypeHelp.Slice.Length">
+          <a class="xref" href="TypeHelp.Slice.Length.html#TypeHelp_Slice_Length">Length</a>
+        </td>
+        <td class="markdown level1 summary"><p>The length of the byte array.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="TypeHelp_Slice_LengthDelta" data-uid="TypeHelp.Slice.LengthDelta">
+          <a class="xref" href="TypeHelp.Slice.LengthDelta.html#TypeHelp_Slice_LengthDelta">LengthDelta</a>
+        </td>
+        <td class="markdown level1 summary"><p>The change, if any, made to the <a class="xref" href="TypeHelp.Slice.Length.html#TypeHelp_Slice_Length">Length</a> during initialization.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="TypeHelp_Slice_Offset" data-uid="TypeHelp.Slice.Offset">
+          <a class="xref" href="TypeHelp.Slice.Offset.html#TypeHelp_Slice_Offset">Offset</a>
+        </td>
+        <td class="markdown level1 summary"><p>The position of the data in the input array.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="TypeHelp_Slice_OffsetDelta" data-uid="TypeHelp.Slice.OffsetDelta">
+          <a class="xref" href="TypeHelp.Slice.OffsetDelta.html#TypeHelp_Slice_OffsetDelta">OffsetDelta</a>
+        </td>
+        <td class="markdown level1 summary"><p>The change, if any, made to the <a class="xref" href="TypeHelp.Slice.Offset.html#TypeHelp_Slice_Offset">Offset</a> during initialization.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="TypeHelp_Slice_Options" data-uid="TypeHelp.Slice.Options">
+          <a class="xref" href="TypeHelp.Slice.Options.html#TypeHelp_Slice_Options">Options</a>
+        </td>
+        <td class="markdown level1 summary"><p>The <code>SliceOpts</code> provided to the constructor.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="TypeHelp_Slice_TypeCode" data-uid="TypeHelp.Slice.TypeCode">
+          <a class="xref" href="TypeHelp.Slice.TypeCode.html#TypeHelp_Slice_TypeCode">TypeCode</a>
+        </td>
+        <td class="markdown level1 summary"><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.typecode">TypeCode</a> of the extracted data. This will be one of the following:</p>
+<pre><code class="lang-csharp">TypeCode.Boolean
+TypeCode.Byte     TypeCode.Char     TypeCode.DateTime
+TypeCode.DBNull   TypeCode.Decimal  TypeCode.Double
+TypeCode.Int16    TypeCode.Int32    TypeCode.Int64
+TypeCode.Object   TypeCode.SByte    TypeCode.Single
+TypeCode.UInt16   TypeCode.UInt32   TypeCode.UInt64</code></pre>
+</td>
+      </tr>
+      <tr>
+        <td id="TypeHelp_Slice_TypeCoex" data-uid="TypeHelp.Slice.TypeCoex">
+          <a class="xref" href="TypeHelp.Slice.TypeCoex.html#TypeHelp_Slice_TypeCoex">TypeCoex</a>
+        </td>
+        <td class="markdown level1 summary"><p>The <a class="xref" href="TypeHelp.Slice.TypeCoex.html#TypeHelp_Slice_TypeCoex">TypeCoex</a> of the extracted value. This will be one of the following:</p>
+<pre><code class="lang-csharp">TypeCoex.BigInteger  TypeCoex.Boolean  TypeCoex.Byte
+TypeCoex.Char        TypeCoex.Complex  TypeCoex.DateTime
+TypeCoex.DBNull      TypeCoex.Decimal  TypeCoex.Double
+TypeCoex.Int16       TypeCoex.Int32    TypeCoex.Int64
+TypeCoex.Object      TypeCoex.SByte    TypeCoex.Single
+TypeCoex.UInt16      TypeCoex.UInt32   TypeCoex.UInt64</code></pre>
+</td>
+      </tr>
+      <tr>
+        <td id="TypeHelp_Slice_TypeOf" data-uid="TypeHelp.Slice.TypeOf">
+          <a class="xref" href="TypeHelp.Slice.TypeOf.html#TypeHelp_Slice_TypeOf">TypeOf</a>
+        </td>
+        <td class="markdown level1 summary"><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a> of the extracted value.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="TypeHelp_Slice_Value" data-uid="TypeHelp.Slice.Value">
+          <a class="xref" href="TypeHelp.Slice.Value.html#TypeHelp_Slice_Value">Value</a>
+        </td>
+        <td class="markdown level1 summary"><p>The value will be one of the following types:</p>
+<pre><code class="lang-csharp">System.Boolean   System.Byte    System.Char
+System.DateTime  System.DBNull  System.Decimal
+System.Double    System.Int16   System.Int32
+System.Int64     System.SByte   System.Single
+System.UInt16    System.UInt32  System.UInt64
+System.Numerics.BigInteger
+System.Numerics.Complex
+TypeHelp.Nullity</code></pre>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td id="TypeHelp_Slice_GetData_System_Boolean_" data-uid="TypeHelp.Slice.GetData(System.Boolean)">
+          <a class="xref" href="TypeHelp.Slice.GetData.html#TypeHelp_Slice_GetData_System_Boolean_">GetData(bool)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Gets A clone of the extracted byte array in big-endian or as presented to the constructor.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="TypeHelp_Slice_HasOptions_System_Boolean_TypeHelp_SliceOpts_" data-uid="TypeHelp.Slice.HasOptions(System.Boolean,TypeHelp.SliceOpts)">
+          <a class="xref" href="TypeHelp.Slice.HasOptions.html#TypeHelp_Slice_HasOptions_System_Boolean_TypeHelp_SliceOpts_">HasOptions(bool, SliceOpts)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Test whether or not this instance has the <code>SliceOpts</code> flag, any flag or all flags set.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="TypeHelp_Slice_HasOptions_TypeHelp_SliceOpts_" data-uid="TypeHelp.Slice.HasOptions(TypeHelp.SliceOpts)">
+          <a class="xref" href="TypeHelp.Slice.HasOptions.html#TypeHelp_Slice_HasOptions_TypeHelp_SliceOpts_">HasOptions(SliceOpts)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Test whether or not this instance has a given <code>SliceOpts</code> flag, or flags set.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="TypeHelp_Slice_IsType_System_TypeCode_" data-uid="TypeHelp.Slice.IsType(System.TypeCode)">
+          <a class="xref" href="TypeHelp.Slice.IsType.html#TypeHelp_Slice_IsType_System_TypeCode_">IsType(TypeCode)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Test whether or not this instance has the specified <code>TypeCode</code> Property length.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="TypeHelp_Slice_IsType_TypeHelp_TypeCoex_" data-uid="TypeHelp.Slice.IsType(TypeHelp.TypeCoex)">
+          <a class="xref" href="TypeHelp.Slice.IsType.html#TypeHelp_Slice_IsType_TypeHelp_TypeCoex_">IsType(TypeCoex)</a>
+        </td>
+        <td class="markdown level1 summary"><p>Test whether or not this instance has the specified <code>TypeCoex</code> Property length.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT icon"></a>
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

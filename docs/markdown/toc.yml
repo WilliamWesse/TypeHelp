@@ -1,8 +1,0 @@
-### YamlMime:TableOfContent
-  items:
-  - name: Topics
-    href: index.md
-  - name: Articles
-    href: docs/markdown/articles/index.md
-  - name: Api Documentation
-    href: docs/markdown/api/index.md

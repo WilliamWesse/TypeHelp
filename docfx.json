@@ -1,91 +1,67 @@
 {
-   "build": {
-      "content": [
-         {
-            "files": [
-               "TypeHelp.csproj"
-            ]
-         },
-         {
-            "files": [
-               "docs/markdown/index.md",
-               "docs/markdown/toc.yml"
-            ]
-         },
-         {
-            "files": [
-               "docs/markdown/api/**.md",
-               "docs/markdown/api/toc.yml",
-               "docs/metadata/api/**.yml"
-            ]
-         },
-         {
-            "files": [
-               "docs/markdown/articles/**.md",
-               "docs/metadata/articles/**/toc.yml"
-            ]
-         }
-      ],
-      "dest": "docs/site",
-      "disableGitFeatures": false,
-      "fileMetadataFiles": [],
-      "globalMetadataFiles": [
-         "docs/metadata/TypeHelpMeta.json"
-      ],
-      "keepFileLink": false,
-      "overwrite": [
-         {
-            "exclude": [
-               ".*",
-               ".*/**",
-               "assets/**",
-               "bin/**",
-               "docs/markdown/**",
-               "docs/templates/**",
-               "obj/**",
-               "src/**",
-               "test/**"
-            ],
-            "files": [
-               "apidoc/**.md",
-               "docs/metadata/TypeHelpMeta.json"
-            ]
-         }
-      ],
-      "postProcessors": [],
-      "resource": [
-         {
-            "files": [
-               "assets/images/**"
-            ]
-         }
-      ],
-      "template": [
-         "docs/templates/default",
-         "docs/templates/enumerations"
-      ]
-   },
-   "metadata": [
-      {
-         "allowCompilationErrors": false,
-         "dest": "docs/metadata/api",
-         "disableDefaultFilter": false,
-         "disableGitFeatures": false,
-         "includePrivateMembers": false,
-         "memberLayout": "SeparatePages",
-         "namespaceLayout": "nested",
-         "noRestore": false,
-         "shouldSkipMarkup": false,
-         "src": [
+    "build": {
+        "content": [
             {
-               "exclude": [
-                  "README.md"
-               ],
-               "files": [
-                  "**.csproj"
-               ]
+                "files": [
+                    "api/**.yml",
+                    "api/index.md"
+                ]
+            },
+            {
+                "files": [
+                    "articles/**.md",
+                    "articles/**/toc.yml",
+                    "toc.yml",
+                    "*.md"
+                ]
             }
-         ]
-      }
-   ]
+        ],
+        "disableGitFeatures": false,
+        "fileMetadataFiles": [],
+        "globalMetadataFiles": [
+            "TypeHelpMeta.json"
+        ],
+        "keepFileLink": false,
+        "output": "site",
+        "postProcessors": [],
+        "resource": [
+            {
+                "files": [
+                    "images/**"
+                ]
+            }
+        ],
+        "sitemap": {
+            "baseUrl": "https://github.com/WilliamWesse/TypeHelp",
+            "changefreq": "daily",
+            "priority": 0.1
+        },
+        "template": [
+            "templates/default",
+            "templates/enumerations"
+        ]
+    },
+    "metadata": [
+        {
+            "allowCompilationErrors": false,
+            "dest": "api",
+            "disableDefaultFilter": false,
+            "disableGitFeatures": false,
+            "includePrivateMembers": false,
+            "memberLayout": "SeparatePages",
+            "namespaceLayout": "nested",
+            "noRestore": false,
+            "src": [
+                {
+                    "exclude": [
+                        "README.md"
+                    ],
+                    "files": [
+                        "**.csproj"
+                        //, "bin/**/*.dll"
+                    ]
+                }
+            ]
+        }
+    ]
 }

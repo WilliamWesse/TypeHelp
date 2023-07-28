@@ -1,0 +1,4908 @@
+{
+  "sitemap": {
+    "baseUrl": "https://github.com/WilliamWesse/TypeHelp/",
+    "changefreq": "daily",
+    "priority": 0.1
+  },
+  "homepages": [],
+  "source_base_path": "C:/Users/wwess/source/repos/TypeHelp",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.CPG.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.CPG.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.CPGI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.CPGI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.CharType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.CharType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Cmp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Cmp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.CmpOp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.CmpOp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.CmpUC.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.CmpUC.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.FieldInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.FieldInfo.Bytes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.FieldInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.FieldInfo.Field.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.FieldInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.FieldInfo.Value.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.FieldInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.FieldInfo.-ctor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.FieldInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.FieldInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.IRuntimeFeatures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.IRuntimeFeatures.Is32Bit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.IRuntimeFeatures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.IRuntimeFeatures.Is32BitApp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.IRuntimeFeatures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.IRuntimeFeatures.Is32BitSys.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.IRuntimeFeatures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.IRuntimeFeatures.Is32On64.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.IRuntimeFeatures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.IRuntimeFeatures.Is64Bit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.IRuntimeFeatures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.IRuntimeFeatures.Is64BitApp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.IRuntimeFeatures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.IRuntimeFeatures.Is64BitSys.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.IRuntimeFeatures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.IRuntimeFeatures.LongPointers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.IRuntimeFeatures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.IRuntimeFeatures.PreferInt32.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.IRuntimeFeatures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.IRuntimeFeatures.Strict.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.IRuntimeFeatures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.IRuntimeFeatures.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.IRuntimeProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.IRuntimeProperties.Nullity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.IRuntimeProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.IRuntimeProperties.NullName.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.IRuntimeProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.IRuntimeProperties.SizeOfChar.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.IRuntimeProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.IRuntimeProperties.SizeOfComplex.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.IRuntimeProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.IRuntimeProperties.SizeOfDateTime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.IRuntimeProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.IRuntimeProperties.SizeOfGuid.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.IRuntimeProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.IRuntimeProperties.SizeOfPointer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.IRuntimeProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.IRuntimeProperties.SizeOfTimeSpan.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.IRuntimeProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.IRuntimeProperties.SizeOfVoid.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.IRuntimeProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.IRuntimeProperties.TickCount.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.IRuntimeProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.IRuntimeProperties.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.IUCSInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.IUCSInfo.Tag.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.IUCSInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.IUCSInfo.Valid.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.IUCSInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.IUCSInfo.Value.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.IUCSInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.IUCSInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.IUCSInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.IUCSInfo.Discard.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.IUCSInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.IUCSInfo.Group.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.IUCSInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.IUCSInfo.Groups.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.IUCSInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.IUCSInfo.Plane.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.IUCSInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.IUCSInfo.Strict.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.IUCSInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.IUCSInfo.Supplement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.IUCSInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.IUCSInfo.Surrogates.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Nullity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Nullity.Value.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Nullity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Nullity.GetObjectData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Nullity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Nullity.ToString.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Nullity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Nullity.GetTypeCode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Nullity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Nullity.GetTypeCoex.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Nullity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Nullity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RTFeatures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RTFeatures.DEFAULT_PREFER_INT32.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RTFeatures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RTFeatures.Items.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RTFeatures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RTFeatures.Is32Bit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RTFeatures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RTFeatures.Is32BitApp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RTFeatures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RTFeatures.Is32BitSys.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RTFeatures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RTFeatures.Is32On64.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RTFeatures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RTFeatures.Is64Bit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RTFeatures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RTFeatures.Is64BitApp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RTFeatures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RTFeatures.Is64BitSys.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RTFeatures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RTFeatures.LongPointers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RTFeatures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RTFeatures.PreferInt32.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RTFeatures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RTFeatures.Strict.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RTFeatures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RTFeatures.Item.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RTFeatures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RTFeatures.-ctor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RTFeatures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RTFeatures.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RTProp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RTProp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RTProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RTProps.Items.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RTProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RTProps.Nullity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RTProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RTProps.NullName.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RTProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RTProps.SizeOfChar.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RTProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RTProps.SizeOfComplex.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RTProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RTProps.SizeOfDateTime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RTProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RTProps.SizeOfGuid.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RTProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RTProps.SizeOfPointer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RTProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RTProps.SizeOfTimeSpan.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RTProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RTProps.SizeOfVoid.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RTProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RTProps.TickCount.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RTProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RTProps.-ctor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RTProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RTProps.Item.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RTProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RTProps.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RuntimeProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RuntimeProps.-ctor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RuntimeProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RuntimeProps.Culture.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RuntimeProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RuntimeProps.Features.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RuntimeProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RuntimeProps.Properties.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RuntimeProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RuntimeProps.Formats.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RuntimeProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RuntimeProps.FormatSPs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RuntimeProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RuntimeProps.Is32Bit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RuntimeProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RuntimeProps.Is32BitApp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RuntimeProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RuntimeProps.Is32BitSys.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RuntimeProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RuntimeProps.Is32On64.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RuntimeProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RuntimeProps.Is64Bit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RuntimeProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RuntimeProps.Is64BitApp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RuntimeProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RuntimeProps.Is64BitSys.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RuntimeProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RuntimeProps.LongPointers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RuntimeProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RuntimeProps.PreferInt32.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RuntimeProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RuntimeProps.Strict.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RuntimeProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RuntimeProps.Nullity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RuntimeProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RuntimeProps.NullName.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RuntimeProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RuntimeProps.SizeOfChar.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RuntimeProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RuntimeProps.SizeOfComplex.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RuntimeProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RuntimeProps.SizeOfDateTime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RuntimeProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RuntimeProps.SizeOfGuid.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RuntimeProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RuntimeProps.SizeOfPointer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RuntimeProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RuntimeProps.SizeOfTimeSpan.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RuntimeProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RuntimeProps.SizeOfVoid.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RuntimeProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RuntimeProps.TickCount.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RuntimeProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RuntimeProps.ResourceString.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.RuntimeProps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.RuntimeProps.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Slice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Slice.-ctor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Slice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Slice.Defaults.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Slice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Slice.Locked.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Slice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Slice.LockLittleEndian.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Slice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Slice.Strict.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Slice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Slice.AllowSigned.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Slice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Slice.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Slice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Slice.HighBit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Slice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Slice.IsEmpty.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Slice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Slice.IsExact.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Slice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Slice.IsLittleEndian.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Slice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Slice.IsSigned.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Slice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Slice.IsUnsigned.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Slice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Slice.Length.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Slice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Slice.LengthDelta.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Slice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Slice.Offset.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Slice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Slice.OffsetDelta.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Slice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Slice.Options.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Slice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Slice.TypeCode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Slice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Slice.TypeCoex.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Slice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Slice.TypeOf.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Slice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Slice.Value.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Slice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Slice.GetData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Slice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Slice.IsType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Slice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Slice.HasOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Slice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Slice.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.SliceOpts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.SliceOpts.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TCF.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TCF.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TCO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TCO.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TIP.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TIP.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeCoex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeCoex.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeInfo.IsPrecision.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeInfo.IsString.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeInfo.IsType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeInfo.Length.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeInfo.LongSize.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeInfo.Name.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeInfo.Size.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeInfo.CodeFlag.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeInfo.CoexFlag.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeInfo.-ctor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeInfo.Item.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeInfo.CoexStat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeInfo.Elements.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeInfo.FullName.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeInfo.HasValue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeInfo.IsEmpty.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeInfo.IsEnum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeInfo.IsInteger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeInfo.IsNatural.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeInfo.IsNumber.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeInfo.IsObject.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeInfo.Text.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeInfo.Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeInfo.TypeCode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeInfo.TypeCoex.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeInfo.Value.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeInfo.Is.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.Clamp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.Comp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.CompFromInt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.Compare.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.CompareEnums.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.CompareEnumTypes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.CompareEnumValues.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.CompareGuids.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.CompareNulls.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.CompareNumerics.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.CompareNumericStrings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.CompareNumericTypes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.CompareTuples.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.CompareTypeCoexes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.CompareTypes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.Set.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.GetTypeInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.GetWellKnownTypes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.IsBigInteger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.IsComplex.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.IsDateTime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.IsDecimal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.IsDouble.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.IsEmpty.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.IsEmptyOrWhiteSpace.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.IsInt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.IsLong.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.IsNumber.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.IsWhiteSpace.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.Length.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.Text.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.CanParse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.GetBigInteger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.GetBool.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.GetByte.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.GetComplex.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.GetDateTime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.GetDecimal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.GetDouble.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.GetFloat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.GetInt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.GetLong.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.GetSByte.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.GetShort.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.GetUInt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.GetULong.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.GetUShort.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.Parse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.GetCoexFlag.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.GetType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.GetTypeCode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.GetTypeCoex.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.IsEnumType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.IsInteger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.IsIntegerOrExt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.IsNatural.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.IsType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.IsNumeric.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.IsPrecision.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.IsValid.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.PadMod.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.ParseToComplex.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.ParseToType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.ParseToTypeCode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.ParseToValue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.ParseUsing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.PointerBaseSize.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.PointerBaseType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.SizeOf.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.SizeOfTuple.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.TupleElementCount.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.-ctor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.CompareValues.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.RunProps.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.text_1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.Base64RePat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.Base64RePatExact.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.DateIsoRePat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.DateUtcRePat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.REOpts.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.REOptsBase64.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.REComplexSuffix.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.REEngCompSuffix.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.REETX.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.RESTX.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.REFloatPattern.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.REComplexPattern.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.REFloats.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.PointerSize.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.KnownTypeList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.TypeCoexNumericPriority.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.TypeCoexSizePriority.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.TypeCoexUsagePriority.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.TypeCoexSizes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.SplitOptContentfulOnly.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.Splits.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypeParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypeParser.GetCodeFlag.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.TypedStr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.TypedStr.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCGeneralUse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCGeneralUse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCGreek.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCGreek.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCInfo.Valid.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCInfo.Value.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCInfo.Create.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCInfo.Is.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCInfo.Discard.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCInfo.Group.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCInfo.Groups.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCInfo.IsCodePoint.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCInfo.IsReplacement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCInfo.IsSupplement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCInfo.IsSurrogate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCInfo.Plane.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCInfo.Strict.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCInfo.Supplement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCInfo.Surrogates.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCInfo.Tag.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCMath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCMath.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCP.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCP.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPF.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPF.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPField.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPInfo.Group.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPInfo.Index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPInfo.Strict.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPInfo.Valid.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPInfo.Value.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPInfo.Is.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPInfo.-ctor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPlane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPlane.Blocks.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPlane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPlane.Chars.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPlane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPlane.First.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPlane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPlane.Final.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPlane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPlane.Id.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPlane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPlane.Label.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPlane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPlane.Name.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPlane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPlane.PFlag.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPlane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPlane.Plane.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPlane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPlane.Size.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPlane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPlane.UCPLabels.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPlane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPlane.UCPNames.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPlane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPlane.UCPlanes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPlane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPlane.-ctor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPlane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPlane.InvalidPlaneLabel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPlane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPlane.InvalidPlaneName.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPlane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPlane.NonUCPlane.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPlane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPlane.NumCodePlanes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPlane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPlane.ValidPlanes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPlane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPlane.UCPSentinel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPlane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPlane.CodePlaneOf.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPlane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPlane.Convert.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPlane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPlane.GetUCPlanes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPlane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPlane.HasFlags.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPlane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPlane.IsInCodePlane.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPlane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPlane.IsCodePlane.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPlane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPlane.IsUCPlane.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPlane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPlane.QueryField.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPlane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPlane.Sanitize.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPlane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPlane.Set.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPlane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPlane.UCPlaneOf.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCPlane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCPlane.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.DefaultStrict.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.FirstSentinel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.HiSurrogateRange.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.LoSurrogateRange.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.MaxBMPCodePoint.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.MaxHiSurrogate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.MaxLoSurrogate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.MaxNonCharacter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.MaxSupplementCode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.MinHiSurrogate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.MinLoSurrogate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.MinNonCharacter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.MinSupplementCode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.MinValidCPGroup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.NumSurrogates.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.ReplacementChar.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.ReplacementInt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.ReplacementPair.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.ContainsReplacement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.ReplacementIndices.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.ContainsSupplements.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.SupplementsIndices.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.ContainsSurrogates.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.SurrogateIndices.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.CPGroupOf.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.CPGroupValues.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.ErrorInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.Convert.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.IsCodePoint.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.IsHiSurrogate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.IsLoSurrogate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.IsNonCharacter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.IsReplacement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.IsSentinel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.IsSupplement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.IsSurrogate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.IsUnicode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.Stringize.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.ToSupplement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.ToSurrogates.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCSurrogator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCSurrogator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UCat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UCat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.ToStringPackedHex.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.ToStringPrefixed.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.ToStringRfc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.-ctor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.GetBigInteger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.GetUInt16.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.GetUInt32.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.GetUInt64.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.InvalidParamText.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.Epoch.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.IsMaxUuid.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.IsNilUuid.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.IsStrict.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.IsValid.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.Variant.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.VariantInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.Version.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.VersionInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.field_info_set.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.field_size.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.ErrorPrefix.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.FormatSizes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.FormatSizeMin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.FormatSizeMax.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.UuidFormats.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.UuidFormatRE.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.TimeStamp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.ToString.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.Clamp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.GetValue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.IsSafeOffset.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.SafeOffset.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.SafeOffsetCheck.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.SafeLength.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.SafeLengthCheck.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.ToStringBinary.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.Uuid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.Uuid.ToStringCsv.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidEpoch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidEpoch.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidField.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidFormat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidParser.DefaultStrict.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidParser.SIZEOF_UUID.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidParser.UuidFormatChars.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidParser.UuidMaxDecimalText.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidParser.UuidMaxValue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidParser.REOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidParser.UidCharsPattern.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidParser.UidDecPattern.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidParser.UidRFCPattern.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidParser.UidPrefixedPattern.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidParser.UidREs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidParser.ExtractField.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidParser.InvalidSizeMessage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidParser.InvalidVersionMessage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidParser.IsSafeSize.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidParser.ExtractBytes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidParser.ExtractClockSequence.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidParser.ExtractTime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidParser.ExtractULong.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidParser.ExtractVariant.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidParser.ExtractVersion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidRfc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidRfc.ClockSequence.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidRfc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidRfc.ClockSequenceInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidRfc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidRfc.ClockSequenceSize.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidRfc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidRfc.Node.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidRfc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidRfc.NodeInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidRfc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidRfc.Time.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidRfc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidRfc.TimeInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidRfc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidRfc.-ctor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidRfc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidRfc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidV1.-ctor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidV1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidV2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidV2.-ctor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidV2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidV2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidV3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidV3.-ctor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidV3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidV3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidV4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidV4.-ctor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidV4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidV4.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidV5.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidV5.-ctor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidV5.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidV5.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidV6.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidV6.-ctor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidV6.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidV6.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidV7.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidV7.UnixTime.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidV7.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidV7.UnixTimeInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidV7.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidV7.RandA.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidV7.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidV7.RandAInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidV7.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidV7.RandB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidV7.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidV7.RandBInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidV7.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidV7.-ctor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidV7.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidV7.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidV8.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidV8.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidV8.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidV8.CustomA.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidV8.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidV8.CustomAInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidV8.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidV8.CustomB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidV8.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidV8.CustomBInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidV8.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidV8.CustomC.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidV8.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidV8.CustomCInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidV8.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidV8.-ctor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidVariant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidVariant.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.UuidVersion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.UuidVersion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.ZeroWidthChars.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.ZeroWidthChars.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.ZeroWidthSpaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.ZeroWidthSpaces.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TypeHelp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TypeHelp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "images/favicon.ico"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.ico",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.ico"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo_128.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo_128.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo_128.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo_128.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
